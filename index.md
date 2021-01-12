@@ -2,13 +2,13 @@
 
 <p>
    欢迎同学来到
-  <a href="https://shop455562174.taobao.com/?spm=2013.1.1000126.2.10265e78elc5p0" style="color:rgb(255, 196, 0);"target="_blank">udacity优达学城</a>
+  <a href="https://shop455562174.taobao.com/?spm=2013.1.1000126.2.10265e78elc5p0" style="color:rgb(255, 196, 0);">udacity优达学城</a>
   ,下方链接可以查看课程详细目录
 </p>
 
 <p>
   课程网页体验链接：
- <a href="https://shop455562174.taobao.com/?spm=2013.1.1000126.2.10265e78elc5p0" style="color:rgb(255, 196, 0);"target="_blank">新版Python人工智能入门</a>
+ <a href="https://shop455562174.taobao.com/?spm=2013.1.1000126.2.10265e78elc5p0" style="color:rgb(255, 196, 0);">新版Python人工智能入门</a>
  旧版叫【人工智能基础】
 </p>
 
