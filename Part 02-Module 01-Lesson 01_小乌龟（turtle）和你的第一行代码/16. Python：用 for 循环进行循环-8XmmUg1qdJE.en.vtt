@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.075
+Here's some code that draws a square.
+
+00:00:03.075 --> 00:00:06.980
+Notice how we're using the same lines over and over again here,
+
+00:00:06.980 --> 00:00:10.054
+and that's just for a square with four sides.
+
+00:00:10.054 --> 00:00:14.085
+What if we wanted to draw a shape with say a 100 sides?
+
+00:00:14.085 --> 00:00:17.820
+That's a lot of work and it turns out it's not necessary.
+
+00:00:17.820 --> 00:00:19.829
+Using a four loop,
+
+00:00:19.829 --> 00:00:22.050
+we can draw a shape having as many sides as we
+
+00:00:22.050 --> 00:00:25.269
+want and it will only take three lines of code.
+
+00:00:25.269 --> 00:00:27.210
+To create a for loop,
+
+00:00:27.210 --> 00:00:28.975
+we start with a line like this;
+
+00:00:28.975 --> 00:00:31.990
+for side in [1, 2,
+
+00:00:31.989 --> 00:00:42.420
+3, 4]: then we follow it with the code that we want to loop or repeat.
+
+00:00:42.420 --> 00:00:47.590
+Notice how we indented these lines by moving them four spaces to the right.
+
+00:00:47.590 --> 00:00:51.145
+This is how we show that these lines are inside the loop.
+
+00:00:51.145 --> 00:00:55.850
+In other words, it's these indented lines that will get run repeatedly.
+
+00:00:55.850 --> 00:00:59.234
+So, this code will run multiple times,
+
+00:00:59.234 --> 00:01:00.924
+but how many times?
+
+00:01:00.924 --> 00:01:06.739
+Well, notice the four something in something else structure in this line.
+
+00:01:06.739 --> 00:01:09.920
+Essentially, it is saying run the code in
+
+00:01:09.920 --> 00:01:13.835
+this loop one time for each of the things in this list.
+
+00:01:13.834 --> 00:01:16.299
+Since there are four items in the list,
+
+00:01:16.299 --> 00:01:18.795
+the loop runs four times.
+
+00:01:18.795 --> 00:01:20.435
+For this particular loop,
+
+00:01:20.435 --> 00:01:23.320
+it doesn't really matter what the items in the list are.
+
+00:01:23.319 --> 00:01:26.929
+We could change these numbers or even replace them with strings.
+
+00:01:26.930 --> 00:01:30.710
+Again, the loop runs one time for each item in the list
+
+00:01:30.709 --> 00:01:35.359
+and it's because there are four items in the list that the loop will run four times.
+

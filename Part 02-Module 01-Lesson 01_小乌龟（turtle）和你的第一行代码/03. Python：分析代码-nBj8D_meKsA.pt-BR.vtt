@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.041
+Vamos dar uma olhada neste código,
+começando pelo início,
+
+00:00:03.074 --> 00:00:06.606
+na primeira linha,
+"import turtle".
+
+00:00:06.639 --> 00:00:07.980
+O que isso quer dizer?
+
+00:00:08.013 --> 00:00:11.703
+Em inglês, "import" significa
+trazer algo de algum outro lugar,
+
+00:00:11.736 --> 00:00:15.966
+como importar biscoitos da Dinamarca
+ou café do Peru.
+
+00:00:15.999 --> 00:00:19.129
+E sabemos que "turtle" é
+o nome do robô imaginário
+
+00:00:19.162 --> 00:00:20.937
+que pode desenhar na tela.
+
+00:00:20.970 --> 00:00:24.751
+Então esta linha está nos trazendo
+a tartaruga de algum lugar.
+
+00:00:24.784 --> 00:00:26.454
+Por enquanto,
+você não deve saber
+
+00:00:26.487 --> 00:00:29.605
+de onde a tartaruga está vindo,
+e tudo bem.
+
+00:00:29.638 --> 00:00:31.393
+Provavelmente não é do Peru.
+
+00:00:31.426 --> 00:00:32.541
+Em seguida,
+
+00:00:32.574 --> 00:00:35.522
+a história nos apresenta
+um personagem chamado "george".
+
+00:00:35.555 --> 00:00:39.276
+A segunda linha diz que
+george = turtle.Turtle().
+
+00:00:39.309 --> 00:00:43.136
+Parece que isso significa
+que george é igual a uma tartaruga
+
+00:00:43.169 --> 00:00:45.691
+ou talvez uma tartaruga dupla.
+
+00:00:45.724 --> 00:00:49.404
+Normalmente, em inglês,
+diríamos que george é uma tartaruga.
+
+00:00:49.437 --> 00:00:52.996
+Vamos experimentar o código
+e ver o que conseguimos descobrir.
+
+00:00:53.029 --> 00:00:56.363
+Quando ainda não sabemos
+o que um código faz,
+
+00:00:56.396 --> 00:00:59.803
+podemos tentar mudar as coisas
+e ver o que acontece.
+
+00:00:59.836 --> 00:01:02.817
+Por exemplo, talvez não exista
+nenhuma razão
+
+00:01:02.850 --> 00:01:05.380
+para esta tartaruga
+se chamar "george".
+
+00:01:05.413 --> 00:01:07.009
+Vamos mudar o nome dela,
+
+00:01:07.042 --> 00:01:09.337
+de george para outro nome,
+como amy.
+

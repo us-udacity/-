@@ -1,0 +1,221 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.132 --> 00:00:03.034
+Um loop for permite
+que seu programa repita instruções
+
+00:00:03.067 --> 00:00:04.855
+por um certo número de vezes.
+
+00:00:04.888 --> 00:00:08.517
+Ele também permite que as instruções
+usem valores de uma lista.
+
+00:00:08.550 --> 00:00:10.525
+Mas o que acontece
+dentro de um loop for
+
+00:00:10.558 --> 00:00:12.696
+pode ser bem complexo,
+
+00:00:12.729 --> 00:00:15.782
+pode até incluir outros loops.
+
+00:00:15.815 --> 00:00:17.727
+Se um loop que roda 5 vezes
+
+00:00:17.760 --> 00:00:20.789
+estiver dentro de um loop
+que roda 6 vezes,
+
+00:00:20.822 --> 00:00:25.454
+então o código interno
+vai rodar 5 vezes 6, ou 30 vezes.
+
+00:00:25.487 --> 00:00:27.188
+Então, por exemplo,
+
+00:00:27.221 --> 00:00:30.324
+aqui está o loop
+que desenha um quadrado
+
+00:00:30.357 --> 00:00:33.516
+e outro que desenha
+um quadrado menor.
+
+00:00:33.549 --> 00:00:35.098
+É exatamente igual,
+
+00:00:35.131 --> 00:00:37.954
+só que a tartaruga anda
+10 pixels para frente a cada vez
+
+00:00:37.987 --> 00:00:40.025
+no lugar de 100.
+
+00:00:41.536 --> 00:00:46.644
+Posso pegar este loop
+e colocá-lo dentro do outro.
+
+00:00:46.677 --> 00:00:51.529
+Só preciso endentá-lo assim.
+
+00:00:51.562 --> 00:00:54.016
+Isso se chama "loop aninhado".
+
+00:00:54.049 --> 00:00:56.082
+Podemos dizer que este loop
+
+00:00:56.115 --> 00:01:00.340
+está aninhado
+dentro deste loop.
+
+00:01:00.737 --> 00:01:03.230
+Então, se rodamos este código,
+
+00:01:03.263 --> 00:01:06.043
+ele desenha um lado
+do quadrado grande
+
+00:01:06.076 --> 00:01:07.657
+e depois entra
+no loop aninhado
+
+00:01:07.690 --> 00:01:10.877
+e desenha os 4 lados
+do quadrado menor.
+
+00:01:10.910 --> 00:01:13.072
+Então ele volta
+para o início do loop grande
+
+00:01:13.106 --> 00:01:15.074
+e desenha o lado grande
+seguinte.
+
+00:01:15.107 --> 00:01:18.508
+E depois vai para o loop aninhado
+e desenha outro quadrado pequeno,
+
+00:01:18.541 --> 00:01:21.082
+e assim por diante
+até ficar tudo pronto.
+
+00:01:21.115 --> 00:01:26.741
+Resumindo,
+rodamos este loop principal 4 vezes
+
+00:01:26.774 --> 00:01:29.879
+e rodamos
+este loop aninhado 4 vezes
+
+00:01:29.912 --> 00:01:32.318
+para cada vez
+que o loop principal foi rodado.
+
+00:01:32.351 --> 00:01:36.138
+Portanto, são 4 vezes 4
+ou 16 vezes no total.
+
+00:01:36.171 --> 00:01:39.139
+Certo, esta é a ideia
+de um loop aninhado.
+
+00:01:39.172 --> 00:01:42.085
+Vamos dar uma olhada
+em um exemplo interessante.
+
+00:01:42.118 --> 00:01:45.061
+Aqui está outro exemplo
+de um loop aninhado.
+
+00:01:45.094 --> 00:01:47.203
+Este código vai desenhar
+uma corrente
+
+00:01:47.236 --> 00:01:50.771
+feita de hexágonos como este.
+
+00:01:50.804 --> 00:01:54.316
+Primeiro, dizemos que haverá
+8 ligações na corrente
+
+00:01:54.349 --> 00:01:56.846
+e 6 lados no hexágono.
+
+00:01:56.879 --> 00:02:01.303
+Então configuramos algumas variáveis
+com uma lista de 8 e uma lista de 6.
+
+00:02:01.336 --> 00:02:04.261
+Vamos fazer um loop
+por essas variáveis
+
+00:02:04.294 --> 00:02:08.705
+com um loop externo que roda uma vez
+para cada ligação da corrente
+
+00:02:08.738 --> 00:02:13.695
+e um loop interno que roda uma vez
+para cada lado dessas ligações.
+
+00:02:13.728 --> 00:02:16.481
+Então em for link in links:,
+
+00:02:16.514 --> 00:02:20.663
+desenhamos um hexágono
+e vamos para a próxima ligação
+
+00:02:20.696 --> 00:02:24.702
+levantando a caneta,
+movendo-a para frente
+
+00:02:24.735 --> 00:02:27.184
+e encostando-a de novo.
+
+00:02:27.217 --> 00:02:29.437
+Para desenhar um hexágono,
+
+00:02:29.470 --> 00:02:31.815
+fazemos o loop interno.
+
+00:02:31.848 --> 00:02:36.300
+For side in sides, ou seja,
+para cada um dos 6 lados,
+
+00:02:36.333 --> 00:02:40.178
+andamos 10 para frente
+e 60 para a direita.
+
+00:02:40.211 --> 00:02:43.275
+Portanto, este loop interno
+faz um hexágono,
+
+00:02:43.308 --> 00:02:45.880
+e o resto do código
+dentro do loop externo
+
+00:02:45.913 --> 00:02:48.570
+se move de uma ligação
+para outra.
+
+00:02:48.603 --> 00:02:52.556
+Resumindo, este código desenha
+esta corrente inteira.
+
+00:02:53.381 --> 00:02:55.228
+Agora você pode
+modificar este código
+
+00:02:55.261 --> 00:02:57.030
+para desenhar
+um padrão diferente.
+
+00:02:57.063 --> 00:02:59.087
+Faça o padrão que você quiser.
+
+00:02:59.672 --> 00:03:01.194
+Aqui está um exemplo.
+

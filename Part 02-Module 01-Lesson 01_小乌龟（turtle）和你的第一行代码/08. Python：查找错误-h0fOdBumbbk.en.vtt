@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.905
+So, when I write code,
+
+00:00:01.905 --> 00:00:03.620
+sometimes I make mistakes.
+
+00:00:03.620 --> 00:00:05.429
+Honestly, this happens to everybody,
+
+00:00:05.429 --> 00:00:07.439
+even the most experienced programmers.
+
+00:00:07.439 --> 00:00:10.320
+Fortunately, pretty much all programming languages
+
+00:00:10.320 --> 00:00:13.019
+have mechanisms for detecting our mistakes,
+
+00:00:13.019 --> 00:00:16.829
+and letting us know about them by displaying error messages.
+
+00:00:16.829 --> 00:00:21.000
+Error messages not only draw our attention to the problem,
+
+00:00:21.000 --> 00:00:26.425
+but they also often give us information to help us diagnose the issue and fix it.
+
+00:00:26.425 --> 00:00:29.580
+For instance, Python will display an error message that
+
+00:00:29.579 --> 00:00:32.695
+tells you what line an error occurred on,
+
+00:00:32.695 --> 00:00:35.575
+and what kind of error took place.
+
+00:00:35.575 --> 00:00:38.265
+You'll see a message such as name error,
+
+00:00:38.265 --> 00:00:42.460
+or syntax error, and it'll always come with a line number.
+
+00:00:42.460 --> 00:00:45.655
+Now the line numbers aren't always entirely correct.
+
+00:00:45.655 --> 00:00:48.064
+Sometimes they're off by one or two,
+
+00:00:48.064 --> 00:00:50.659
+but they're usually a really good guide to
+
+00:00:50.659 --> 00:00:53.625
+where to start looking for the error in your code.
+
+00:00:53.625 --> 00:00:58.015
+Up next, we have a piece of code that has a number of bugs in it.
+
+00:00:58.015 --> 00:00:59.765
+As you work with this code,
+
+00:00:59.765 --> 00:01:02.480
+you'll fix the bugs and the line numbers on
+
+00:01:02.479 --> 00:01:06.879
+the error messages will guide you to just where you need to put your attention.
+

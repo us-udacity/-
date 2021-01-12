@@ -1,0 +1,133 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.639
+A for loop lets your program repeat some instructions a certain number of times.
+
+00:00:04.639 --> 00:00:08.609
+It also let's those instructions use values taken from a list,
+
+00:00:08.609 --> 00:00:12.684
+but what goes inside a for loop can actually be pretty complex,
+
+00:00:12.685 --> 00:00:15.505
+it can even include other loops.
+
+00:00:15.505 --> 00:00:20.609
+If a loop that runs five times is inside a loop that runs six times,
+
+00:00:20.609 --> 00:00:25.519
+then the inner code will run five times six, equals 30 times.
+
+00:00:25.519 --> 00:00:29.160
+So, for example, here's our familiar loop that
+
+00:00:29.160 --> 00:00:33.390
+draws a square and here's another one that draws a smaller square.
+
+00:00:33.390 --> 00:00:40.370
+It's exactly the same except the turtle goes forward ten pixels each time instead of 100.
+
+00:00:40.799 --> 00:00:46.484
+Now, I can take this loop and put it inside the other one.
+
+00:00:46.484 --> 00:00:51.159
+All I have to do is indent it like this.
+
+00:00:51.159 --> 00:00:53.869
+This is called a nested loop.
+
+00:00:53.869 --> 00:01:00.214
+We'd say that this loop is nested inside this loop.
+
+00:01:00.215 --> 00:01:03.040
+So if we run this code,
+
+00:01:03.039 --> 00:01:06.890
+it draws one side of the big square then it enters
+
+00:01:06.890 --> 00:01:10.750
+the nested loop and draws all four sides of the smaller square.
+
+00:01:10.750 --> 00:01:14.930
+Then it goes back to the top of the big loop and draws the next big side.
+
+00:01:14.930 --> 00:01:17.150
+Then it goes into the nested loop and draws
+
+00:01:17.150 --> 00:01:20.850
+another small square and so on until it's all done.
+
+00:01:20.849 --> 00:01:25.054
+All in all, we ran this main loop
+
+00:01:25.055 --> 00:01:32.180
+four times and we ran this nested loop four times for each time the main loop ran.
+
+00:01:32.180 --> 00:01:35.925
+So, that's four times four or 16 times in total.
+
+00:01:35.924 --> 00:01:39.034
+Okay. So, that's the idea of a nested loop.
+
+00:01:39.034 --> 00:01:41.849
+Let's look at a little more of an interesting example.
+
+00:01:41.849 --> 00:01:44.864
+Here is another example of a nested loop.
+
+00:01:44.864 --> 00:01:50.354
+This code is going to draw a chain made of hexagons like this.
+
+00:01:50.355 --> 00:01:56.880
+First, we say there will be eight links in the chain and six sides on a hexagon.
+
+00:01:56.879 --> 00:02:00.994
+So, we set up some variables with the list of eight and the list of six.
+
+00:02:00.995 --> 00:02:06.829
+We'll loop over these variables with an outer loop that runs once for
+
+00:02:06.829 --> 00:02:13.444
+each link in the chain and an inner loop that runs once for each side of those links.
+
+00:02:13.444 --> 00:02:16.599
+So for link in links,
+
+00:02:16.599 --> 00:02:21.439
+we draw one hexagon then scoot over to the next link which we do
+
+00:02:21.439 --> 00:02:26.859
+by picking the pen up moving forward and putting the pen back down again.
+
+00:02:26.860 --> 00:02:29.290
+To draw one hexagon,
+
+00:02:29.289 --> 00:02:31.519
+we do the inner loop.
+
+00:02:31.520 --> 00:02:36.115
+For side insides, in other words for each of the six sides,
+
+00:02:36.115 --> 00:02:39.950
+we go forward by 10 and right by 60.
+
+00:02:39.949 --> 00:02:41.810
+So, this inner loop makes
+
+00:02:41.810 --> 00:02:46.400
+one hexagon and the rest of this code inside the outer loop moves
+
+00:02:46.400 --> 00:02:48.305
+from one link to the next.
+
+00:02:48.305 --> 00:02:52.895
+All in all, this code draws this whole chain.
+
+00:02:52.895 --> 00:02:56.915
+Now you can modify this code to draw a different pattern.
+
+00:02:56.914 --> 00:03:01.829
+Make whatever pattern you like. Here's an example.
+

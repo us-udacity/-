@@ -1,0 +1,50 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.198 --> 00:00:02.255
+Em seguida, temos a linha
+
+00:00:02.288 --> 00:00:06.490
+for side in [1, 2, 3, 4]:.
+
+00:00:06.523 --> 00:00:09.325
+Veja também que esta linha
+termina com dois pontos
+
+00:00:09.358 --> 00:00:12.446
+e que há duas linhas endentadas
+logo abaixo dela.
+
+00:00:12.842 --> 00:00:14.903
+A primeira linha
+parece dizer algo
+
+00:00:14.936 --> 00:00:17.326
+sobre os quatro lados
+de um quadrado,
+
+00:00:17.359 --> 00:00:21.670
+e as duas linhas endentadas começam
+com o nome da tartaruga, amy.
+
+00:00:21.703 --> 00:00:27.110
+Uma delas diz "amy.forward(100)",
+e a outra diz "amy.right(90)".
+
+00:00:27.143 --> 00:00:29.715
+Agora volte e rode
+este programa novamente,
+
+00:00:29.748 --> 00:00:31.979
+mas desta vez observe
+a tartaruga atentamente
+
+00:00:32.012 --> 00:00:34.037
+com estas linhas de código
+em mente
+
+00:00:34.070 --> 00:00:37.332
+e tente ver o que estas linhas
+estão fazendo a tartaruga executar.
+

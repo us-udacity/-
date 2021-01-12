@@ -1,0 +1,390 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.396 --> 00:00:02.896
+Aqui está o código
+que estávamos vendo há pouco.
+
+00:00:02.929 --> 00:00:05.633
+Se você brincou com ele,
+deve ter descoberto que,
+
+00:00:05.666 --> 00:00:08.623
+ao mudar o nome da tartaruga
+em apenas uma linha,
+
+00:00:08.656 --> 00:00:10.375
+o programa não funciona.
+
+00:00:10.408 --> 00:00:13.230
+Ao tentar rodá-lo,
+você recebe uma mensagem de erro.
+
+00:00:13.263 --> 00:00:15.877
+Mas, se você muda o nome
+em todas estas linhas,
+
+00:00:15.910 --> 00:00:17.465
+ele funciona direito.
+
+00:00:17.498 --> 00:00:19.828
+Podemos entender
+por que isso acontece
+
+00:00:19.861 --> 00:00:22.067
+observando
+esta linha de perto,
+
+00:00:22.100 --> 00:00:25.455
+george = turtle.Turtle().
+
+00:00:25.488 --> 00:00:26.746
+De forma geral,
+
+00:00:26.779 --> 00:00:32.332
+podemos pensar que esta linha
+cria uma tartaruga e lhe dá um nome.
+
+00:00:32.365 --> 00:00:35.795
+Esta parte à direita,
+turtle.Turtle(),
+
+00:00:35.828 --> 00:00:37.964
+é a parte que cria
+uma nova tartaruga,
+
+00:00:37.997 --> 00:00:40.071
+e esta parte à esquerda,
+george,
+
+00:00:40.104 --> 00:00:42.481
+diz qual será
+o nome da tartaruga.
+
+00:00:42.514 --> 00:00:44.177
+Mas o que significa dizer
+
+00:00:44.210 --> 00:00:46.328
+que este código
+está criando uma tartaruga?
+
+00:00:46.361 --> 00:00:50.636
+O Python tem várias informações
+sobre como uma tartaruga funciona,
+
+00:00:50.669 --> 00:00:52.773
+sobre como fazer
+este robô virtual se mover
+
+00:00:52.806 --> 00:00:55.981
+de diferentes formas
+e desenhar coisas na tela.
+
+00:00:56.014 --> 00:00:58.957
+Para usarmos uma tartaruga
+no nosso programa,
+
+00:00:58.990 --> 00:01:00.450
+precisamos fazer uma cópia
+
+00:01:00.483 --> 00:01:02.842
+de alguns destes dados
+na memória do computador.
+
+00:01:02.875 --> 00:01:06.102
+Então, quando rodamos
+este código, turtle.Turtle(),
+
+00:01:06.135 --> 00:01:09.256
+o Python encontra um espaço livre
+na memória do computador
+
+00:01:09.289 --> 00:01:12.717
+e coloca os dados
+desta tartaruga nesse espaço.
+
+00:01:12.750 --> 00:01:15.724
+Estamos preparando tudo
+para usarmos estes dados
+
+00:01:15.757 --> 00:01:18.540
+quando precisarmos que a tartaruga
+desenhe alguma coisa.
+
+00:01:18.573 --> 00:01:20.831
+Então agora temos
+os dados necessários
+
+00:01:20.864 --> 00:01:23.878
+para o robô tartaruga
+nesta localização específica
+
+00:01:23.911 --> 00:01:25.637
+da memória do computador.
+
+00:01:25.670 --> 00:01:27.560
+Aliás, você vai
+nos ver chamar isso
+
+00:01:27.593 --> 00:01:32.318
+de "objeto de dados da tartaruga"
+ou apenas "objeto turtle".
+
+00:01:32.351 --> 00:01:35.482
+Se quisermos usar
+este objeto turtle,
+
+00:01:35.515 --> 00:01:37.824
+não podemos apenas colocar
+os dados na memória,
+
+00:01:37.857 --> 00:01:40.812
+precisamos também de um jeito
+de falar sobre essa tartaruga,
+
+00:01:40.845 --> 00:01:43.019
+dando a ela instruções
+e assim por diante.
+
+00:01:43.052 --> 00:01:45.887
+Precisamos encontrar uma forma
+de nos referir à ela.
+
+00:01:45.920 --> 00:01:48.624
+É por isso que ela tem um nome,
+como george.
+
+00:01:48.657 --> 00:01:50.662
+Assim que o objeto
+de dados da tartaruga
+
+00:01:50.695 --> 00:01:53.284
+for posicionado na memória
+e receber um nome,
+
+00:01:53.317 --> 00:01:54.449
+podemos usar esse nome
+
+00:01:54.482 --> 00:01:57.119
+sempre que quisermos
+fazer algo com a tartaruga.
+
+00:01:57.152 --> 00:01:58.269
+Por exemplo,
+
+00:01:58.302 --> 00:02:00.129
+se quisermos
+que a tartaruga george
+
+00:02:00.162 --> 00:02:01.755
+ande para frente ou se vire,
+
+00:02:01.788 --> 00:02:03.113
+podemos usar linhas,
+
+00:02:03.146 --> 00:02:08.538
+como george.forward(100)
+e george.right(90).
+
+00:02:08.571 --> 00:02:12.266
+Se primeiro nos referirmos
+a este objeto de dados como george,
+
+00:02:12.299 --> 00:02:14.195
+mas depois tentarmos
+nos referir a ele
+
+00:02:14.228 --> 00:02:16.084
+com um nome diferente,
+como amy,
+
+00:02:16.117 --> 00:02:17.472
+não vai funcionar.
+
+00:02:17.505 --> 00:02:19.623
+Nosso código não ligou amy
+
+00:02:19.656 --> 00:02:22.203
+a nenhum outro dado
+específico na memória.
+
+00:02:22.236 --> 00:02:24.776
+Podemos usar qualquer nome
+que quisermos,
+
+00:02:24.809 --> 00:02:26.757
+mas precisemos ser
+consistentes,
+
+00:02:26.790 --> 00:02:28.403
+senão o Python não sabe
+
+00:02:28.436 --> 00:02:30.465
+de quais dados
+estamos nos referindo.
+
+00:02:30.498 --> 00:02:35.335
+Este conceito não se aplica
+apenas a nomear tartarugas.
+
+00:02:35.368 --> 00:02:39.422
+A ideia geral aqui é colocarmos
+dados na memória do computador
+
+00:02:39.455 --> 00:02:43.677
+e ligarmos esses dados ao nome
+que podemos usar no nosso código.
+
+00:02:43.710 --> 00:02:46.734
+Quando temos uma ligação
+entre um nome no código
+
+00:02:46.767 --> 00:02:48.530
+e os dados na memória,
+
+00:02:48.563 --> 00:02:50.743
+há um termo específico
+que usamos para isso,
+
+00:02:50.776 --> 00:02:52.206
+chamado "variável".
+
+00:02:52.239 --> 00:02:54.265
+A razão para chamarmos
+isso de "variável"
+
+00:02:54.298 --> 00:02:56.478
+é porque esta ligação
+pode variar,
+
+00:02:56.511 --> 00:02:57.991
+ou seja, podemos mudar
+
+00:02:58.024 --> 00:02:59.935
+a que dados
+a variável se refere.
+
+00:02:59.968 --> 00:03:01.620
+Podemos dizer
+que esta variável
+
+00:03:01.653 --> 00:03:04.026
+se refere a alguns dados
+em um lugar da memória,
+
+00:03:04.059 --> 00:03:05.539
+mas depois,
+no nosso programa,
+
+00:03:05.572 --> 00:03:08.135
+podemos mudá-la
+para ela se referir a outros dados
+
+00:03:08.168 --> 00:03:10.479
+em uma localização diferente
+na memória.
+
+00:03:10.512 --> 00:03:14.240
+Uma variável é como uma caixa
+com uma etiqueta.
+
+00:03:14.273 --> 00:03:16.419
+Podemos usar a etiqueta
+para nos referirmos
+
+00:03:16.452 --> 00:03:17.918
+ao que tiver dentro da caixa,
+
+00:03:17.951 --> 00:03:19.602
+mas depois podemos tirá-la
+
+00:03:19.635 --> 00:03:22.255
+e colocá-la
+em outra caixa diferente.
+
+00:03:22.288 --> 00:03:25.310
+Para dizermos ao computador
+que um objeto de dados específico
+
+00:03:25.343 --> 00:03:27.138
+deve ter uma tag de nome
+específica,
+
+00:03:27.171 --> 00:03:31.173
+usamos linhas como
+george = turtle.Turtle().
+
+00:03:31.206 --> 00:03:33.732
+Veja como esta linha
+se divide em duas partes
+
+00:03:33.765 --> 00:03:35.942
+em volta do sinal de igual.
+
+00:03:35.975 --> 00:03:38.503
+À direita, está o código
+turtle.Turtle(),
+
+00:03:38.536 --> 00:03:40.445
+que cria uma nova tartaruga.
+
+00:03:40.478 --> 00:03:45.255
+À esquerda, está george,
+que é o nome que demos à variável.
+
+00:03:45.288 --> 00:03:47.259
+No meio está o sinal de igual,
+
+00:03:47.292 --> 00:03:50.270
+que diz ao Python
+para pegar o que está à direta
+
+00:03:50.303 --> 00:03:52.966
+e ligá-lo ao nome à esquerda.
+
+00:03:52.999 --> 00:03:56.647
+Aliás, quando ligamos um nome
+com alguns dados na memória,
+
+00:03:56.680 --> 00:03:59.534
+nos referimos a este processo
+como "atribuição".
+
+00:03:59.567 --> 00:04:02.274
+Estamos atribuindo
+os dados do código à direita
+
+00:04:02.307 --> 00:04:04.192
+e o nome à esquerda.
+
+00:04:04.225 --> 00:04:07.284
+O sinal de igual é chamado
+de "operador de atribuição",
+
+00:04:07.317 --> 00:04:09.484
+e podemos nos referir
+à uma linha de código,
+
+00:04:09.517 --> 00:04:11.769
+como george = turtle.Turtle(),
+
+00:04:11.802 --> 00:04:14.002
+como uma instrução
+de atribuição.
+
+00:04:14.035 --> 00:04:16.897
+Veja que o que fica à direita
+numa instrução de atribuição
+
+00:04:16.930 --> 00:04:18.233
+sempre acontece primeiro.
+
+00:04:18.266 --> 00:04:20.215
+Primeiro,
+criamos uma nova tartaruga
+
+00:04:20.248 --> 00:04:23.556
+e depois atribuímos essa tartaruga
+ao nome george.
+

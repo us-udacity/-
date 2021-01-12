@@ -1,0 +1,377 @@
+<!-- udacimak v1.4.1 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>神秘的形状</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>小乌龟（turtle）和你的第一行代码 </h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 欢迎！.html">01. 欢迎！</a>
+    </li>
+    <li class="">
+      <a href="02. 开始学习.html">02. 开始学习</a>
+    </li>
+    <li class="">
+      <a href="03. 使用 turtle 绘画.html">03. 使用 turtle 绘画</a>
+    </li>
+    <li class="">
+      <a href="04. 变量.html">04. 变量</a>
+    </li>
+    <li class="">
+      <a href="05. 练习 — 变量等.html">05. 练习 — 变量等</a>
+    </li>
+    <li class="">
+      <a href="06. 更改颜色.html">06. 更改颜色</a>
+    </li>
+    <li class="">
+      <a href="07. 更改形状.html">07. 更改形状</a>
+    </li>
+    <li class="">
+      <a href="08. 查找错误.html">08. 查找错误</a>
+    </li>
+    <li class="">
+      <a href="09. 模块和方法.html">09. 模块和方法</a>
+    </li>
+    <li class="">
+      <a href="10. 练习 — 绘制方形.html">10. 练习 — 绘制方形</a>
+    </li>
+    <li class="">
+      <a href="11. 注释.html">11. 注释</a>
+    </li>
+    <li class="">
+      <a href="12. 练习 — 顺序很重要.html">12. 练习 — 顺序很重要</a>
+    </li>
+    <li class="">
+      <a href="13. 使用变量.html">13. 使用变量</a>
+    </li>
+    <li class="">
+      <a href="14. 练习 — 使用变量 (12).html">14. 练习 — 使用变量 (1/2)</a>
+    </li>
+    <li class="">
+      <a href="15. 练习 — 使用变量 (22).html">15. 练习 — 使用变量 (2/2)</a>
+    </li>
+    <li class="">
+      <a href="16. 循环.html">16. 循环</a>
+    </li>
+    <li class="">
+      <a href="17. 练习 — 基本循环.html">17. 练习 — 基本循环</a>
+    </li>
+    <li class="">
+      <a href="18. 练习 — 将列表赋值给变量.html">18. 练习 — 将列表赋值给变量</a>
+    </li>
+    <li class="">
+      <a href="19. 列表和循环.html">19. 列表和循环</a>
+    </li>
+    <li class="">
+      <a href="20. 练习 — 循环变量.html">20. 练习 — 循环变量</a>
+    </li>
+    <li class="">
+      <a href="21. 神秘的形状.html">21. 神秘的形状</a>
+    </li>
+    <li class="">
+      <a href="22. 嵌套循环.html">22. 嵌套循环</a>
+    </li>
+    <li class="">
+      <a href="23. 复习 turtle 方法.html">23. 复习 turtle 方法</a>
+    </li>
+    <li class="">
+      <a href="24. 练习 — Turtle 方法.html">24. 练习 — Turtle 方法</a>
+    </li>
+    <li class="">
+      <a href="25. 练习 — 更多循环变量 (12).html">25. 练习 — 更多循环变量 (1/2)</a>
+    </li>
+    <li class="">
+      <a href="26. 练习 — 更多循环变量 (22).html">26. 练习 — 更多循环变量 (2/2)</a>
+    </li>
+    <li class="">
+      <a href="27. 练习 — 嵌套循环.html">27. 练习 — 嵌套循环</a>
+    </li>
+    <li class="">
+      <a href="28. 考虑错误.html">28. 考虑错误</a>
+    </li>
+    <li class="">
+      <a href="29. 实战演练：用代码画图.html">29. 实战演练：用代码画图</a>
+    </li>
+    <li class="">
+      <a href="30. 复习.html">30. 复习</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">21. 神秘的形状</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="∠-夹角列表"><code>∠</code> 夹角列表</h1>
+<p>在上个示例中，你见过一个数字列表，并且程序将每个数字当做<em>距离</em>。下面是另一个数字列表。每个数字都应当做<em>夹角</em>：</p>
+<pre><code class="python language-python">angles = [-90, 0, 0, -90,
+          135, 0, 0, 0, 
+          90, 0, 0, 0,
+          135, -90, 0, 0,
+          90, 0, 0, 0]</code></pre>
+<p>请将此夹角列表复制到下面的代码中。然后填写使用它的 <code>for</code> 循环。</p>
+<p>此循环的效果必须和你刚刚看到的一样，但是我们将使距离保持不变，并更改夹角，而不是使夹角保持不变并更改距离。因此，在循环里，使 turtle 按照列表（<code>angle</code> 变量）中的数字右转，然后向前移动 25 个像素。</p>
+<p>它画出了什么形状？</p>
+<p><em>（如果遇到问题，请参阅下面的解决方案。）</em></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>完成这些操作后，请选中它们 —</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="3944b251-9873-49b7-a383-f348886e69f0--0">
+        <label for="3944b251-9873-49b7-a383-f348886e69f0--0"><p>将 <code>angles</code> 赋值语句复制到代码中</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="3944b251-9873-49b7-a383-f348886e69f0--1">
+        <label for="3944b251-9873-49b7-a383-f348886e69f0--1"><p>写一个 <strong>for</strong> 循环并使用叫做 <code>angles</code> 的列表指导 turtle 转向。</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="3944b251-9873-49b7-a383-f348886e69f0--2">
+        <label for="3944b251-9873-49b7-a383-f348886e69f0--2"><p>看看它画出了什么形状！</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>看来你已经知道如何遍历列表了！</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Workspace</h3>
+
+  <p class="lead">This section contains either a workspace (it can be a <a href="http://jupyter.org/" target="_blank">Jupyter
+      Notebook</a> workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto <a href="https://github.com/udacity"
+      target="_blank">https://github.com/udacity</a>, so you may be able to download them there.</p>
+
+  <h4>Workspace Information:</h4>
+
+  <ul>
+    <li><strong>Default file path:</strong> </li>
+    <li><strong>Workspace type:</strong> html-live</li>
+    <li>
+      <strong>Opened files (when workspace is loaded):</strong>
+      n/a
+    </li>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>（<strong>备注</strong>：如果你无法打开上面的workspace，请去<a href="https://github.com/udacity/turtles-cn" target="_blank">这里</a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>它画出了什么形状？</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1510865485796" name="719663" id="a1510865485796">
+        <label for="a1510865485796"><p>一个气球，或者一个鼠标。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1510865492638" name="719663" id="a1510865492638">
+        <label for="a1510865492638"><p>一座房子，或者一个箭头</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1510865493466" name="719663" id="a1510865493466">
+        <label for="a1510865493466"><p>加利福尼亚州的地图轮廓。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1510867369342" name="719663" id="a1510867369342">
+        <label for="a1510867369342"><p>它没有画出形状，而是显示 <code>SyntaxError</code>。</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    一座房子，或者一个箭头
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Python：神秘形状演示</p></h3>
+  <video controls>
+  <source src="21. Python：神秘形状演示-9yEiInrUQAU.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="ar" src="21. Python：神秘形状演示-9yEiInrUQAU.ar.vtt" label="ar">
+  <track default="true" kind="subtitles" srclang="en" src="21. Python：神秘形状演示-9yEiInrUQAU.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="21. Python：神秘形状演示-9yEiInrUQAU.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="21. Python：神秘形状演示-9yEiInrUQAU.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="22. 嵌套循环.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.4.1</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('21. 神秘的形状')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

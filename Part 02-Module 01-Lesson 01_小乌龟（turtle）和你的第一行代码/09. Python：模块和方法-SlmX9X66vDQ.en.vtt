@@ -1,0 +1,223 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.194
+As you might imagine, a lot goes into designing
+
+00:00:03.194 --> 00:00:07.040
+a robot even if it's a virtual robot rather than a real one.
+
+00:00:07.040 --> 00:00:11.080
+To make it possible for us to use turtle robots in Python,
+
+00:00:11.080 --> 00:00:14.705
+somebody had to write a bunch of code about turtles,
+
+00:00:14.705 --> 00:00:16.339
+and here it is.
+
+00:00:16.339 --> 00:00:19.425
+This code makes it possible for us to create
+
+00:00:19.425 --> 00:00:24.269
+a turtle object and use simple instructions to have it draw things on the screen.
+
+00:00:24.269 --> 00:00:27.140
+Now, that's a lot of code.
+
+00:00:27.140 --> 00:00:31.214
+This is actually something you'll see a lot of in programming.
+
+00:00:31.214 --> 00:00:35.509
+Someone will write some useful code in a file and then share that file
+
+00:00:35.509 --> 00:00:40.019
+so everyone can use it and not have to write that same code over again themselves.
+
+00:00:40.020 --> 00:00:44.895
+In Python, these collections of useful code are called modules.
+
+00:00:44.895 --> 00:00:48.555
+In this case, we've made use of the turtle module.
+
+00:00:48.554 --> 00:00:51.740
+There are all kinds of other useful modules out there as well,
+
+00:00:51.740 --> 00:00:53.390
+such as the math module,
+
+00:00:53.390 --> 00:00:56.645
+which has a bunch of code to help you do useful calculations.
+
+00:00:56.645 --> 00:01:00.109
+You know, there are a lot of modules out there,
+
+00:01:00.109 --> 00:01:04.939
+and if we put all of those files of code into every program we write,
+
+00:01:04.939 --> 00:01:07.579
+it would slow those programs down a lot.
+
+00:01:07.579 --> 00:01:10.370
+So instead we tell Python when there's
+
+00:01:10.370 --> 00:01:13.310
+a specific module that we want to use in our program.
+
+00:01:13.310 --> 00:01:16.125
+We do that by importing the module.
+
+00:01:16.125 --> 00:01:19.939
+That's what this first line of code import turtle is all about.
+
+00:01:19.939 --> 00:01:23.709
+That's how we tell Python that we want to do things with turtles in
+
+00:01:23.709 --> 00:01:29.144
+this program and we will therefore need access to the code that's in the turtle module.
+
+00:01:29.144 --> 00:01:31.744
+Once we've imported the turtle module,
+
+00:01:31.745 --> 00:01:33.579
+it's as if all the code we're a part of
+
+00:01:33.579 --> 00:01:37.405
+our own program and we can access it to do things with turtles.
+
+00:01:37.405 --> 00:01:44.435
+For example, let's take another look at this line, Amy equals turtle.Turtle.
+
+00:01:44.435 --> 00:01:47.710
+Remember, turtle.Turtle is the code that
+
+00:01:47.709 --> 00:01:50.964
+creates a new turtle object in the computer's memory.
+
+00:01:50.965 --> 00:01:54.745
+Notice how it starts with the name of the module that we need to use,
+
+00:01:54.745 --> 00:01:57.490
+turtle, and then there's a dot.
+
+00:01:57.489 --> 00:02:00.379
+This dot is telling Python to look inside
+
+00:02:00.379 --> 00:02:05.170
+the turtle module for some code that is called turtle and run that code.
+
+00:02:05.170 --> 00:02:10.444
+So it saying run the turtle code that is inside the turtle module,
+
+00:02:10.444 --> 00:02:13.939
+and it's that code that creates the new turtle object.
+
+00:02:13.939 --> 00:02:16.759
+Now once the turtle object has been created,
+
+00:02:16.759 --> 00:02:22.699
+we can give that turtle instructions such as amy.forward100 or amy.right90.
+
+00:02:22.699 --> 00:02:26.284
+An important thing to understand about these lines is that they're
+
+00:02:26.284 --> 00:02:30.384
+actually referencing code that is hidden away somewhere else.
+
+00:02:30.384 --> 00:02:35.894
+Specifically, these lines are referring to code that is inside that turtle module.
+
+00:02:35.895 --> 00:02:38.480
+In that module, there's a block of code that
+
+00:02:38.479 --> 00:02:41.239
+has instructions for getting the turtle to go forward,
+
+00:02:41.240 --> 00:02:45.405
+and there's another block of code that has the instructions for getting it to turn right.
+
+00:02:45.405 --> 00:02:49.879
+So, we have these blocks of code that have instructions for making the turtle
+
+00:02:49.879 --> 00:02:54.639
+do different things but these blocks of code don't do anything by themselves,
+
+00:02:54.639 --> 00:02:57.284
+they just sit there waiting to be used.
+
+00:02:57.284 --> 00:03:01.384
+When we run a line of code like amy.forward100,
+
+00:03:01.384 --> 00:03:04.579
+we are telling Python to find this block of code
+
+00:03:04.580 --> 00:03:07.790
+that has the name forward and run that code.
+
+00:03:07.789 --> 00:03:13.810
+In Python, these blocks of code are referred to as methods and we would refer to
+
+00:03:13.810 --> 00:03:20.375
+lines like amy.forward100 and amy.right90 as method calls.
+
+00:03:20.375 --> 00:03:21.814
+When we run these lines,
+
+00:03:21.814 --> 00:03:26.340
+we are calling the forward and write methods that are in the turtle module.
+
+00:03:26.340 --> 00:03:31.150
+Amy.coloryellow is another example of a method call and it
+
+00:03:31.150 --> 00:03:36.025
+is of course calling the block of code named color that is inside the turtle module.
+
+00:03:36.025 --> 00:03:40.390
+Notice that these method calls always have the name of the method followed by
+
+00:03:40.389 --> 00:03:43.209
+parentheses and we can put some input inside
+
+00:03:43.210 --> 00:03:46.730
+the parentheses that Python will use when it runs the method.
+
+00:03:46.729 --> 00:03:48.859
+So when we call the forward method,
+
+00:03:48.860 --> 00:03:52.600
+it needs to know how much we want the turtle to move forward.
+
+00:03:52.599 --> 00:03:57.739
+So, here we're using the number 100 to tell it the number of pixels to move forward.
+
+00:03:57.740 --> 00:03:59.515
+When we call the write method,
+
+00:03:59.514 --> 00:04:03.504
+it needs input so that it knows how many degrees the turtle should turn.
+
+00:04:03.504 --> 00:04:05.539
+And when we call the color method,
+
+00:04:05.539 --> 00:04:07.949
+it needs input like yellow or blue.
+
+00:04:07.949 --> 00:04:10.964
+If methods seem a little mysterious at this point,
+
+00:04:10.965 --> 00:04:14.450
+don't worry, we'll come back to this concept again later on.
+
+00:04:14.449 --> 00:04:17.164
+For now, it's enough to understand that we've got
+
+00:04:17.165 --> 00:04:20.090
+a block of code that's hidden away somewhere else,
+
+00:04:20.089 --> 00:04:23.419
+that this code has a name and now we can run it by using lines
+
+00:04:23.420 --> 00:04:28.520
+like amy.forward100 or amy.right90.
+

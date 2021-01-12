@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.595
+If we have a turtle called Amy,
+
+00:00:02.595 --> 00:00:09.569
+then the statement amy.forward(50) causes that turtle to move forward by 50 pixels.
+
+00:00:09.569 --> 00:00:16.625
+Similarly, amy.back(50) causes the turtle to move backwards by 50 pixels.
+
+00:00:16.625 --> 00:00:19.500
+One thing that's important to understand when writing
+
+00:00:19.500 --> 00:00:24.554
+turtle programs is that the directions are all from the turtles perspective.
+
+00:00:24.554 --> 00:00:26.550
+This can be a little bit confusing at
+
+00:00:26.550 --> 00:00:29.984
+first when you tell the turtle to turn left or right.
+
+00:00:29.984 --> 00:00:32.723
+At any point in the program,
+
+00:00:32.723 --> 00:00:36.334
+the turtle is facing in a particular direction.
+
+00:00:36.335 --> 00:00:39.625
+When you tell the turtle to turn left by 45,
+
+00:00:39.625 --> 00:00:45.700
+you're telling it to turn left by 45 degrees from the direction it's currently facing.
+
+00:00:45.700 --> 00:00:49.195
+So, if we want the turtle to draw a square,
+
+00:00:49.195 --> 00:00:52.759
+we have to tell it to go forward 100 pixels,
+
+00:00:52.759 --> 00:00:56.739
+then turn left by 90 degrees from its perspective,
+
+00:00:56.740 --> 00:00:59.695
+forward 100, left 90,
+
+00:00:59.695 --> 00:01:04.105
+forward 100, left 90, forward 100,
+
+00:01:04.105 --> 00:01:09.840
+and now it's back to where it started although it's facing in a different direction now.
+
+00:01:09.840 --> 00:01:12.920
+This can sometimes get a little confusing.
+
+00:01:12.920 --> 00:01:16.844
+For example, if you want to draw a triangle like this,
+
+00:01:16.844 --> 00:01:20.349
+you might be thinking of having the turtle turn by
+
+00:01:20.349 --> 00:01:24.375
+these angles inside the triangle which are 60 degrees.
+
+00:01:24.375 --> 00:01:31.370
+But actually, you want to have the turtle turn by these angles which are 120 degrees.
+
+00:01:31.370 --> 00:01:35.950
+Of course, if you get confused or if you're not quite sure,
+
+00:01:35.950 --> 00:01:37.764
+you can always experiment.
+
+00:01:37.763 --> 00:01:42.119
+Don't be afraid to try different angles to see what results you'll get.
+

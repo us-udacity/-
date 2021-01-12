@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.259
+Earlier on, we talked about the idea of an assignment statement,
+
+00:00:04.259 --> 00:00:07.570
+like for example any equals turtle.Turtle.
+
+00:00:07.570 --> 00:00:10.230
+It takes whatever's on the right hand side of
+
+00:00:10.230 --> 00:00:14.535
+the equals sign and it assigns it to the variable that's named on the left.
+
+00:00:14.535 --> 00:00:18.210
+In this case, the code on the right creates
+
+00:00:18.210 --> 00:00:24.164
+a new turtle object and this turtle object gets assigned to the variable named amy.
+
+00:00:24.164 --> 00:00:27.664
+But we don't have to limit ourselves to Turtle objects,
+
+00:00:27.664 --> 00:00:30.559
+we can assign other things to variables too.
+
+00:00:30.559 --> 00:00:33.359
+For example, this statement assigns
+
+00:00:33.359 --> 00:00:36.894
+the string yellow to a variable called a pretty color.
+
+00:00:36.895 --> 00:00:39.870
+Let's see how we might use something like this.
+
+00:00:39.869 --> 00:00:44.634
+Here's our familiar code that has the turtle "Draw a yellow square."
+
+00:00:44.634 --> 00:00:49.809
+Only we'll change it a little by adding this assignment statement right here.
+
+00:00:49.810 --> 00:00:54.140
+Now that we've assigned the string yellow to this pretty color variable,
+
+00:00:54.140 --> 00:00:58.365
+we can use that variable any place in the code where we need that string.
+
+00:00:58.365 --> 00:01:01.829
+So, instead of putting yellow here on this line,
+
+00:01:01.829 --> 00:01:04.489
+we can put pretty color instead.
+
+00:01:04.489 --> 00:01:07.179
+That will have exactly the same effect.
+
+00:01:07.180 --> 00:01:10.010
+The turtle will draw a yellow square.
+
+00:01:10.010 --> 00:01:12.740
+One of the nice things but doing it this way is
+
+00:01:12.739 --> 00:01:15.229
+that we can use that variable in multiple places.
+
+00:01:15.230 --> 00:01:19.150
+Like if we also had some other turtles drawing some other shapes,
+
+00:01:19.150 --> 00:01:21.350
+we could use the same pretty color
+
+00:01:21.349 --> 00:01:25.539
+variable to set the color that they're drawing as well.
+
+00:01:26.540 --> 00:01:31.340
+Then if we decided that we didn't think yellow was such a pretty color after all,
+
+00:01:31.340 --> 00:01:34.075
+we could change the string that's assigned to the variable.
+
+00:01:34.075 --> 00:01:37.880
+Like, let's say that now instead of assigning the string yellow,
+
+00:01:37.879 --> 00:01:40.655
+we'll assign the string, light blue.
+
+00:01:40.655 --> 00:01:45.885
+So now this name pretty color will refer to the string light blue instead.
+
+00:01:45.885 --> 00:01:51.210
+The nice thing is that we only have to modify this variable in this one spot,
+
+00:01:51.209 --> 00:01:54.969
+but this string will be getting used in all of these different places.
+
+00:01:54.969 --> 00:01:59.189
+So all of these turtles are now drawing in light blue.
+

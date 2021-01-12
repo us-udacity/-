@@ -1,0 +1,128 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.198 --> 00:00:02.640
+Se temos uma tartaruga
+chamada "amy",
+
+00:00:02.673 --> 00:00:05.766
+então a instrução
+amy.forward(50)
+
+00:00:05.799 --> 00:00:09.651
+faz com que a tartaruga se mova
+50 pixels para a frente.
+
+00:00:09.684 --> 00:00:11.165
+De forma parecida,
+
+00:00:11.198 --> 00:00:16.822
+amy.back(50) faz com que a tartaruga
+se mova 50 pixels para trás.
+
+00:00:16.855 --> 00:00:20.635
+Algo importante para se entender
+ao escrever programas de tartaruga
+
+00:00:20.668 --> 00:00:24.621
+é que todas as direções
+partem da perspectiva da tartaruga.
+
+00:00:24.654 --> 00:00:27.078
+Isso pode ser
+um pouco confuso no início,
+
+00:00:27.111 --> 00:00:30.347
+quando dizemos para a tartaruga
+virar à esquerda ou à direita.
+
+00:00:30.380 --> 00:00:32.602
+Em qualquer momento
+no programa,
+
+00:00:32.635 --> 00:00:36.435
+a tartaruga está voltada
+para alguma direção específica.
+
+00:00:36.468 --> 00:00:39.600
+Quando dizemos à tartaruga
+para virar à esquerda a 45,
+
+00:00:39.633 --> 00:00:42.855
+dizemos a ela para virar
+à esquerda a 45 graus
+
+00:00:42.888 --> 00:00:45.897
+a partir da direção para a qual
+ela está voltada no momento.
+
+00:00:45.930 --> 00:00:49.169
+Então, se quisermos que a tartaruga
+desenhe um quadrado,
+
+00:00:49.202 --> 00:00:52.827
+temos que dizer a ela
+que ande 100 pixels para frente,
+
+00:00:52.860 --> 00:00:56.699
+vire à esquerda a 90 graus
+a partir da perspectiva dela,
+
+00:00:56.732 --> 00:00:59.614
+para frente 100,
+à esquerda 90,
+
+00:00:59.647 --> 00:01:02.497
+para frente 100,
+à esquerda 90,
+
+00:01:02.530 --> 00:01:03.982
+para frente 100,
+
+00:01:04.015 --> 00:01:06.470
+e agora ela está de volta
+ao ponto de partida,
+
+00:01:06.503 --> 00:01:10.071
+mesmo que voltada
+para uma direção diferente.
+
+00:01:10.104 --> 00:01:12.819
+Isso às vezes pode ficar
+um pouco confuso.
+
+00:01:12.852 --> 00:01:16.890
+Por exemplo, se quiser desenhar
+um triângulo como este,
+
+00:01:16.923 --> 00:01:19.893
+você deve estar pensando
+em fazer a tartaruga virar
+
+00:01:19.926 --> 00:01:24.556
+nesses ângulos dentro do triângulo,
+que são 60 graus.
+
+00:01:24.589 --> 00:01:28.475
+Mas, na verdade, você quer
+que a tartaruga vire nesses ângulos,
+
+00:01:28.508 --> 00:01:31.445
+que são 120 graus.
+
+00:01:31.478 --> 00:01:35.892
+É claro, se você ficar confuso
+ou não tiver certeza,
+
+00:01:35.925 --> 00:01:37.747
+poderá sempre experimentar.
+
+00:01:37.780 --> 00:01:40.003
+Não tenha medo
+de tentar diferentes ângulos
+
+00:01:40.036 --> 00:01:41.931
+para ver quais resultados
+pode obter.
+

@@ -1,0 +1,433 @@
+<!-- udacimak v1.4.1 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>注释</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>小乌龟（turtle）和你的第一行代码 </h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 欢迎！.html">01. 欢迎！</a>
+    </li>
+    <li class="">
+      <a href="02. 开始学习.html">02. 开始学习</a>
+    </li>
+    <li class="">
+      <a href="03. 使用 turtle 绘画.html">03. 使用 turtle 绘画</a>
+    </li>
+    <li class="">
+      <a href="04. 变量.html">04. 变量</a>
+    </li>
+    <li class="">
+      <a href="05. 练习 — 变量等.html">05. 练习 — 变量等</a>
+    </li>
+    <li class="">
+      <a href="06. 更改颜色.html">06. 更改颜色</a>
+    </li>
+    <li class="">
+      <a href="07. 更改形状.html">07. 更改形状</a>
+    </li>
+    <li class="">
+      <a href="08. 查找错误.html">08. 查找错误</a>
+    </li>
+    <li class="">
+      <a href="09. 模块和方法.html">09. 模块和方法</a>
+    </li>
+    <li class="">
+      <a href="10. 练习 — 绘制方形.html">10. 练习 — 绘制方形</a>
+    </li>
+    <li class="">
+      <a href="11. 注释.html">11. 注释</a>
+    </li>
+    <li class="">
+      <a href="12. 练习 — 顺序很重要.html">12. 练习 — 顺序很重要</a>
+    </li>
+    <li class="">
+      <a href="13. 使用变量.html">13. 使用变量</a>
+    </li>
+    <li class="">
+      <a href="14. 练习 — 使用变量 (12).html">14. 练习 — 使用变量 (1/2)</a>
+    </li>
+    <li class="">
+      <a href="15. 练习 — 使用变量 (22).html">15. 练习 — 使用变量 (2/2)</a>
+    </li>
+    <li class="">
+      <a href="16. 循环.html">16. 循环</a>
+    </li>
+    <li class="">
+      <a href="17. 练习 — 基本循环.html">17. 练习 — 基本循环</a>
+    </li>
+    <li class="">
+      <a href="18. 练习 — 将列表赋值给变量.html">18. 练习 — 将列表赋值给变量</a>
+    </li>
+    <li class="">
+      <a href="19. 列表和循环.html">19. 列表和循环</a>
+    </li>
+    <li class="">
+      <a href="20. 练习 — 循环变量.html">20. 练习 — 循环变量</a>
+    </li>
+    <li class="">
+      <a href="21. 神秘的形状.html">21. 神秘的形状</a>
+    </li>
+    <li class="">
+      <a href="22. 嵌套循环.html">22. 嵌套循环</a>
+    </li>
+    <li class="">
+      <a href="23. 复习 turtle 方法.html">23. 复习 turtle 方法</a>
+    </li>
+    <li class="">
+      <a href="24. 练习 — Turtle 方法.html">24. 练习 — Turtle 方法</a>
+    </li>
+    <li class="">
+      <a href="25. 练习 — 更多循环变量 (12).html">25. 练习 — 更多循环变量 (1/2)</a>
+    </li>
+    <li class="">
+      <a href="26. 练习 — 更多循环变量 (22).html">26. 练习 — 更多循环变量 (2/2)</a>
+    </li>
+    <li class="">
+      <a href="27. 练习 — 嵌套循环.html">27. 练习 — 嵌套循环</a>
+    </li>
+    <li class="">
+      <a href="28. 考虑错误.html">28. 考虑错误</a>
+    </li>
+    <li class="">
+      <a href="29. 实战演练：用代码画图.html">29. 实战演练：用代码画图</a>
+    </li>
+    <li class="">
+      <a href="30. 复习.html">30. 复习</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">11. 注释</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="💬-注释">💬 注释</h1>
+<p>下面是我们刚刚查看的方形绘制代码，但是添加了其他内容：</p>
+<pre><code class="python language-python"># 导入 turtle 模块。
+import turtle
+
+# 创建叫做 amy 的新 turtle。
+amy = turtle.Turtle()
+
+# 设置 amy 的颜色。
+amy.color("yellow")
+
+# 使 amy 画一个方形
+amy.forward(100)
+amy.right(90)
+amy.forward(100)
+amy.right(90)
+amy.forward(100)
+amy.right(90)
+amy.forward(100)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>注意，这段代码包含几行以 <code>#</code> 符号开头的内容。这些行是注释—&nbsp;它们只是供人类读者查看。不会影响到代码的运行方式。</p>
+<blockquote>
+  <p><strong>术语：</strong>在代码中，<strong>注释</strong>是针对人类读者的消息。计算机在读取代码时，会忽略注释。在 Python 中，注释行以 <code>#</code> 开头。</p>
+</blockquote>
+<p>注释能够使程序更容易理解。我们在上述示例代码中添加的大部分注释都相对很明显，通过阅读代码就能看明白（至少对有经验的程序员来说是这样）。但是在很多情况下，一行代码的作用并不明显，在这些情况下，注释就很有帮助。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="注释代码">注释代码</h2>
+<p>使用注释还可以轻松地实验代码。如果你想暂时“关闭”某些代码，使其不会运行，但是并不想真的删除代码，你可以在代码行前面添加一个 <code>#</code>。这样将使这行代码变成注释，以便 Python 运行程序时忽略该代码。</p>
+<p>在下面的 workspace 中，你将找到绘制方形的熟悉代码。但是我们添加了你尚未见过的几个新的 turtle 方法。每个方法都被注释掉了，请尝试删除这些注释（一次删除一个），看看每行代码的作用。</p>
+<p>（注意，这只是暂时实验代码的方式，程序编写完毕后，肯定不能在程序中留下大量注释掉的代码。）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Workspace</h3>
+
+  <p class="lead">This section contains either a workspace (it can be a <a href="http://jupyter.org/" target="_blank">Jupyter
+      Notebook</a> workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto <a href="https://github.com/udacity"
+      target="_blank">https://github.com/udacity</a>, so you may be able to download them there.</p>
+
+  <h4>Workspace Information:</h4>
+
+  <ul>
+    <li><strong>Default file path:</strong> </li>
+    <li><strong>Workspace type:</strong> html-live</li>
+    <li>
+      <strong>Opened files (when workspace is loaded):</strong>
+      n/a
+    </li>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>（<strong>备注</strong>：如果你无法打开上面的workspace，请去<a href="https://github.com/udacity/turtles-cn" target="_blank">这里</a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>请尝试将每个方法调用与其作用相匹配。</p>
+<p>（至少有一对可能有点让人吃惊！）</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>绘制很粗的线条。</p></button>
+  <button class="btn btn-primary"><p>将 turtle 的速度设置为最大速度。</p></button>
+  <button class="btn btn-primary"><p>取消激活笔，使 turtle 在移动时停止绘制。</p></button>
+  <button class="btn btn-primary"><p>激活笔，使 turtle 在移动时开始绘制。</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>作用</p>
+      </th>
+      <th>
+        <p>方法调用</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p><code>amy.speed(0)</code></p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p><code>amy.penup()</code></p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p><code>amy.speed(10)</code></p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p><code>amy.width(10)</code></p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p><code>amy.pendown()</code></p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p><code>amy.width(2)</code></p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>作用</p>
+        </th>
+        <th>
+          <p>方法调用</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p><code>amy.speed(0)</code></p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>将 turtle 的速度设置为最大速度。</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><code>amy.penup()</code></p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>取消激活笔，使 turtle 在移动时停止绘制。</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><code>amy.width(10)</code></p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>绘制很粗的线条。</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><code>amy.pendown()</code></p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>激活笔，使 turtle 在移动时开始绘制。</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="注释快捷键">注释快捷键</h2>
+<p>在大多数代码编辑器中，你都可以使用很方便的键盘快捷键注释掉/取消注释一行代码。在 Mac 系统上，快捷键是 <strong>⌘/</strong>。在 Windows 系统上，快捷键是 <strong>Ctrl + /</strong>。如果你将光标放在一行代码上，并按下此快捷键，编辑器将在代码行开头插入 <code>#</code>。</p>
+<p>这个快捷键最有用的功能是你可以同时对多行代码进行操作，只需选中要注释掉（或取消注释）的代码行，然后按下快捷键即可。</p>
+<p>在继续之前，请在上方 workspace 里尝试一下！</p>
+<p><strong>注意：</strong>正如我们提到的，大多数代码编辑器都具有此功能，但是并非所有代码编辑器都这样。如果上述快捷键在你的编辑器中不可行，你可能需要使用你喜欢的搜索引擎查询下该编辑器的快捷键是什么。</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="12. 练习 — 顺序很重要.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.4.1</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('11. 注释')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

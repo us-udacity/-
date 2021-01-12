@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.198 --> 00:00:04.406
+O exercício pediu para colocarmos
+esta variável de ângulos
+
+00:00:04.439 --> 00:00:07.416
+com uma longa
+lista de números bem aqui.
+
+00:00:07.449 --> 00:00:09.565
+Depois precisávamos
+escrever um loop
+
+00:00:09.598 --> 00:00:12.164
+que usasse
+os valores dessa lista.
+
+00:00:12.197 --> 00:00:15.651
+O loop começava como
+for angle in angles:,
+
+00:00:15.684 --> 00:00:19.039
+e tínhamos que escrever
+as instruções dentro do loop.
+
+00:00:19.072 --> 00:00:20.196
+Dentro do loop,
+
+00:00:20.229 --> 00:00:23.419
+queríamos que a tartaruga
+virasse à direita, mas quanto?
+
+00:00:23.452 --> 00:00:24.821
+Em cada passo,
+
+00:00:24.854 --> 00:00:28.587
+queremos virar no ângulo
+que foi tirado desta lista.
+
+00:00:28.620 --> 00:00:31.979
+Há uma variável criada pelo loop
+que vai servir para isso.
+
+00:00:32.012 --> 00:00:34.356
+É a variável de ângulo.
+
+00:00:34.389 --> 00:00:38.177
+Então, para a tartaruga builder
+virar à direita nesse ângulo,
+
+00:00:38.210 --> 00:00:41.923
+dizemos
+"builder.right(angle)".
+
+00:00:41.956 --> 00:00:43.902
+Cada vez que o loop rodar,
+
+00:00:43.935 --> 00:00:48.841
+à esta variável será atribuído
+um item desta lista.
+
+00:00:48.874 --> 00:00:53.100
+No primeiro loop,
+-90 será atribuído à variável.
+
+00:00:53.133 --> 00:00:56.132
+No segundo loop, ela terá 0,
+
+00:00:56.165 --> 00:00:58.288
+então ela não vai virar.
+
+00:00:58.321 --> 00:01:03.148
+Então 0 de novo, -90
+e assim por diante.
+
+00:01:03.181 --> 00:01:07.252
+Depois que ela virar,
+queremos que ande 25.
+
+00:01:07.285 --> 00:01:10.434
+Sabemos como fazer isso,
+builder.forward(25).
+
+00:01:10.467 --> 00:01:13.183
+Vamos rodar este código
+e ver o que acontece.
+
+00:01:14.400 --> 00:01:16.439
+Olha só!
+
+00:01:16.472 --> 00:01:19.608
+Parece uma casa
+ou talvez uma seta.
+
+00:01:19.641 --> 00:01:22.889
+Este programa nos mostra
+algo interessante sobre números.
+
+00:01:22.922 --> 00:01:24.660
+Podem significar
+coisas diferentes,
+
+00:01:24.693 --> 00:01:26.387
+dependendo de como são usados.
+
+00:01:26.420 --> 00:01:28.193
+No código que você viu
+neste curso,
+
+00:01:28.226 --> 00:01:32.739
+usamos uma lista de números
+com vários diferentes significados.
+
+00:01:32.772 --> 00:01:35.648
+No primeiro exemplo
+com george e amy,
+
+00:01:35.681 --> 00:01:38.744
+os números da lista
+não foram usados.
+
+00:01:38.777 --> 00:01:40.324
+Apenas usamos a lista
+
+00:01:40.357 --> 00:01:42.817
+para controlar quantos lados
+a tartaruga desenhou.
+
+00:01:42.850 --> 00:01:46.508
+4 lados para um quadrado
+ou 5 para um pentágono.
+
+00:01:46.541 --> 00:01:47.819
+Na página com dizzy,
+
+00:01:47.852 --> 00:01:50.660
+a tartaruga que desenhou
+uma espiral quadrada azul,
+
+00:01:50.693 --> 00:01:52.164
+usamos os números na lista
+
+00:01:52.197 --> 00:01:54.749
+para controlar
+os comprimentos das laterais.
+
+00:01:54.782 --> 00:01:57.119
+Aqui, construindo esta casa,
+
+00:01:57.152 --> 00:02:01.363
+usamos os números para controlar
+os ângulos dos giros da tartaruga.
+
+00:02:01.396 --> 00:02:05.721
+O número 90 poderia ser usado
+como comprimento ou ângulo.
+
+00:02:05.754 --> 00:02:08.504
+Se passamos 90
+para o método forward,
+
+00:02:08.537 --> 00:02:10.552
+a tartaruga trata isso
+como comprimento.
+
+00:02:10.585 --> 00:02:13.236
+Mas se passamos
+para o método right ou left,
+
+00:02:13.269 --> 00:02:15.561
+a tartaruga trata isso
+como ângulo.
+
+00:02:15.594 --> 00:02:19.750
+Você verá isso repetidas vezes
+no seu futuro como programador.
+
+00:02:19.783 --> 00:02:24.012
+O tipo do valor não diz tudo
+sobre o significado dele.
+
+00:02:24.045 --> 00:02:25.835
+Depende de você
+como programador
+
+00:02:25.868 --> 00:02:31.073
+pensar se um valor numérico
+específico deve ser uma distância,
+
+00:02:31.106 --> 00:02:34.746
+um ângulo, uma contagem,
+uma quantidade de dinheiro
+
+00:02:34.779 --> 00:02:35.985
+ou outra coisa.
+
