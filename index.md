@@ -1,1 +1,1 @@
-<font style="font-size:24px;font-weight:bold;color:red;">要变大的文字内容</font>
+<font style="font-size:30px;font-weight:bold;color:rgb(255, 196, 0);">优达学城</font>
