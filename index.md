@@ -13,11 +13,21 @@
 </p>
 
 <font style="font-size:20px;font-weight:bold;color:rgb(255, 0, 0);">课程购买后提供全套资料，包含视频、字幕、习题、代码还有项目以及项目答案跟数据</font>
+<p>
 
+</p>
 
 <font style="font-size:30px;font-weight:bold;color:rgb(255, 0, 0);">中国版本</font>
 
-<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">中文版本无人驾驶阶梯学习</font>
+<p>
+
+</p> 
+
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">无人驾驶阶梯学习</font>
+
+<p>
+
+</p> 
 
 <p>
   详细目录点击：
