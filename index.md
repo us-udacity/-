@@ -348,7 +348,7 @@
 </p>
 
 <p>
-  目录：
+  目录-3.0：
  <a href="数据科学Python编程.html" >数据科学Python编程 / Programming for Data Science with Python</a>
  （中英字幕）
 </p>
@@ -365,6 +365,49 @@
  （英文字幕）
 </p>
 
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">AI人工智能阶梯学习路线🇺🇸</font>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
 
 
 
