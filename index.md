@@ -471,31 +471,33 @@
 
 <p>
   目录：
- <a href="" ></a>
- （中英字幕）
+ <a href="AI for Healthcare.html" >AI智能医疗 / AI for Healthcare</a>
+ （考听力）
 </p>
 
 <p>
   目录：
- <a href="" ></a>
- （中英字幕）
+ <a href="Intel® Edge AI for IoT Developers.html" > 物联网开发 / Intel® Edge AI for IoT Developers</a>
+ （英文字幕）
 </p>
 
 <p>
   目录：
- <a href="" ></a>
- （中英字幕）
+ <a href="RPA Developer with UiPath.html" >UiPath 机器人开发 / RPA Developer with UiPath.html</a>
+ （英文字幕）
 </p>
+
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">前端后端开发阶梯学习路线🇺🇸</font>
 
 <p>
   目录：
- <a href="" ></a>
- （中英字幕）
+ <a href="高级网络开发.html" >高级网络开发 / Senior Web Developer</a>
+ （考听力）
 </p>
 
 <p>
-  目录：
- <a href="" ></a>
+  目录-新版：
+ <a href="前端开发.html" >前端开发 / Front End Developer</a>
  （中英字幕）
 </p>
 
