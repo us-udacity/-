@@ -1,0 +1,517 @@
+<!-- udacimak v1.4.1 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>练习 — 变量等</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>小乌龟（turtle）和你的第一行代码 </h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 欢迎！.html">01. 欢迎！</a>
+    </li>
+    <li class="">
+      <a href="02. 开始学习.html">02. 开始学习</a>
+    </li>
+    <li class="">
+      <a href="03. 使用 turtle 绘画.html">03. 使用 turtle 绘画</a>
+    </li>
+    <li class="">
+      <a href="04. 变量.html">04. 变量</a>
+    </li>
+    <li class="">
+      <a href="05. 练习 — 变量等.html">05. 练习 — 变量等</a>
+    </li>
+    <li class="">
+      <a href="06. 更改颜色.html">06. 更改颜色</a>
+    </li>
+    <li class="">
+      <a href="07. 更改形状.html">07. 更改形状</a>
+    </li>
+    <li class="">
+      <a href="08. 查找错误.html">08. 查找错误</a>
+    </li>
+    <li class="">
+      <a href="09. 模块和方法.html">09. 模块和方法</a>
+    </li>
+    <li class="">
+      <a href="10. 练习 — 绘制方形.html">10. 练习 — 绘制方形</a>
+    </li>
+    <li class="">
+      <a href="11. 注释.html">11. 注释</a>
+    </li>
+    <li class="">
+      <a href="12. 练习 — 顺序很重要.html">12. 练习 — 顺序很重要</a>
+    </li>
+    <li class="">
+      <a href="13. 使用变量.html">13. 使用变量</a>
+    </li>
+    <li class="">
+      <a href="14. 练习 — 使用变量 (12).html">14. 练习 — 使用变量 (1/2)</a>
+    </li>
+    <li class="">
+      <a href="15. 练习 — 使用变量 (22).html">15. 练习 — 使用变量 (2/2)</a>
+    </li>
+    <li class="">
+      <a href="16. 循环.html">16. 循环</a>
+    </li>
+    <li class="">
+      <a href="17. 练习 — 基本循环.html">17. 练习 — 基本循环</a>
+    </li>
+    <li class="">
+      <a href="18. 练习 — 将列表赋值给变量.html">18. 练习 — 将列表赋值给变量</a>
+    </li>
+    <li class="">
+      <a href="19. 列表和循环.html">19. 列表和循环</a>
+    </li>
+    <li class="">
+      <a href="20. 练习 — 循环变量.html">20. 练习 — 循环变量</a>
+    </li>
+    <li class="">
+      <a href="21. 神秘的形状.html">21. 神秘的形状</a>
+    </li>
+    <li class="">
+      <a href="22. 嵌套循环.html">22. 嵌套循环</a>
+    </li>
+    <li class="">
+      <a href="23. 复习 turtle 方法.html">23. 复习 turtle 方法</a>
+    </li>
+    <li class="">
+      <a href="24. 练习 — Turtle 方法.html">24. 练习 — Turtle 方法</a>
+    </li>
+    <li class="">
+      <a href="25. 练习 — 更多循环变量 (12).html">25. 练习 — 更多循环变量 (1/2)</a>
+    </li>
+    <li class="">
+      <a href="26. 练习 — 更多循环变量 (22).html">26. 练习 — 更多循环变量 (2/2)</a>
+    </li>
+    <li class="">
+      <a href="27. 练习 — 嵌套循环.html">27. 练习 — 嵌套循环</a>
+    </li>
+    <li class="">
+      <a href="28. 考虑错误.html">28. 考虑错误</a>
+    </li>
+    <li class="">
+      <a href="29. 实战演练：用代码画图.html">29. 实战演练：用代码画图</a>
+    </li>
+    <li class="">
+      <a href="30. 复习.html">30. 复习</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">05. 练习 — 变量等</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>请将每一项与描述相匹配。</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>要求计算机执行的一组指令。</p></button>
+  <button class="btn btn-primary"><p>知道如何在屏幕上画出线条的<em>数据对象</em>。</p></button>
+  <button class="btn btn-primary"><p>在 Mac 上<em>撤消</em>上一个代码更改操作。</p></button>
+  <button class="btn btn-primary"><p>在 Windows 上<em>撤消</em>上一个代码更改操作。</p></button>
+  <button class="btn btn-primary"><p>将代码中的名称与计算机内存中的某些数据关联起来。</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>描述</p>
+      </th>
+      <th>
+        <p>术语</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>⌘Z</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>程序</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>turtle</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>变量</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Ctrl+Z</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>描述</p>
+        </th>
+        <th>
+          <p>术语</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>⌘Z</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>在 Mac 上<em>撤消</em>上一个代码更改操作。</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>程序</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>要求计算机执行的一组指令。</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>turtle</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>知道如何在屏幕上画出线条的<em>数据对象</em>。</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>变量</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>将代码中的名称与计算机内存中的某些数据关联起来。</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Ctrl+Z</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>在 Windows 上<em>撤消</em>上一个代码更改操作。</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>下面是你之前见过的代码：</p>
+<pre><code class="python language-python">import turtle
+fred = turtle.Turtle()
+fred.color("red")
+fred.forward(100)
+fred.right(135)
+fred.forward(140)
+fred.right(135)
+fred.forward(100)</code></pre>
+<p>代码的哪一部分属于<strong>变量</strong>名称？</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1520344648482" name="719526" id="a1520344648482">
+        <label for="a1520344648482"><p><code>import</code></p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1520344740291" name="719526" id="a1520344740291">
+        <label for="a1520344740291"><p><code>turtle</code></p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1520344744858" name="719526" id="a1520344744858">
+        <label for="a1520344744858"><p><code>"red"</code></p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1520344754898" name="719526" id="a1520344754898">
+        <label for="a1520344754898"><p><code>fred</code></p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    `fred`
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>哪几行代码是<strong>赋值语句</strong>？</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1520345699599" name="719522" id="a1520345699599">
+        <label for="a1520345699599"><p><code>fred = turtle.Turtle()</code></p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1520345743197" name="719522" id="a1520345743197">
+        <label for="a1520345743197"><p><code>import turtle</code></p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1520345743942" name="719522" id="a1520345743942">
+        <label for="a1520345743942"><p><code>fred.color("red")</code></p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    `fred = turtle.Turtle()`
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>你能将每个语句与正确的描述相匹配吗？</p>
+<p><code>fred = turtle.Turtle()</code></p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>提供变量的名称</p></button>
+  <button class="btn btn-primary"><p>将右侧的内容赋值给左侧的名称</p></button>
+  <button class="btn btn-primary"><p>在内存中创建新的 turtle 数据对象</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>描述</p>
+      </th>
+      <th>
+        <p>代码</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p><code>turtle.Turtle()</code></p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p><code>=</code></p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p><code>fred</code></p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>描述</p>
+        </th>
+        <th>
+          <p>代码</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p><code>turtle.Turtle()</code></p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>在内存中创建新的 turtle 数据对象</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><code>=</code></p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>将右侧的内容赋值给左侧的名称</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><code>fred</code></p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>提供变量的名称</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>现在该你来尝试自己输入代码了。要创建名称为 <code>frodo</code> 的新 turtle，你会输入哪行代码？</p>
+<p>如果可以的话，尝试回忆一下，而不查看之前的例子！</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="06. 更改颜色.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.4.1</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('05. 练习 — 变量等')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

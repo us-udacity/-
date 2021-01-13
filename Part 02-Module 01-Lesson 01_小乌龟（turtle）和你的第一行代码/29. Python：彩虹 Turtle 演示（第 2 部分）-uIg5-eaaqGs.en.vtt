@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.469
+So, here's another thing that we could do with this list of rainbow colors.
+
+00:00:04.469 --> 00:00:09.910
+This turtle draws six different colored stars and here's how it does it.
+
+00:00:09.910 --> 00:00:15.419
+From the top, we start out by defining a turtle and setting the turtles width to five,
+
+00:00:15.419 --> 00:00:17.280
+so they'll be nice and vivid.
+
+00:00:17.280 --> 00:00:23.060
+I'm setting the speed to zero which is the fastest just so it will draw very quickly.
+
+00:00:23.719 --> 00:00:27.179
+Then we have the loop for color in rainbow.
+
+00:00:27.179 --> 00:00:30.210
+So, this color variable is going to get each one of
+
+00:00:30.210 --> 00:00:34.075
+these values coming from the list each time we go through this loop,
+
+00:00:34.075 --> 00:00:36.895
+red, then orange, then yellow, and so on.
+
+00:00:36.895 --> 00:00:41.840
+The first thing we do inside the loop is set the color of the turtle and then,
+
+00:00:41.840 --> 00:00:45.370
+we have a nested loop for side in 1, 2, 3,
+
+00:00:45.369 --> 00:00:49.334
+4, 5, while this is just drawing a single star.
+
+00:00:49.335 --> 00:00:51.530
+Then after drawing one star,
+
+00:00:51.530 --> 00:00:55.870
+the rest of the loop moves off to the position for the next star.
+
+00:00:55.869 --> 00:00:59.924
+Turns right by 60, picks the pen up,
+
+00:00:59.924 --> 00:01:05.200
+scoots over by 50 pixels to go from one star over to the place for the next star,
+
+00:01:05.200 --> 00:01:06.885
+and puts the pen down.
+
+00:01:06.885 --> 00:01:09.020
+Then, when we go to the top of the loop,
+
+00:01:09.019 --> 00:01:12.409
+we get a new color and draw a new star.
+

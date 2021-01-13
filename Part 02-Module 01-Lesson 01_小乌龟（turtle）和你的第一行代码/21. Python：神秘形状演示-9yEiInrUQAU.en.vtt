@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.015
+So, the exercise asked us to put this
+
+00:00:03.015 --> 00:00:07.195
+angle's variable with a long list of numbers in it right here.
+
+00:00:07.195 --> 00:00:12.060
+Then we needed to write a loop that would use the values from that list.
+
+00:00:12.060 --> 00:00:15.669
+The loop started for angle in angles,
+
+00:00:15.669 --> 00:00:18.789
+and then we had to write the statements inside the loop.
+
+00:00:18.789 --> 00:00:23.309
+Inside the loop, we wanted the turtle to turn right, but how far?
+
+00:00:23.309 --> 00:00:28.454
+On each step, we wanted to turn by an angle that's been taken from this list.
+
+00:00:28.454 --> 00:00:31.864
+There's a variable created by the loop that will do just that.
+
+00:00:31.864 --> 00:00:34.030
+This is the angle variable.
+
+00:00:34.030 --> 00:00:38.030
+So, to get the turtle named builder to turn right by that angle,
+
+00:00:38.030 --> 00:00:41.469
+we say builder.right (angle).
+
+00:00:41.469 --> 00:00:44.015
+Remember, each time the loop runs,
+
+00:00:44.015 --> 00:00:48.509
+this variable will get assigned an item from this list.
+
+00:00:48.509 --> 00:00:53.119
+The first time through the loop the variable get assigned negative 90,
+
+00:00:53.119 --> 00:00:56.149
+the second time through the loop it'll get zero.
+
+00:00:56.149 --> 00:00:57.850
+So, it won't turn at all,
+
+00:00:57.850 --> 00:01:02.855
+then zero again, then negative 90 and so on.
+
+00:01:02.854 --> 00:01:06.969
+After it turns we want it to go forward 25.
+
+00:01:06.969 --> 00:01:09.939
+We know how to do that builder.forward(25).
+
+00:01:09.939 --> 00:01:13.739
+Let's run this code and see what happens.
+
+00:01:14.299 --> 00:01:16.484
+Hey, look.
+
+00:01:16.484 --> 00:01:19.405
+It looks like a house, or maybe an arrow.
+
+00:01:19.405 --> 00:01:22.905
+So, this program shows us something interesting about numbers.
+
+00:01:22.905 --> 00:01:26.290
+They can mean different things depending on how they're used.
+
+00:01:26.290 --> 00:01:28.390
+In the code that you've seen in this course,
+
+00:01:28.390 --> 00:01:32.625
+we've used a list of numbers to mean several different things.
+
+00:01:32.625 --> 00:01:35.859
+In the very first examples with George and Amy,
+
+00:01:35.859 --> 00:01:38.659
+the actual numbers in the list weren't used at all.
+
+00:01:38.659 --> 00:01:42.754
+We just use the list length to control how many sides the turtle drew;
+
+00:01:42.754 --> 00:01:44.564
+four sides for a square,
+
+00:01:44.564 --> 00:01:46.405
+or five for a pentagon.
+
+00:01:46.405 --> 00:01:47.924
+On the page with Dizzy,
+
+00:01:47.924 --> 00:01:50.619
+the turtle who drew a blue square spiral,
+
+00:01:50.620 --> 00:01:54.605
+we used the numbers in the list to control the lengths of the side.
+
+00:01:54.605 --> 00:01:57.295
+Here, building this house,
+
+00:01:57.295 --> 00:02:01.150
+we're using the numbers to control the angles of the turtle's turns.
+
+00:02:01.150 --> 00:02:05.745
+The number 90 could be used as a length or as an angle.
+
+00:02:05.745 --> 00:02:08.620
+If we pass 90 to the forward method,
+
+00:02:08.620 --> 00:02:10.545
+then the turtle treats it as a length.
+
+00:02:10.544 --> 00:02:15.364
+But if we pass it to the right or left method the turtle treats it as an angle.
+
+00:02:15.365 --> 00:02:19.655
+This is something you will see over and over in your future as a programmer.
+
+00:02:19.655 --> 00:02:24.004
+A values type doesn't tell you everything about the meaning of that value.
+
+00:02:24.004 --> 00:02:27.289
+It's up to you as the programmer to think through whether
+
+00:02:27.289 --> 00:02:31.125
+a particular numerical value is meant to be a distance,
+
+00:02:31.125 --> 00:02:36.159
+an angle, account, an amount of money, or something else.
+

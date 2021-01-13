@@ -1,0 +1,365 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.787
+Como você pode imaginar,
+dá muito trabalho criar um robô,
+
+00:00:03.820 --> 00:00:07.177
+mesmo que seja um robô virtual
+ao invés de um real.
+
+00:00:07.210 --> 00:00:11.135
+Para que fosse possível usar
+robôs tartaruga no Python,
+
+00:00:11.168 --> 00:00:14.762
+alguém teve que escrever
+um código sobre tartarugas,
+
+00:00:14.795 --> 00:00:16.433
+e aqui está ele.
+
+00:00:16.466 --> 00:00:20.498
+Este código torna possível
+a criação de um objeto turtle
+
+00:00:20.531 --> 00:00:24.370
+e a utilização de instruções simples
+para ela desenhar coisas na tela.
+
+00:00:24.403 --> 00:00:27.400
+Bom, é muito código.
+
+00:00:27.433 --> 00:00:31.206
+Isto é algo que você
+verá bastante em programação.
+
+00:00:31.239 --> 00:00:33.984
+Alguém escreve um código útil
+em um arquivo
+
+00:00:34.017 --> 00:00:36.801
+e o compartilha para todos
+poderem usá-lo
+
+00:00:36.834 --> 00:00:39.974
+e não precisarem escrever
+outro código novamente sozinhos.
+
+00:00:40.007 --> 00:00:41.226
+No Python,
+
+00:00:41.259 --> 00:00:44.890
+estas coleções de códigos úteis
+são chamadas de "módulos".
+
+00:00:44.923 --> 00:00:48.718
+Neste caso,
+usamos o módulo turtle.
+
+00:00:48.751 --> 00:00:51.562
+Há outros tipos de módulos úteis
+por aí também,
+
+00:00:51.595 --> 00:00:53.164
+como o módulo math,
+
+00:00:53.197 --> 00:00:56.749
+com um monte de código
+para ajudar a fazer cálculos úteis.
+
+00:00:56.782 --> 00:00:59.934
+Há muitos módulos por aí,
+
+00:00:59.967 --> 00:01:03.012
+e, se colocarmos
+todos esses arquivos de código
+
+00:01:03.045 --> 00:01:04.852
+em todos os programas
+que escrevemos,
+
+00:01:04.885 --> 00:01:07.624
+isso iria deixá-los
+bem lentos.
+
+00:01:07.657 --> 00:01:09.748
+Em vez disso,
+dizemos ao Python
+
+00:01:09.781 --> 00:01:13.338
+quando há um módulo específico
+que queremos usar no nosso programa.
+
+00:01:13.371 --> 00:01:16.153
+Fazemos isso
+importando o módulo.
+
+00:01:16.186 --> 00:01:19.954
+É disso que se trata
+a primeira linha "import turtle".
+
+00:01:19.987 --> 00:01:21.455
+É assim que dizemos ao Python
+
+00:01:21.488 --> 00:01:24.493
+que queremos fazer coisas
+com tartarugas neste programa
+
+00:01:24.526 --> 00:01:27.144
+e que precisaremos
+ter acesso ao código
+
+00:01:27.177 --> 00:01:29.325
+que está no módulo turtle.
+
+00:01:29.358 --> 00:01:31.767
+Quando importamos
+o módulo turtle,
+
+00:01:31.800 --> 00:01:34.615
+é como se todo o código
+fosse parte do nosso programa,
+
+00:01:34.648 --> 00:01:37.575
+e pudéssemos acessá-lo
+para fazer coisas com tartarugas.
+
+00:01:37.608 --> 00:01:38.865
+Por exemplo,
+
+00:01:38.898 --> 00:01:41.097
+vamos dar mais uma olhada
+nesta linha,
+
+00:01:41.130 --> 00:01:44.507
+amy = turtle.Turtle().
+
+00:01:44.540 --> 00:01:45.662
+Lembre-se,
+
+00:01:45.695 --> 00:01:49.374
+turtle.Turtle() é o código que cria
+um novo objeto turtle
+
+00:01:49.407 --> 00:01:51.009
+na memória do computador.
+
+00:01:51.042 --> 00:01:53.391
+Veja que ela começa
+com o nome do módulo
+
+00:01:53.424 --> 00:01:57.533
+que precisamos usar, turtle,
+e depois há um ponto.
+
+00:01:57.566 --> 00:02:01.306
+O ponto diz para o Python
+procurar no módulo turtle
+
+00:02:01.339 --> 00:02:05.246
+um código chamado "Turtle"
+e rodá-lo.
+
+00:02:05.279 --> 00:02:10.471
+Ele diz para rodar o código Turtle
+que está no módulo turtle,
+
+00:02:10.504 --> 00:02:13.992
+e é esse o código que cria
+um novo objeto turtle.
+
+00:02:14.025 --> 00:02:16.524
+Assim que o objeto turtle
+é criado,
+
+00:02:16.557 --> 00:02:18.537
+podemos dar instruções
+à tartaruga,
+
+00:02:18.570 --> 00:02:22.825
+como amy.forward(100)
+ou amy.right(90).
+
+00:02:22.858 --> 00:02:25.672
+Algo importante para se entender
+sobre estas linhas
+
+00:02:25.705 --> 00:02:27.875
+é que elas estão
+se referindo a um código
+
+00:02:27.908 --> 00:02:30.380
+escondido em outro lugar.
+
+00:02:30.413 --> 00:02:31.647
+Especificamente,
+
+00:02:31.680 --> 00:02:36.058
+estas linhas se referem ao código
+que está dentro do módulo turtle.
+
+00:02:36.091 --> 00:02:38.157
+Nesse módulo,
+há um bloco de código
+
+00:02:38.190 --> 00:02:41.289
+com instruções para a tartaruga
+andar para frente,
+
+00:02:41.322 --> 00:02:42.627
+e há outro bloco de código
+
+00:02:42.660 --> 00:02:45.431
+com instruções
+para ela virar à direita.
+
+00:02:45.464 --> 00:02:47.557
+Portanto,
+temos estes blocos de código
+
+00:02:47.590 --> 00:02:51.230
+com instruções para que a tartaruga
+faça coisas diferentes,
+
+00:02:51.263 --> 00:02:54.514
+mas estes blocos de código
+não fazem nada sozinhos,
+
+00:02:54.547 --> 00:02:57.291
+eles só ficam esperando
+para serem usados.
+
+00:02:57.324 --> 00:03:01.607
+Quando rodamos uma linha de código,
+como amy.forward(100),
+
+00:03:01.640 --> 00:03:05.995
+dizemos para o Python encontrar
+o bloco de código chamado "forward"
+
+00:03:06.028 --> 00:03:07.994
+e rodar esse código.
+
+00:03:08.027 --> 00:03:12.548
+No Python, estes blocos de código
+são chamados de "métodos",
+
+00:03:12.581 --> 00:03:14.064
+e chamamos as linhas,
+
+00:03:14.097 --> 00:03:18.474
+como amy.forward(100)
+e amy.right(90),
+
+00:03:18.507 --> 00:03:20.493
+de "chamadas de método".
+
+00:03:20.526 --> 00:03:21.978
+Quando rodamos estas linhas,
+
+00:03:22.011 --> 00:03:24.197
+chamamos os métodos
+forward e right
+
+00:03:24.230 --> 00:03:26.447
+que estão no módulo turtle.
+
+00:03:26.480 --> 00:03:28.354
+amy.color("yellow")
+
+00:03:28.387 --> 00:03:30.635
+é mais um exemplo
+de uma chamada de método
+
+00:03:30.668 --> 00:03:33.830
+e claro que está chamando
+o bloco de código color
+
+00:03:33.863 --> 00:03:36.240
+que está dentro
+do módulo turtle.
+
+00:03:36.273 --> 00:03:39.653
+Veja que estas chamadas de método
+sempre têm o nome do método
+
+00:03:39.686 --> 00:03:41.251
+seguido de parênteses.
+
+00:03:41.284 --> 00:03:43.990
+E podemos colocar um input
+dentro dos parênteses,
+
+00:03:44.023 --> 00:03:46.742
+que o Python vai usar
+quando rodar o método.
+
+00:03:46.775 --> 00:03:48.804
+Então, quando chamarmos
+o método forward,
+
+00:03:48.837 --> 00:03:51.178
+ele precisará saber
+o quanto queremos
+
+00:03:51.211 --> 00:03:52.854
+que a tartaruga
+ande para frente.
+
+00:03:52.887 --> 00:03:55.048
+Aqui estamos usando
+o número 100,
+
+00:03:55.081 --> 00:03:57.825
+que diz quantos pixels
+ela vai mover para frente.
+
+00:03:57.858 --> 00:03:59.369
+Quando chamamos
+o método right,
+
+00:03:59.402 --> 00:04:00.663
+ele precisa de um input,
+
+00:04:00.696 --> 00:04:03.614
+para que ele saiba a quantos graus
+a tartaruga deve virar.
+
+00:04:03.647 --> 00:04:05.280
+E quando chamamos
+o método color,
+
+00:04:05.313 --> 00:04:07.912
+ele precisa de um input,
+como "yellow" ou "blue".
+
+00:04:07.945 --> 00:04:10.735
+Se os métodos parecerem
+um pouco misteriosos agora,
+
+00:04:10.768 --> 00:04:11.954
+não se preocupe,
+
+00:04:11.987 --> 00:04:14.357
+vamos voltar a falar
+deste conceito mais tarde.
+
+00:04:14.390 --> 00:04:17.805
+Por enquanto, basta entender
+que temos um bloco de código
+
+00:04:17.838 --> 00:04:21.599
+escondido em outro lugar,
+que este código tem um nome
+
+00:04:21.632 --> 00:04:23.441
+e que podemos rodá-lo
+usando linhas,
+
+00:04:23.474 --> 00:04:28.016
+como amy.forward(100)
+ou amy.right(90).
+

@@ -1,0 +1,229 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.799
+Here's the code we were just looking at.
+
+00:00:02.799 --> 00:00:04.500
+If you played with this,
+
+00:00:04.500 --> 00:00:08.730
+you should have found that when you change the turtle's name in only one line of code,
+
+00:00:08.730 --> 00:00:10.384
+the program won't work.
+
+00:00:10.384 --> 00:00:13.285
+When you try to run it, you just get an error message.
+
+00:00:13.285 --> 00:00:16.085
+But if you change the name in all of these lines,
+
+00:00:16.085 --> 00:00:17.435
+it works just fine.
+
+00:00:17.434 --> 00:00:20.549
+We can better understand why that's happening if we look more
+
+00:00:20.550 --> 00:00:25.410
+closely at this line: george equals turtle.Turtle.
+
+00:00:25.410 --> 00:00:28.695
+On a general level, we can think of this line as
+
+00:00:28.695 --> 00:00:32.159
+creating a turtle and giving that turtle a name.
+
+00:00:32.159 --> 00:00:35.804
+This part on the right, turtle.Turtle parentheses,
+
+00:00:35.804 --> 00:00:39.390
+is the part that creates a new turtle and this part on the left,
+
+00:00:39.390 --> 00:00:42.310
+George, says what the turtle's name will be.
+
+00:00:42.310 --> 00:00:46.300
+But what do we mean when we say this code is creating a turtle?
+
+00:00:46.299 --> 00:00:50.869
+Well, Python has a bunch of information about how a turtle works,
+
+00:00:50.869 --> 00:00:53.000
+how to get this virtual robot to move
+
+00:00:53.000 --> 00:00:55.795
+around in different ways and draw things on the screen.
+
+00:00:55.795 --> 00:00:59.240
+In order to be able to use a turtle in our program,
+
+00:00:59.240 --> 00:01:02.770
+we first need to make a copy of some of this data in the computer's memory.
+
+00:01:02.770 --> 00:01:06.125
+So, when we run this code, turtle.Turtle,
+
+00:01:06.125 --> 00:01:08.269
+Python finds some free space in
+
+00:01:08.269 --> 00:01:12.655
+the computer's memory and it puts this turtle data into that space.
+
+00:01:12.655 --> 00:01:15.320
+Basically, we're getting things ready so that we can use
+
+00:01:15.319 --> 00:01:18.299
+this data whenever we need to have the turtle draw something.
+
+00:01:18.299 --> 00:01:21.230
+So, we now have the data we need for
+
+00:01:21.230 --> 00:01:25.425
+the virtual turtle robot in this specific location in the computer's memory.
+
+00:01:25.424 --> 00:01:27.950
+By the way, you'll hear us refer to this as
+
+00:01:27.950 --> 00:01:32.000
+a turtle data object or simply a turtle object.
+
+00:01:32.000 --> 00:01:35.454
+If we want to be able to use this turtle object,
+
+00:01:35.454 --> 00:01:37.484
+we can't just put the data in memory,
+
+00:01:37.484 --> 00:01:40.650
+we also need to have some way of talking about that turtle,
+
+00:01:40.650 --> 00:01:43.000
+giving it instructions and so on.
+
+00:01:43.000 --> 00:01:45.950
+We need some way of referring to that turtle.
+
+00:01:45.950 --> 00:01:48.469
+That's why we give it a name, like George.
+
+00:01:48.469 --> 00:01:53.329
+Once the turtle data object has been placed in memory and given a name,
+
+00:01:53.329 --> 00:01:57.000
+we can use that name whenever we want to do something with the turtle.
+
+00:01:57.000 --> 00:02:01.569
+For example, if we want the turtle named George to go forward or turn,
+
+00:02:01.569 --> 00:02:08.144
+we can use lines like george.forward100 and george.right90.
+
+00:02:08.145 --> 00:02:12.770
+If we first say that we are referring to this data object as George but then
+
+00:02:12.770 --> 00:02:17.420
+later try to refer to it with a different name like Amy, it's not going to work.
+
+00:02:17.419 --> 00:02:22.174
+Our code hasn't connected Amy with any particular data in memory.
+
+00:02:22.175 --> 00:02:24.770
+We can use pretty much whatever name we want,
+
+00:02:24.770 --> 00:02:30.530
+but we have to be consistent or Python won't know what data we're referring to.
+
+00:02:30.530 --> 00:02:35.313
+Now, this concept isn't just something that applies to naming turtles.
+
+00:02:35.313 --> 00:02:38.359
+The general idea here is that we put some data into
+
+00:02:38.360 --> 00:02:40.525
+the computer's memory and then we connect
+
+00:02:40.525 --> 00:02:43.490
+that data to a name that we can use in our code.
+
+00:02:43.490 --> 00:02:48.399
+When we have a connection between a name and the code and some data in memory,
+
+00:02:48.399 --> 00:02:50.500
+there's a specific term we use for this,
+
+00:02:50.500 --> 00:02:52.110
+it's called a variable.
+
+00:02:52.110 --> 00:02:56.580
+The reason we call it a variable is because this connection is able to vary,
+
+00:02:56.580 --> 00:02:59.800
+that is, we can change what data of variable refers to.
+
+00:02:59.800 --> 00:03:04.150
+We can say this variable refers to some data in one place in memory,
+
+00:03:04.150 --> 00:03:06.849
+but then later in our program we could change it so the variable
+
+00:03:06.849 --> 00:03:10.125
+refers to some other data in a different location in memory.
+
+00:03:10.125 --> 00:03:14.219
+A variable is kind of a box with a label on it.
+
+00:03:14.219 --> 00:03:17.889
+We can use the label to refer to whatever is in that box,
+
+00:03:17.889 --> 00:03:22.099
+but we could later take the label off and stick it onto a different box instead.
+
+00:03:22.099 --> 00:03:27.079
+To tell the computer that a particular data object should have a particular name tag,
+
+00:03:27.080 --> 00:03:31.070
+we use lines like george equals turtle.Turtle.
+
+00:03:31.069 --> 00:03:35.824
+Notice how this line splits into two parts around the equal sign.
+
+00:03:35.824 --> 00:03:38.609
+On the right is the code turtle.Turtle,
+
+00:03:38.610 --> 00:03:40.380
+which creates a new turtle.
+
+00:03:40.379 --> 00:03:45.125
+On the left is George which is the name that we are giving to the variable.
+
+00:03:45.125 --> 00:03:48.655
+In the middle is the equal sign which tells Python,
+
+00:03:48.655 --> 00:03:52.900
+take this thing on the right and connect it with the name on the left.
+
+00:03:52.900 --> 00:03:56.789
+By the way, when we connect a name with some data in memory,
+
+00:03:56.789 --> 00:03:59.609
+we refer to this process as assignment.
+
+00:03:59.610 --> 00:04:03.960
+We are assigning the data from the code on the right and the name on the left.
+
+00:04:03.960 --> 00:04:09.314
+The equal sign is called an assignment operator and we can refer to a line of code,
+
+00:04:09.314 --> 00:04:11.789
+like george equals turtle.Turtle,
+
+00:04:11.789 --> 00:04:13.859
+as an assignment statement.
+
+00:04:13.860 --> 00:04:18.250
+Notice that the stuff on the right of an assignment statement always happens first.
+
+00:04:18.250 --> 00:04:24.279
+First, we create a new turtle and then we assign that turtle to the name George.
+

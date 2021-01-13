@@ -1,0 +1,146 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.132 --> 00:00:02.433
+Quando o Python tem um problema
+com seu código,
+
+00:00:02.466 --> 00:00:05.337
+ele diz em qual linha
+ele estava trabalhando
+
+00:00:05.370 --> 00:00:07.241
+quando o problema aconteceu.
+
+00:00:07.274 --> 00:00:08.699
+No caso deste código,
+
+00:00:08.732 --> 00:00:11.342
+o primeiro problema
+aparece na linha 2.
+
+00:00:11.375 --> 00:00:15.167
+Por si só, esta linha de código
+parece boa.
+
+00:00:15.200 --> 00:00:17.928
+Vimos linhas de código
+exatamente assim antes,
+
+00:00:17.961 --> 00:00:19.121
+e elas funcionavam.
+
+00:00:19.154 --> 00:00:21.832
+Podíamos configurar as tartarugas
+para serem amarelas,
+
+00:00:21.865 --> 00:00:23.727
+verdes
+ou de qualquer outra cor.
+
+00:00:23.760 --> 00:00:25.012
+O que está havendo aqui?
+
+00:00:25.045 --> 00:00:27.676
+Por que esta linha
+é um problema agora?
+
+00:00:27.709 --> 00:00:28.955
+Bom, normalmente,
+
+00:00:28.988 --> 00:00:31.618
+o Python roda o código
+de cima para baixo,
+
+00:00:31.651 --> 00:00:35.290
+da mesma forma que você seguiria
+uma série de instruções.
+
+00:00:35.323 --> 00:00:37.352
+O computador roda
+a linha 1 primeiro,
+
+00:00:37.385 --> 00:00:39.768
+depois a linha 2
+e assim por diante.
+
+00:00:39.801 --> 00:00:43.868
+Mas isso significa que as instruções
+precisam estar na ordem correta.
+
+00:00:43.901 --> 00:00:45.356
+Se estiverem na ordem errada,
+
+00:00:45.389 --> 00:00:47.407
+o computador provavelmente
+vai se perder,
+
+00:00:47.440 --> 00:00:49.431
+e é isso que está
+acontecendo aqui.
+
+00:00:49.464 --> 00:00:53.146
+Dê uma outra olhada nestas primeiras
+três linhas deste programa.
+
+00:00:53.179 --> 00:00:56.325
+O programa tenta fazer
+com que a tartaruga melinda
+
+00:00:56.358 --> 00:00:58.539
+faça algo na linha 2.
+
+00:00:58.572 --> 00:01:03.644
+Mas só criamos
+a tartaruga melinda na linha 3.
+
+00:01:03.677 --> 00:01:06.480
+O programa não poderá dizer
+o que a melinda tem que fazer
+
+00:01:06.513 --> 00:01:08.953
+se ainda não houver
+uma tartaruga com esse nome.
+
+00:01:08.986 --> 00:01:11.186
+A mensagem de erro NameError
+
+00:01:11.219 --> 00:01:14.914
+sempre dirá que o código
+está se referindo a um nome
+
+00:01:14.947 --> 00:01:18.074
+que ainda não se refere
+a nenhum objeto.
+
+00:01:18.107 --> 00:01:20.356
+O resto da mensagem de erro
+diz exatamente
+
+00:01:20.389 --> 00:01:22.391
+que nome está tendo o problema
+
+00:01:22.424 --> 00:01:25.254
+e em que linha do código
+isso ocorreu.
+
+00:01:25.287 --> 00:01:27.865
+Para consertar este erro,
+
+00:01:27.898 --> 00:01:30.698
+só precisamos colocar
+estas duas linhas na ordem correta.
+
+00:01:30.731 --> 00:01:33.650
+Assim que fizermos isso,
+o código poderá começar a rodar,
+
+00:01:33.683 --> 00:01:36.665
+pelo menos até
+o próximo erro acontecer.
+
+00:01:36.698 --> 00:01:39.929
+Tente para ver se você consegue
+consertá-lo também.
+

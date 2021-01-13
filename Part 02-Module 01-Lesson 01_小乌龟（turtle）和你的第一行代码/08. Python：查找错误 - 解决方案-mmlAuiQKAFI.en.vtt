@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.524
+When Python has a problem with your code,
+
+00:00:02.524 --> 00:00:06.964
+it will tell you which line number it was working on when the problem happened.
+
+00:00:06.964 --> 00:00:08.564
+In the case of this code,
+
+00:00:08.564 --> 00:00:11.199
+the first problem shows up on line two.
+
+00:00:11.199 --> 00:00:14.829
+Now by itself, this line of code looks just fine.
+
+00:00:14.830 --> 00:00:18.980
+We saw lines of code just like this one before and they worked.
+
+00:00:18.980 --> 00:00:21.660
+We were able to set turtles colors to be yellow,
+
+00:00:21.660 --> 00:00:23.625
+or green, or whatever we like.
+
+00:00:23.625 --> 00:00:27.420
+What's going on here? Why is this lineup problem now?
+
+00:00:27.420 --> 00:00:31.100
+Well, normally, Python runs code from top to
+
+00:00:31.100 --> 00:00:35.285
+bottom in the same way that you would carry out a series of instructions.
+
+00:00:35.284 --> 00:00:37.369
+The computer runs line one first,
+
+00:00:37.369 --> 00:00:39.579
+then line two and so on.
+
+00:00:39.579 --> 00:00:43.835
+But, this means that the instructions have to be in the right order.
+
+00:00:43.835 --> 00:00:45.410
+If they're in the wrong order,
+
+00:00:45.409 --> 00:00:47.449
+the computer will probably get lost,
+
+00:00:47.450 --> 00:00:49.380
+and that's what's happening here.
+
+00:00:49.380 --> 00:00:53.115
+Take another look at these first three lines of this program.
+
+00:00:53.115 --> 00:00:58.335
+The program tries to get a turtle named Melinda to do something on line two.
+
+00:00:58.335 --> 00:01:03.505
+But, we don't actually say to create a turtle named Melinda until line three.
+
+00:01:03.505 --> 00:01:08.665
+The program can't tell Melinda what to do if there isn't a turtle with that name yet.
+
+00:01:08.665 --> 00:01:11.335
+The error message, name error,
+
+00:01:11.334 --> 00:01:14.269
+will always mean that the code is referring to
+
+00:01:14.269 --> 00:01:17.905
+a name that doesn't actually refer to any object yet.
+
+00:01:17.905 --> 00:01:21.320
+The rest of the error message tells you exactly what name is
+
+00:01:21.319 --> 00:01:25.154
+having the problem and what line in the code it occurs on.
+
+00:01:25.155 --> 00:01:30.875
+So all we need to do to fix this error is to put these two lines into the correct order.
+
+00:01:30.875 --> 00:01:33.644
+Once we do that, the code can start running,
+
+00:01:33.644 --> 00:01:36.754
+at least until the next error happens.
+
+00:01:36.754 --> 00:01:40.079
+Try it then see if you can fix that one too.
+

@@ -1,0 +1,140 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.099 --> 00:00:04.203
+Anteriormente, falamos sobre a ideia
+de uma instrução de atribuição,
+
+00:00:04.236 --> 00:00:07.975
+por exemplo,
+amy = turtle.Turtle().
+
+00:00:08.008 --> 00:00:11.318
+Ela pega o que estiver
+do lado direito do sinal de igual
+
+00:00:11.351 --> 00:00:14.786
+e o atribui à variável
+nomeada à esquerda.
+
+00:00:14.819 --> 00:00:20.043
+Neste caso, o código à direita
+cria um novo objeto turtle,
+
+00:00:20.076 --> 00:00:24.393
+e este objeto turtle é atribuído
+à variável chamada "amy".
+
+00:00:24.426 --> 00:00:27.608
+Mas não precisamos nos limitar
+a objetos turtle,
+
+00:00:27.641 --> 00:00:30.780
+podemos atribuir outras coisas
+à variáveis também.
+
+00:00:30.813 --> 00:00:34.577
+Por exemplo, esta instrução atribui
+uma string "yellow"
+
+00:00:34.610 --> 00:00:37.033
+a uma variável chamada
+"pretty_color".
+
+00:00:37.066 --> 00:00:40.096
+Vamos ver
+como podemos usar isso.
+
+00:00:40.129 --> 00:00:41.784
+Aqui está o nosso código
+
+00:00:41.817 --> 00:00:44.658
+que faz a tartaruga desenhar
+um quadrado amarelo.
+
+00:00:45.420 --> 00:00:47.156
+Vamos modificá-lo um pouco
+
+00:00:47.189 --> 00:00:49.899
+adicionando esta instrução
+de atribuição aqui.
+
+00:00:49.932 --> 00:00:54.242
+Já que atribuímos a string "yellow"
+a esta variável pretty_color,
+
+00:00:54.275 --> 00:00:56.962
+podemos usar essa variável
+em qualquer lugar do código
+
+00:00:56.995 --> 00:00:58.524
+onde precisarmos dessa string.
+
+00:00:58.557 --> 00:01:01.937
+Então, em vez de colocar "yellow"
+aqui nesta linha,
+
+00:01:01.970 --> 00:01:04.481
+podemos colocar
+pretty_color no lugar.
+
+00:01:04.514 --> 00:01:07.316
+Isso terá exatamente
+o mesmo efeito.
+
+00:01:07.349 --> 00:01:10.213
+A tartaruga vai desenhar
+um quadrado amarelo.
+
+00:01:10.246 --> 00:01:12.573
+É legal fazer isso desse jeito
+
+00:01:12.606 --> 00:01:15.172
+porque podemos usar
+essa variável em vários lugares.
+
+00:01:15.205 --> 00:01:19.382
+Se tivéssemos outras tartarugas
+desenhando outras formas,
+
+00:01:19.415 --> 00:01:22.271
+poderíamos usar
+a mesma variável pretty_color
+
+00:01:22.304 --> 00:01:25.033
+para configurar a cor que elas
+estão desenhando também.
+
+00:01:27.318 --> 00:01:31.446
+E se decidirmos que amarelo
+não é uma cor tão bonita assim,
+
+00:01:31.479 --> 00:01:34.372
+podemos mudar a string
+que está atribuída à variável.
+
+00:01:34.405 --> 00:01:37.828
+Por exemplo, digamos que, em vez
+de atribuir a string "yellow",
+
+00:01:37.861 --> 00:01:40.709
+vamos atribuir
+a string "lightblue".
+
+00:01:40.742 --> 00:01:46.028
+Então agora este nome pretty_color
+vai se referir à string "lightblue".
+
+00:01:46.061 --> 00:01:51.434
+O bom é que só precisamos modificar
+esta variável neste lugar aqui,
+
+00:01:51.467 --> 00:01:54.748
+mas esta string será usada
+em todos estes lugares diferentes.
+
+00:01:54.781 --> 00:01:58.406
+Assim, todas estas tartarugas
+vão desenhar em azul-claro.
+

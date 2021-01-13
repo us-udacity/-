@@ -1,0 +1,135 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.264 --> 00:00:03.279
+Aqui está o código
+que desenha um quadrado.
+
+00:00:03.312 --> 00:00:05.293
+Veja que estamos usando
+as mesmas linhas
+
+00:00:05.326 --> 00:00:07.295
+repetidas vezes aqui,
+
+00:00:07.328 --> 00:00:09.986
+e isso é apenas
+para um quadrado de 4 lados.
+
+00:00:10.019 --> 00:00:14.154
+E se quiséssemos fazer
+uma forma com, digamos, 100 lados?
+
+00:00:14.187 --> 00:00:17.849
+Seria muito trabalhoso
+e isso não é necessário.
+
+00:00:17.882 --> 00:00:19.597
+Usando um loop for,
+
+00:00:19.630 --> 00:00:22.457
+podemos desenhar uma forma
+com quantos lados quisermos,
+
+00:00:22.490 --> 00:00:25.443
+e isso só terá
+três linhas de código.
+
+00:00:25.476 --> 00:00:27.091
+Para criar um loop for,
+
+00:00:27.124 --> 00:00:28.900
+começamos com uma linha
+como esta,
+
+00:00:28.933 --> 00:00:33.697
+for side in [1, 2, 3, 4]:,
+
+00:00:33.730 --> 00:00:35.977
+com chaves em volta
+destes números
+
+00:00:36.010 --> 00:00:38.285
+e dois pontos no final da linha.
+
+00:00:38.318 --> 00:00:39.934
+E depois seguimos com o código
+
+00:00:39.967 --> 00:00:42.643
+que queremos que faça
+o loop ou se repita.
+
+00:00:42.676 --> 00:00:44.606
+Veja como endentamos
+estas linhas,
+
+00:00:44.639 --> 00:00:47.613
+movendo-as 4 espaços
+para a direita.
+
+00:00:47.646 --> 00:00:49.512
+É assim que mostramos
+que estas linhas
+
+00:00:49.545 --> 00:00:51.203
+estão dentro do loop.
+
+00:00:51.236 --> 00:00:52.351
+Em outras palavras,
+
+00:00:52.384 --> 00:00:56.158
+são estas linhas endentadas
+que serão rodadas repetidamente.
+
+00:00:56.191 --> 00:00:59.084
+Este código rodará
+diversas vezes,
+
+00:00:59.117 --> 00:01:00.935
+mas quantas vezes?
+
+00:01:00.968 --> 00:01:03.754
+Bom, veja a estrutura
+de for "uma coisa"
+
+00:01:03.787 --> 00:01:06.864
+in "outra coisa" nesta linha.
+
+00:01:06.897 --> 00:01:08.005
+Essencialmente,
+
+00:01:08.038 --> 00:01:11.504
+ela diz para rodar
+o código neste loop uma vez
+
+00:01:11.537 --> 00:01:13.833
+para cada coisa nesta lista.
+
+00:01:13.866 --> 00:01:16.177
+Como há 4 itens na lista,
+
+00:01:16.210 --> 00:01:18.963
+o loop roda 4 vezes.
+
+00:01:18.996 --> 00:01:20.747
+Para este loop específico,
+
+00:01:20.780 --> 00:01:23.319
+não importa
+quais são os itens da lista.
+
+00:01:23.352 --> 00:01:27.052
+Podemos ordenar estes números
+ou até substituí-los por strings.
+
+00:01:27.085 --> 00:01:30.586
+Novamente, o loop roda uma vez
+para cada item da lista.
+
+00:01:30.619 --> 00:01:32.962
+Como há 4 itens na lista,
+
+00:01:32.995 --> 00:01:35.224
+o loop vai rodar 4 vezes.
+

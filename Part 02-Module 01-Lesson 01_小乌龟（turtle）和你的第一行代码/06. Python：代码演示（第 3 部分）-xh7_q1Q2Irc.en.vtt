@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.844
+Next, we have the line for side in [1, 2,
+
+00:00:04.844 --> 00:00:08.519
+3, 4]: Notice also that this line ends in
+
+00:00:08.519 --> 00:00:12.494
+a colon and there are two lines indented underneath it.
+
+00:00:12.494 --> 00:00:17.289
+So this first line seems to be saying something about the four sides of a square,
+
+00:00:17.289 --> 00:00:21.460
+and both of those two indented lines start with the turtle's name, Amy.
+
+00:00:21.460 --> 00:00:27.019
+One of them says, amy.forward(100) and the other says amy.right(90).
+
+00:00:27.019 --> 00:00:32.189
+Now, go back and run this program again but this time watch the turtle closely
+
+00:00:32.189 --> 00:00:34.649
+with these lines of code in mind and try
+
+00:00:34.649 --> 00:00:37.439
+to see what these lines are making the turtle do.
+

@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.165 --> 00:00:03.518
+Quando escrevo um código,
+às vezes, cometo erros.
+
+00:00:03.551 --> 00:00:05.371
+Isso acontece com todo mundo,
+
+00:00:05.404 --> 00:00:07.490
+até com os programadores
+mais experientes.
+
+00:00:07.523 --> 00:00:10.123
+Felizmente, quase todas
+as linguagens de programação
+
+00:00:10.156 --> 00:00:12.803
+têm mecanismos
+para detectar nossos erros
+
+00:00:12.836 --> 00:00:14.930
+e fazer com que tomemos
+conhecimento deles
+
+00:00:14.963 --> 00:00:16.846
+com mensagens de erro.
+
+00:00:16.879 --> 00:00:20.892
+Mensagens de erro não só trazem
+nossa atenção ao problema
+
+00:00:20.925 --> 00:00:23.336
+mas também nos dão informações
+
+00:00:23.369 --> 00:00:26.468
+que nos ajudam a diagnosticar
+e solucionar o problema.
+
+00:00:26.501 --> 00:00:29.243
+Por exemplo, o Python mostra
+uma mensagem de erro
+
+00:00:29.276 --> 00:00:32.509
+dizendo em que linha
+o erro ocorreu
+
+00:00:32.542 --> 00:00:35.635
+e que tipo de erro ocorreu.
+
+00:00:35.668 --> 00:00:39.901
+Você verá uma mensagem,
+como NameError ou SyntaxError,
+
+00:00:39.934 --> 00:00:42.501
+e ela sempre virá
+com o número da linha.
+
+00:00:42.534 --> 00:00:45.607
+Os números nem sempre
+estão totalmente corretos.
+
+00:00:45.640 --> 00:00:48.243
+Às vezes eles estão errados
+por uma ou duas linhas,
+
+00:00:48.276 --> 00:00:50.351
+mas costumam ser um bom guia
+
+00:00:50.384 --> 00:00:53.717
+para começar a procurar
+o erro no seu código.
+
+00:00:53.750 --> 00:00:54.840
+A seguir,
+
+00:00:54.873 --> 00:00:58.064
+temos um pedaço de código
+com vários erros.
+
+00:00:58.097 --> 00:01:01.135
+Ao trabalhar com este código,
+você vai consertar os erros,
+
+00:01:01.168 --> 00:01:04.107
+e os números de linha
+guiarão você
+
+00:01:04.140 --> 00:01:06.333
+para onde você precisa
+voltar sua atenção.
+

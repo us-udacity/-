@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.940
+So, here's our code again with the turtle's named
+
+00:00:02.940 --> 00:00:05.904
+consistently changed from George to Amy.
+
+00:00:05.905 --> 00:00:09.630
+Now line three says something about our turtle and the color
+
+00:00:09.630 --> 00:00:13.385
+yellow which makes sense when we look at what the program does,
+
+00:00:13.384 --> 00:00:14.810
+it draws a yellow square.
+
+00:00:14.810 --> 00:00:17.850
+Now it's interesting that yellow is in quotes,
+
+00:00:17.850 --> 00:00:20.655
+nothing else in this program seems to be in quotes.
+
+00:00:20.655 --> 00:00:25.015
+This line also has parentheses in it just like most of the other lines.
+
+00:00:25.015 --> 00:00:27.300
+Parentheses must be really important,
+
+00:00:27.300 --> 00:00:29.160
+there all over the place.
+
+00:00:29.160 --> 00:00:33.534
+Now, let's play with the code to see if we can figure out what more of these things do,.
+
+00:00:33.534 --> 00:00:36.184
+That word Yellow really stands out.
+
+00:00:36.185 --> 00:00:38.000
+Let's try changing it.
+

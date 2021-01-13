@@ -1,0 +1,495 @@
+<!-- udacimak v1.4.1 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>更改颜色</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>小乌龟（turtle）和你的第一行代码 </h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. 欢迎！.html">01. 欢迎！</a>
+    </li>
+    <li class="">
+      <a href="02. 开始学习.html">02. 开始学习</a>
+    </li>
+    <li class="">
+      <a href="03. 使用 turtle 绘画.html">03. 使用 turtle 绘画</a>
+    </li>
+    <li class="">
+      <a href="04. 变量.html">04. 变量</a>
+    </li>
+    <li class="">
+      <a href="05. 练习 — 变量等.html">05. 练习 — 变量等</a>
+    </li>
+    <li class="">
+      <a href="06. 更改颜色.html">06. 更改颜色</a>
+    </li>
+    <li class="">
+      <a href="07. 更改形状.html">07. 更改形状</a>
+    </li>
+    <li class="">
+      <a href="08. 查找错误.html">08. 查找错误</a>
+    </li>
+    <li class="">
+      <a href="09. 模块和方法.html">09. 模块和方法</a>
+    </li>
+    <li class="">
+      <a href="10. 练习 — 绘制方形.html">10. 练习 — 绘制方形</a>
+    </li>
+    <li class="">
+      <a href="11. 注释.html">11. 注释</a>
+    </li>
+    <li class="">
+      <a href="12. 练习 — 顺序很重要.html">12. 练习 — 顺序很重要</a>
+    </li>
+    <li class="">
+      <a href="13. 使用变量.html">13. 使用变量</a>
+    </li>
+    <li class="">
+      <a href="14. 练习 — 使用变量 (12).html">14. 练习 — 使用变量 (1/2)</a>
+    </li>
+    <li class="">
+      <a href="15. 练习 — 使用变量 (22).html">15. 练习 — 使用变量 (2/2)</a>
+    </li>
+    <li class="">
+      <a href="16. 循环.html">16. 循环</a>
+    </li>
+    <li class="">
+      <a href="17. 练习 — 基本循环.html">17. 练习 — 基本循环</a>
+    </li>
+    <li class="">
+      <a href="18. 练习 — 将列表赋值给变量.html">18. 练习 — 将列表赋值给变量</a>
+    </li>
+    <li class="">
+      <a href="19. 列表和循环.html">19. 列表和循环</a>
+    </li>
+    <li class="">
+      <a href="20. 练习 — 循环变量.html">20. 练习 — 循环变量</a>
+    </li>
+    <li class="">
+      <a href="21. 神秘的形状.html">21. 神秘的形状</a>
+    </li>
+    <li class="">
+      <a href="22. 嵌套循环.html">22. 嵌套循环</a>
+    </li>
+    <li class="">
+      <a href="23. 复习 turtle 方法.html">23. 复习 turtle 方法</a>
+    </li>
+    <li class="">
+      <a href="24. 练习 — Turtle 方法.html">24. 练习 — Turtle 方法</a>
+    </li>
+    <li class="">
+      <a href="25. 练习 — 更多循环变量 (12).html">25. 练习 — 更多循环变量 (1/2)</a>
+    </li>
+    <li class="">
+      <a href="26. 练习 — 更多循环变量 (22).html">26. 练习 — 更多循环变量 (2/2)</a>
+    </li>
+    <li class="">
+      <a href="27. 练习 — 嵌套循环.html">27. 练习 — 嵌套循环</a>
+    </li>
+    <li class="">
+      <a href="28. 考虑错误.html">28. 考虑错误</a>
+    </li>
+    <li class="">
+      <a href="29. 实战演练：用代码画图.html">29. 实战演练：用代码画图</a>
+    </li>
+    <li class="">
+      <a href="30. 复习.html">30. 复习</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">06. 更改颜色</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Python：演示代码（第 2 部分）</p></h3>
+  <video controls>
+  <source src="06. Python：演示代码（第 2 部分）-qjNbBZAPOlQ.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="ar" src="06. Python：演示代码（第 2 部分）-qjNbBZAPOlQ.ar.vtt" label="ar">
+  <track default="true" kind="subtitles" srclang="en" src="06. Python：演示代码（第 2 部分）-qjNbBZAPOlQ.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="06. Python：演示代码（第 2 部分）-qjNbBZAPOlQ.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="06. Python：演示代码（第 2 部分）-qjNbBZAPOlQ.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>下面是你之前见过的相同代码，但是 <code>george</code> 替换成了 <code>amy</code>。</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Workspace</h3>
+
+  <p class="lead">This section contains either a workspace (it can be a <a href="http://jupyter.org/" target="_blank">Jupyter
+      Notebook</a> workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto <a href="https://github.com/udacity"
+      target="_blank">https://github.com/udacity</a>, so you may be able to download them there.</p>
+
+  <h4>Workspace Information:</h4>
+
+  <ul>
+    <li><strong>Default file path:</strong> </li>
+    <li><strong>Workspace type:</strong> html-live</li>
+    <li>
+      <strong>Opened files (when workspace is loaded):</strong>
+      n/a
+    </li>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>（<strong>备注</strong>：如果你无法打开上面的workspace，请去<a href="https://github.com/udacity/turtles-cn" target="_blank">这里</a>）</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Green</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>如果将 <code>"yellow"</code> 替换成另一个颜色的名称，例如 <code>"green"</code>，会发生什么？</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1509387467497" name="719528" id="a1509387467497">
+        <label for="a1509387467497"><p>出错了，Turtle 不能变成绿色。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1509387489110" name="719528" id="a1509387489110">
+        <label for="a1509387489110"><p>它使 turtle 和方形变成绿色，而不是黄色。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1509387490258" name="719528" id="a1509387490258">
+        <label for="a1509387490258"><p>它在屏幕上输出单词“green”。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1509387491145" name="719528" id="a1509387491145">
+        <label for="a1509387491145"><p>使网络浏览器崩溃并呼叫 FBI。</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    它使 turtle 和方形变成绿色，而不是黄色。
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <blockquote>
+  <p><strong>术语：</strong>&nbsp;单词&nbsp;<code>"yellow"</code>&nbsp;和&nbsp;<code>"green"</code>&nbsp;称为<strong>字符串</strong>。<em>字符串</em> 或 串 (String) 是由数字、字母、下划线组成的一串字符。它是编程语言中表示文本的数据类型。我们称<code>"yellow"</code> 这样一串代码为字符<em>串</em>。</p>
+</blockquote>
+<p>在之后的课程中，我们将详细讲解字符串是什么，以及它们的原理。暂时只需知道<em>你可以区分字符串和代码的其他部分，因为它们位于引号内</em>。</p>
+<p>引号不仅使你（程序员）能够判断某个代码是<em>字符串</em>—<em>Python</em> 也将能够通过引号判断它是字符串。要查看实际效果，回到 workspace 并尝试删掉 <code>"yellow"</code> 中的引号，代码变成：</p>
+<pre><code class="python language-python">amy.color(yellow)</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>当你删掉引号后运行代码，发生了什么？</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1520349145030" name="719529" id="a1520349145030">
+        <label for="a1520349145030"><p>依然可行，并且像之前一样画了个黄色方形。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1520349184845" name="719529" id="a1520349184845">
+        <label for="a1520349184845"><p>画了个方形，但是颜色是黑色，而不是黄色。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1520349216845" name="719529" id="a1520349216845">
+        <label for="a1520349216845"><p>显示错误。</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    显示错误。
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>确保实验完毕后再添加引号，以便代码能重新运行：</p>
+<pre><code class="python language-python">amy.color("yellow")</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>有些文本可以在 Python 程序中用作<strong>字符串</strong>。</p>
+<p>请选中符合在代码中编写<strong>字符串</strong>的规则。</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1513482862359" name="719533" id="a1513482862359">
+      <label for="a1513482862359"><p><code>Hello!</code></p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1513482906428" name="719533" id="a1513482906428">
+      <label for="a1513482906428"><p><code>"Hello!"</code></p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1513482922196" name="719533" id="a1513482922196">
+      <label for="a1513482922196"><p><code>"123"</code></p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1513482941221" name="719533" id="a1513482941221">
+      <label for="a1513482941221"><p><code>123</code></p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1513482945948" name="719533" id="a1513482945948">
+      <label for="a1513482945948"><p><code>[1, 2, 3]</code></p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>`"Hello!"`</li>
+      <li>`"123"`</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Python：代码演示（第 3 部分）</p></h3>
+  <video controls>
+  <source src="06. Python：代码演示（第 3 部分）-xh7_q1Q2Irc.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="ar" src="06. Python：代码演示（第 3 部分）-xh7_q1Q2Irc.ar.vtt" label="ar">
+  <track default="true" kind="subtitles" srclang="en" src="06. Python：代码演示（第 3 部分）-xh7_q1Q2Irc.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="BR" src="06. Python：代码演示（第 3 部分）-xh7_q1Q2Irc.pt-BR.vtt" label="BR">
+  <track default="false" kind="subtitles" srclang="CN" src="06. Python：代码演示（第 3 部分）-xh7_q1Q2Irc.zh-CN.vtt" label="CN">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>哪<strong>两个</strong>句子描述了 turtle 的行为？</p>
+<p>请选中<strong>两个</strong>答案。</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1509387855282" name="719535" id="a1509387855282">
+      <label for="a1509387855282"><p>它向前移动，右转…向前移动，右转…向前移动，右转…向前移动，右转…</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1509387867092" name="719535" id="a1509387867092">
+      <label for="a1509387867092"><p>它向前移动，右转，后退并原地打转。</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1509387869080" name="719535" id="a1509387869080">
+      <label for="a1509387869080"><p>它画一个方形。</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>它向前移动，右转…向前移动，右转…向前移动，右转…向前移动，右转…</li>
+      <li>它画一个方形。</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>你认为 <code>amy.right(90)</code> 中的数字 90 是什么意思？</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1509388244209" name="719536" id="a1509388244209">
+        <label for="a1509388244209"><p>是解锁 <code>right</code> 命令的密码。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1509388263216" name="719536" id="a1509388263216">
+        <label for="a1509388263216"><p>turtle 向右猛冲 90 个像素并冲到侧边。</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1509388264035" name="719536" id="a1509388264035">
+        <label for="a1509388264035"><p>turtle 右转 90 度。</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    turtle 右转 90 度。
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="07. 更改形状.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.4.1</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. 更改颜色')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

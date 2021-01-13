@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.070
+Let's take a look at this code starting at the top with the very first line,
+
+00:00:05.070 --> 00:00:07.890
+import turtle. Now what could that mean?
+
+00:00:07.889 --> 00:00:11.309
+In English, import means to bring something in from somewhere
+
+00:00:11.310 --> 00:00:15.820
+else like importing cookies from Denmark or coffee from Peru,
+
+00:00:15.820 --> 00:00:18.179
+and we've heard that turtle is a name for
+
+00:00:18.179 --> 00:00:20.789
+this imaginary robot that can draw on the screen.
+
+00:00:20.789 --> 00:00:24.689
+So, maybe this line is bringing us a turtle from somewhere.
+
+00:00:24.690 --> 00:00:26.940
+For now, you probably have no idea where
+
+00:00:26.940 --> 00:00:29.690
+the turtle is coming from and that's completely okay,
+
+00:00:29.690 --> 00:00:31.300
+it's probably not from Peru.
+
+00:00:31.300 --> 00:00:35.579
+Next, the story seems to be introducing a character named George.
+
+00:00:35.579 --> 00:00:39.210
+The second line says George equals turtle.Turtle.
+
+00:00:39.210 --> 00:00:42.140
+It kind of sounds like this is saying George is
+
+00:00:42.140 --> 00:00:45.590
+equal to a turtle or maybe a double turtle.
+
+00:00:45.590 --> 00:00:49.265
+Usually in English, we'd say that George is a turtle.
+
+00:00:49.265 --> 00:00:52.895
+Let's experiment with the code and see what we can figure out.
+
+00:00:52.895 --> 00:00:55.880
+Something we can do if we don't know what the code does
+
+00:00:55.880 --> 00:00:59.675
+yet is to try changing things and see what happens.
+
+00:00:59.674 --> 00:01:01.399
+For instance, there might not be
+
+00:01:01.399 --> 00:01:05.325
+any particular reason this turtle has to be named George.
+
+00:01:05.325 --> 00:01:09.480
+Let's try changing the turtle's name from George to something else like Amy.
+

@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.759
+Hey there, and welcome to these lessons on programming in Python.
+
+00:00:03.759 --> 00:00:05.455
+We're glad to have you with us.
+
+00:00:05.455 --> 00:00:09.969
+In this course, you will be writing programs in the Python programming language.
+
+00:00:09.970 --> 00:00:14.130
+There are many programming languages in the world today but Python is one that has
+
+00:00:14.130 --> 00:00:18.480
+a great reputation for being both easy to learn and very practical.
+
+00:00:18.480 --> 00:00:22.545
+Python code can run on any major kind of computer today.
+
+00:00:22.545 --> 00:00:27.780
+From a Windows PC or a Mac to a high-powered Linux server or even on
+
+00:00:27.780 --> 00:00:31.109
+your phone and Python is used in all sorts of fields
+
+00:00:31.109 --> 00:00:34.850
+from Web development to data analysis to artificial intelligence.
+
+00:00:34.850 --> 00:00:39.545
+The skills you'll learn here are central to your journey to becoming a programmer.
+
+00:00:39.545 --> 00:00:44.000
+Many of the concepts you'll learn in these lessons are not limited to Python.
+
+00:00:44.000 --> 00:00:48.649
+We'll go over some of the most fundamental building blocks of programming, ideas,
+
+00:00:48.649 --> 00:00:51.049
+and skills that will be useful for you no matter
+
+00:00:51.049 --> 00:00:54.039
+what area of programming you're interested in pursuing.
+
+00:00:54.039 --> 00:00:55.839
+In the next few lessons,
+
+00:00:55.840 --> 00:01:00.050
+the programs you'll work on use a feature called Turtle Graphics.
+
+00:01:00.049 --> 00:01:04.489
+The turtle is an imaginary robot that can draw colorful shapes on the screen.
+
+00:01:04.489 --> 00:01:08.214
+This way, you can quickly tell what your programs are doing.
+
+00:01:08.215 --> 00:01:11.120
+Learning to code is only partly about learning
+
+00:01:11.120 --> 00:01:14.270
+the grammar of a programming language such as Python.
+
+00:01:14.269 --> 00:01:18.144
+It's mostly about learning a way of thinking about patterns, repetition,
+
+00:01:18.144 --> 00:01:23.280
+processes, and information and the Turtle gives us a way to visualize that.
+
