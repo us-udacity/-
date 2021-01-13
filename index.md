@@ -103,6 +103,12 @@
  （中英字幕）
 </p>
 
+<p>
+  目录：
+ <a href="AI量化投资.html" >AI量化投资</a>
+ （中英字幕）
+</p>
+
 <font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">DATA数据分析阶梯学习路线</font>
 
 <p>
