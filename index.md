@@ -23,7 +23,7 @@
 
 </p> 
 
-<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">无人驾驶阶梯学习</font>
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">无人驾驶阶梯学习🇨🇳</font>
 
 <p>
 
@@ -35,7 +35,7 @@
  （中英字幕）
 </p>
 
-<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">AI人工智能阶梯学习路线</font>
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">AI人工智能阶梯学习路线🇨🇳</font>
 
 <p>
   目录：
@@ -109,7 +109,7 @@
  （中英字幕）
 </p>
 
-<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">DATA数据分析阶梯学习路线</font>
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">DATA数据分析阶梯学习路线🇨🇳</font>
 
 <p>
   普通版-目录：
@@ -154,7 +154,7 @@
  （中英字幕）
 </p>
 
-<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">前端阶梯学习路线</font>
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">前端阶梯学习路线🇨🇳</font>
 
 <p>
   目录：
@@ -241,6 +241,98 @@
   目录-2.0版：
  <a href="Flying Car2.0.html" >无人机开发工程师 / Flying Car and Autonomous Flight Engineer🚁</a>
  （英文字幕）
+</p>
+
+<p>
+  目录-2.0版：
+ <a href="数据结构.html" >数据结构与算法 / Data Structures and Algorithms</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-2.0补充版：
+ <a href="数据结构补充版.html" >数据结构与算法 / Data Structures and Algorithms</a>
+ （中英字幕）
+</p>
+
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">DATA数据分析阶梯学习路线🇺🇸</font>
+
+<p>
+  目录：
+ <a href="商业分析.html" >商业数据分析 / Business Analytics</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="商业预测分析.html" >商业预测分析 / Predictive Analytics for Business</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="面向商业领袖的AI.html" >面向商业领袖的AI / AI For Business Leaders</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="SQL.html" >SQL</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="数据流.html" >数据流 / Data Streaming</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="数据经理.html" >数据经理 / Data Product Manager</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="数据可视化.html" >数据可视化 / Data Visualization</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
 </p>
 
 <p>
