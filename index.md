@@ -374,12 +374,120 @@
 </p>
 
 <p>
-  目录-6.0：
+  目录-6.0版：
  <a href="Python人工智能入门.html" >Python人工智能入门 / AI Programming with Python</a>
  （中英字幕）
 </p>
 
 <p>
+  目录-1.0版：
+ <a href="机器学习.html" >机器学习工程师 / Machine Learning Engineer</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-4.0版：
+ <a href="机器学习4.0.html" >机器学习工程师 / Machine Learning Engineer🤖️</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-2.0版：
+ <a href="PyTorch机器学习入门2.0.html" >PyTorch机器学习入门 / Machine Learning - Introduction🤖️</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="TensorFlow机器学习入门.html" >TensorFlow机器学习入门 / Introduction to Machine Learning with TensorFlow</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-1.0版：
+ <a href="Deep Learning .html" >深度学习 / Deep Learning</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-7.0版：
+ <a href="深度学习 7.0.html" >深度学习 / Deep Learning🕳️</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-1.0版：
+ <a href="Deep Reinforcement Learning .html" >深度强化学习 / Deep Reinforcement Learning</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录-2.0版：
+ <a href="深度强化学习2.0.html" >深度强化学习 / Deep Reinforcement Learning🕳️</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录-1.0版：
+ <a href="Computer Vision.html" >计算机视觉 / Computer Vision</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-4.0版：
+ <a href="计算机视觉4.0.html" >计算机视觉 / Computer Vision💻</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-1.0版：
+ <a href="Natural Language Processing.html" >自然语言处理 / Natural Language Processing</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-3.0版：
+ <a href="" >自然语言处理 / Natural Language Processing🌃</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-2.0版：
+ <a href="数据结构.html" >数据结构与算法 / Data Structures and Algorithms</a>
+ （中英字幕）
+</p> 
+
+<p>
+  目录-1.0版：
+ <a href="AI量化投资 1.0.html" >AI量化投资 / AI for Trading</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录-3.0版：
+ <a href="AI量化投资 3.0.html" >AI量化投资 / AI for Trading📈📉</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
   目录：
  <a href="" ></a>
  （中英字幕）
@@ -409,7 +517,29 @@
  （中英字幕）
 </p>
 
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
 
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
+
+<p>
+  目录：
+ <a href="" ></a>
+ （中英字幕）
+</p>
 
 👨‍🔬
 
