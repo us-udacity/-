@@ -368,14 +368,14 @@
 <font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">AI人工智能阶梯学习路线🇺🇸</font>
 
 <p>
-  目录：
- <a href="" ></a>
+  目录-8.0版：
+ <a href="全面编程入门.html" >全面编程入门 / Intro to Programming</a>
  （中英字幕）
 </p>
 
 <p>
-  目录：
- <a href="" ></a>
+  目录-6.0：
+ <a href="Python人工智能入门.html" >Python人工智能入门 / AI Programming with Python</a>
  （中英字幕）
 </p>
 
