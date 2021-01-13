@@ -1,105 +1,219 @@
-<!-- udacimak v1.4.1 -->
+<!-- udacimak v1.4.0 -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Part 02-Module 01-Lesson 01_小乌龟（turtle）和你的第一行代码</title>
-  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../assets/css/plyr.css">
-  <link rel="stylesheet" href="../assets/css/katex.min.css">
-  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
-  <link rel="stylesheet" href="../assets/css/styles.css">
-  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
-</head>
-
-<body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Part 02-Module 01-Lesson 01_小乌龟（turtle）和你的第一行代码
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
   <div class="">
-
-    <div id="">
-      <header class="container-fluild header">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="align-items-middle">
-
-                <h1 style="">Part 02-Module 01-Lesson 01_小乌龟（turtle）和你的第一行代码</h1>
-              </div>
-            </div>
-          </div>
+   <div id="">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <h1 style="">
+          Part 02-Module 01-Lesson 01_小乌龟（turtle）和你的第一行代码
+         </h1>
         </div>
-      </header>
-
-      <main class="container">
-        <div class="row">
-          <div class="col-12">
-            <ul>
-  <li><a href="01. 欢迎！.html">01. 欢迎！</a></li>
-  <li><a href="02. 开始学习.html">02. 开始学习</a></li>
-  <li><a href="03. 使用 turtle 绘画.html">03. 使用 turtle 绘画</a></li>
-  <li><a href="04. 变量.html">04. 变量</a></li>
-  <li><a href="05. 练习 — 变量等.html">05. 练习 — 变量等</a></li>
-  <li><a href="06. 更改颜色.html">06. 更改颜色</a></li>
-  <li><a href="07. 更改形状.html">07. 更改形状</a></li>
-  <li><a href="08. 查找错误.html">08. 查找错误</a></li>
-  <li><a href="09. 模块和方法.html">09. 模块和方法</a></li>
-  <li><a href="10. 练习 — 绘制方形.html">10. 练习 — 绘制方形</a></li>
-  <li><a href="11. 注释.html">11. 注释</a></li>
-  <li><a href="12. 练习 — 顺序很重要.html">12. 练习 — 顺序很重要</a></li>
-  <li><a href="13. 使用变量.html">13. 使用变量</a></li>
-  <li><a href="14. 练习 — 使用变量 (12).html">14. 练习 — 使用变量 (1/2)</a></li>
-  <li><a href="15. 练习 — 使用变量 (22).html">15. 练习 — 使用变量 (2/2)</a></li>
-  <li><a href="16. 循环.html">16. 循环</a></li>
-  <li><a href="17. 练习 — 基本循环.html">17. 练习 — 基本循环</a></li>
-  <li><a href="18. 练习 — 将列表赋值给变量.html">18. 练习 — 将列表赋值给变量</a></li>
-  <li><a href="19. 列表和循环.html">19. 列表和循环</a></li>
-  <li><a href="20. 练习 — 循环变量.html">20. 练习 — 循环变量</a></li>
-  <li><a href="21. 神秘的形状.html">21. 神秘的形状</a></li>
-  <li><a href="22. 嵌套循环.html">22. 嵌套循环</a></li>
-  <li><a href="23. 复习 turtle 方法.html">23. 复习 turtle 方法</a></li>
-  <li><a href="24. 练习 — Turtle 方法.html">24. 练习 — Turtle 方法</a></li>
-  <li><a href="25. 练习 — 更多循环变量 (12).html">25. 练习 — 更多循环变量 (1/2)</a></li>
-  <li><a href="26. 练习 — 更多循环变量 (22).html">26. 练习 — 更多循环变量 (2/2)</a></li>
-  <li><a href="27. 练习 — 嵌套循环.html">27. 练习 — 嵌套循环</a></li>
-  <li><a href="28. 考虑错误.html">28. 考虑错误</a></li>
-  <li><a href="29. 实战演练：用代码画图.html">29. 实战演练：用代码画图</a></li>
-  <li><a href="30. 复习.html">30. 复习</a></li>
-
-
-</ul>
-          </div>
-
-          <div class="col-12">
-            <p class="text-right">
-            </p>
-          </div>
-        </div>
-      </main>
-
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <p class="text-center">
-                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.4.1</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <ul>
+        <li>
+         <a href="01. 欢迎！.html">
+          01. 欢迎！
+         </a>
+        </li>
+        <li>
+         <a href="02. 开始学习.html">
+          02. 开始学习
+         </a>
+        </li>
+        <li>
+         <a href="03. 使用 turtle 绘画.html">
+          03. 使用 turtle 绘画
+         </a>
+        </li>
+        <li>
+         <a href="04. 变量.html">
+          04. 变量
+         </a>
+        </li>
+        <li>
+         <a href="05. 练习 — 变量等.html">
+          05. 练习 — 变量等
+         </a>
+        </li>
+        <li>
+         <a href="06. 更改颜色.html">
+          06. 更改颜色
+         </a>
+        </li>
+        <li>
+         <a href="07. 更改形状.html">
+          07. 更改形状
+         </a>
+        </li>
+        <li>
+         <a href="08. 查找错误.html">
+          08. 查找错误
+         </a>
+        </li>
+        <li>
+         <a href="09. 模块和方法.html">
+          09. 模块和方法
+         </a>
+        </li>
+        <li>
+         <a href="10. 练习 — 绘制方形.html">
+          10. 练习 — 绘制方形
+         </a>
+        </li>
+        <li>
+         <a href="11. 注释.html">
+          11. 注释
+         </a>
+        </li>
+        <li>
+         <a href="12. 练习 — 顺序很重要.html">
+          12. 练习 — 顺序很重要
+         </a>
+        </li>
+        <li>
+         <a href="13. 使用变量.html">
+          13. 使用变量
+         </a>
+        </li>
+        <li>
+         <a href="14. 练习 — 使用变量 (12).html">
+          14. 练习 — 使用变量 (1/2)
+         </a>
+        </li>
+        <li>
+         <a href="15. 练习 — 使用变量 (22).html">
+          15. 练习 — 使用变量 (2/2)
+         </a>
+        </li>
+        <li>
+         <a href="16. 循环.html">
+          16. 循环
+         </a>
+        </li>
+        <li>
+         <a href="17. 练习 — 基本循环.html">
+          17. 练习 — 基本循环
+         </a>
+        </li>
+        <li>
+         <a href="18. 练习 — 将列表赋值给变量.html">
+          18. 练习 — 将列表赋值给变量
+         </a>
+        </li>
+        <li>
+         <a href="19. 列表和循环.html">
+          19. 列表和循环
+         </a>
+        </li>
+        <li>
+         <a href="20. 练习 — 循环变量.html">
+          20. 练习 — 循环变量
+         </a>
+        </li>
+        <li>
+         <a href="21. 神秘的形状.html">
+          21. 神秘的形状
+         </a>
+        </li>
+        <li>
+         <a href="22. 嵌套循环.html">
+          22. 嵌套循环
+         </a>
+        </li>
+        <li>
+         <a href="23. 练习 — Turtle 方法.html">
+          23. 练习 — Turtle 方法
+         </a>
+        </li>
+        <li>
+         <a href="24. 练习 — 更多循环变量 (12).html">
+          24. 练习 — 更多循环变量 (1/2)
+         </a>
+        </li>
+        <li>
+         <a href="25. 练习 — 更多循环变量 (22).html">
+          25. 练习 — 更多循环变量 (2/2)
+         </a>
+        </li>
+        <li>
+         <a href="26. 练习 — 嵌套循环.html">
+          26. 练习 — 嵌套循环
+         </a>
+        </li>
+        <li>
+         <a href="27. 考虑错误.html">
+          27. 考虑错误
+         </a>
+        </li>
+        <li>
+         <a href="28. 实战演练：用代码画图.html">
+          28. 实战演练：用代码画图
+         </a>
+        </li>
+        <li>
+         <a href="29. 复习.html">
+          29. 复习
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
   </div>
-
-
-  <script src="../assets/js/jquery-3.3.1.min.js"></script>
-  <script src="../assets/js/plyr.polyfilled.min.js"></script>
-  <script src="../assets/js/bootstrap.min.js"></script>
-  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-  <script src="../assets/js/katex.min.js"></script>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
   <script>
-    // Initialize Plyr video players
+   // Initialize Plyr video players
     const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
 
     // render math equations
@@ -157,6 +271,5 @@
       $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
     });
   </script>
-</body>
-
+ </body>
 </html>

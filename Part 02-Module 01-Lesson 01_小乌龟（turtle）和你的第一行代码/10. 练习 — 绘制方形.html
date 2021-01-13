@@ -1,699 +1,1340 @@
-<!-- udacimak v1.4.1 -->
+<!-- udacimak v1.4.0 -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>练习 — 绘制方形</title>
-  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../assets/css/plyr.css">
-  <link rel="stylesheet" href="../assets/css/katex.min.css">
-  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
-  <link rel="stylesheet" href="../assets/css/styles.css">
-  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
-</head>
-
-<body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   练习 — 绘制方形
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
   <div class="wrapper">
-    <nav id="sidebar">
-  <div class="sidebar-header">
-    <h3>小乌龟（turtle）和你的第一行代码 </h3>
-  </div>
-
-  <ul class="sidebar-list list-unstyled CTAs">
-    <li>
-      <a href="../index.html" class="article">Back to Home</a>
-    </li>
-  </ul>
-
-  <ul class="sidebar-list list-unstyled components">
-    <li class="">
-      <a href="01. 欢迎！.html">01. 欢迎！</a>
-    </li>
-    <li class="">
-      <a href="02. 开始学习.html">02. 开始学习</a>
-    </li>
-    <li class="">
-      <a href="03. 使用 turtle 绘画.html">03. 使用 turtle 绘画</a>
-    </li>
-    <li class="">
-      <a href="04. 变量.html">04. 变量</a>
-    </li>
-    <li class="">
-      <a href="05. 练习 — 变量等.html">05. 练习 — 变量等</a>
-    </li>
-    <li class="">
-      <a href="06. 更改颜色.html">06. 更改颜色</a>
-    </li>
-    <li class="">
-      <a href="07. 更改形状.html">07. 更改形状</a>
-    </li>
-    <li class="">
-      <a href="08. 查找错误.html">08. 查找错误</a>
-    </li>
-    <li class="">
-      <a href="09. 模块和方法.html">09. 模块和方法</a>
-    </li>
-    <li class="">
-      <a href="10. 练习 — 绘制方形.html">10. 练习 — 绘制方形</a>
-    </li>
-    <li class="">
-      <a href="11. 注释.html">11. 注释</a>
-    </li>
-    <li class="">
-      <a href="12. 练习 — 顺序很重要.html">12. 练习 — 顺序很重要</a>
-    </li>
-    <li class="">
-      <a href="13. 使用变量.html">13. 使用变量</a>
-    </li>
-    <li class="">
-      <a href="14. 练习 — 使用变量 (12).html">14. 练习 — 使用变量 (1/2)</a>
-    </li>
-    <li class="">
-      <a href="15. 练习 — 使用变量 (22).html">15. 练习 — 使用变量 (2/2)</a>
-    </li>
-    <li class="">
-      <a href="16. 循环.html">16. 循环</a>
-    </li>
-    <li class="">
-      <a href="17. 练习 — 基本循环.html">17. 练习 — 基本循环</a>
-    </li>
-    <li class="">
-      <a href="18. 练习 — 将列表赋值给变量.html">18. 练习 — 将列表赋值给变量</a>
-    </li>
-    <li class="">
-      <a href="19. 列表和循环.html">19. 列表和循环</a>
-    </li>
-    <li class="">
-      <a href="20. 练习 — 循环变量.html">20. 练习 — 循环变量</a>
-    </li>
-    <li class="">
-      <a href="21. 神秘的形状.html">21. 神秘的形状</a>
-    </li>
-    <li class="">
-      <a href="22. 嵌套循环.html">22. 嵌套循环</a>
-    </li>
-    <li class="">
-      <a href="23. 复习 turtle 方法.html">23. 复习 turtle 方法</a>
-    </li>
-    <li class="">
-      <a href="24. 练习 — Turtle 方法.html">24. 练习 — Turtle 方法</a>
-    </li>
-    <li class="">
-      <a href="25. 练习 — 更多循环变量 (12).html">25. 练习 — 更多循环变量 (1/2)</a>
-    </li>
-    <li class="">
-      <a href="26. 练习 — 更多循环变量 (22).html">26. 练习 — 更多循环变量 (2/2)</a>
-    </li>
-    <li class="">
-      <a href="27. 练习 — 嵌套循环.html">27. 练习 — 嵌套循环</a>
-    </li>
-    <li class="">
-      <a href="28. 考虑错误.html">28. 考虑错误</a>
-    </li>
-    <li class="">
-      <a href="29. 实战演练：用代码画图.html">29. 实战演练：用代码画图</a>
-    </li>
-    <li class="">
-      <a href="30. 复习.html">30. 复习</a>
-    </li>
-  </ul>
-
-  <ul class="sidebar-list list-unstyled CTAs">
-    <li>
-      <a href="../index.html" class="article">Back to Home</a>
-    </li>
-  </ul>
-</nav>
-
-    <div id="content">
-      <header class="container-fluild header">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="align-items-middle">
-                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                </button>
-
-                <h1 style="display: inline-block">10. 练习 — 绘制方形</h1>
-              </div>
-            </div>
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      小乌龟（turtle）和你的第一行代码
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 欢迎！.html">
+       01. 欢迎！
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 开始学习.html">
+       02. 开始学习
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 使用 turtle 绘画.html">
+       03. 使用 turtle 绘画
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 变量.html">
+       04. 变量
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 练习 — 变量等.html">
+       05. 练习 — 变量等
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 更改颜色.html">
+       06. 更改颜色
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 更改形状.html">
+       07. 更改形状
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 查找错误.html">
+       08. 查找错误
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 模块和方法.html">
+       09. 模块和方法
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 练习 — 绘制方形.html">
+       10. 练习 — 绘制方形
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 注释.html">
+       11. 注释
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 练习 — 顺序很重要.html">
+       12. 练习 — 顺序很重要
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 使用变量.html">
+       13. 使用变量
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 练习 — 使用变量 (12).html">
+       14. 练习 — 使用变量 (1/2)
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 练习 — 使用变量 (22).html">
+       15. 练习 — 使用变量 (2/2)
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 循环.html">
+       16. 循环
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 练习 — 基本循环.html">
+       17. 练习 — 基本循环
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 练习 — 将列表赋值给变量.html">
+       18. 练习 — 将列表赋值给变量
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 列表和循环.html">
+       19. 列表和循环
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 练习 — 循环变量.html">
+       20. 练习 — 循环变量
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 神秘的形状.html">
+       21. 神秘的形状
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 嵌套循环.html">
+       22. 嵌套循环
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 练习 — Turtle 方法.html">
+       23. 练习 — Turtle 方法
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 练习 — 更多循环变量 (12).html">
+       24. 练习 — 更多循环变量 (1/2)
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 练习 — 更多循环变量 (22).html">
+       25. 练习 — 更多循环变量 (2/2)
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 练习 — 嵌套循环.html">
+       26. 练习 — 嵌套循环
+      </a>
+     </li>
+     <li class="">
+      <a href="27. 考虑错误.html">
+       27. 考虑错误
+      </a>
+     </li>
+     <li class="">
+      <a href="28. 实战演练：用代码画图.html">
+       28. 实战演练：用代码画图
+      </a>
+     </li>
+     <li class="">
+      <a href="29. 复习.html">
+       29. 复习
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
           </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          10. 练习 — 绘制方形
+         </h1>
         </div>
-      </header>
-
-      <main class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="ud-atom">
-  <h3></h3>
-  <div>
-  <h2 id="练习-—-绘制方形">练习 — 绘制方形</h2>
-<p>理解某个概念并不一定就意味着你会使用它。为了帮助你巩固新学的技能，我们将练习编写你已经见过的一些代码。</p>
-<p>在第一道练习中，我们将要求你判断每行代码的作用是什么。然后，我们将再次阅读代码，并要求你在不查看代码的情况下记住如何编写它们。</p>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <p><strong>QUIZ QUESTION:</strong>: <p>将每段代码与描述相匹配。</p></p>
-  <p><strong>ANSWER CHOICES:</strong></p>
-  <button class="btn btn-primary"><p>没有这行代码，你不能用🐢做任何的事情。</p></button>
-  <button class="btn btn-primary"><p>创建一个乌龟并命名他。</p></button>
-  <button class="btn btn-primary"><p>给乌龟设置一个可以使用的颜色。</p></button>
-  <button class="btn btn-primary"><p>让乌龟右转。</p></button>
-  <button class="btn btn-primary"><p>让乌龟前进。</p></button>
-
-  <br><br>
-
-  <table class="table">
-    <tr class="thead-dark table-hover">
-      <th>
-        <p>描述</p>
-      </th>
-      <th>
-        <p>代码</p>
-      </th>
-    </tr>
-
-    <tr>
-      <td><p><code>amy.right(90)</code></p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p><code>amy.color("yellow")</code></p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p><code>import turtle</code></p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p><code>amy = turtle.Turtle()</code></p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p><code>amy.forward(100)</code></p></td>
-      <td></td>
-    </tr>
-  </table>
-
-  <details>
-    <summary><strong>SOLUTION:</strong></summary>
-
-    <table class="table">
-      <tr class="thead-dark table-hover">
-        <th>
-          <p>描述</p>
-        </th>
-        <th>
-          <p>代码</p>
-        </th>
-      </tr>
-
-      <tr>
-        <td>
-          <p><code>amy.right(90)</code></p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p>让乌龟右转。</p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><code>amy.color("yellow")</code></p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p>给乌龟设置一个可以使用的颜色。</p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><code>import turtle</code></p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p>没有这行代码，你不能用🐢做任何的事情。</p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><code>amy = turtle.Turtle()</code></p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p>创建一个乌龟并命名他。</p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><code>amy.forward(100)</code></p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p>让乌龟前进。</p></button>
-        </td>
-      </tr>
-    </table>
-  </details>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <p><strong>QUIZ QUESTION:</strong>: <p>每段代码都是什么类型的代码？</p></p>
-  <p><strong>ANSWER CHOICES:</strong></p>
-  <button class="btn btn-primary"><p><code>amy</code></p></button>
-  <button class="btn btn-primary"><p><code>"yellow"</code></p></button>
-  <button class="btn btn-primary"><p><code>[1, 2, 3, 4]</code></p></button>
-  <button class="btn btn-primary"><p><code>100</code></p></button>
-
-  <br><br>
-
-  <table class="table">
-    <tr class="thead-dark table-hover">
-      <th>
-        <p>代码</p>
-      </th>
-      <th>
-        <p>类型</p>
-      </th>
-    </tr>
-
-    <tr>
-      <td><p>整数</p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p>变量</p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p>字符串</p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p>列表</p></td>
-      <td></td>
-    </tr>
-  </table>
-
-  <details>
-    <summary><strong>SOLUTION:</strong></summary>
-
-    <table class="table">
-      <tr class="thead-dark table-hover">
-        <th>
-          <p>代码</p>
-        </th>
-        <th>
-          <p>类型</p>
-        </th>
-      </tr>
-
-      <tr>
-        <td>
-          <p>整数</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>100</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>变量</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>字符串</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>"yellow"</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>列表</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>[1, 2, 3, 4]</code></p></button>
-        </td>
-      </tr>
-    </table>
-  </details>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <p><strong>QUIZ QUESTION:</strong>: <p>每段代码都是什么类型的代码？（我们应该使用什么术语描述每行代码？）</p></p>
-  <p><strong>ANSWER CHOICES:</strong></p>
-  <button class="btn btn-primary"><p><code>import turtle</code></p></button>
-  <button class="btn btn-primary"><p><code>amy = turtle.Turtle()</code></p></button>
-  <button class="btn btn-primary"><p><code>amy.color("yellow")</code></p></button>
-  <button class="btn btn-primary"><p><code>amy.right(90)</code></p></button>
-  <button class="btn btn-primary"><p><code>amy.forward(100)</code></p></button>
-
-  <br><br>
-
-  <table class="table">
-    <tr class="thead-dark table-hover">
-      <th>
-        <p>代码</p>
-      </th>
-      <th>
-        <p>是一个…</p>
-      </th>
-    </tr>
-
-    <tr>
-      <td><p>方法调用</p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p>导入语句</p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p>赋值语句</p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p>方法调用</p></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><p>方法调用</p></td>
-      <td></td>
-    </tr>
-  </table>
-
-  <details>
-    <summary><strong>SOLUTION:</strong></summary>
-
-    <table class="table">
-      <tr class="thead-dark table-hover">
-        <th>
-          <p>代码</p>
-        </th>
-        <th>
-          <p>是一个…</p>
-        </th>
-      </tr>
-
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.color("yellow")</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.right(90)</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.forward(100)</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>导入语句</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>import turtle</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>赋值语句</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy = turtle.Turtle()</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.color("yellow")</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.right(90)</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.forward(100)</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.color("yellow")</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.right(90)</code></p></button>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>方法调用</p>
-        </td>
-        <td>
-            <button class="btn btn-primary"><p><code>amy.forward(100)</code></p></button>
-        </td>
-      </tr>
-    </table>
-  </details>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <p>现在该练习自己记住代码了。这些代码行将和你在上方练习中看到的一样，但是现在你需要尝试在脑中记住它们，而不是直接从屏幕上识别它们。</p>
-<p>注意，拼写和大小写必须都正确，才能成为正确答案。这是编程比较复杂的一个方面，即使一个小小的拼写错误也会使程序停止运行。</p>
-<p>请努力得出正确答案，而不去查看上方代码（这样可以加强记忆力！）。但是如果你遇到问题了，可以向上滚动并快速浏览以回忆这些代码。</p>
-<p>注意，这些练习旨在帮助你学习，并不是检验你。</p>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <div>
-    <p><strong>QUESTION:</strong> <p>如果你想用 turtle 绘制图形，程序的第一行代码应该是什么？</p></p>
-    <div class="" form-group">
-      <label for="answer"><strong>ANSWER:</strong></label>
-      <textarea class="form-control" id="answer"></textarea>
-    </div>
-  </div>
-
-  <details>
-    <summary><strong>SOLUTION:</strong></summary>
-    <p><i>NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer</i></p>
-
-  </details>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <div>
-    <p><strong>QUESTION:</strong> <p>要创建叫做 <code>amy</code> 的新 turtle，你会使用哪行代码？</p></p>
-    <div class="" form-group">
-      <label for="answer"><strong>ANSWER:</strong></label>
-      <textarea class="form-control" id="answer"></textarea>
-    </div>
-  </div>
-
-  <details>
-    <summary><strong>SOLUTION:</strong></summary>
-    <p><i>NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer</i></p>
-
-  </details>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <div>
-    <p><strong>QUESTION:</strong> <p>要将 <code>amy</code> 的颜色设为 <code>yellow</code>，你会使用哪行代码？</p></p>
-    <div class="" form-group">
-      <label for="answer"><strong>ANSWER:</strong></label>
-      <textarea class="form-control" id="answer"></textarea>
-    </div>
-  </div>
-
-  <details>
-    <summary><strong>SOLUTION:</strong></summary>
-    <p><i>NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer</i></p>
-
-  </details>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <div>
-    <p><strong>QUESTION:</strong> <p>要使 <code>amy</code> 右转 <code>90</code> 度，你会使用哪行代码？</p></p>
-    <div class="" form-group">
-      <label for="answer"><strong>ANSWER:</strong></label>
-      <textarea class="form-control" id="answer"></textarea>
-    </div>
-  </div>
-
-  <details>
-    <summary><strong>SOLUTION:</strong></summary>
-    <p><i>NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer</i></p>
-
-  </details>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <div>
-    <p><strong>QUESTION:</strong> <p>要使 <code>amy</code> 向前移动 100 个像素，你会使用哪行代码？</p></p>
-    <div class="" form-group">
-      <label for="answer"><strong>ANSWER:</strong></label>
-      <textarea class="form-control" id="answer"></textarea>
-    </div>
-  </div>
-
-  <details>
-    <summary><strong>SOLUTION:</strong></summary>
-    <p><i>NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer</i></p>
-
-  </details>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <p>现在将所有这些代码行放到一起。在下面的 workspace 中，创建一个叫做 <code>amy</code> 的 turtle，然后使 <code>amy</code> 画一个方形。</p>
-<p><strong>注意：</strong>你可以通过仅使用在此页面上看到的代码行实现此目的。如果遇到问题了，可以回去查看上方练习，或者查看我们的解决方案（在 workspace 下方）。</p>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div class="jumbotron">
-  <h3>Workspace</h3>
-
-  <p class="lead">This section contains either a workspace (it can be a <a href="http://jupyter.org/" target="_blank">Jupyter
-      Notebook</a> workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
-    generated here. Please access the classroom with your account and manually download the workspace to your local
-    machine. Note that for some courses, Udacity upload the workspace files onto <a href="https://github.com/udacity"
-      target="_blank">https://github.com/udacity</a>, so you may be able to download them there.</p>
-
-  <h4>Workspace Information:</h4>
-
-  <ul>
-    <li><strong>Default file path:</strong> </li>
-    <li><strong>Workspace type:</strong> html-live</li>
-    <li>
-      <strong>Opened files (when workspace is loaded):</strong>
-      n/a
-    </li>
-
-  </ul>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <p>（<strong>备注</strong>：如果你无法打开上面的workspace，请去<a href="https://github.com/udacity/turtles-cn" target="_blank">这里</a>）</p>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <div>
-  </div>
-
-  <form>
-    <fieldset>
-      <legend>Task List:</legend>
-
-      <div>
-        <input type="checkbox" id="7835a3fb-f2dc-41ea-ac0c-c29b9395e69c--0">
-        <label for="7835a3fb-f2dc-41ea-ac0c-c29b9395e69c--0"><p>我画了一个方形！</p></label>
+       </div>
       </div>
-    </fieldset>
-  </form>
-
-  <div>
-    <h4>Task Feedback:</h4>
-
-
-    <p>耶，一个方形！</p>
-  </div>
-</div>
-
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <hr />
-<div style="background-color: #a4e4f5;">
-## ⚠️ 剧透！
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="练习-—-绘制方形">
+          练习 — 绘制方形
+         </h2>
+         <p>
+          理解某个概念并不一定就意味着你会使用它。为了帮助你巩固新学的技能，我们将练习编写你已经见过的一些代码。
+         </p>
+         <p>
+          在第一道练习中，我们将要求你判断每行代码的作用是什么。然后，我们将再次阅读代码，并要求你在不查看代码的情况下记住如何编写它们。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           QUIZ QUESTION:
+          </strong>
+          :
+          <p>
+           将每段代码与描述相匹配。
+          </p>
+         </p>
+         <p>
+          <strong>
+           ANSWER CHOICES:
+          </strong>
+         </p>
+         <button class="btn btn-primary">
+          <p>
+           没有这行代码，你不能用🐢做任何的事情。
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           创建一个乌龟并命名他。
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           给乌龟设置一个可以使用的颜色。
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           让乌龟右转。
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           让乌龟前进。
+          </p>
+         </button>
+         <br/>
+         <br/>
+         <table class="table">
+          <tr class="thead-dark table-hover">
+           <th>
+            <p>
+             描述
+            </p>
+           </th>
+           <th>
+            <p>
+             代码
+            </p>
+           </th>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             <code>
+              import turtle
+             </code>
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             <code>
+              amy.color("yellow")
+             </code>
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             <code>
+              amy = turtle.Turtle()
+             </code>
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             <code>
+              amy.forward(100)
+             </code>
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             <code>
+              amy.right(90)
+             </code>
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+         </table>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <table class="table">
+           <tr class="thead-dark table-hover">
+            <th>
+             <p>
+              描述
+             </p>
+            </th>
+            <th>
+             <p>
+              代码
+             </p>
+            </th>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              <code>
+               import turtle
+              </code>
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               没有这行代码，你不能用🐢做任何的事情。
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              <code>
+               amy.color("yellow")
+              </code>
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               给乌龟设置一个可以使用的颜色。
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              <code>
+               amy = turtle.Turtle()
+              </code>
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               创建一个乌龟并命名他。
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              <code>
+               amy.forward(100)
+              </code>
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               让乌龟前进。
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              <code>
+               amy.right(90)
+              </code>
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               让乌龟右转。
+              </p>
+             </button>
+            </td>
+           </tr>
+          </table>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           QUIZ QUESTION:
+          </strong>
+          :
+          <p>
+           每段代码都是什么类型的代码？
+          </p>
+         </p>
+         <p>
+          <strong>
+           ANSWER CHOICES:
+          </strong>
+         </p>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            amy
+           </code>
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            "yellow"
+           </code>
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            [1, 2, 3, 4]
+           </code>
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            100
+           </code>
+          </p>
+         </button>
+         <br/>
+         <br/>
+         <table class="table">
+          <tr class="thead-dark table-hover">
+           <th>
+            <p>
+             代码
+            </p>
+           </th>
+           <th>
+            <p>
+             类型
+            </p>
+           </th>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             变量
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             整数
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             列表
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             字符串
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+         </table>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <table class="table">
+           <tr class="thead-dark table-hover">
+            <th>
+             <p>
+              代码
+             </p>
+            </th>
+            <th>
+             <p>
+              类型
+             </p>
+            </th>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              变量
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              整数
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                100
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              列表
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                [1, 2, 3, 4]
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              字符串
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                "yellow"
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+          </table>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <strong>
+           QUIZ QUESTION:
+          </strong>
+          :
+          <p>
+           每段代码都是什么类型的代码？（我们应该使用什么术语描述每行代码？）
+          </p>
+         </p>
+         <p>
+          <strong>
+           ANSWER CHOICES:
+          </strong>
+         </p>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            import turtle
+           </code>
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            amy = turtle.Turtle()
+           </code>
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            amy.color("yellow")
+           </code>
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            amy.right(90)
+           </code>
+          </p>
+         </button>
+         <button class="btn btn-primary">
+          <p>
+           <code>
+            amy.forward(100)
+           </code>
+          </p>
+         </button>
+         <br/>
+         <br/>
+         <table class="table">
+          <tr class="thead-dark table-hover">
+           <th>
+            <p>
+             代码
+            </p>
+           </th>
+           <th>
+            <p>
+             是一个…
+            </p>
+           </th>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             方法调用
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             导入语句
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             赋值语句
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             方法调用
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <p>
+             方法调用
+            </p>
+           </td>
+           <td>
+           </td>
+          </tr>
+         </table>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <table class="table">
+           <tr class="thead-dark table-hover">
+            <th>
+             <p>
+              代码
+             </p>
+            </th>
+            <th>
+             <p>
+              是一个…
+             </p>
+            </th>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.color("yellow")
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.right(90)
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.forward(100)
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              导入语句
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                import turtle
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              赋值语句
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy = turtle.Turtle()
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.color("yellow")
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.right(90)
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.forward(100)
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.color("yellow")
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.right(90)
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              方法调用
+             </p>
+            </td>
+            <td>
+             <button class="btn btn-primary">
+              <p>
+               <code>
+                amy.forward(100)
+               </code>
+              </p>
+             </button>
+            </td>
+           </tr>
+          </table>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          现在该练习自己记住代码了。这些代码行将和你在上方练习中看到的一样，但是现在你需要尝试在脑中记住它们，而不是直接从屏幕上识别它们。
+         </p>
+         <p>
+          注意，拼写和大小写必须都正确，才能成为正确答案。这是编程比较复杂的一个方面，即使一个小小的拼写错误也会使程序停止运行。
+         </p>
+         <p>
+          请努力得出正确答案，而不去查看上方代码（这样可以加强记忆力！）。但是如果你遇到问题了，可以向上滚动并快速浏览以回忆这些代码。
+         </p>
+         <p>
+          注意，这些练习旨在帮助你学习，并不是检验你。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <div>
+          <p>
+           <strong>
+            QUESTION:
+           </strong>
+           <p>
+            如果你想用 turtle 绘制图形，程序的第一行代码应该是什么？
+           </p>
+          </p>
+          <div class="" form-group"="">
+           <label for="answer">
+            <strong>
+             ANSWER:
+            </strong>
+           </label>
+           <textarea class="form-control" id="answer"></textarea>
+          </div>
+         </div>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <p>
+           <i>
+            NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer
+           </i>
+          </p>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <div>
+          <p>
+           <strong>
+            QUESTION:
+           </strong>
+           <p>
+            要创建叫做
+            <code>
+             amy
+            </code>
+            的新 turtle，你会使用哪行代码？
+           </p>
+          </p>
+          <div class="" form-group"="">
+           <label for="answer">
+            <strong>
+             ANSWER:
+            </strong>
+           </label>
+           <textarea class="form-control" id="answer"></textarea>
+          </div>
+         </div>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <p>
+           <i>
+            NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer
+           </i>
+          </p>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <div>
+          <p>
+           <strong>
+            QUESTION:
+           </strong>
+           <p>
+            要将
+            <code>
+             amy
+            </code>
+            的颜色设为
+            <code>
+             yellow
+            </code>
+            ，你会使用哪行代码？
+           </p>
+          </p>
+          <div class="" form-group"="">
+           <label for="answer">
+            <strong>
+             ANSWER:
+            </strong>
+           </label>
+           <textarea class="form-control" id="answer"></textarea>
+          </div>
+         </div>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <p>
+           <i>
+            NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer
+           </i>
+          </p>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <div>
+          <p>
+           <strong>
+            QUESTION:
+           </strong>
+           <p>
+            要使
+            <code>
+             amy
+            </code>
+            右转
+            <code>
+             90
+            </code>
+            度，你会使用哪行代码？
+           </p>
+          </p>
+          <div class="" form-group"="">
+           <label for="answer">
+            <strong>
+             ANSWER:
+            </strong>
+           </label>
+           <textarea class="form-control" id="answer"></textarea>
+          </div>
+         </div>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <p>
+           <i>
+            NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer
+           </i>
+          </p>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <div>
+          <p>
+           <strong>
+            QUESTION:
+           </strong>
+           <p>
+            要使
+            <code>
+             amy
+            </code>
+            向前移动 100 个像素，你会使用哪行代码？
+           </p>
+          </p>
+          <div class="" form-group"="">
+           <label for="answer">
+            <strong>
+             ANSWER:
+            </strong>
+           </label>
+           <textarea class="form-control" id="answer"></textarea>
+          </div>
+         </div>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <p>
+           <i>
+            NOTE: The solutions are expressed in RegEx pattern. Udacity uses these patterns to check the given answer
+           </i>
+          </p>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          现在将所有这些代码行放到一起。在下面的 workspace 中，创建一个叫做
+          <code>
+           amy
+          </code>
+          的 turtle，然后使
+          <code>
+           amy
+          </code>
+          画一个方形。
+         </p>
+         <p>
+          <strong>
+           注意：
+          </strong>
+          你可以通过仅使用在此页面上看到的代码行实现此目的。如果遇到问题了，可以回去查看上方练习，或者查看我们的解决方案（在 workspace 下方）。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div class="jumbotron">
+         <h3>
+          Workspace
+         </h3>
+         <p class="lead">
+          This section contains either a workspace (it can be a
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+      Notebook
+          </a>
+          workspace or an online code editor work space, etc.) and it cannot be automatically downloaded to be
+    generated here. Please access the classroom with your account and manually download the workspace to your local
+    machine. Note that for some courses, Udacity upload the workspace files onto
+          <a href="https://github.com/udacity" target="_blank">
+           https://github.com/udacity
+          </a>
+          , so you may be able to download them there.
+         </p>
+         <h4>
+          Workspace Information:
+         </h4>
+         <ul>
+          <li>
+           <strong>
+            Default file path:
+           </strong>
+          </li>
+          <li>
+           <strong>
+            Workspace type:
+           </strong>
+           html-live
+          </li>
+          <li>
+           <strong>
+            Opened files (when workspace is loaded):
+           </strong>
+           n/a
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          （
+          <strong>
+           备注
+          </strong>
+          ：如果你无法打开上面的workspace，请去
+          <a href="https://github.com/udacity/turtles-cn" target="_blank">
+           这里
+          </a>
+          ）
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <div>
+         </div>
+         <form>
+          <fieldset>
+           <legend>
+            Task List:
+           </legend>
+           <div>
+            <input id="7835a3fb-f2dc-41ea-ac0c-c29b9395e69c--0" type="checkbox"/>
+            <label for="7835a3fb-f2dc-41ea-ac0c-c29b9395e69c--0">
+             <p>
+              我画了一个方形！
+             </p>
+            </label>
+           </div>
+          </fieldset>
+         </form>
+         <div>
+          <h4>
+           Task Feedback:
+          </h4>
+          <p>
+           耶，一个方形！
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <hr/>
+         <div style="background-color: #a4e4f5;">
+          ## ⚠️ 剧透！
 
 **下面是我们的解决方案。**如果你能认真完成练习，然后再将你的代码与我们的代码进行对比，学习效果将更好！
-</div>
-<h2 id="----">----</h2>
-</div>
-
-</div>
-<div class="divider"></div><div class="ud-atom">
-  <h3></h3>
-  <div>
-  <h2 id="解决方案">解决方案</h2>
-<p>下面是我们的代码。你的可能有所不同。</p>
-<pre><code class="python language-python">import turtle
+         </div>
+         <h2 id="----">
+          ----
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="解决方案">
+          解决方案
+         </h2>
+         <p>
+          下面是我们的代码。你的可能有所不同。
+         </p>
+         <pre><code class="python language-python">import turtle
 amy = turtle.Turtle()
 amy.color("yellow")
 amy.forward(100)
@@ -703,44 +1344,55 @@ amy.right(90)
 amy.forward(100)
 amy.right(90)
 amy.forward(100)</code></pre>
-<p>注意，这段代码多次使用了相同的代码行。即使对于只有四条边的图形，代码就很重复了。如果要画十边形呢？或者有 100 条边的形状呢？代码肯定会太重复了。似乎工作量很大。</p>
-<p>幸运的是，有另一个选择：我们可以使用<strong>循环</strong>。我们将在接下来的几个页面中学习这个概念！</p>
-</div>
-
-</div>
-<div class="divider"></div>
-          </div>
-
-          <div class="col-12">
-            <p class="text-right">
-              <a href="11. 注释.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
-            </p>
-          </div>
+         <p>
+          注意，这段代码多次使用了相同的代码行。即使对于只有四条边的图形，代码就很重复了。如果要画十边形呢？或者有 100 条边的形状呢？代码肯定会太重复了。似乎工作量很大。
+         </p>
+         <p>
+          幸运的是，有另一个选择：我们可以使用
+          <strong>
+           循环
+          </strong>
+          。我们将在接下来的几个页面中学习这个概念！
+         </p>
         </div>
-      </main>
-
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <p class="text-center">
-                <a href="https://github.com/udacimak/udacimak#readme" target="_blank">udacimak v1.4.1</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="11. 注释.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
   </div>
-
-
-  <script src="../assets/js/jquery-3.3.1.min.js"></script>
-  <script src="../assets/js/plyr.polyfilled.min.js"></script>
-  <script src="../assets/js/bootstrap.min.js"></script>
-  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-  <script src="../assets/js/katex.min.js"></script>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
   <script>
-    // Initialize Plyr video players
+   // Initialize Plyr video players
     const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
 
     // render math equations
@@ -798,6 +1450,5 @@ amy.forward(100)</code></pre>
       $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
     });
   </script>
-</body>
-
+ </body>
 </html>
