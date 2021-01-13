@@ -295,74 +295,74 @@
 
 <p>
   目录：
+ <a href="数据基础.html" >数据基础 / Data Foundations</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="数据营销.html" >数据营销 / Digital Marketing</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-2.0版：
+ <a href="市场分析.html" >市场分析 / Marketing Analytics</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
  <a href="数据可视化.html" >数据可视化 / Data Visualization</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录-2.0：
+ <a href="数据工程师.html" >数据工程师 / Data Engineer</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录-1.0版：
+ <a href="数据科学家.html" >数据科学家 / Data Scientist</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录3.0版：
+ <a href="数据科学家 3，0.html" >数据科学家 / Data Scientist</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-11.0版：
+ <a href="数据分析师.html" >数据分析师 / Data Analyst</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-8.0版：
+ <a href="数据分析入门进阶.html" >数据分析入门进阶 / Data Analyst</a>
  （中英字幕）
 </p>
 
 <p>
   目录：
- <a href="" ></a>
+ <a href="数据科学Python编程.html" >数据科学Python编程 / Programming for Data Science with Python</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-2.0版：
+ <a href="数据科学R编程.html" >数据科学R编程 / Programming for Data Science with R</a>
  （中英字幕）
 </p>
 
 <p>
   目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
-</p>
-
-<p>
-  目录：
- <a href="" ></a>
- （中英字幕）
+ <a href="面向企业领导者的数据科学.html" >面向企业领导者的数据科学 / Data Science for Business Leaders</a>
+ （英文字幕）
 </p>
 
 
