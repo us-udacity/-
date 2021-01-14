@@ -12,7 +12,7 @@
  旧版叫【人工智能基础】
 </p>
 
-<font style="font-size:20px;font-weight:bold;color:rgb(255, 0, 0);">课程购买后提供全套资料，包含视频、字幕、习题、代码还有项目以及项目答案跟数据</font>
+<font style="font-size:20px;font-weight:bold;color:rgb(119, 0, 255);">课程购买后提供全套资料，包含视频、字幕、习题、代码还有项目以及项目答案跟数据</font>
 <p>
 
 </p>
@@ -645,6 +645,8 @@
  （英文字幕）
 </p>
 
+<p>
+  目录：
 <a href="商业分析.html" >商业数据分析 / Business Analytics</a>
  （中英字幕）
 </p>
