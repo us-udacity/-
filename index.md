@@ -555,25 +555,154 @@
  （英文字幕）
 </p>
 
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">云计算开发阶梯学习路线🇺🇸</font>
+
+<p>
+  目录-2.0版：
+ <a href="Cloud Developer 2.0.html" >云计算软件开发 / Cloud Developer☁️</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录-1.0版：
+ <a href="云计算DevOps.html" >云计算DevOps / Cloud DevOps Engineer</a>
+ （英文字幕）
+</p>
+
 <p>
   目录：
- <a href="" ></a>
+ <a href="AWS.html" >AWS云架构师 / AWS Cloud Architect</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="DevOps Engineer for Microsoft Azure.html" >Microsoft Azure DevOps工程师 / DevOps Engineer for Microsoft Azure</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="Developer for Microsoft Azure.html" >Microsoft Azure 开发工程师 / Developer for Microsoft Azure</a>
+ （英文字幕）
+</p>
+
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">ios/安卓开发阶梯学习路线🇺🇸</font>
+
+<p>
+  目录-1.0版：
+ <a href="ios.html" >iOS开发工程师 / iOS Developer</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录4.0版：
+ <a href="iOS开发 4.0.html" >iOS开发工程师 / iOS Developer📱</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录-1.0版：
+ <a href="安卓开发基础.html" >安卓开发基础 / Android Basics</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-6.0版：
+ <a href="安卓开发基础 6.0.html" >安卓开发基础 / Android Basics</a>
+ （中英字幕）
+</p>
+
+<p>
+  目录-7.0版：
+ <a href="安卓开发工程师.html" >安卓开发工程师 / Android Developer</a>
+ （中英文字幕）
+</p>
+
+<p>
+  目录-10.0版：
+ <a href="安卓开发 10.0.html" >安卓开发工程师 / Android Developer</a>
+ （中英字幕）
+</p>
+
+<font style="font-size:20px;font-weight:bold;color:rgb(212, 0, 255);">市场商业阶梯学习路线🇺🇸</font>
+
+<p>
+  目录：
+ <a href="交互设计.html" >交互设计 / User Experience</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="产品经理.html" >产品经理 / Product Manager</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="营利策略.html" >营利策略 / Monetization Strategy</a>
+ （英文字幕）
+</p>
+
+<a href="商业分析.html" >商业数据分析 / Business Analytics</a>
  （中英字幕）
 </p>
 
 <p>
   目录：
- <a href="" ></a>
- （中英字幕）
+ <a href="商业预测分析.html" >商业预测分析 / Predictive Analytics for Business</a>
+ （英文字幕）
 </p>
 
 <p>
   目录：
- <a href="" ></a>
+ <a href="面向商业领袖的AI.html" >面向商业领袖的AI / AI For Business Leaders</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="面向企业领导者的数据科学.html" >面向企业领导者的数据科学 / Data Science for Business Leaders</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="SQL.html" >SQL</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="数据流.html" >数据流 / Data Streaming</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="数据经理.html" >数据经理 / Data Product Manager</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="数据营销.html" >数据营销 / Digital Marketing</a>
  （中英字幕）
 </p>
 
-👨‍🔬
+<p>
+  目录-2.0版：
+ <a href="市场分析.html" >市场分析 / Marketing Analytics</a>
+ （英文字幕）
+</p>
+
+<p>
+  目录：
+ <a href="数据可视化.html" >数据可视化 / Data Visualization</a>
+ （英文字幕）
+</p>
+
 
 
 
