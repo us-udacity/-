@@ -798,7 +798,7 @@
     </p>    
   </li>
   </ul>
- </details>
+</details>
 
 <details>
   <summary>
