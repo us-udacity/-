@@ -752,14 +752,14 @@
     <p>
       目录-1.0版：
      <a href="ios.html" >iOS开发工程师 / iOS Developer💻</a>
-     （英文字幕）
+     （中英字幕）
     </p>    
    </li>
    <li>
     <p>
       目录4.0版：
      <a href="iOS开发 4.0.html" >iOS开发工程师 / iOS Developer📱💻</a>
-     （英文字幕）
+     （中英字幕）
     </p>
    </li>
    <li>
