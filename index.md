@@ -693,7 +693,7 @@
   <li>
     <p>
       目录：
-     <a href="Introduction to Cybersecurity.html" >网络安全 / Introduction to Cybersecurity📶☁️</a>
+     <a href="Introduction to Cybersecurity.html" >网络安全 / Introduction to Cybersecurity📶☁</a>
      （英文字幕）
     </p>    
   </li>
@@ -741,7 +741,7 @@
     </p>    
   </li>
   </ul>
- </details>
+</details>
 
 <details>
   <summary>
@@ -897,6 +897,6 @@
     </p>
   </li>
   </ul>
- </details>
+</details>
 
  
