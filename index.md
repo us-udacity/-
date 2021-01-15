@@ -658,7 +658,7 @@
   <li>
     <p>
       目录：
-     <a href="中级JavaScript.html" >中级JavaScript / Intermediate JavaScript<📶/a>
+     <a href="中级JavaScript.html" >中级JavaScript / Intermediate JavaScript📶</a>
      （英文字幕）
     </p>
   </li>
