@@ -225,12 +225,12 @@
 
 </p>
 
- <font style="font-size:30px;font-weight:bold;color:rgb(47, 0, 255);">美国版本🇺🇸🦅</font>
- <p>
+<font style="font-size:30px;font-weight:bold;color:rgb(47, 0, 255);">美国版本🇺🇸🦅</font>
+<p>
 
 </p>
 
- <details>
+<details>
   <summary>
     <font style="font-size:20px;font-weight:bold;color:rgb(0, 132, 255);">无人驾驶阶梯学习路线🚙</font>
   </summary>
@@ -293,6 +293,20 @@
   </li>
   <li>
     <p>
+      目录-1.0版：
+     <a href="机器人开发工程师 .html" >机器人开发工程师 / Robotics Software Engineer🛰</a>
+     （英文字幕）
+    </p>
+  </li>
+  <li>
+    <p>
+      目录-3.0版：
+     <a href="机器人开发工程师 3.0.html" >机器人开发工程师 / Robotics Software Engineer👨‍🔬🛰</a>
+     （英文字幕）
+    </p>
+  </li>
+  <li>
+    <p>
       目录-2.0版：
      <a href="数据结构.html" >数据结构与算法 / Data Structures and Algorithms🛰</a>
      （中英字幕）
@@ -308,7 +322,7 @@
   </ul>
  </details>
 
- <details>
+<details>
   <summary>
     <font style="font-size:20px;font-weight:bold;color:rgb(0, 132, 255);">DATA数据分析阶梯学习路线🇺🇸🗽</font>
   </summary>
@@ -442,7 +456,7 @@
   </ul>
  </details>
 
- <details>
+<details>
   <summary>
     <font style="font-size:20px;font-weight:bold;color:rgb(0, 132, 255);">AI人工智能阶梯学习路线🇺🇸🛰</font>
   </summary>
@@ -601,7 +615,7 @@
   </ul>
  </details>
 
- <details>
+<details>
   <summary>
     <font style="font-size:20px;font-weight:bold;color:rgb(0, 132, 255);">前端后端开发阶梯学习路线🇺🇸🌍</font>
   </summary>
@@ -686,7 +700,7 @@
   </ul>
  </details>
 
- <details>
+<details>
   <summary>
     <font style="font-size:20px;font-weight:bold;color:rgb(0, 132, 255);">云计算开发阶梯学习路线🇺🇸☁️</font>
   </summary>
@@ -729,7 +743,7 @@
   </ul>
  </details>
 
- <details>
+<details>
   <summary>
     <font style="font-size:20px;font-weight:bold;color:rgb(0, 132, 255);">ios/安卓开发阶梯学习路线🇺🇸📱</font>
   </summary>
@@ -786,7 +800,7 @@
   </ul>
  </details>
 
- <details>
+<details>
   <summary>
     <font style="font-size:20px;font-weight:bold;color:rgb(0, 132, 255);">市场商业阶梯学习路线🇺🇸🎡</font>
   </summary>
