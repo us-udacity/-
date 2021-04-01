@@ -1,0 +1,654 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   文本编辑器
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      HTML 语法
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 课程简介.html">
+       01. 课程简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. HTML 结构 第 1 部分.html">
+       02. HTML 结构 第 1 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 创建第一个元素.html">
+       03. 创建第一个元素
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 环境.html">
+       04. 环境
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 文本编辑器.html">
+       05. 文本编辑器
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Sublime Text 使用教程.html">
+       06. Sublime Text 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Atom 使用教程.html">
+       07. Atom 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Visual Studio Code 使用教程.html">
+       08. Visual Studio Code 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 浏览器.html">
+       09. 浏览器
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 工作流.html">
+       10. 工作流
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 树.html">
+       11. 树
+      </a>
+     </li>
+     <li class="">
+      <a href="12. HTML 和树.html">
+       12. HTML 和树
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 发现 Bug.html">
+       13. 发现 Bug
+      </a>
+     </li>
+     <li class="">
+      <a href="14. HTML 查找.html">
+       14. HTML 查找
+      </a>
+     </li>
+     <li class="">
+      <a href="15. HTML 结构 第 2 部分.html">
+       15. HTML 结构 第 2 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 深入了解 HTML 文档.html">
+       16. 深入了解 HTML 文档
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 课程回顾.html">
+       17. 课程回顾
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          05. 文本编辑器
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <div style="display: none;">
+          有许多可编写纯文本的编辑器。事实上，无论你使用的是哪种操作系统的计算机，它都已安装了一种编辑器。
+
+如果你使用的是 PC，有“记事本（Notepad）”程序。
+
+如果你使用的是 Mac，有“文本编辑器（TextEdit）”程序。
+
+如果使用的是 Linux 分发，则至少具有一个命令行文本编辑器，例如 [Nano](https://zh.wikipedia.org/wiki/Nano) 或  [Vi](https://zh.wikipedia.org/wiki/Vi)。某些分发可能也已安装 [GUI](https://zh.wikipedia.org/wiki/%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2) 文本编辑器。
+
+常规文本编辑器在工作时较慢，因为需要手动键入每个字符。编写代码时，你将很快注意到代码结构是重复的——你将会一遍又一遍地编写看起来相同的代码。
+
+常规文本编辑器（例如“文本编辑器”或“记事本”）将无法帮助你解决此问题。但是编写代码的文本编辑器将通过突出显示彩色语法、自动完成常见的代码块、 自动进行格式设置和完全超出你想象的其他方式来帮助你摆脱困境。
+
+不存在“最佳”的文本编辑器，每个人的习惯和喜好都不同。希望你至少下载其中的两个文本编辑器试试，以便找到自己所青睐的一款。
+
+----
+         </div>
+         <h2 id="sublime-text-3">
+          Sublime Text 3
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="Sublime Text 3 Logo" class="img img-fluid" src="img/screen-shot-2019-01-27-at-20.04.30.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            Sublime Text 3 Logo
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <em>
+           Windows、Mac、Linux
+          </em>
+         </p>
+         <p>
+          <strong>
+           成本
+          </strong>
+          ：80 美元（但是可以在接受弹出窗口的条件下免费无限次使用）
+         </p>
+         <p>
+          <strong>
+           样式
+          </strong>
+          ：GUI
+         </p>
+         <p>
+          <a href="http://www.sublimetext.com/" target="_blank">
+           Sublime Text 官方网站
+          </a>
+          <span style="display: none;">
+           |
+           <a href="https://www.w3cschool.cn/sublimetext3/" target="_blank">
+            Sublime Text 翻译文档
+           </a>
+          </span>
+         </p>
+         <p>
+          Sublime Text  快速、轻量而且易于定制。拥有众多快捷键，多重选取功能和巨大的插件扩展系统，你可以创建完美的工作流。
+         </p>
+         <p>
+          但是，Sublime Text 的更新最近开始变慢，这让一些开发者感到担忧。许多开发者开始转向使用…
+         </p>
+         <hr/>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="atom">
+          Atom
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="Atom Editor Logo" class="img img-fluid" src="img/screen-shot-2019-01-27-at-20.04.37.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            Atom Editor Logo
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <em>
+           Windows、Mac、Linux
+          </em>
+         </p>
+         <p>
+          <strong>
+           成本
+          </strong>
+          ：免费
+         </p>
+         <p>
+          <strong>
+           样式
+          </strong>
+          ：GUI
+         </p>
+         <p>
+          <a href="https://atom.io/" target="_blank">
+           Atom 官方网站
+          </a>
+          <span style="display: none;">
+           |
+           <a href="https://www.w3cschool.cn/atom/" target="_blank">
+            Atom 中文文档参考
+           </a>
+          </span>
+         </p>
+         <p>
+          Atom 由 GitHub 提供，进军文本编辑器市场的时间相对较晚， 其外观和使用与 Sublime Text 类似。二者均支持多重选取的功能， 并且它们共享许多相同的快捷键。同样与 Sublime Text 极为相似， Atom 拥有丰富的包扩展系统，你可以随心所欲地定制你的编辑器。
+         </p>
+         <p>
+          Atom 和 Sublime Text 都非常受欢迎，你接触到的大多数 Web 开发者大多在使用这两种编辑器之一。
+         </p>
+         <hr/>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="visual-studio-code">
+          Visual Studio Code
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="Visual Studio Code Logo" class="img img-fluid" src="img/screen-shot-2019-01-27-at-20.04.43.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            Visual Studio Code Logo
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <em>
+           Windows、Mac、Linux
+          </em>
+         </p>
+         <p>
+          <strong>
+           成本
+          </strong>
+          ：免费
+         </p>
+         <p>
+          <strong>
+           样式
+          </strong>
+          ：GUI
+         </p>
+         <p>
+          <a href="https://code.visualstudio.com/" target="_blank">
+           Visual Studio Code 官方网站
+          </a>
+          <div style="display: none;">
+           "|
+           <a href="https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/md/%E7%BC%96%E8%BE%91%E5%99%A8/%E5%9F%BA%E7%A1%80.html" target="_blank">
+            VScode中文文档
+           </a>
+           <span style="font-size: 12px">
+            - 需科学上网
+           </span>
+           （感谢
+           <a href="https://github.com/jeasonstudio" target="_blank">
+            赵吉彤
+           </a>
+           ）
+          </div>
+         </p>
+         <p>
+          VSCode是微软推出的一款轻量编辑器，采取了和VS相同的UI界面，搭配合适的插件可以优化前端开发的体验。
+         </p>
+         <hr/>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="emacs">
+          Emacs
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="Emacs Logo" class="img img-fluid" src="img/screen-shot-2019-01-27-at-20.04.51.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            Emacs Logo
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          <em>
+           Windows、Mac、Linux
+          </em>
+         </p>
+         <p>
+          <strong>
+           成本
+          </strong>
+          ：免费
+         </p>
+         <p>
+          <strong>
+           样式
+          </strong>
+          ：命令行或 GUI
+         </p>
+         <p>
+          <a href="https://www.gnu.org/software/emacs/" target="_blank">
+           Emacs 官方网站
+          </a>
+          <sub style="font-size: 1px;">
+           (英)
+          </sub>
+          或
+          <a href="http://aquamacs.org/" target="_blank">
+           Aquamacs
+          </a>
+          <sub style="font-size: 1px;">
+           (英)
+          </sub>
+          （适用于 OS X）
+         </p>
+         <p>
+          Emacs 是始于 20 世纪 70 年代的开源文本编辑器。与 Vim 一样，它是最流行的 Linux 文本编辑器之一。
+         </p>
+         <p>
+          通常将 Emacs 描述为操作系统，因为即使是简洁安装， 也会存在多个预期在文本编辑器内部不会包括的应用程序， 例如新闻阅读程序、多个计算器、大量游戏、文件加密/解密以及以
+          <a href="https://en.wikipedia.org/wiki/Emacs_Lisp" target="_blank">
+           Emacs  Lisp
+          </a>
+          <sub style="font-size: 1px;">
+           (英)
+          </sub>
+          编写的插件的包管理器。
+         </p>
+         <p>
+          所有 Emacs 命令存在于同一命名空间，因此通过使用 C-x C-f （Ctrl - x、Ctrl - f）等一连串击键打开文件来区分命令并不罕见。由于其惊人的可定制性，在编辑器中具有最陡峭的学习曲线。你将十分希望对其进行定制：安装插件、 尝试插件、测试冲突、取消安装具有冲突的插件并重复执行操作。
+         </p>
+         <hr/>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="vivim">
+          Vi/Vim
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="Vim Logo" class="img img-fluid" src="img/screen-shot-2019-01-27-at-20.04.58.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            Vim Logo
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          文本编辑器
+         </p>
+        </h3>
+        <div>
+         <p>
+          <em>
+           Windows、Mac、Linux
+          </em>
+         </p>
+         <p>
+          <strong>
+           成本
+          </strong>
+          ：免费且开源
+         </p>
+         <p>
+          <strong>
+           样式
+          </strong>
+          ：命令行或 GUI
+         </p>
+         <p>
+          <a href="http://www.vim.org/index.php" target="_blank">
+           Vim 官方网站
+          </a>
+          <sub style="font-size: 1px;">
+           (英)
+          </sub>
+         </p>
+         <p>
+          Vim 或 Vi IMproved 是
+          <a href="https://zh.wikipedia.org/wiki/%E7%BC%96%E8%BE%91%E5%99%A8%E4%B9%8B%E6%88%98" target="_blank">
+           Unix Editor  Wars
+          </a>
+          中的另一款文本编辑器。
+         </p>
+         <p>
+          只要是可以运行标准 C 语言的地方，就可以运行 Vim，并且通常位于多数 Linux 和包括 Mac OS X 在内的非 Windows 系统的基础安装中。同时还提供相当强大的
+          <a href="http://www.openvim.com/" target="_blank">
+           教程
+          </a>
+          <sub style="font-size: 1px;">
+           (英)
+          </sub>
+          来教授使用方法。学后之后便可随时随地进行使用。
+         </p>
+         <p>
+          <em>
+           对于有经验的学生（其他人，即便你此时不了解也没问题）：
+          </em>
+          当某些命令适用时，Vim 依赖于模式或范围。在命令模式下，用户可以围绕文件或执行命令。例如，在插入模式下， 可以编辑文件。而在创建 HTML 文件时（且处于  HTML 模式），可以将
+          <code>
+           html:5
+          </code>
+          扩展为空 HTML 文件的样板文件。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="06. Sublime Text 使用教程.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('05. 文本编辑器')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

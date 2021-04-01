@@ -1,0 +1,89 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.840 --> 00:00:03.570
+Então, esta é a aparência da minha solução.
+
+00:00:03.570 --> 00:00:08.550
+Coloquei cada um dos três elementos em sua
+própria linha porque acho que é mais
+
+00:00:08.550 --> 00:00:09.930
+fácil de ler.
+
+00:00:09.930 --> 00:00:12.790
+De qualquer forma,
+tanto uma linha como
+
+00:00:12.790 --> 00:00:15.760
+três linhas são válidas mas
+prefiro assim.
+
+00:00:15.760 --> 00:00:18.250
+Note que há tags de abertura e
+
+00:00:18.250 --> 00:00:23.510
+tags de fechamento com conteúdo no meio em
+cada um dos três elementos.
+
+00:00:23.510 --> 00:00:26.270
+Você também pode notar que as tags de fechamento
+se parecem diferentes porque todas
+
+00:00:26.270 --> 00:00:30.300
+elas têm uma barra aqui
+depois do sinal de menor que.
+
+00:00:30.300 --> 00:00:32.210
+Portanto, vamos ver como fica.
+
+00:00:32.210 --> 00:00:36.358
+Salvei meu arquivo e voltarei
+ao navegador para atualizar a página.
+
+00:00:36.358 --> 00:00:41.370
+Então é isto, note que
+as tags p que contêm I'm Cameron
+
+00:00:41.370 --> 00:00:45.440
+estão em sua própria linha.
+Não há nada próximo delas.
+
+00:00:45.440 --> 00:00:48.050
+Mas as duas spans que
+contêm I like teaching and
+
+00:00:48.050 --> 00:00:50.930
+web dev :) estão na mesma linha.
+
+00:00:50.930 --> 00:00:54.330
+Lembre-se de que isto é um parágrafo e
+precisa ficar isolado.
+
+00:00:54.330 --> 00:00:58.630
+Mas as spans são parte de uma linha,
+ou seja, desta linha.
+
+00:00:58.630 --> 00:01:00.660
+Por isso, deixei este espaço bem aqui.
+
+00:01:00.660 --> 00:01:03.000
+Então, gostaria de
+enfatizar alguns detalhes.
+
+00:01:03.000 --> 00:01:06.460
+Primeiro, não é tão ruim assim
+escrever estes itens.
+
+00:01:06.460 --> 00:01:11.650
+E segundo, cada tipo de elemento
+será exibido de forma diferente.
+
+00:01:11.650 --> 00:01:14.140
+Você conhecerá melhor
+os vários elementos e
+
+00:01:14.140 --> 00:01:16.250
+a forma como eles são exibidos mais tarde.
+

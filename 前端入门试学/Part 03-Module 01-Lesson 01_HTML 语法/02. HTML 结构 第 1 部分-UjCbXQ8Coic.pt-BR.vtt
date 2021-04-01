@@ -1,0 +1,182 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.920 --> 00:00:04.080
+Você está vendo um documento HTML, e
+
+00:00:04.080 --> 00:00:07.860
+é assim que este documento
+fica no navegador.
+
+00:00:07.860 --> 00:00:10.100
+As semelhanças devem
+ser bem óbvias.
+
+00:00:10.100 --> 00:00:13.860
+Veja "This is a heading" aqui dentro do HTML,
+
+00:00:13.860 --> 00:00:18.120
+ve você pode ver o mesmo,
+"This is a heading", dentro do navegador.
+
+00:00:18.120 --> 00:00:19.240
+Há muito mais aqui.
+
+00:00:19.240 --> 00:00:21.880
+Mas eu não quero que você
+se preocupe com tudo.
+
+00:00:21.880 --> 00:00:25.350
+Agora, apenas preste atenção
+nisto que você vê aqui,
+
+00:00:25.350 --> 00:00:28.390
+que está vindo de dentro dessas duas tags.
+
+00:00:28.390 --> 00:00:29.080
+É um body (corpo do HTML).
+
+00:00:30.120 --> 00:00:36.084
+Isso aqui, h1, "This is a heading"
+e h1, é um elemento HTML
+
+00:00:36.084 --> 00:00:39.906
+E este é um tipo especial de
+elemento chamado h1.
+
+00:00:39.906 --> 00:00:44.100
+O h significa cabeçalho e
+o um significa que é o maior.
+
+00:00:44.100 --> 00:00:47.860
+Isto quer dizer que existem tags h2,
+h3, h4 e assim por diante, e
+
+00:00:47.860 --> 00:00:50.280
+todos eles são menores que o 1.
+
+00:00:50.280 --> 00:00:54.840
+Especificamente, esta parte é chamada de tag,
+a parte com um colchete angular h1,
+
+00:00:54.840 --> 00:00:57.250
+e depois um outro colchete angular.
+
+00:00:57.250 --> 00:01:00.340
+Existem várias tags em HTML.
+
+00:01:00.340 --> 00:01:05.580
+Aqui uma tag p, aqui algumas tags span
+e esta é uma tag image.
+
+00:01:05.580 --> 00:01:08.610
+Cada uma delas representa
+um tipo diferente de elemento.
+
+00:01:09.640 --> 00:01:13.440
+Este p, dentro desta tag,
+significa parágrafo.
+
+00:01:13.440 --> 00:01:17.190
+Isto inteiro é chamado de
+elemento de parágrafo.
+
+00:01:17.190 --> 00:01:21.800
+Observe que este elemento inteiro
+tem duas tags, aqui e aqui, e
+
+00:01:21.800 --> 00:01:23.970
+estas tags são ligeiramente diferentes.
+
+00:01:23.970 --> 00:01:27.820
+Há uma tag de abertura e
+uma tag de fechamento, e
+
+00:01:27.820 --> 00:01:30.780
+observe que a tag de fechamento
+tem uma barra.
+
+00:01:30.780 --> 00:01:34.650
+Entre as tags de abertura e
+fechamento vai o conteúdo.
+
+00:01:34.650 --> 00:01:39.540
+Esse conteúdo é geralmente o que
+as pessoas vão ver no navegador.
+
+00:01:39.540 --> 00:01:42.300
+Aqui estão alguns elementos diferentes.
+
+00:01:42.300 --> 00:01:45.826
+Observe que o texto em ambas
+as tags é sempre o mesmo.
+
+00:01:45.826 --> 00:01:49.226
+E repare que todas elas
+começam com um sinal de menor que,
+
+00:01:49.226 --> 00:01:54.324
+todas elas têm algum tipo de texto aqui
+indicando o tipo de elemento e,
+
+00:01:54.324 --> 00:01:57.130
+depois, cada tag tem
+um sinal de maior que.
+
+00:01:57.130 --> 00:02:01.621
+E só para indicar novamente, as tags de
+fechamento têm uma barra, mas
+
+00:02:01.621 --> 00:02:03.510
+fora isso, são iguais às tags de abertura.
+
+00:02:03.510 --> 00:02:08.120
+E a barra sempre vai aqui,
+depois do sinal de menor que.
+
+00:02:08.120 --> 00:02:12.600
+E juntos,
+tudo aqui representa um elemento.
+
+00:02:12.600 --> 00:02:16.230
+Existem alguns elementos, como imagens,
+que são um pouco diferentes.
+
+00:02:16.230 --> 00:02:19.240
+Note que as imagens não
+têm uma tag de fechamento.
+
+00:02:19.240 --> 00:02:20.290
+Tudo bem.
+
+00:02:20.290 --> 00:02:23.410
+É um tipo especial que você
+vai aprender mais adiante.
+
+00:02:23.410 --> 00:02:27.860
+Este é um meio conceitual de
+representar o mesmo elemento.
+
+00:02:27.860 --> 00:02:31.260
+Neste caso,
+o conteúdo pertence ao parágrafo.
+
+00:02:31.260 --> 00:02:34.570
+O conteúdo é, de certa forma, um
+filho do parágrafo.
+
+00:02:34.570 --> 00:02:36.220
+Isto será útil mais tarde.
+
+00:02:36.220 --> 00:02:36.940
+Não se preocupe com isso agora,
+
+00:02:36.940 --> 00:02:41.060
+eu só queria mostrar, porque
+você verá mais árvores como esta.
+
+00:02:41.060 --> 00:02:44.780
+Por enquanto, eu quero que você
+escreva seu primeiro elemento HTML.
+

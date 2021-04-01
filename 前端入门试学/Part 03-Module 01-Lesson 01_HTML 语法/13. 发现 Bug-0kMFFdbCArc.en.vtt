@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.750 --> 00:00:03.660
+All right, I'll go ahead and
+start with the first one.
+
+00:00:03.660 --> 00:00:08.109
+It looks good, but it doesn't have
+the slash inside the closing tag, so
+
+00:00:08.109 --> 00:00:10.200
+that one is incorrect.
+
+00:00:11.250 --> 00:00:17.170
+Next up, there is an element
+nested inside a p element.
+
+00:00:17.170 --> 00:00:23.430
+Now you haven't seen before, stands for
+emphasis, which just makes text italic.
+
+00:00:23.430 --> 00:00:26.585
+As it turns out there's actually nothing
+wrong with this except for the typo.
+
+00:00:26.585 --> 00:00:31.390
+However, typos don't count as
+incorrectly formatted HTML, so
+
+00:00:31.390 --> 00:00:33.120
+this one's actually good.
+
+00:00:33.120 --> 00:00:39.170
+Then comes the third one, now notice
+that it's all green and looks weird.
+
+00:00:39.170 --> 00:00:43.330
+This is a very good indication
+that this one is wrong.
+
+00:00:43.330 --> 00:00:47.750
+I didn't include the greater than
+sign here inside the opening tag,
+
+00:00:47.750 --> 00:00:50.320
+which made this whole thing a mess.
+
+00:00:50.320 --> 00:00:53.070
+Now one of the nice things about
+code editors is that they will
+
+00:00:53.070 --> 00:00:57.830
+change the formatting depending on
+whether or not the syntax is right.
+
+00:00:57.830 --> 00:01:02.520
+So because the syntax here is wrong,
+this is not valid HTML,
+
+00:01:02.520 --> 00:01:05.860
+this all looks weird in green and
+
+00:01:05.860 --> 00:01:09.410
+it should be pretty obvious that
+something needs to get fixed.
+
+00:01:09.410 --> 00:01:12.280
+The last one looks really
+similar to the second.
+
+00:01:12.280 --> 00:01:14.020
+But there's a key difference.
+
+00:01:14.020 --> 00:01:16.690
+I switched the closing tags here.
+
+00:01:16.690 --> 00:01:22.070
+Now notice that the tag is being
+closed outside of the p tag and
+
+00:01:22.070 --> 00:01:25.980
+the p tag's being closed inside the tag.
+
+00:01:25.980 --> 00:01:29.410
+That is wrong, this is a mess.
+
+00:01:29.410 --> 00:01:34.180
+The element is the child of the p
+element, and as such, you have to
+
+00:01:34.180 --> 00:01:38.740
+open it and then close it inside the p,
+like what's done right here.
+

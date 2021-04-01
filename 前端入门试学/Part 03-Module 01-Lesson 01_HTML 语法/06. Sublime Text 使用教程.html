@@ -1,0 +1,768 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Sublime Text 使用教程
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      HTML 语法
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 课程简介.html">
+       01. 课程简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. HTML 结构 第 1 部分.html">
+       02. HTML 结构 第 1 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 创建第一个元素.html">
+       03. 创建第一个元素
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 环境.html">
+       04. 环境
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 文本编辑器.html">
+       05. 文本编辑器
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Sublime Text 使用教程.html">
+       06. Sublime Text 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Atom 使用教程.html">
+       07. Atom 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Visual Studio Code 使用教程.html">
+       08. Visual Studio Code 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 浏览器.html">
+       09. 浏览器
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 工作流.html">
+       10. 工作流
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 树.html">
+       11. 树
+      </a>
+     </li>
+     <li class="">
+      <a href="12. HTML 和树.html">
+       12. HTML 和树
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 发现 Bug.html">
+       13. 发现 Bug
+      </a>
+     </li>
+     <li class="">
+      <a href="14. HTML 查找.html">
+       14. HTML 查找
+      </a>
+     </li>
+     <li class="">
+      <a href="15. HTML 结构 第 2 部分.html">
+       15. HTML 结构 第 2 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 深入了解 HTML 文档.html">
+       16. 深入了解 HTML 文档
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 课程回顾.html">
+       17. 课程回顾
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          06. Sublime Text 使用教程
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="介绍">
+          介绍
+         </h2>
+         <p>
+          Sublime Text 是一套跨平台的文本编辑器，支持基于Python的插件。Sublime Text 是专有软件，可通过包（Package）扩充本身的功能。大多数的包使用自由软件授权发布，并由社区建置维护。
+         </p>
+         <p>
+          Sublime Text 的优势在于启动速度快，体积小，跨平台等等，接下来我们将详细了解一下这款编辑器。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="下载、安装、购买、汉化">
+          下载、安装、购买、汉化
+         </h2>
+         <h3 id="下载安装">
+          下载安装
+         </h3>
+         <p>
+          首先我们可以点击
+          <a href="http://www.sublimetext.com/" target="_blank">
+           此处
+          </a>
+          访问 Sublime Text 官网。
+         </p>
+         <p>
+          我们可以直接点击页面的 「DOWNLOAD FOR WINDOWS/Mac」 进行下载安装包，也可以点击右上角的 「Download」 下载你想要的版本和系统的安装包。
+         </p>
+         <p>
+          <a href="http://www.sublimetext.com/" target="_blank">
+           Sublime Text官方网站
+          </a>
+          提供了Sublime Text各系统各版本的下载，目前Sublime Text的最新版本是Sublime Text 3。这里以 Windows 版本的 Sublime Text 安装为例。Mac 下安装只需将安装文件拖入到 应用程序（Application） 中完成安装即可。
+         </p>
+         <p>
+          Windows 用户注意在安装时勾选
+          <code>
+           Add to explorer context menu
+          </code>
+          ，这样在右键单击文件时就可以直接使用Sublime Text 打开。
+         </p>
+         <h4 id="命令行启动">
+          命令行启动
+         </h4>
+         <ul>
+          <li>
+           Windows
+          </li>
+         </ul>
+         <p>
+          安装完成之后我们可以通过双击 Sublime Text 图标打开编辑器，但是作为一个开发人员，我们更为习惯的是在终端命令行中打开编辑器或者直接打开项目文件。这里我们需要将 Sublime Text 添加到环境变量，以下操作步骤：
+         </p>
+         <blockquote>
+          <ol>
+           <li>
+            使用
+            <code>
+             Win + R
+            </code>
+            运行
+            <code>
+             sysdm.cpl
+            </code>
+            打开
+            <code>
+             系统属性
+            </code>
+            。
+           </li>
+           <li>
+            然后在
+            <code>
+             高级
+            </code>
+            选项卡里面点击右下角的环境变量，进入
+            <code>
+             环境变量面板
+            </code>
+            。
+           </li>
+           <li>
+            在
+            <code>
+             环境变量面板
+            </code>
+            的
+            <code>
+             系统变量
+            </code>
+            中找到
+            <code>
+             Path
+            </code>
+            变量，点击编辑按钮。
+           </li>
+           <li>
+            复制你的 Sublime Text 的安装目录（例如
+            <code>
+             C:/ProgramFiles/Sublime Text 3
+            </code>
+            ）并添加到弹窗的
+            <code>
+             变量值
+            </code>
+            中。
+           </li>
+           <li>
+            <strong>
+             注意
+            </strong>
+            ：如果
+            <code>
+             变量值
+            </code>
+            一栏中已有其它路径，需要添加
+            <code>
+             ;
+            </code>
+            作为分割。
+           </li>
+          </ol>
+         </blockquote>
+         <p>
+          <strong>
+           下面是完整的演示过程：
+          </strong>
+         </p>
+         <ul>
+          <li>
+           Mac
+          </li>
+         </ul>
+         <blockquote>
+          <p>
+           打开终端输入下面的命令并回车即可。
+           <br/>
+           <br>
+            <code>
+             ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+            </code>
+           </br>
+          </p>
+         </blockquote>
+         <p>
+          添加完系统变量之后，接下来你就可以在命令行里面利用subl命令直接使用Sublime Text了：
+         </p>
+         <blockquote>
+          <ol>
+           <li>
+            <code>
+             subl file
+            </code>
+            : 使用Sublime Text打开file文件
+           </li>
+           <li>
+            <code>
+             subl folder
+            </code>
+            : 使用Sublime Text打开folder文件夹
+           </li>
+           <li>
+            <code>
+             subl .
+            </code>
+            : 使用Sublime Text当前文件夹
+           </li>
+          </ol>
+         </blockquote>
+         <h3 id="购买和汉化">
+          购买和汉化
+         </h3>
+         <h4 id="购买">
+          购买
+         </h4>
+         <p>
+          Sublime Text 并不是一款免费的开源软件。相反，它是一个收费的软件。Sublime 需要你购买来使用这个软件，你可以点击官网右上角的
+          <code>
+           Buy
+          </code>
+          进行购买，购买页面也有购买的信息说明。如果你不购买的话也是可以进行基本的使用的，只是它会经常进行弹窗提醒并且编辑器上方会有
+          <code>
+           UNREGISTERED
+          </code>
+          表示你没有购买，并且对于部分功能和权限会有限制。
+         </p>
+         <p>
+          完成购买之后可以看到编辑器上面将不会有没有购买的说明，并且也不会一直有弹窗提醒你购买。
+         </p>
+         <h4 id="汉化可选">
+          汉化(可选)
+         </h4>
+         <p>
+          对于部分英文不太好的用户来说，Sublime Text 全英文的操作可能对于大家来说有点困难，如果你需要一个中文汉化的 Sublime Text ，这里我们可以给 Sublime Text 装一个
+          <a href="https://github.com/Xiankai-Wan/SublimeSupport" target="_blank">
+           汉化包
+          </a>
+          ，这样我们就可以使用中文版的 Sublime Text 了。具体步骤如下：
+         </p>
+         <ul>
+          <li>
+           Windows
+          </li>
+         </ul>
+         <ol>
+          <li>
+           点击
+           <a href="https://github.com/Xiankai-Wan/SublimeSupport" target="_blank">
+            此处
+           </a>
+           下载repo，解压得到
+           <code>
+            License
+           </code>
+           注册码文件和
+           <code>
+            Default.sublime-package
+           </code>
+           汉化包文件。
+          </li>
+          <li>
+           打开
+           <code>
+            Sublime Text
+           </code>
+           编辑器，点击菜单栏
+           <code>
+            Preferences
+           </code>
+           &gt;&gt;
+           <code>
+            Browse Packages
+           </code>
+           会打开一个文件目录，类似于
+           <code>
+            C:\Users\XXXXX\AppData\Roaming\Sublime Text 3\Packages
+           </code>
+           。
+          </li>
+          <li>
+           我们需要返回到上级目录如：
+           <code>
+            C:\Users\XXXXX\AppData\Roaming\Sublime Text 3
+           </code>
+           ，在此目录中进入
+           <code>
+            Installed Packages
+           </code>
+           文件夹，将解压得到的
+           <code>
+            Default.sublime-package
+           </code>
+           文件直接复制到这个文件夹内就可以完成汉化。
+          </li>
+         </ol>
+         <ul>
+          <li>
+           Mac
+          </li>
+         </ul>
+         <ol>
+          <li>
+           点击
+           <a href="https://github.com/Xiankai-Wan/SublimeSupport" target="_blank">
+            此处
+           </a>
+           下载repo，解压得到
+           <code>
+            License
+           </code>
+           注册码文件和
+           <code>
+            Default.sublime-package
+           </code>
+           汉化包文件。
+          </li>
+          <li>
+           打开
+           <code>
+            Sublime Text
+           </code>
+           编辑器，点击菜单栏
+           <code>
+            Sublime Texts
+           </code>
+           &gt;&gt;
+           <code>
+            Preferences
+           </code>
+           &gt;&gt;
+           <code>
+            Browse Packages
+           </code>
+           会打开一个文件目录。
+          </li>
+          <li>
+           在该目录下找到
+           <code>
+            Installed Packages
+           </code>
+           文件夹，进入该文件夹，将解压得到的
+           <code>
+            Default.sublime-package
+           </code>
+           文件拖放到这个文件夹内就可以完成汉化。
+          </li>
+         </ol>
+         <p>
+          <strong>
+           注意
+          </strong>
+         </p>
+         <blockquote>
+          <ol>
+           <li>
+            经过上面的汉化过程，部分用户可能有汉化，部分可能没有汉化，所以下面的教程中基本会使用
+            <code>
+             中文名称／英文名称
+            </code>
+            这种形式讲解，大家对照自己的版本即可。
+           </li>
+           <li>
+            在 Windows 下
+            <code>
+             首选项/Preferences
+            </code>
+            是可以直接在菜单栏找到， Mac 下需要点击菜单栏 Sublime Text 后找到
+            <code>
+             首选项/Preferences
+            </code>
+            ,下面为演示方便，以 Windows 为主，Mac 下请注意
+            <code>
+             首选项/Preferences
+            </code>
+            表示你需要多做一步，先点击 Sublime Text。
+           </li>
+          </ol>
+         </blockquote>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="基本设置">
+          基本设置
+         </h2>
+         <p>
+          Sublime Text 的设置并没有像其他编辑器那样有 GUI 的设置面板，它通过编辑文本文件(JSON格式)来更改设置，这种方式虽然对新手来说不是很友好，但是却可以获得更为灵活的系统，这里我们可以在菜单栏点击
+          <code>
+           首选项／Preferences
+          </code>
+          &gt;&gt;
+          <code>
+           设置-默认／Settings
+          </code>
+          找到默认的设置文件，点开之后可以看到一个JSON文件，里面有 Sublime Text 的很多设置项，每一项都有注释说明。如果我们需要更改其中的某个设置项，我们可以继续在菜单栏点击
+          <code>
+           首选项／Preferences
+          </code>
+          &gt;&gt;
+          <code>
+           设置-用户／Settings-Syntax Specific
+          </code>
+          ，将你需要修改的属性添加到这个文件中保存就可以完成更改设置了。
+         </p>
+         <p>
+          上面演示的是更改字体大小的设置，我们可以在设置文件面板中使用
+          <code>
+           Ctrl+f
+          </code>
+          (Windows) /
+          <code>
+           cmd+f
+          </code>
+          (Mac) 快捷键来查找我们需要的设置项，然后复制之后再
+          <code>
+           设置-用户/Settings-Syntax Specific
+          </code>
+          页面粘贴并且修改保存，保存之后就可以看到修改之后的效果了。我们除了更改字体之外还可以更改很多属性，这里就不一一演示了，更多设置可以点击
+          <a href="https://www.w3cschool.cn/sublimetext3/sublimetext3-settings.html" target="_blank">
+           此处
+          </a>
+          进行查看。此外，我们还可以在
+          <code>
+           首选项／Preference
+          </code>
+          的选项里面看到字体和主题的一些快捷设置，这些设置都内置了一些参数，大家可以直接选择不同的选项进行基本的设置。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="打开、编辑、保存">
+          打开、编辑、保存
+         </h2>
+         <p>
+          作为一款编辑器，Sublime Text 的基本功能还是编辑文件，所以接下来我们了解一下如何打开和编辑文件。
+         </p>
+         <h3 id="打开文件">
+          打开文件
+         </h3>
+         <p>
+          Sublime Text 打开文件的方式不止一种，你可以通过菜单栏点击
+          <code>
+           文件/File
+          </code>
+          &gt;&gt;
+          <code>
+           打开文件/Open File
+          </code>
+          ，或者按下
+          <code>
+           Ctrl+o
+          </code>
+          (Windows) /
+          <code>
+           cmd+o
+          </code>
+          (Mac) 从系统对话框中选择一个文件，如果是多个文件可以按下
+          <code>
+           Ctrl
+          </code>
+          (Windows) /
+          <code>
+           cmd
+          </code>
+          (Mac) 键进行多选。当然，你还可以直接将文件夹拖到 Sublime Text 页面直接打开。除此之外你还可以点击菜单栏中
+          <code>
+           项目／Project
+          </code>
+          &gt;&gt;
+          <code>
+           打开项目／Open Project
+          </code>
+          来打开文件。
+         </p>
+         <p>
+          除了上面的方法之外，还记得我们之前在安装部分说的如果从命令行来启动编辑器吗？只要你按照之前的方法将安装目录添加到了环境变量中，你也可以使用命令行来打开一个文件。
+         </p>
+         <h3 id="编辑和保存文件">
+          编辑和保存文件
+         </h3>
+         <p>
+          你可以非常简单地编辑一个文件，你只需要用鼠标点击一个位置，然后用键盘输入内容即可，Sublime Text 没有特殊的命令或快捷键来进入「编辑模式」。
+         </p>
+         <p>
+          你可以用菜单栏的
+          <code>
+           文件/File
+          </code>
+          &gt;&gt;
+          <code>
+           保存/Save
+          </code>
+          或快捷键
+          <code>
+           Ctrl+s
+          </code>
+          (Windows) /
+          <code>
+           cmd+s
+          </code>
+          (Mac) 来保存文件，或者你可以用
+          <code>
+           文件／File
+          </code>
+          &gt;&gt;
+          <code>
+           另存为／Save As
+          </code>
+          或
+          <code>
+           Ctrl+shift+s
+          </code>
+          (Windows) /
+          <code>
+           cmd+shift+s
+          </code>
+          (Mac) 将文件另存为到另一个路径。这里就不做演示了。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="总结">
+          总结
+         </h2>
+         <p>
+          Sublime Text 作为当下流行的编辑器还有很多功能和插件没有介绍到，如果你喜爱此编辑器，可以自己网上搜索更多提高开发效率的技巧，这里就不一一列举了。随着 Sublime Text 的不断更新，还有很多的新功能需要大家去发现和了解。使用过程中遇到任何问题还可以在 Sublime Text
+          <a href="https://forum.sublimetext.com/" target="_blank">
+           官方论坛
+          </a>
+          提问，也可以在
+          <a href="https://www.sublimetext.com/support" target="_blank">
+           官方的文档
+          </a>
+          中查看更多教程。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="07. Atom 使用教程.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. Sublime Text 使用教程')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

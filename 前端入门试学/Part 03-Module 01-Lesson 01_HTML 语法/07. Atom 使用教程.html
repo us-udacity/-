@@ -1,0 +1,660 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Atom 使用教程
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      HTML 语法
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 课程简介.html">
+       01. 课程简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. HTML 结构 第 1 部分.html">
+       02. HTML 结构 第 1 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 创建第一个元素.html">
+       03. 创建第一个元素
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 环境.html">
+       04. 环境
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 文本编辑器.html">
+       05. 文本编辑器
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Sublime Text 使用教程.html">
+       06. Sublime Text 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Atom 使用教程.html">
+       07. Atom 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Visual Studio Code 使用教程.html">
+       08. Visual Studio Code 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 浏览器.html">
+       09. 浏览器
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 工作流.html">
+       10. 工作流
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 树.html">
+       11. 树
+      </a>
+     </li>
+     <li class="">
+      <a href="12. HTML 和树.html">
+       12. HTML 和树
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 发现 Bug.html">
+       13. 发现 Bug
+      </a>
+     </li>
+     <li class="">
+      <a href="14. HTML 查找.html">
+       14. HTML 查找
+      </a>
+     </li>
+     <li class="">
+      <a href="15. HTML 结构 第 2 部分.html">
+       15. HTML 结构 第 2 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 深入了解 HTML 文档.html">
+       16. 深入了解 HTML 文档
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 课程回顾.html">
+       17. 课程回顾
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          07. Atom 使用教程
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="介绍">
+          介绍
+         </h2>
+         <p>
+          Atom 是 GitHub 公司出品的一款开源多平台的代码编辑器，它上手简单，功能齐全，还有丰富插件可以选择，下面我们就来了解下这款编辑器。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="安装">
+          安装
+         </h2>
+         <p>
+          打开
+          <a href="https://atom.io/" target="_blank">
+           官网
+          </a>
+          ，点击
+          <strong>
+           DownLoad
+          </strong>
+          按钮就可以下载符合你系统的安装包。
+         </p>
+         <p>
+          下载完毕后双击压缩文件，Mac 下将解压出的
+          <code>
+           Atom
+          </code>
+          图标拖到「应用程序」目录下即可完成安装；Windows 用户双击
+          <code>
+           .exe
+          </code>
+          安装文件进行安装即可。
+         </p>
+         <p>
+          当你第一次打开 Atom 时，它会自动尝试安装终端下使用的 atom 和 apm 命令，安装成功之后你就可以直接在终端输入 atom 来打开 Atom 编辑器，并且可以使用 apm 命令来安装插件包。
+         </p>
+         <p>
+          在某些情况下，可能会因为需要管理员密码而安装失败。要检查 atom 命令是否安装成功可以在终端运行 which atom，如果 atom 命令安装好了，会看到这样的输出：
+         </p>
+         <pre><code class="bash language-bash">$ which atom
+/usr/local/bin/atom</code></pre>
+         <p>
+          如果 atom 命令没有安装，which 命令不会有输出。如果你想自己安装 atom 和 apm 命令，可以选择页面上方菜单栏 Atom，然后点击 Install Shell Commands ，此时会自动弹框询问你管理员密码。
+         </p>
+         <p>
+          在 Windows 中它们会帮你安装好 Atom ，将
+          <code>
+           atom
+          </code>
+          和
+          <code>
+           apm
+          </code>
+          命令添加到
+          <code>
+           PATH
+          </code>
+          环境变量，在桌面和开始菜单创建快捷方式，往右键菜单添加「Open with Atom」，让 Atom 能够在用户从「打开方式」里选取关联程序时可见。
+         </p>
+         <p>
+          此时我们在菜单栏也可以看到有这么几个部分：
+         </p>
+         <ul>
+          <li>
+           File: 文件菜单。文件的保存和打开，项目的保存和打开，重新打开最后一次的项目，添加项目等等功能。
+          </li>
+          <li>
+           Edit: 文件编辑。文件的各种编辑操作。
+          </li>
+          <li>
+           View: 视图。重载页面，全屏，字体大小的缩放等。
+          </li>
+          <li>
+           Selection: 选择。文件内容的选择操作。
+          </li>
+          <li>
+           Find: 查询。文件中的查找操作，单词的查找和替换等。
+          </li>
+          <li>
+           Package: 包。各种插件安装包信息。
+          </li>
+          <li>
+           Window: 窗口。打开设置窗口，最小化窗口等。
+          </li>
+          <li>
+           Help: 帮助。帮助文档，软件更新，协议等。
+          </li>
+         </ul>
+         <p>
+          英语欠佳的同学可以尝试给软件安装
+          <a href="https://github.com/chinakids/atom-simplified-chinese-menu" target="_blank">
+           汉化包
+          </a>
+          。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="基本术语">
+          基本术语
+         </h2>
+         <p>
+          我们先了解一下接下来要用到的几个术语：
+         </p>
+         <blockquote>
+          <p>
+           <strong>
+            缓冲区（Buffer）
+           </strong>
+           代表了 Atom 中的一个文件的文本内容，它基本上相当于一个真正的文件，但它是被 Atom 维护在内存中的，如果你修改了它，在你保存之前，缓冲区的内容都不会被写入到硬盘里。
+          </p>
+          <p>
+           <strong>
+            窗格（Pane）
+           </strong>
+           代表 Atom 中的一个可见区域。例如在欢迎屏幕上你可以看到四个窗格：用来切换文件的标签栏（tab bar），用来显示行号的边框（gutter），底部的状态栏（status bar），以及文本编辑器。
+          </p>
+         </blockquote>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="命令面板">
+          命令面板
+         </h2>
+         <p>
+          在你当前的焦点在一个窗格上的时候，按下
+          <code>
+           cmd+shift+p
+          </code>
+          就可以弹出命令面板。(Windows 对应的是
+          <code>
+           Ctrl+shlft+p
+          </code>
+          )。
+         </p>
+         <p>
+          在 Atom 中几乎所有的操作都通过这种搜索驱动的菜单来完成，你只需要按下
+          <code>
+           cmd-shift-P
+          </code>
+          来搜索命令，而不必在复杂的传统菜单栏间点来点去。
+         </p>
+         <p>
+          除了搜索数以千计的命令之外，命令面板上会显示每个命令对应的快捷键，例如上图我们可以输入
+          <code>
+           set
+          </code>
+          来搜索有关设置的结果，并且从第一条的内容右边可以看到对应的快捷键是：
+          <code>
+           cmd+,
+          </code>
+          ,也就是说我们也可以通过
+          <code>
+           cmd+,
+          </code>
+          打开设置页面。这意味着你可以在使用这些命令的同时学习对应的快捷键，以便之后使用。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="进行基本设置">
+          进行基本设置
+         </h2>
+         <p>
+          在了解了一些基本的信息之后，我们可以开始为我们的编辑器做一些偏好设置，使得我们在使用过程中更加得心应手。Atom 有很多 选项 和 偏好设置 能在设置界面进行修改。我们可以通过多种方式打开设置页面，例如点击菜单栏
+          <code>
+           Atom -&gt; performance
+          </code>
+          、或者按照上图中提供的快捷键
+          <code>
+           cmd+,
+          </code>
+          打开。
+         </p>
+         <p>
+          因为这里可以进行模糊搜索，所以当我输入 set 之后就可以找到对应的命令打开了，完整的命令是：
+          <code>
+           settings-view:open
+          </code>
+          。
+          <br/>
+          打开设置页面之后，我们可以看到如下界面：
+         </p>
+         <p>
+          <code>
+           Core Settings
+          </code>
+          是核心设置页面，这个部分的设置可以基本保持不变，如果有特殊的要求可以根据每一个选项的说明进行选择。
+         </p>
+         <p>
+          这里我们主要介绍一些简单常用的功能，例如
+          <strong>
+           更换主题
+          </strong>
+          ，
+          <strong>
+           编辑习惯设置
+          </strong>
+          ，因为就像 Core Settings 第一行介绍的那样，你做的每一个设置其实在你之后安装的主题或者包中也会有相关的设置，所以与其自己很繁琐的设置很细微的参数，不如直接安装一个自己喜欢的主题，这样会更加方便一点。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="更换主题">
+          更换主题
+         </h3>
+         <p>
+          在设置页面左边栏点击
+          <code>
+           Themes
+          </code>
+          选项卡进入主题设置页面。页面一共两个部分，分别是
+          <code>
+           Choose a Themes
+          </code>
+          和
+          <code>
+           Installed Themes
+          </code>
+          ，也就是说你可以自己选择主题或者查询已经安装的主题。Atom 内建了几个不同的
+          <strong>
+           UI
+          </strong>
+          和
+          <strong>
+           语法着色
+          </strong>
+          主题。你可以选择其中的任意一种进行切换更改。
+         </p>
+         <p>
+          UI 主题会修改标签栏、左侧目录树（tree view）等 UI 元素的颜色；而语法着色主题修改编辑器中文字的语法高亮方案。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="编辑习惯设置">
+          编辑习惯设置
+         </h3>
+         <p>
+          你可以通过在 Settings 页面点击左边栏的 Editor 来设置 Atom 处理 tab 键和折行的策略。
+         </p>
+         <p>
+          当你勾选了 Soft Tabs，Atom 将会在你按 tab 键时用空格来替代真正的制表符，Tab Length 则指定了一个制表符代表多少个空格，如果设置的是四个，那么当按下 Tab 键时，表示有四个空格，大家可以根据自己的习惯进行设置。
+         </p>
+         <p>
+          当你勾选了Soft Wrap 选项，Atom 会在一行中的文本超出屏幕显示范围时将其折为两行，如果禁用了这个选项，过长的行将超出屏幕显示范围，你必须要横向移动滚动条才能看到剩余的部分。如果 Soft Wrap At Preferred Line Length 选项被开启，则总是会在 80 个字符处折行，你也可以设置一个自定义的长度来替换掉默认的 80 个字符。这里 Soft Wrap Hanging Indent 表示换行之后下一行前面会空几个字符，默认选择的 0 个，表示换行之后没有空格。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="打开、编辑、保存文件">
+          打开、编辑、保存文件
+         </h2>
+         <p>
+          根据上面的教程设置好符合自己编辑习惯的编辑器之后，让我们来了解一下如何打开和编辑文件。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h3 id="打开文件">
+          打开文件
+         </h3>
+         <p>
+          在 Atom 中打开文件的方法有很多，你可以通过菜单栏选择
+          <code>
+           File
+          </code>
+          &gt;&gt;
+          <code>
+           Open
+          </code>
+          ,或者按下
+          <code>
+           cmd + o
+          </code>
+          从系统对话框中选择一个文件，当然你也可以直接将文件夹拖到 Atom 页面直接打开。
+         </p>
+         <p>
+          Windows 则可以点击
+          <code>
+           文件
+          </code>
+          &gt;&gt;
+          <code>
+           打开文件
+          </code>
+          选择对应的文件打开，还可以使用快捷键
+          <code>
+           ctrl+o
+          </code>
+          或者直接将文件拖入 Atom 中打开。
+         </p>
+         <p>
+          如果你想同时打开多个项目文件，只需要在选择文件时按住
+          <code>
+           cmd
+          </code>
+          (Mac) 或者
+          <code>
+           ctrl
+          </code>
+          (Windows) 键多选即可。
+         </p>
+         <p>
+          另一种打开文件的方法是用命令行。在之前安装的时候已经说明，Atom 会在你第一次打开时自动安装，并且如果没有安装成功也可以自己手动点击菜单栏 Atom 中 Install Shell Commands 菜单项安装，他会向你的终端中安装一个新的名为 atom 的命令，你可以用一个或多个文件路径作为参数去运行 atom 命令。这对于从终端中打开一个文件来说非常有用，只需运行 atom [files] 即可。
+         </p>
+         <p>
+          这里是 Mac 环境下的演示，Windows 终端中同样可以直接使用 atom [file] 打开。
+         </p>
+         <h3 id="编辑和保存文件">
+          编辑和保存文件
+         </h3>
+         <p>
+          你可以非常简单地编辑一个文件，只需要用鼠标点击一个位置，然后用键盘输入内容即可，Atom 没有特殊的命令或快捷键来进入「编辑模式」。
+         </p>
+         <p>
+          你还可以用菜单栏的
+          <code>
+           File
+          </code>
+          &gt;&gt;
+          <code>
+           Save
+          </code>
+          或快捷键
+          <code>
+           cmd+s
+          </code>
+          来保存文件，或者用
+          <code>
+           File
+          </code>
+          &gt;&gt;
+          <code>
+           Save As
+          </code>
+          或
+          <code>
+           cmd+shift+s
+          </code>
+          将文件另存为一个路径。这里不做演示，Windows 环境下与之类似。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="总结">
+          总结
+         </h2>
+         <p>
+          Atom 作为一个开源的编辑器软件还有很多没有介绍到的功能，这些功能不可能全部一一进行讲解，所以对于一些未知的功能和疑问，大家可以通过官网的
+          <a href="https://atom.io/docs" target="_blank">
+           官方文档
+          </a>
+          进行阅读了解，也可以在
+          <a href="https://discuss.atom.io/" target="_blank">
+           Atom 中文论坛
+          </a>
+          和更多的用户一起交流探讨。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="08. Visual Studio Code 使用教程.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('07. Atom 使用教程')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

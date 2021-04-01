@@ -1,0 +1,720 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Visual Studio Code 使用教程
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      HTML 语法
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 课程简介.html">
+       01. 课程简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. HTML 结构 第 1 部分.html">
+       02. HTML 结构 第 1 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 创建第一个元素.html">
+       03. 创建第一个元素
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 环境.html">
+       04. 环境
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 文本编辑器.html">
+       05. 文本编辑器
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Sublime Text 使用教程.html">
+       06. Sublime Text 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Atom 使用教程.html">
+       07. Atom 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Visual Studio Code 使用教程.html">
+       08. Visual Studio Code 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 浏览器.html">
+       09. 浏览器
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 工作流.html">
+       10. 工作流
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 树.html">
+       11. 树
+      </a>
+     </li>
+     <li class="">
+      <a href="12. HTML 和树.html">
+       12. HTML 和树
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 发现 Bug.html">
+       13. 发现 Bug
+      </a>
+     </li>
+     <li class="">
+      <a href="14. HTML 查找.html">
+       14. HTML 查找
+      </a>
+     </li>
+     <li class="">
+      <a href="15. HTML 结构 第 2 部分.html">
+       15. HTML 结构 第 2 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 深入了解 HTML 文档.html">
+       16. 深入了解 HTML 文档
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 课程回顾.html">
+       17. 课程回顾
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          08. Visual Studio Code 使用教程
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="介绍">
+          介绍
+         </h2>
+         <p>
+          Visual Studio Code 是一款轻量且强大的代码编辑器，支持 Windows，OS X 和 Linux。它采用经典的 VS 的 UI 布局，功能强大，扩展性很强。 内置 JavaScript、TypeScript和 Node.js 支持，而且拥有丰富的插件生态系统，可通过安装插件来支持C++、C#、Python、PHP等其他语言。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="下载安装">
+          下载安装
+         </h2>
+         <p>
+          我们可以点击
+          <a href="https://code.visualstudio.com/" target="_blank">
+           此处
+          </a>
+          打开 VS code 官方网站，网站会根据你的系统提供对应的下载链接，点击下载按钮之后就可以下载符合你系统的安装包。
+         </p>
+         <p>
+          上面分别是 Mac 和 Windows 系统下打开网页的情况。下载之后解压下载的安装包，Mac 下直接将文件拖到 Applications(应用程序) 里就可以安装了，Windows 下双击
+          <code>
+           .exe
+          </code>
+          文件进行安装即可。
+         </p>
+         <p>
+          <strong>
+           Windows用户注意：
+          </strong>
+         </p>
+         <blockquote>
+          <p>
+           Windows系统在安装 VS code 过程中可能会看到下面这一个画面，这里会默认勾选
+           <code>
+            添加到PATH （重启后生效）
+           </code>
+           这里将 VS code 添加到 PATH 可以帮助我们之后可以在命令行中启动 VS code 或者直接使用命令打开项目文件，所以这里请不要去除这个勾选，这对之后会有用处。
+          </p>
+         </blockquote>
+         <p>
+          安装完成之后我们双击图标打开 VS code。
+         </p>
+         <p>
+          <strong>
+           关于启动：
+          </strong>
+         </p>
+         <p>
+          这里关于启动 VS code 我们还有另外一种方式，那就是通过命令行的方式进行启动，这里因为系统的原因 Mac  和 Windows 会略有不同。
+         </p>
+         <ul>
+          <li>
+           Mac
+          </li>
+         </ul>
+         <blockquote>
+          <p>
+           如果你希望可以直接在终端输入
+           <code>
+            code
+           </code>
+           打开运行 VS code, VS code 中有一条命令 "
+           <code>
+            Shell Command: Install 'code' command in PATH
+           </code>
+           "可以将
+           <code>
+            code
+           </code>
+           添加到
+           <code>
+            $PATH
+           </code>
+           中，这样我们就可以在终端中使用 code 来启动 VS code 了。
+          </p>
+          <p>
+           这里我们需要打开 VS code ，在当前焦点是 VS code 情况下按下
+           <code>
+            cmd+p
+           </code>
+           键打开命令面板，然后输入
+           <code>
+            Shell 命令
+           </code>
+           ，此时命令面板将会搜索并且在下方显示匹配的命令，找到
+           <code>
+            Shell 命令: 在PATH中安装“code”
+           </code>
+           这条命令后回车就可以了。
+          </p>
+         </blockquote>
+         <ul>
+          <li>
+           Windows
+          </li>
+         </ul>
+         <blockquote>
+          <p>
+           注意：VS code 要求 .NET Framework 4.5 已经安装，如果你使用的是 Windows7 系统，请确保 .NET Framework 4.5 已经安装。如果没有安装的，可以点击
+           <a href="https://www.microsoft.com/zh-cn/download/details.aspx?id=30653" target="_blank">
+            此处下载
+           </a>
+          </p>
+          <p>
+           如果你在之前的安装过程中没有去掉勾选的
+           <code>
+            添加到PATH （重启后生效）
+           </code>
+           这个条件，这表示你在安装的时候已经将 VS code 添加到了 %PATH% 环境变量里面，此时你就可以在控制到任意路径下输入
+           <code>
+            code
+           </code>
+           来打开 VS code 或者编辑该文件夹下面的文件。
+          </p>
+         </blockquote>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="基本布局">
+          基本布局
+         </h2>
+         <p>
+          VS Code 有一个简单直观的布局，它提供最大化的编辑空间，同时留下足够空间来浏览和访问你的文件夹或项目全部上下文。它的用户界面分为五个方面：
+         </p>
+         <ul>
+          <li>
+           编辑器：来编辑你的文件。你可以同时打开三个的编辑。
+          </li>
+          <li>
+           侧边框：包含不同的视图。在你的项目工作的时候，视图像资源管理器来帮助你。
+          </li>
+          <li>
+           状态栏：显示打开的项目和编辑的文件的相关信息。
+          </li>
+          <li>
+           视图栏：位于最左边的视图栏，可以让你在视图之间切换并给你更多的特定于上下文指示
+          </li>
+          <li>
+           面板：在编辑区下面有不同的面板，面板有输入或调试信息，错误和警告或一个集成终端。
+          </li>
+          <li>
+           当你每次打开VS Code，它跟你上次关闭它时的状态一样。文件夹，布局，打开的文件都被保存。
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="关于欢迎界面">
+          关于欢迎界面
+         </h2>
+         <ul>
+          <li>
+           左侧
+          </li>
+         </ul>
+         <blockquote>
+          <p>
+           打开 VS code 之后我们可以看到一个欢迎界面。通过
+           <code>
+            欢迎使用
+           </code>
+           界面其实我们就可以看到很多的信息。首先我们查看左边的三个小面板。
+          </p>
+          <p>
+           在这个界面中我们可以在
+           <code>
+            开始
+           </code>
+           面板部分看到我们可以点击
+           <code>
+            新建文件
+           </code>
+           来直接新建一个文件，也可以通过
+           <code>
+            打开文件夹
+           </code>
+           来打开一个已经存在的项目文件。如果你之前已经打开过一些项目文件，在
+           <code>
+            最近
+           </code>
+           面板将会有你近期内打开过的文件记录，可以直接点击相关的记录重新打开文件。欢迎界面左侧最下面是
+           <code>
+            帮助
+           </code>
+           面板，这里给新手提供了各方面的帮助文档和信息，对于 VS code 新手来说，可以先通过这里了解一下 VS code 的基本使用。
+          </p>
+         </blockquote>
+         <ul>
+          <li>
+           右侧
+          </li>
+         </ul>
+         <blockquote>
+          <p>
+           欢迎界面右侧主要有两个部分，这两个部分分别是
+           <strong>
+            自定义
+           </strong>
+           和
+           <strong>
+            学习
+           </strong>
+           ；这是两个非常实用和重要的部分。
+          </p>
+          <p>
+           我们在自定义面板中可以自己定义
+           <strong>
+            工具和语言
+           </strong>
+           。这里因为 VS code 子身是一个极为简单的编辑器，他自身并不支持很多语言环境（后面我们会有介绍），所以这里我们可以点击
+           <code>
+            工具和语言
+           </code>
+           来安装你需要的语言和工具,这里我们以 Python 为例子进行演示。
+          </p>
+          <p>
+           接着我们可以看到我们可以在 VS code 中安装其他编辑器的键盘快捷方式，这个对于之前用过其他编辑器并且有其他编辑器实用习惯的人来说简直不要太开心，如果你之前是VIM 、 Atom 、Sublime 的用户，现在都可以在 VS code 上面安装对应的键盘快捷方式，不需要重新学习另外一套快捷键方式。
+          </p>
+          <p>
+           接着可以看到的是颜色主题，这里 VS code 提供了一些内置的主题可供选择，你也可以通过扩展安装其他第三方的主题（稍后会讲）。
+          </p>
+         </blockquote>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="了解命令面板">
+          了解命令面板
+         </h2>
+         <p>
+          与其他编辑器一样，VS code 也有命令面板。我们可以通过键盘操作命令面板，通过命令面板，我们可以访问 VS code 所有的功能，包含快捷键的一些常见操作。
+          <br/>
+          Mac 用户可以通过快捷键
+          <code>
+           cmd+p
+          </code>
+          ，Windows 用户可以通过
+          <code>
+           ctrl+p
+          </code>
+          调出命令面板。我们可以在命令面板输入框里面输入各种命令进行操作，例如我们可以在其中输入一个项目中的文件名，它将导航并且打开这个文件。
+         </p>
+         <p>
+          这里我们可以使用
+          <code>
+           cmd+o
+          </code>
+          (Mac) 或者
+          <code>
+           ctrl+o
+          </code>
+          (Windows) 来打开一个项目文件，然后在命令面板输入框中搜索需要打开的文件。
+         </p>
+         <p>
+          当然，命令面板的功能不仅仅有这些，它还可以定位到具体的符号、显示并且运行命令和管理拓展等等功能，这里可以通过在命令面板输入框中输入
+          <code>
+           ?
+          </code>
+          查看可以用的命令列表。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="基本设置">
+          基本设置
+         </h2>
+         <p>
+          VS code 还提供了一些可自定义的设置。这些设置可以让我们更为全面的定制编辑器。在 Mac 下我们可以点击菜单栏
+          <code>
+           code
+          </code>
+          &gt;&gt;
+          <code>
+           首选项
+          </code>
+          &gt;&gt;
+          <code>
+           设置
+          </code>
+          打开我们的设置面板。
+         </p>
+         <p>
+          Windows 用户可以点击
+          <code>
+           文件
+          </code>
+          &gt;&gt;
+          <code>
+           首选项
+          </code>
+          &gt;&gt;
+          <code>
+           设置
+          </code>
+          打开设置页面。
+         </p>
+         <p>
+          打开设置页面大家可以看到，VS code 提供了非常详细的设置页面，左边为默认设置，右边为用户设置，对于编辑器、工作台或者各类插件拓展都有很详细的设置。VS code 的设置很详细，首先会有各个大的分类，点开之后是每一个小的设置项目，每一个都有中文注释讲解如何设置，设置的每一个值的作用。如果你想更改某一个设置，只需要将更改的任何设置复制到右侧的用户设置里面并且保存就可以了。
+         </p>
+         <p>
+          这里给大家演示一个例子：更改
+          <code>
+           editor.lineNumbers
+          </code>
+          属性，也就是是否显示行号属性，这里编辑器默认是显示的。
+         </p>
+         <p>
+          从上面的演示可以看到，在没有更改
+          <code>
+           行号
+          </code>
+          属性之前，我们在文件中是可以看到每行的前面的行号数字的，然后复制
+          <code>
+           行号
+          </code>
+          属性对应的语句，复制粘贴到用户设置里面，并且将
+          <code>
+           on
+          </code>
+          改为
+          <code>
+           off
+          </code>
+          ，保存之后我们打开之前的文件，可以看到已经不再显示行号了，这里我们就完成了一次编辑器属性的设置。根据这个演示，大家可以在设置页面完成自己的定制化设置。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="打开、编辑、保存文件">
+          打开、编辑、保存文件
+         </h2>
+         <p>
+          根据上面的教程你已经可以进行主题更换、编辑习惯设置等等从大到小的一系列设置。VS code 作为一款编辑器，其主要的功能还是打开和编辑文件，接下来我们就来了解一下。
+         </p>
+         <h3 id="打开文件">
+          打开文件
+         </h3>
+         <p>
+          和其他相同类型的编辑器一样，VS code 也有很多种打开文件的方式。首先我们可以从菜单栏点击
+          <code>
+           文件
+          </code>
+          &gt;&gt;
+          <code>
+           打开
+          </code>
+          选择我们需要打开的项目文件，当然你也可以直接把文件拖到 VS code 页面直接打开或者你还可以使用快捷键
+          <code>
+           cmd+o
+          </code>
+          打开：
+         </p>
+         <p>
+          以上是 Mac 下面的演示，Windows 这里同样可以点击
+          <code>
+           文件
+          </code>
+          &gt;&gt;
+          <code>
+           打开文件
+          </code>
+          选择对应的文件打开，以及可以使用快捷键
+          <code>
+           ctrl+o
+          </code>
+          或者直接将文件拖入 VS code 中打开等方式。
+         </p>
+         <p>
+          如果你想同时打开多个项目文件，只需要在选择文件时按住
+          <code>
+           cmd
+          </code>
+          (Mac)或者
+          <code>
+           ctrl
+          </code>
+          (Windows)键多选即可。
+         </p>
+         <p>
+          另外一种打开的方式就是使用命令行。在上面的关于启动中我们已经了解如何在命令行中启动 VS code 编辑器，那么对于如何在命令行中打开文件就比较简单了，但是首先你需要先根据之前的教程实现可以命令行启动编辑器，不然是无法进行打开文件这一步的。当你已经可以在命令行中启动编辑器时，只需要在
+          <code>
+           code
+          </code>
+          命令后面加上一个或者多个文件路径作为参数去运行
+          <code>
+           code
+          </code>
+          命令。这对于从终端打开一个文件来说非常有用，只需要运行 code [files] 就可以了。
+         </p>
+         <p>
+          这里演示为 Mac 环境下，Windows 终端中也是直接使用 code [file] 打开就可以了。
+         </p>
+         <h3 id="编辑和保存文件">
+          编辑和保存文件
+         </h3>
+         <p>
+          你可以非常简单地编辑一个文件，你只需要用鼠标点击一个位置，然后用键盘输入内容即可，VS code 没有特殊的命令或快捷键来进入「编辑模式」。
+         </p>
+         <p>
+          你可以用菜单栏的 文件 &gt;&gt; 保存 或快捷键
+          <code>
+           cmd+s
+          </code>
+          (Mac)`ctrl+s
+          <code>
+           (Windows) 来保存文件，或者你可以用 文件 &gt;&gt; 另存为 或
+          </code>
+          cmd+shift+s
+          <code>
+           (Mac)\
+          </code>
+          ctrl+shift+s`(Windows) 将文件另存为到另一个路径。这里就不做演示了。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="总结">
+          总结
+         </h2>
+         <p>
+          对于 VS code 就先讲到这里，虽然还有很多内容没有说到，但是对于刚刚接触 VS code 的编程新手来说以上的教程已经足够基本的工作使用，还有更多的功能大家可以前往
+          <a href="https://code.visualstudio.com/docs" target="_blank">
+           官网的文档
+          </a>
+          查看，文档对于 VS code 的功能有很详细的说明，大家有任何问题还可以通过
+          <a href="https://code.visualstudio.com/community" target="_blank">
+           官网的论坛社群
+          </a>
+          进行交流。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="09. 浏览器.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. Visual Studio Code 使用教程')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

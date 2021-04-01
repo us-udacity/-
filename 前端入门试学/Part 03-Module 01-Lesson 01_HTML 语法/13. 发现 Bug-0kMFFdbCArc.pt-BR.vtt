@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.750 --> 00:00:03.660
+OK. Vou continuar e
+começar pelo primeiro.
+
+00:00:03.660 --> 00:00:08.109
+Parece bom, mas não tem
+a barra dentro da tag de fechamento, então
+
+00:00:08.109 --> 00:00:10.200
+esse está incorreto.
+
+00:00:11.250 --> 00:00:17.170
+Em seguida, há um elemento
+aninhado dentro de um elemento p.
+
+00:00:17.170 --> 00:00:23.430
+Você não viu isso antes, significa
+ênfase, o que apenas torna o texto em itálico.
+
+00:00:23.430 --> 00:00:26.585
+No final das contas, não há nada de
+errado aqui, exceto o erro de digitação.
+
+00:00:26.585 --> 00:00:31.390
+No entanto, erros de digitação
+não contam como HTML de formato incorreto.
+
+00:00:31.390 --> 00:00:33.120
+Então, esse aqui está OK.
+
+00:00:33.120 --> 00:00:39.170
+Depois vem o terceiro. Agora, note
+que está todo verde e esquisito.
+
+00:00:39.170 --> 00:00:43.330
+Essa é uma indicação muito boa
+de que este está errado.
+
+00:00:43.330 --> 00:00:47.750
+Eu não incluí o símbolo de maior que
+dentro da tag de abertura,
+
+00:00:47.750 --> 00:00:50.320
+o que bagunçou a coisa toda.
+
+00:00:50.320 --> 00:00:53.070
+Agora, uma das vantagens dos
+editores de código é que eles
+
+00:00:53.070 --> 00:00:57.830
+mudam a formatação dependendo de
+a sintaxe estar certa ou não.
+
+00:00:57.830 --> 00:01:02.520
+Então, como esta sintaxe está errada,
+esse não é um HTML válido,
+
+00:01:02.520 --> 00:01:05.860
+isso tudo fica estranho em verde e
+
+00:01:05.860 --> 00:01:09.410
+deve parecer bem óbvio que
+algo precisa ser corrigido.
+
+00:01:09.410 --> 00:01:12.280
+O último parece bem
+similar ao segundo.
+
+00:01:12.280 --> 00:01:14.020
+Mas há uma diferença importante.
+
+00:01:14.020 --> 00:01:16.690
+Eu mudei as tags de fechamento aqui.
+
+00:01:16.690 --> 00:01:22.070
+Agora, note que a tag está sendo
+fechada fora da tag p, e a
+
+00:01:22.070 --> 00:01:25.980
+tag p está sendo fechada dentro da tag em.
+
+00:01:25.980 --> 00:01:29.410
+Isso é errado. Uma bagunça.
+
+00:01:29.410 --> 00:01:34.180
+O elemento em é filho do elemento p,
+portanto, você precisa abri-lo
+
+00:01:34.180 --> 00:01:38.740
+e depois fechá-lo dentro do p,
+como o que foi feito bem aqui.
+

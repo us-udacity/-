@@ -1,0 +1,132 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.970 --> 00:00:03.760
+Okay, I'll start by looking for bold.
+
+00:00:03.760 --> 00:00:07.280
+To do that I will hit Cmd+F and
+then search for bold.
+
+00:00:07.280 --> 00:00:12.110
+Now this brings me to a bold
+faced element called &lt;b&gt;.&lt;/b&gt;
+
+00:00:12.110 --> 00:00:14.060
+That looks pretty reasonable, but
+
+00:00:14.060 --> 00:00:17.710
+it may be hard to see there
+is a second search result.
+
+00:00:17.710 --> 00:00:23.650
+So I'm going hit enter again. And
+that brings me to the strong element.
+
+00:00:23.650 --> 00:00:27.420
+Now the strong element is
+something that has importance and
+
+00:00:27.420 --> 00:00:29.310
+is typically displayed in bold.
+
+00:00:29.310 --> 00:00:31.900
+In fact I recommend using strong.
+
+00:00:31.900 --> 00:00:33.860
+Let me show you how that looks.
+
+00:00:33.860 --> 00:00:36.870
+So I've gone ahead and
+wrapped the text with a strong tag and
+
+00:00:36.870 --> 00:00:39.620
+as I said the b would be
+fine too if you did that.
+
+00:00:39.620 --> 00:00:43.420
+And then I've saved it and I will come
+over to the browser and hit refresh and
+
+00:00:43.420 --> 00:00:45.970
+then wallah the text is bold.
+
+00:00:45.970 --> 00:00:47.160
+Okay next up.
+
+00:00:47.160 --> 00:00:50.050
+I need to make this text emphasized.
+
+00:00:50.050 --> 00:00:53.560
+Back inside the Mozilla developer
+network I'm going to search for
+
+00:00:53.560 --> 00:00:54.109
+emphasis.
+
+00:00:56.320 --> 00:00:58.850
+There we go.
+And that quickly takes me to
+
+00:00:58.850 --> 00:01:01.290
+the em element which you saw before.
+
+00:01:01.290 --> 00:01:05.740
+The element marks that something
+has a lot of importance and
+
+00:01:05.740 --> 00:01:08.030
+so that looks good to me.
+
+00:01:08.030 --> 00:01:12.000
+You'll also note that right underneath
+it you'll have something called i.
+
+00:01:12.000 --> 00:01:14.490
+I will make something
+italic incidentally.
+
+00:01:14.490 --> 00:01:19.520
+But you actually aren't supposed to
+use the  element for any itallics.
+
+00:01:19.520 --> 00:01:23.850
+It actually has a different purpose
+now which you can read about here.
+
+00:01:23.850 --> 00:01:26.310
+Let me show you how
+the element looks.
+
+00:01:26.310 --> 00:01:30.270
+So, i've added the opening
+tag and the closing tag.
+
+00:01:30.270 --> 00:01:31.910
+Around This content.
+
+00:01:31.910 --> 00:01:35.690
+And then I'll come over to
+the browser and hit refresh.
+
+00:01:35.690 --> 00:01:36.550
+And there you go.
+
+00:01:36.550 --> 00:01:39.000
+This text is now emphasized.
+
+00:01:39.000 --> 00:01:43.340
+Incidentally, in the next lesson
+you'll be learning another way
+
+00:01:43.340 --> 00:01:46.340
+of making text bold and italics.
+
+00:01:46.340 --> 00:01:50.010
+I hope you remember that there are many
+ways to accomplish a lot of tasks
+
+00:01:50.010 --> 00:01:50.730
+inside the browser.
+

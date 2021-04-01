@@ -1,0 +1,207 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.769 --> 00:00:02.764
+É isso o que você vai fazer
+com seu fluxo de trabalho.
+
+00:00:02.931 --> 00:00:07.592
+Primeiro, você altera seu código
+ou edita-o em um editor de texto.
+
+00:00:08.007 --> 00:00:11.648
+Quando estiver satisfeito e quiser
+observar o resultado, você salva.
+
+00:00:11.993 --> 00:00:15.727
+Muito simples. Recomendo o uso de
+um atalho de teclado,
+
+00:00:15.899 --> 00:00:19.200
+como Cmd+S no Mac
+ou Ctrl+S no PC.
+
+00:00:19.589 --> 00:00:20.918
+Isso tornará sua vida
+muito mais fácil,
+
+00:00:20.943 --> 00:00:22.370
+em vez de acessar
+o menu
+
+00:00:22.370 --> 00:00:23.793
+e clicar em uma dessas opções.
+
+00:00:24.046 --> 00:00:25.921
+Depois, você retorna ao navegador.
+
+00:00:26.046 --> 00:00:28.138
+Você abre o arquivo
+caso ainda não tenha feito isso.
+
+00:00:28.163 --> 00:00:30.672
+Mas, se já o tiver aberto,
+tudo que precisa fazer
+
+00:00:30.697 --> 00:00:33.104
+é clicar em Atualizar
+para ver as alterações.
+
+00:00:33.483 --> 00:00:36.062
+Agora, vou mostrar
+um exemplo do começo ao fim.
+
+00:00:36.764 --> 00:00:39.426
+Primeiro,
+tenho que abrir meu editor de texto
+
+00:00:39.675 --> 00:00:41.744
+e também meu navegador.
+
+00:00:42.248 --> 00:00:44.723
+E bom ter os dois
+abertos ao mesmo tempo
+
+00:00:44.748 --> 00:00:46.308
+para que possamos observar
+o que vai acontecer.
+
+00:00:46.340 --> 00:00:47.489
+Mas você não é obrigado a fazê-lo.
+
+00:00:47.916 --> 00:00:50.206
+No meu editor de texto,
+fiz uma alteração.
+
+00:00:50.440 --> 00:00:52.365
+Observe que adicionei uma tag h2
+
+00:00:52.397 --> 00:00:54.370
+que consistirá em
+outra tag heading,
+
+00:00:54.417 --> 00:00:56.353
+só que um pouco menor
+que a h1.
+
+00:00:56.947 --> 00:00:58.084
+Prossigo e salvo-a.
+
+00:00:58.095 --> 00:01:01.679
+Observe que aqui, dentro de Atom,
+o pequeno ponto desaparece.
+
+00:01:01.800 --> 00:01:03.919
+Com isso, agora sei que
+meu arquivo foi salvo.
+
+00:01:04.418 --> 00:01:06.849
+Uso o atalho de teclado
+porque assim é muito mais rápido.
+
+00:01:07.408 --> 00:01:09.996
+Já estou pronto para ver
+a aparência do arquivo.
+
+00:01:10.300 --> 00:01:11.704
+Voltarei para o Chrome
+
+00:01:12.372 --> 00:01:15.717
+e pressionarei
+Cmd+O para abrir um arquivo.
+
+00:01:16.212 --> 00:01:19.461
+Vou procurá-lo
+no meu computador.
+
+00:01:19.587 --> 00:01:22.027
+Eu o nomeei de lesson2.html.
+
+00:01:22.426 --> 00:01:23.659
+Vou clicar em Abrir.
+
+00:01:24.952 --> 00:01:26.219
+E lá vamos nós.
+
+00:01:26.521 --> 00:01:28.124
+Você pode ver este cabeçalho,
+
+00:01:28.307 --> 00:01:30.561
+e é o mesmo código
+que está aqui.
+
+00:01:30.847 --> 00:01:31.860
+Parece muito legal.
+
+00:01:32.066 --> 00:01:33.258
+E se eu fizer uma alteração?
+
+00:01:33.591 --> 00:01:36.792
+E se eu decidir substituir
+este ponto de exclamação
+
+00:01:36.864 --> 00:01:38.399
+por um ponto de interrogação?
+
+00:01:38.812 --> 00:01:40.345
+Porque, por alguma razão,
+não tenho certeza.
+
+00:01:40.418 --> 00:01:42.281
+Mas é,
+sei que este é o HTML.
+
+00:01:42.828 --> 00:01:46.823
+Eu vou salvá-lo e depois retornar
+para o navegador e atualizar.
+
+00:01:47.056 --> 00:01:49.340
+Agora, eu poderia clicar
+neste botão de atualização,
+
+00:01:49.367 --> 00:01:52.300
+mas é muito mais rápido
+usar o atalho de teclado.
+
+00:01:52.604 --> 00:01:54.088
+Por isso, aperto Cmd+R.
+
+00:01:54.589 --> 00:01:57.120
+Agora há um ponto de interrogação.
+
+00:01:57.664 --> 00:02:00.440
+Tudo certo,
+está pronto.
+
+00:02:00.470 --> 00:02:04.387
+Há outras formas de
+abrir arquivos no navegador,
+
+00:02:04.425 --> 00:02:07.203
+mas, por enquanto,
+ficaremos só no que aprendemos até aqui.
+
+00:02:07.794 --> 00:02:10.116
+Posteriormente, você conhecerá
+algumas ferramentas
+
+00:02:10.141 --> 00:02:13.075
+que podem fazer
+atualização sempre que você salvar.
+
+00:02:13.328 --> 00:02:14.378
+Isso é muito interessante.
+
+00:02:14.656 --> 00:02:17.112
+Existem também ferramentas de
+desenvolvedor que permitirão
+
+00:02:17.142 --> 00:02:20.440
+editar sites em tempo real
+sem a necessidade de editor de texto.
+
+00:02:21.005 --> 00:02:23.316
+Em breve, você aprenderá
+sobre ferramentas do desenvolvedor.
+

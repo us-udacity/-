@@ -1,0 +1,694 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   深入了解 HTML 文档
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      HTML 语法
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 课程简介.html">
+       01. 课程简介
+      </a>
+     </li>
+     <li class="">
+      <a href="02. HTML 结构 第 1 部分.html">
+       02. HTML 结构 第 1 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 创建第一个元素.html">
+       03. 创建第一个元素
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 环境.html">
+       04. 环境
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 文本编辑器.html">
+       05. 文本编辑器
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Sublime Text 使用教程.html">
+       06. Sublime Text 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Atom 使用教程.html">
+       07. Atom 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Visual Studio Code 使用教程.html">
+       08. Visual Studio Code 使用教程
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 浏览器.html">
+       09. 浏览器
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 工作流.html">
+       10. 工作流
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 树.html">
+       11. 树
+      </a>
+     </li>
+     <li class="">
+      <a href="12. HTML 和树.html">
+       12. HTML 和树
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 发现 Bug.html">
+       13. 发现 Bug
+      </a>
+     </li>
+     <li class="">
+      <a href="14. HTML 查找.html">
+       14. HTML 查找
+      </a>
+     </li>
+     <li class="">
+      <a href="15. HTML 结构 第 2 部分.html">
+       15. HTML 结构 第 2 部分
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 深入了解 HTML 文档.html">
+       16. 深入了解 HTML 文档
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 课程回顾.html">
+       17. 课程回顾
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          16. 深入了解 HTML 文档
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          HTML 文档将通常
+         </p>
+        </h3>
+        <div>
+         <h3 id="html-文档类型">
+          HTML 文档类型
+         </h3>
+         <p>
+          HTML 文档通常以类型声明开始（这不是标签，所以不应该有结束标签）。该声明将帮助浏览器确定其尝试解析和显示的 HTML 文档类型。
+         </p>
+         <p>
+          如果你曾经使用开发者工具查看
+          <a href="http://www.3riversstadium.com/index2.html" target="_blank">
+           年代较早的一些网站
+          </a>
+          ，你可能已注意到文档类型如下所示：
+         </p>
+         <pre><code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd"&gt;
+（触发标准模式，但指定旧形式的验证。）</code></pre>
+         <p>
+          或者你可能根本找不到文档类型的声明？
+         </p>
+         <pre><code>&lt;html&gt;
+    … 
+&lt;/html&gt;
+
+（触发 "Quirks" 模式。真糟糕。）</code></pre>
+         <p>
+          但是较新的网站（以及你的网站！）将具有如下所示声明：
+         </p>
+         <pre><code>&lt;!DOCTYPE html&gt;
+
+（拥有所有最新功能的触发标准模式。）😊</code></pre>
+         <p>
+          浏览器查找该文档类型声明来确定使用哪种
+          <strong>
+           渲染模式
+          </strong>
+          来渲染该站点。通常，较新的站点遵循标准 HTML 规范。当前的标准 HTML 规范被称为 HTML5（即你正在学习的内容！）。另一方面，在 HTML 标准发布之前创建的较早站点，可能使用不同的渲染模式模拟较早浏览器的行为。
+         </p>
+         <p>
+          如果你有兴趣阅读更多有关文档类型声明和不同渲染模式的内容，可以在
+          <a href="https://developer.mozilla.org/zh-CN/docs/%E6%80%AA%E5%BC%82%E6%A8%A1%E5%BC%8F%E5%92%8C%E6%A0%87%E5%87%86%E6%A8%A1%E5%BC%8F" target="_blank">
+           此处
+          </a>
+          进行了解。
+         </p>
+         <p>
+          一旦你声明了文档类型，HTML 文档的下一部分就是
+          <code>
+           &lt;html&gt;
+          </code>
+          标签，告知浏览器应将括在
+          <code>
+           &lt;html&gt; ...&lt;/html&gt;
+          </code>
+          内的所有内容解析为 HTML。然后是 HTML 文档的两个主要部分：
+          <code>
+           &lt;head&gt;
+          </code>
+          和
+          <code>
+           &lt;body&gt;
+          </code>
+          。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          基本 HTML 树结构
+         </p>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="基本 HTML 树结构" class="img img-fluid" src="img/html-tree.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            基本 HTML 树结构
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          <head>
+           将包含常规信息
+          </head>
+         </p>
+        </h3>
+        <div>
+         <h3 id="head-和-body">
+          <code>
+           &lt;head&gt;
+          </code>
+          和
+          <code>
+           &lt;body&gt;
+          </code>
+         </h3>
+         <p>
+          <code>
+           &lt;head&gt;
+          </code>
+          将包含有关页面的常规信息和元数据，而
+          <code>
+           &lt;body&gt;
+          </code>
+          将包含显示在该页面上的内容。以下是整个 HTML 文档树结构的示例：
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          完整的 HTML 树结构
+         </p>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="完整的 HTML 树结构" class="img img-fluid" src="img/full-html-tree.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            完整的 HTML 树结构
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          已学习的所有 HTML 语法的基础
+         </p>
+        </h3>
+        <div>
+         <p>
+          在本课程中学习的所有 HTML 语法将帮助你创建页面的
+          <strong>
+           内容
+          </strong>
+          ，该内容始终包含在
+          <code>
+           &lt;body&gt;
+          </code>
+          标签内部。
+          <code>
+           &lt;body&gt;
+          </code>
+          始终可见。
+         </p>
+         <p>
+          另一方面，
+          <code>
+           &lt;head&gt;
+          </code>
+          是始终不可见的，但是其中描述页面的信息和指向其它文件的链接都是浏览器正确渲染网站所需要的。例如，
+          <code>
+           &lt;head&gt;
+          </code>
+          负责：
+         </p>
+         <ul>
+          <li>
+           文档的标题（浏览器标签中显示的文本）：
+           <code>
+            &lt;title&gt;About Me&lt;/title&gt;
+           </code>
+           。
+          </li>
+          <li>
+           相关的 CSS 文件（针对样式）：
+           <code>
+            &lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+           </code>
+           。
+          </li>
+          <li>
+           相关的 JavaScript 文件（更改渲染和行为的多用途脚本）：
+           <code>
+            &lt;script src="animations.js"&gt;&lt;/script&gt;
+           </code>
+           。
+          </li>
+          <li>
+           网页使用的字符集（文本的
+           <a href="https://baike.baidu.com/item/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/8446880?fr=aladdin" target="_blank">
+            编码
+           </a>
+           ）：
+           <code>
+            &lt;meta
+charset="utf-8"&gt;
+           </code>
+           。
+          </li>
+          <li>
+           关键字、作者和描述（通常对
+           <a href="https://baike.baidu.com/item/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96/3132?fr=aladdin" target="_blank">
+            搜索引擎优化（SEO）
+           </a>
+           起作用）：
+           <code>
+            &lt;meta name="description" content="This is what my website is all about!"&gt;
+           </code>
+           。
+          </li>
+          <li>
+           … 等！
+          </li>
+         </ul>
+         <p>
+          现在，我们只关注这两个标签：
+         </p>
+         <ul>
+          <li>
+           <code>
+            &lt;title&gt;About Me&lt;/title&gt;
+           </code>
+          </li>
+          <li>
+           <code>
+            &lt;meta charset="utf-8"&gt;
+           </code>
+          </li>
+         </ul>
+         <p>
+          <code>
+           &lt;meta charset="utf-8"&gt;
+          </code>
+          是十分标准的格式，它将允许你的网站显示任何
+          <a href="https://unicode-table.com/cn/" target="_blank">
+           Unicode 字符
+          </a>
+          。（
+          <a href="https://baike.baidu.com/item/UTF-8/481798?fr=aladdin" target="_blank">
+           单击此处了解更多有关 UTF-8 的信息
+          </a>
+          。）
+          <code>
+           &lt;title&gt;
+          </code>
+          将定义文档的标题，并在用户访问页面时显示在浏览器的标签中。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          完整的 HTML 模板
+         </p>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="完整的 HTML 模板" class="img img-fluid" src="img/full-html-template.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            完整的 HTML 模板
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          HTML 验证程序
+         </p>
+        </h3>
+        <div>
+         <h1 id="html-验证程序">
+          HTML 验证程序
+         </h1>
+         <p>
+          似乎要记忆的内容很多，但庆幸的是， 有工具可以为你提供帮助。如同“优达学城前端反馈扩展”在你已满足特定项目的所有要求时通知你一样，
+          <a href="https://validator.w3.org" target="_blank">
+           HTML 验证程序
+          </a>
+          <br/>
+          <sub style="font-size: 1px;">
+           (英)
+          </sub>
+          会分析你的网站并验证你是否在编写有效的 HTML。例如，你把上面那一段模板代码输入进去，会收到一个 warning，因为 W3C 推荐给每一个 HTML 都加上默认语言。
+         </p>
+         <p>
+          希望你现在尝试一次！
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          HTML 验证程序测验
+         </p>
+        </h3>
+        <div>
+         <form>
+          <fieldset>
+           <legend>
+            <p>
+             使用
+             <a href="https://validator.w3.org/#validate_by_input" target="_blank">
+              W3C HTML  验证程序
+             </a>
+             ， 当你在“输入验证”文本框中输入以下 HTML 后发生了什么：
+            </p>
+            <pre><code>&lt;h1&gt;这是一个标题&lt;/h1&gt;</code></pre>
+           </legend>
+          </fieldset>
+          <div>
+           <input id="a1468966685392" name="189888" type="checkbox" value="a1468966685392"/>
+           <label for="a1468966685392">
+            <p>
+             验证程序在 HTML 中发现错误或警告
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1468966768911" name="189888" type="checkbox" value="a1468966768911"/>
+           <label for="a1468966768911">
+            <p>
+             验证程序崩溃，因为 HTML 格式不正确
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1468966799101" name="189888" type="checkbox" value="a1468966799101"/>
+           <label for="a1468966799101">
+            <p>
+             验证程序假设文档类型为 HTML5
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1468966902304" name="189888" type="checkbox" value="a1468966902304"/>
+           <label for="a1468966902304">
+            <p>
+             验证程序假设文档是
+             <br/>
+             HTML5 之外的其他类型
+            </p>
+           </label>
+          </div>
+         </form>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          <ul>
+           <li>
+            验证程序在 HTML 中发现错误或警告
+           </li>
+           <li>
+            验证程序假设文档是
+ HTML5 之外的其他类型
+           </li>
+          </ul>
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          HTML 验证程序第 2 部分测验
+         </p>
+        </h3>
+        <div>
+         <form>
+          <fieldset>
+           <legend>
+            <p>
+             现在，修改你之前输入的 HTML，使其遵循 HTML 模板。确保设置 HTML5 的文档类型！
+            </p>
+            <p>
+             验证程序成功验证你的代码后将显示什么信息？
+            </p>
+           </legend>
+          </fieldset>
+          <div>
+           <input id="a1468968001177" name="189889" type="radio" value="a1468968001177"/>
+           <label for="a1468968001177">
+            <p>
+             以 HTML5 文档类型检测文档时未发现任何错误！
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1468968243460" name="189889" type="radio" value="a1468968243460"/>
+           <label for="a1468968243460">
+            <p>
+             文档检查完成。
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1468968253968" name="189889" type="radio" value="a1468968253968"/>
+           <label for="a1468968253968">
+            <p>
+             未显示任何错误或警告。
+            </p>
+           </label>
+          </div>
+          <div>
+           <input id="a1468968260169" name="189889" type="radio" value="a1468968260169"/>
+           <label for="a1468968260169">
+            <p>
+             文档检查已完成。未显示任何错误或警告。
+            </p>
+           </label>
+          </div>
+         </form>
+         <details>
+          <summary>
+           <strong>
+            SOLUTION:
+           </strong>
+          </summary>
+          文档检查已完成。未显示任何错误或警告。
+         </details>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="17. 课程回顾.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('16. 深入了解 HTML 文档')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

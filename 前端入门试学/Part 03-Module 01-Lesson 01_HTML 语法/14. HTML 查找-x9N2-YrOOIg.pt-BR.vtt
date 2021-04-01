@@ -1,0 +1,131 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.970 --> 00:00:03.760
+Certo, vou começar procurando negrito.
+
+00:00:03.760 --> 00:00:07.280
+Para isso, pressiono Cmd+F e
+pesquiso negrito.
+
+00:00:07.280 --> 00:00:12.110
+Veja que isso traz um elemento
+em negrito chamado b.
+
+00:00:12.110 --> 00:00:14.060
+Parece bastante lógico, mas
+
+00:00:14.060 --> 00:00:17.710
+pode ser difícil ver que existe
+um segundo resultado da pesquisa.
+
+00:00:17.710 --> 00:00:23.650
+Vou pressionar Enter de novo. E
+isso me leva ao elemento "strong".
+
+00:00:23.650 --> 00:00:27.420
+Bem, o elemento "strong"
+tem a sua importância e, normalmente,
+
+00:00:27.420 --> 00:00:29.310
+é exibido em negrito.
+
+00:00:29.310 --> 00:00:31.900
+Na verdade, recomendo usar "strong".
+
+00:00:31.900 --> 00:00:33.860
+Vou mostrar como ele fica.
+
+00:00:33.860 --> 00:00:36.870
+Eu fui em frente e
+delimitei o texto com uma tag "strong" e,
+
+00:00:36.870 --> 00:00:39.620
+como disse, você também
+poderia usar o "b".
+
+00:00:39.620 --> 00:00:43.420
+Depois, salvei. Agora, vou para o navegador,
+pressiono Atualizar e... voilà!
+
+00:00:43.420 --> 00:00:45.970
+O texto está em negrito.
+
+00:00:45.970 --> 00:00:47.160
+Legal, próximo!
+
+00:00:47.160 --> 00:00:50.050
+Preciso colocar ênfase neste texto.
+
+00:00:50.050 --> 00:00:53.560
+De volta ao Mozilla Developer Network,
+vou pesquisar
+
+00:00:53.560 --> 00:00:54.109
+"emphasis".
+
+00:00:56.320 --> 00:00:58.850
+Aqui está.
+E isso rapidamente me leva ao
+
+00:00:58.850 --> 00:01:01.290
+elemento que você viu antes.
+
+00:01:01.290 --> 00:01:05.740
+O elemento indica que algo
+tem muita importância, e
+
+00:01:05.740 --> 00:01:08.030
+isso me parece bom.
+
+00:01:08.030 --> 00:01:12.000
+Você também notará que, logo abaixo dele,
+encontrará algo chamado "i".
+
+00:01:12.000 --> 00:01:14.490
+O elemento i também deixa o texto em itálico.
+
+00:01:14.490 --> 00:01:19.520
+Na verdade, você não deve utilizar
+o elemento i para tornar o texto itálico.
+
+00:01:19.520 --> 00:01:23.850
+A finalidade dele é outra,
+e aqui você pode ler a respeito.
+
+00:01:23.850 --> 00:01:26.310
+Vou mostrar a cara
+que o elemento em tem.
+
+00:01:26.310 --> 00:01:30.270
+Adicionei a tag de abertura
+e a tag de fechamento
+
+00:01:30.270 --> 00:01:31.910
+delimitando este conteúdo.
+
+00:01:31.910 --> 00:01:35.690
+E vou voltar ao navegador
+e pressionar Atualizar.
+
+00:01:35.690 --> 00:01:36.550
+E aí está.
+
+00:01:36.550 --> 00:01:39.000
+O texto agora está enfatizado.
+
+00:01:39.000 --> 00:01:43.340
+Por coincidência, na próxima aula
+você aprenderá outro modo
+
+00:01:43.340 --> 00:01:46.340
+de criar texto em negrito e itálico.
+
+00:01:46.340 --> 00:01:50.010
+Espero que você se lembre de que há muitas
+formas de realizar inúmeras tarefas
+
+00:01:50.010 --> 00:01:50.730
+no navegador.
+

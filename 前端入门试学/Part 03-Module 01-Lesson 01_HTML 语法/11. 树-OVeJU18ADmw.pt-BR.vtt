@@ -1,0 +1,129 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:03.280 --> 00:00:06.910
+As sequoias crescem em florestas úmidas e enevoadas.
+
+00:00:06.910 --> 00:00:10.420
+Elas coletam grande parte da água
+da neblina e, no processo,
+
+00:00:10.420 --> 00:00:12.530
+elas ajudam a manter úmido o
+ambiente ao redor.
+
+00:00:13.580 --> 00:00:17.350
+Se estivéssemos aqui de manhã, com
+muita neblina, poderíamos ver
+
+00:00:17.350 --> 00:00:21.040
+as gotas de água se acumulando nas folhas e
+caindo no chão.
+
+00:00:22.780 --> 00:00:23.470
+Enfim.
+
+00:00:23.470 --> 00:00:26.620
+Estou mostrando árvores
+porque elas desempenham um papel importante
+
+00:00:26.620 --> 00:00:27.600
+no desenvolvimento da Web.
+
+00:00:27.600 --> 00:00:30.540
+Além de serem gigantes em inspiração
+e beleza,
+
+00:00:30.540 --> 00:00:34.570
+os desenvolvedores da Web as usam para representar
+os dados que compõem sites da Web.
+
+00:00:34.570 --> 00:00:36.100
+Deixe-me mostrar o que quero dizer.
+
+00:00:38.000 --> 00:00:40.400
+Esta é uma árvore genealógica.
+
+00:00:40.400 --> 00:00:42.500
+Você já deve ter visto
+algo parecido antes.
+
+00:00:42.500 --> 00:00:43.970
+Há um pai
+
+00:00:43.970 --> 00:00:45.690
+e dois filhos.
+
+00:00:45.690 --> 00:00:48.270
+Sim.
+São necessários um pai e uma mãe para que haja
+
+00:00:48.270 --> 00:00:50.260
+um filho, mas ignorem isso por enquanto.
+
+00:00:50.260 --> 00:00:52.540
+Finjam que seja apenas um pai.
+
+00:00:52.540 --> 00:00:57.340
+Nesta família, você diria que
+Diego e Jamal são filhos de Zhalisa,
+
+00:00:57.340 --> 00:01:02.590
+e que Zhalisa é
+o pai de Jamal e Diego.
+
+00:01:02.590 --> 00:01:06.920
+Você poderia dizer também que Diego e
+Jamal são irmãos.
+
+00:01:06.920 --> 00:01:10.500
+Usamos o mesmo tipo de termos
+familiares, como filho, irmãos e
+
+00:01:10.500 --> 00:01:15.850
+pai, para descrever relacionamentos
+como esses em uma árvore de dados.
+
+00:01:15.850 --> 00:01:19.750
+Uma árvore é apenas um tipo de estrutura
+de dados na ciência da computação.
+
+00:01:19.750 --> 00:01:22.460
+Elas são usadas para representar
+dados hierárquicos.
+
+00:01:22.460 --> 00:01:26.400
+Isto é, bits de informações que
+pertencem uns aos outros.
+
+00:01:26.400 --> 00:01:31.420
+Neste caso, o elemento 3 e
+o elemento 2 pertencem ao elemento 1.
+
+00:01:31.420 --> 00:01:36.300
+E, exatamente como uma família,
+os filhos podem ser pais também, e
+
+00:01:36.300 --> 00:01:38.360
+é isso, uma árvore.
+
+00:01:38.360 --> 00:01:44.090
+Eu decidi mostrar esta árvore porque o seu HTML
+se transforma em uma árvore muito parecida com esta.
+
+00:01:44.090 --> 00:01:48.450
+Os elementos vão pertencer uns aos outros ou
+serão descendentes uns dos outros.
+
+00:01:48.450 --> 00:01:52.150
+Existem filhos e pais e
+filhos têm filhos.
+
+00:01:52.150 --> 00:01:54.180
+Isso pode parecer um
+pouco confuso
+
+00:01:54.180 --> 00:01:55.550
+aqui, deixe-me mostrar o que quero dizer.
+

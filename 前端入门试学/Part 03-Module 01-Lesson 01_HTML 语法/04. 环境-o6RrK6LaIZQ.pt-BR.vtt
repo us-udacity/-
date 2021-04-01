@@ -1,0 +1,158 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.025 --> 00:00:04.077
+Gosto muito de
+estar aqui ao ar livre.
+
+00:00:04.077 --> 00:00:06.730
+É muito melhor do que ficar
+confinado no escritório o dia todo.
+
+00:00:07.700 --> 00:00:08.800
+Na próxima parte desta lição,
+
+00:00:08.800 --> 00:00:11.600
+você irá configurar
+seu ambiente.
+
+00:00:11.600 --> 00:00:14.500
+Aqui, o ambiente consiste em
+todos os seres vivos e
+
+00:00:14.500 --> 00:00:16.500
+processos naturais.
+
+00:00:16.500 --> 00:00:18.910
+O seu ambiente de desenvolvimento
+consiste em todo o software
+
+00:00:18.910 --> 00:00:21.700
+e códigos disponíveis
+para você
+
+00:00:21.700 --> 00:00:24.000
+ou o código que você está executando.
+
+00:00:24.000 --> 00:00:26.530
+Os primeiros dois aspectos
+a serem configurados no seu ambiente
+
+00:00:26.530 --> 00:00:28.920
+são o navegador
+e o editor de texto.
+
+00:00:28.920 --> 00:00:31.500
+Antes de instalar qualquer coisa,
+aguarde um instante.
+
+00:00:31.500 --> 00:00:33.500
+Preciso esclarecer
+alguns aspectos.
+
+00:00:34.900 --> 00:00:39.220
+Primeiro, você usará um editor
+de texto para escrever código.
+
+00:00:39.220 --> 00:00:40.490
+Quando falamos 'editor de texto',
+
+00:00:40.490 --> 00:00:44.890
+você pensa logo em um
+software como o Microsoft Word.
+
+00:00:44.890 --> 00:00:49.000
+Mas, nossos editores de texto
+para codificação são diferentes.
+
+00:00:49.000 --> 00:00:51.130
+O Word mostra rich text.
+
+00:00:51.130 --> 00:00:55.770
+O rich text é formatado com fontes,
+estilos, cores e assim por diante.
+
+00:00:55.770 --> 00:00:58.880
+Você quer escrever
+texto simples para código.
+
+00:00:58.880 --> 00:01:01.340
+Este é apenas um conjunto
+de caracteres ASCII.
+
+00:01:01.340 --> 00:01:06.420
+Lembre-se de que você nunca deve usar
+o Microsoft Word para codificação.
+
+00:01:06.420 --> 00:01:10.420
+O código usado para escrever não
+deve conter estilos, mas apenas texto simples.
+
+00:01:10.420 --> 00:01:12.770
+Vamos ao segundo aspecto.
+
+00:01:12.770 --> 00:01:16.500
+Você já deve ter ouvido falar
+no termo IDE como um local
+
+00:01:16.500 --> 00:01:18.620
+para escrever um código.
+
+00:01:18.620 --> 00:01:22.400
+IDE significa
+ambiente de desenvolvimento integrado.
+
+00:01:23.440 --> 00:01:29.730
+O Xcode da Apple e o Visual Studio
+da Microsoft são dois exemplos de IDEs.
+
+00:01:29.730 --> 00:01:33.790
+Talvez você imagine que o IDE
+é um editor de texto com esteroides.
+
+00:01:33.790 --> 00:01:37.360
+Além de permitir que você escreva um código,
+ele compila-o
+
+00:01:37.360 --> 00:01:39.640
+e executa o código para você.
+
+00:01:39.640 --> 00:01:42.000
+Ele também tem vários
+outros recursos
+
+00:01:42.000 --> 00:01:43.520
+não encontrados em um
+editor de texto comum.
+
+00:01:43.520 --> 00:01:46.380
+Os IDEs são muito úteis,
+
+00:01:46.380 --> 00:01:51.460
+mas não são usados no desenvolvimento
+da Web por causa dos navegadores.
+
+00:01:51.460 --> 00:01:53.500
+Os navegadores executam
+
+00:01:53.500 --> 00:01:56.000
+o nosso código e não precisamos nos preocupar
+em compilar nada.
+
+00:01:56.000 --> 00:01:59.000
+Isso não é um problema
+no desenvolvimento da Web.
+
+00:01:59.000 --> 00:02:01.610
+Pelo menos por enquanto,
+recomendo manter distância do IDE,
+
+00:02:01.610 --> 00:02:04.690
+a menos que você
+já esteja familiarizado com ele.
+
+00:02:04.690 --> 00:02:06.730
+Agora você já pode
+configurar o seu ambiente.
+
