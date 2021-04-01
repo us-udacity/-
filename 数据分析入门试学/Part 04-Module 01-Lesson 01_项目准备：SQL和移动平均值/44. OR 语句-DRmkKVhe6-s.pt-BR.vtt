@@ -1,0 +1,92 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.440 --> 00:00:03.720
+"OR" pode ser combinado
+com outros operadores
+
+00:00:03.760 --> 00:00:05.320
+usando parênteses.
+
+00:00:05.480 --> 00:00:07.800
+Voltando ao exemplo
+em que procuramos pedidos
+
+00:00:07.880 --> 00:00:09.920
+que não continham
+os três tipos de papel,
+
+00:00:10.000 --> 00:00:12.240
+podemos especificar mais ainda.
+
+00:00:12.320 --> 00:00:13.800
+As melhores perspectivas
+são pessoas
+
+00:00:13.880 --> 00:00:17.480
+que recusaram algum tipo de papel
+e também compraram recentemente.
+
+00:00:17.560 --> 00:00:20.160
+Vamos manter os filtros
+da consulta anterior,
+
+00:00:20.320 --> 00:00:24.520
+mas também informar que o pedido
+ocorreu após 1 de outubro de 2016.
+
+00:00:26.600 --> 00:00:29.840
+Você notará que agora encapsulamos
+as expressões "OR" entre parênteses.
+
+00:00:30.000 --> 00:00:33.000
+Veja como os parênteses
+tornam as três expressões lógicas
+
+00:00:33.040 --> 00:00:36.400
+em uma grande expressão lógica,
+que se tornará verdadeira ou falsa.
+
+00:00:36.760 --> 00:00:39.200
+Enquanto uma dessas expressões
+for verdadeira,
+
+00:00:39.280 --> 00:00:42.280
+o bloco inteiro entre parênteses
+será considerado verdadeiro.
+
+00:00:43.680 --> 00:00:45.840
+A próxima expressão lógica
+após "AND"
+
+00:00:45.920 --> 00:00:48.280
+também será avaliada
+como verdadeira ou falsa.
+
+00:00:48.560 --> 00:00:50.280
+E a consulta
+apenas retornará linhas
+
+00:00:50.360 --> 00:00:53.040
+para as quais todo o conjunto
+de expressões "OR"
+
+00:00:53.120 --> 00:00:55.520
+e o filtro de data
+sejam verdadeiros.
+
+00:00:56.720 --> 00:00:57.960
+Olhando esta primeira linha,
+
+00:00:58.040 --> 00:01:01.120
+você pode ver que "occurred_at"
+é após 1 de outubro de 2016
+
+00:01:01.400 --> 00:01:03.080
+e não há papel para pôster,
+
+00:01:03.160 --> 00:01:05.760
+atendendo à expressão lógica
+criada pelos parênteses.
+

@@ -1,0 +1,431 @@
+<!-- udacimak v1.4.1 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   解决方案：算术运算符
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      项目准备：SQL和移动平均值
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 你的第一个项目.html">
+       01. 你的第一个项目
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 视频：SQL 简介.html">
+       02. 视频：SQL 简介
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 视频：Parch &amp; Posey 数据库.html">
+       03. 视频：Parch &amp; Posey 数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 视频 + 文本：Parch &amp; Posey 数据库.html">
+       04. 视频 + 文本：Parch &amp; Posey 数据库
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 视频：为什么使用 SQL.html">
+       05. 视频：为什么使用 SQL
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 视频：数据库如何存储数据.html">
+       06. 视频：数据库如何存储数据
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 视频：语句类型.html">
+       07. 视频：语句类型
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 语句.html">
+       08. 语句
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 视频：SELECT 和 FROM.html">
+       09. 视频：SELECT 和 FROM
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 文本 + 练习：你的第一个查询.html">
+       10. 文本 + 练习：你的第一个查询
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 解决方案：你的第一个查询解决方案.html">
+       11. 解决方案：你的第一个查询解决方案
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 文本：格式化最佳方法.html">
+       12. 文本：格式化最佳方法
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 视频：LIMIT.html">
+       13. 视频：LIMIT
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 练习：LIMIT.html">
+       14. 练习：LIMIT
+      </a>
+     </li>
+     <li class="">
+      <a href="15. 解决方案：LIMIT.html">
+       15. 解决方案：LIMIT
+      </a>
+     </li>
+     <li class="">
+      <a href="16. 视频 ORDER BY.html">
+       16. 视频: ORDER BY
+      </a>
+     </li>
+     <li class="">
+      <a href="17. 练习 ORDER BY.html">
+       17. 练习: ORDER BY
+      </a>
+     </li>
+     <li class="">
+      <a href="18. 解决方案：ORDER BY.html">
+       18. 解决方案：ORDER BY
+      </a>
+     </li>
+     <li class="">
+      <a href="19. 视频：ORDER BY（第二部分）.html">
+       19. 视频：ORDER BY（第二部分）
+      </a>
+     </li>
+     <li class="">
+      <a href="20. 练习：ORDER BY（第二部分）.html">
+       20. 练习：ORDER BY（第二部分）
+      </a>
+     </li>
+     <li class="">
+      <a href="21. 解决方案：ORDER BY（第二部分）.html">
+       21. 解决方案：ORDER BY（第二部分）
+      </a>
+     </li>
+     <li class="">
+      <a href="22. 视频：WHERE.html">
+       22. 视频：WHERE
+      </a>
+     </li>
+     <li class="">
+      <a href="23. 练习：WHERE.html">
+       23. 练习：WHERE
+      </a>
+     </li>
+     <li class="">
+      <a href="24. 解决方案：WHERE.html">
+       24. 解决方案：WHERE
+      </a>
+     </li>
+     <li class="">
+      <a href="25. 视频：WHERE 与非数字数据一起使用.html">
+       25. 视频：WHERE 与非数字数据一起使用
+      </a>
+     </li>
+     <li class="">
+      <a href="26. 练习：WHERE 与非数字数据一起使用.html">
+       26. 练习：WHERE 与非数字数据一起使用
+      </a>
+     </li>
+     <li class="">
+      <a href="27. 解决方案：WHERE 与非数字数据一起使用.html">
+       27. 解决方案：WHERE 与非数字数据一起使用
+      </a>
+     </li>
+     <li class="">
+      <a href="28. 视频：算术运算符.html">
+       28. 视频：算术运算符
+      </a>
+     </li>
+     <li class="">
+      <a href="29. 练习：算术运算符.html">
+       29. 练习：算术运算符
+      </a>
+     </li>
+     <li class="">
+      <a href="30. 解决方案：算术运算符.html">
+       30. 解决方案：算术运算符
+      </a>
+     </li>
+     <li class="">
+      <a href="31. 文本：逻辑运算符简介.html">
+       31. 文本：逻辑运算符简介
+      </a>
+     </li>
+     <li class="">
+      <a href="32. 视频：LIKE.html">
+       32. 视频：LIKE
+      </a>
+     </li>
+     <li class="">
+      <a href="33. 练习：LIKE.html">
+       33. 练习：LIKE
+      </a>
+     </li>
+     <li class="">
+      <a href="34. 解决方案：LIKE.html">
+       34. 解决方案：LIKE
+      </a>
+     </li>
+     <li class="">
+      <a href="35. 视频：IN.html">
+       35. 视频：IN
+      </a>
+     </li>
+     <li class="">
+      <a href="36. 练习 IN.html">
+       36. 练习: IN
+      </a>
+     </li>
+     <li class="">
+      <a href="37. 解决方案：IN.html">
+       37. 解决方案：IN
+      </a>
+     </li>
+     <li class="">
+      <a href="38. 视频 NOT.html">
+       38. 视频: NOT
+      </a>
+     </li>
+     <li class="">
+      <a href="39. 练习 NOT.html">
+       39. 练习: NOT
+      </a>
+     </li>
+     <li class="">
+      <a href="40. 解决方案：NOT.html">
+       40. 解决方案：NOT
+      </a>
+     </li>
+     <li class="">
+      <a href="41. 视频 AND 和 BETWEEN.html">
+       41. 视频: AND 和 BETWEEN
+      </a>
+     </li>
+     <li class="">
+      <a href="42. 练习：AND 和 BETWEEN.html">
+       42. 练习：AND 和 BETWEEN
+      </a>
+     </li>
+     <li class="">
+      <a href="43. 解决方案 AND 和 BETWEEN.html">
+       43. 解决方案: AND 和 BETWEEN
+      </a>
+     </li>
+     <li class="">
+      <a href="44. 视频 OR.html">
+       44. 视频: OR
+      </a>
+     </li>
+     <li class="">
+      <a href="45. 练习：OR.html">
+       45. 练习：OR
+      </a>
+     </li>
+     <li class="">
+      <a href="46. 解决方案：OR.html">
+       46. 解决方案：OR
+      </a>
+     </li>
+     <li class="">
+      <a href="47. SQL 基础概述.html">
+       47. SQL 基础概述
+      </a>
+     </li>
+     <li class="">
+      <a href="48. 移动平均值.html">
+       48. 移动平均值
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          30. 解决方案：算术运算符
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="算术运算符问题的解决方案">
+          算术运算符问题的解决方案
+         </h1>
+         <ol>
+          <li>
+           下面是提供解决方案的查询。  你会注意到，由于除以零，所以出现了一个错误。在这节课结束之前，我们将具体学习
+           <strong>
+            CASE
+           </strong>
+           语句，了解关于此错误的原因。一个简单（但不完全准确）的解决方案是将给分母加 1。
+          </li>
+         </ol>
+         <pre><code>SELECT id, account_id, standard_amt_usd/standard_qty AS unit_price
+FROM orders
+LIMIT 10;</code></pre>
+         <p>
+          2.
+         </p>
+         <pre><code>SELECT id, account_id,
+poster_amt_usd/(standard_amt_usd + gloss_amt_usd + poster_amt_usd) AS post_per
+FROM orders;</code></pre>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="31. 文本：逻辑运算符简介.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('30. 解决方案：算术运算符')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.209
+Before we calculate how much non-standard paper was sold,
+
+00:00:03.209 --> 00:00:07.705
+let's check out the order quantities in each column of the orders table.
+
+00:00:07.705 --> 00:00:10.169
+Now let's create a new column that adds poster and gloss
+
+00:00:10.169 --> 00:00:13.800
+paper together to create a field for nonstandard paper.
+
+00:00:13.800 --> 00:00:19.859
+To do this, we'll create a new line in the query and use an arithmetic operator.
+
+00:00:19.859 --> 00:00:22.754
+You'll notice that the values in this new column are equal to the sum
+
+00:00:22.754 --> 00:00:26.174
+of the gloss and poster quantities on a row-by-row basis.
+
+00:00:26.175 --> 00:00:29.190
+In the first row, 22 gloss and 24
+
+00:00:29.190 --> 00:00:33.550
+poster sum to 46 nonstandard in this new column we've created.
+
+00:00:33.549 --> 00:00:35.604
+There's a special name for this.
+
+00:00:35.604 --> 00:00:37.154
+It's a derived column.
+
+00:00:37.155 --> 00:00:42.375
+Derived columns can include simple arithmetic or any number of advanced calculations.
+
+00:00:42.375 --> 00:00:44.340
+What makes them special is the fact that they're not
+
+00:00:44.340 --> 00:00:46.665
+just directly selected from the underlying data,
+
+00:00:46.664 --> 00:00:48.359
+they're manipulated in some way.
+
+00:00:48.359 --> 00:00:50.670
+Rather than stick with this ugly column name,
+
+00:00:50.670 --> 00:00:53.380
+let's add something more descriptive using an alias.
+
+00:00:53.380 --> 00:00:55.800
+We can do this by adding AS to the end of the line that
+
+00:00:55.799 --> 00:00:59.204
+produces the derived column and then giving it a name.
+
+00:00:59.204 --> 00:01:02.519
+The best practice here is to use names that are clearly descriptive,
+
+00:01:02.520 --> 00:01:06.998
+follow existing conventions, and don't include capital letters or spaces.
+
+00:01:06.998 --> 00:01:09.000
+We'll use non-standard quantity.
+

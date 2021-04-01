@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.640
+If you've used Excel, you should already be familiar with tables,
+
+00:00:03.640 --> 00:00:05.565
+they're similar to spreadsheets.
+
+00:00:05.565 --> 00:00:08.804
+Tables have rows and columns just like Excel,
+
+00:00:08.804 --> 00:00:10.844
+but have some more rigid rules.
+
+00:00:10.845 --> 00:00:13.120
+Database tables for instance,
+
+00:00:13.119 --> 00:00:14.669
+are organized by column,
+
+00:00:14.669 --> 00:00:17.399
+and each column must have a unique name.
+
+00:00:17.399 --> 00:00:20.504
+You'll notice that some columns contain numbers,
+
+00:00:20.504 --> 00:00:22.754
+while others contain text.
+
+00:00:22.754 --> 00:00:25.875
+In a spreadsheet, each cell can have its own data type.
+
+00:00:25.875 --> 00:00:27.390
+But in database tables,
+
+00:00:27.390 --> 00:00:30.899
+all the data in a column must be of the same type.
+
+00:00:30.899 --> 00:00:34.414
+This makes performing analysis on database tables pretty simple.
+
+00:00:34.414 --> 00:00:36.329
+While the data type must be consistent,
+
+00:00:36.329 --> 00:00:39.939
+the database doesn't necessarily know that a number means latitude,
+
+00:00:39.939 --> 00:00:42.519
+or that the text is a name of a company.
+
+00:00:42.520 --> 00:00:44.820
+That's why descriptive column names are important.
+

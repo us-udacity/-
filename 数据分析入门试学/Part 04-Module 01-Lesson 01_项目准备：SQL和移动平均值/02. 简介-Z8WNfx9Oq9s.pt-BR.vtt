@@ -1,0 +1,80 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:02.800
+Bem-vindo ao SQL
+para análise de dados.
+
+00:00:03.320 --> 00:00:05.960
+Sou Derek Steer,
+CEO do Mode Analytics.
+
+00:00:06.840 --> 00:00:09.200
+Passei toda a minha carreira
+trabalhando com dados.
+
+00:00:09.520 --> 00:00:11.920
+Agora, no Mode,
+estou construindo softwares
+
+00:00:11.954 --> 00:00:13.760
+para análise de dados
+com base em SQL.
+
+00:00:15.080 --> 00:00:17.560
+O SQL tem muitos usos
+no desenvolvimento de software.
+
+00:00:17.594 --> 00:00:20.200
+Este curso vai abordá-los
+para que você saiba quais são.
+
+00:00:20.520 --> 00:00:23.880
+Mas vamos nos concentrar nas partes
+do SQL usadas na análise de dados.
+
+00:00:25.200 --> 00:00:27.920
+Você não precisa ser um analista
+ou ter uma experiência anterior
+
+00:00:27.954 --> 00:00:29.920
+para aproveitar ao máximo
+este curso.
+
+00:00:29.954 --> 00:00:31.960
+Na verdade,
+este curso é projetado
+
+00:00:31.994 --> 00:00:34.240
+para ser acessível às pessoas
+que trabalham em marketing,
+
+00:00:34.274 --> 00:00:38.160
+operações, finanças
+ou qualquer trabalho similar.
+
+00:00:39.240 --> 00:00:41.480
+Hoje as empresas capturam
+muitos dados
+
+00:00:41.514 --> 00:00:43.640
+e esperam que os colaboradores
+de todos os departamentos
+
+00:00:43.674 --> 00:00:45.720
+utilizem isso metodicamente
+na tomada de decisões.
+
+00:00:46.320 --> 00:00:47.760
+Há muitas maneiras
+de fazer isso.
+
+00:00:48.320 --> 00:00:50.560
+Mas pergunte a qualquer analista
+ou cientista de dados,
+
+00:00:50.594 --> 00:00:53.280
+e eles dirão que a maior parte
+do trabalho acontece no SQL.
+

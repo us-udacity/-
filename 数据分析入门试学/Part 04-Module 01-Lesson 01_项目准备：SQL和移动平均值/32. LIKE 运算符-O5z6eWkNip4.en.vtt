@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.555
+Imagine yourself as a digital marketing manager at Parch and Posey.
+
+00:00:03.555 --> 00:00:08.230
+You want to identify web traffic that came via any Google page. There's a problem though.
+
+00:00:08.230 --> 00:00:11.310
+As you can see, the referrer URLs from Google all
+
+00:00:11.310 --> 00:00:14.850
+have the same domain but often have a bunch of extra stuff tacked on.
+
+00:00:14.849 --> 00:00:17.730
+In order to write a filter that will capture all web traffic from
+
+00:00:17.730 --> 00:00:20.550
+Google regardless of the stuff that's tacked onto the end,
+
+00:00:20.550 --> 00:00:22.115
+you can use the LIKE operator.
+
+00:00:22.114 --> 00:00:27.195
+But first, let's see what happens if I just use an equal sign in the WHERE clause.
+
+00:00:27.195 --> 00:00:31.170
+As you can see, we get back zero results.
+
+00:00:31.170 --> 00:00:34.829
+Now I'll use the LIKE operator to find all rows for which
+
+00:00:34.829 --> 00:00:40.109
+the referrer URL is similar to google but with any number of characters on either side.
+
+00:00:40.109 --> 00:00:42.689
+This is useful in any case where you have lots of
+
+00:00:42.689 --> 00:00:46.174
+similar but slightly different values in a given column.
+
+00:00:46.174 --> 00:00:50.500
+You'll notice that the LIKE function requires the use of wildcards.
+
+00:00:50.500 --> 00:00:53.670
+So in this case, the wildcard we're using is a percent sign.
+
+00:00:53.670 --> 00:00:56.745
+These wild cards describe how the matching works.
+
+00:00:56.744 --> 00:01:01.309
+Each of these percent signs is used to represent a character or any number of characters,
+
+00:01:01.310 --> 00:01:03.120
+whatever those characters may be.
+
+00:01:03.119 --> 00:01:07.349
+So in this case, we're looking to match referrer URL for values that
+
+00:01:07.349 --> 00:01:12.524
+start with a character or any number of characters then contain the text google,
+
+00:01:12.525 --> 00:01:15.120
+then have any number of characters on the end.
+

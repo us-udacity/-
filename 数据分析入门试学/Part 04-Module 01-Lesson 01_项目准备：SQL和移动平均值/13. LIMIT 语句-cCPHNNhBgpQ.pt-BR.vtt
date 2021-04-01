@@ -1,0 +1,111 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.160 --> 00:00:02.520
+O objetivo de muitas consultas
+
+00:00:02.554 --> 00:00:05.120
+será ver como uma
+determinada tabela se parece.
+
+00:00:05.640 --> 00:00:07.600
+Você quer verificar
+as primeiras linhas de dados
+
+00:00:07.634 --> 00:00:09.560
+para ter uma ideia de quais campos
+te interessam
+
+00:00:09.840 --> 00:00:11.640
+e como você quer manipulá-los.
+
+00:00:12.320 --> 00:00:13.400
+Por exemplo,
+
+00:00:13.434 --> 00:00:16.160
+se quiser dar uma olhada no tráfego
+de saída no site da Posey,
+
+00:00:16.194 --> 00:00:18.200
+a primeira coisa a fazer
+é ter uma ideia
+
+00:00:18.234 --> 00:00:21.080
+de quais dados são armazenados
+na tabela de tráfego da web.
+
+00:00:21.840 --> 00:00:25.440
+Para fazer isso, só precisa
+ver algumas linhas de dados.
+
+00:00:26.200 --> 00:00:28.400
+Muitos analistas
+usam a cláusula "LIMIT"
+
+00:00:28.434 --> 00:00:30.040
+como uma maneira simples
+de evitar
+
+00:00:30.074 --> 00:00:32.280
+que suas consultas
+demorem para retornar.
+
+00:00:32.520 --> 00:00:35.080
+Se você consultar uma tabela
+com centenas de milhões de linhas
+
+00:00:35.114 --> 00:00:36.240
+e não usar um limite,
+
+00:00:36.274 --> 00:00:37.800
+pode acabar esperando
+muito tempo
+
+00:00:37.834 --> 00:00:40.200
+para que todos os resultados
+sejam exibidos.
+
+00:00:40.234 --> 00:00:41.320
+Isso não faz sentido
+
+00:00:41.354 --> 00:00:43.560
+se você se preocupa apenas
+com as primeiras linhas.
+
+00:00:44.160 --> 00:00:45.240
+Vamos usar "LIMIT"
+
+00:00:45.274 --> 00:00:47.960
+para ver apenas as 10 primeiras
+linhas de tráfego da web.
+
+00:00:48.360 --> 00:00:51.200
+"LIMIT" é escrito no final
+da consulta junto com o número.
+
+00:00:51.760 --> 00:00:54.080
+Isso limitará
+o número de linhas retornadas.
+
+00:00:54.880 --> 00:00:55.960
+Por exemplo,
+
+00:00:55.994 --> 00:00:58.920
+"LIMIT 10" retornará
+as 10 primeiras linhas de resultados
+
+00:00:58.954 --> 00:01:00.600
+e omitirá o resto.
+
+00:01:00.880 --> 00:01:04.600
+"LIMIT 100.000" retornará
+as primeiras 100 mil linhas.
+
+00:01:05.520 --> 00:01:06.920
+Como não há tantas,
+
+00:01:06.954 --> 00:01:09.240
+ele simplesmente retorna
+todas as linhas na tabela.
+

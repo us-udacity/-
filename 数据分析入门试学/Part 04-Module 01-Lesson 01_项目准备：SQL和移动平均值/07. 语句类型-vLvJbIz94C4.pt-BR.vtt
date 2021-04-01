@@ -1,0 +1,90 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.760 --> 00:00:03.240
+A linguagem do SQL possui
+alguns elementos diferentes,
+
+00:00:03.680 --> 00:00:05.840
+dos quais o mais básico
+é uma instrução.
+
+00:00:06.160 --> 00:00:08.160
+Pense em uma instrução
+como simplesmente
+
+00:00:08.194 --> 00:00:10.520
+um pedaço de código SQL
+escrito corretamente.
+
+00:00:11.160 --> 00:00:12.480
+As instruções dizem
+ao banco de dados
+
+00:00:12.514 --> 00:00:14.360
+o que você gostaria de fazer
+com os dados.
+
+00:00:14.840 --> 00:00:16.600
+A instrução "CREATE",
+por exemplo,
+
+00:00:16.634 --> 00:00:18.960
+é como você cria uma nova tabela
+no banco de dados.
+
+00:00:19.560 --> 00:00:21.040
+A instrução "DROP TABLE"
+
+00:00:21.074 --> 00:00:23.320
+é como remove uma tabela
+do banco de dados.
+
+00:00:24.200 --> 00:00:27.120
+Nesta lição,
+focaremos na instrução "SELECT",
+
+00:00:27.154 --> 00:00:29.720
+que permite ler
+dados e exibi-los.
+
+00:00:30.400 --> 00:00:33.040
+As instruções "SELECT" são comumente
+chamadas de "consultas".
+
+00:00:34.160 --> 00:00:37.320
+Existem alguns outros tipos
+de instruções que o SQL entende.
+
+00:00:38.040 --> 00:00:39.800
+Todas elas
+têm funções diferentes,
+
+00:00:39.834 --> 00:00:42.960
+a maioria relacionada com a criação
+e remoção de dados.
+
+00:00:43.880 --> 00:00:46.040
+Eventualmente,
+você aprenderá a fazer isso,
+
+00:00:46.074 --> 00:00:47.800
+mas a maior parte
+do trabalho analítico
+
+00:00:47.834 --> 00:00:51.280
+não envolve adição, remoção
+nem modificação de dados
+
+00:00:51.314 --> 00:00:52.600
+dentro de um banco de dados.
+
+00:00:52.634 --> 00:00:55.000
+Ele requer a leitura
+e a manipulação dos dados,
+
+00:00:55.034 --> 00:00:58.040
+mas apenas ocasionalmente
+atualizando a fonte subjacente.
+

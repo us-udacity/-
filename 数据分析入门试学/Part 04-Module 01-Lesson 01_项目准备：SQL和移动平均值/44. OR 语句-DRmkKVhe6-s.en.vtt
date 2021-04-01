@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:05.299
+"OR" can be combined with other operators for using parentheses.
+
+00:00:05.299 --> 00:00:07.279
+Going back to our example where we were looking for
+
+00:00:07.280 --> 00:00:09.710
+orders that did not contain all three types of paper,
+
+00:00:09.710 --> 00:00:11.870
+we can make that even more targeted.
+
+00:00:11.869 --> 00:00:15.289
+The best prospects might be folks who omitted some type of paper,
+
+00:00:15.289 --> 00:00:17.844
+and also ordered recently.
+
+00:00:17.844 --> 00:00:20.074
+Let's keep our filters from that previous query,
+
+00:00:20.074 --> 00:00:25.864
+but also require that the order have occurred after October 1 2016.
+
+00:00:25.864 --> 00:00:29.849
+You'll notice that this time we wrap the "OR" statements in parentheses.
+
+00:00:29.850 --> 00:00:31.700
+You can think of the parentheses as turning
+
+00:00:31.699 --> 00:00:34.460
+three logical statements into one big logical statement,
+
+00:00:34.460 --> 00:00:36.365
+that will resolve to true or false.
+
+00:00:36.365 --> 00:00:39.050
+As long as one of these three statements is true,
+
+00:00:39.049 --> 00:00:43.504
+the entire block in the parentheses is considered to be true.
+
+00:00:43.505 --> 00:00:45.650
+The next logical statement after "AND",
+
+00:00:45.649 --> 00:00:48.104
+will also be evaluated as true or false.
+
+00:00:48.104 --> 00:00:53.119
+And the query will only return rows for which the entire set of "OR" statements is true,
+
+00:00:53.119 --> 00:00:56.229
+and the date filter is true.
+
+00:00:56.229 --> 00:00:57.709
+Looking at this first row,
+
+00:00:57.710 --> 00:01:01.054
+you can see that "occurred_at" is after October 1st 2016,
+
+00:01:01.054 --> 00:01:02.595
+and poster quantity is zero,
+
+00:01:02.595 --> 00:01:06.000
+fulfilling the logical statement created by the parentheses.
+

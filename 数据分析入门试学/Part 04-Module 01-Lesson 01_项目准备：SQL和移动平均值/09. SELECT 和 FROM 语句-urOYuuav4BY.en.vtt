@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.150 --> 00:00:03.159
+Let's get started writing some queries.
+
+00:00:03.160 --> 00:00:05.470
+First, we're going to generate a list of
+
+00:00:05.469 --> 00:00:08.305
+all the orders that Parch and Posey has ever received.
+
+00:00:08.305 --> 00:00:11.559
+It's a simple but valuable way to learn a bit more about the company.
+
+00:00:11.560 --> 00:00:16.045
+Parch and Posey records their orders in a table called Orders.
+
+00:00:16.045 --> 00:00:18.955
+That table contains all the columns you see here,
+
+00:00:18.954 --> 00:00:22.614
+each of which corresponds to some attribute and order.
+
+00:00:22.614 --> 00:00:24.219
+Each order has a unique ID,
+
+00:00:24.219 --> 00:00:29.224
+so that it can be referenced and a time stamp to indicate when that order was placed.
+
+00:00:29.225 --> 00:00:33.640
+It also contains quantity sold and revenue generated for each type of paper ordered.
+
+00:00:33.640 --> 00:00:37.500
+In order to generate the list of all orders,
+
+00:00:37.500 --> 00:00:40.030
+we'll write a SELECT statement.
+
+00:00:40.030 --> 00:00:41.800
+Think of a SELECT statement as
+
+00:00:41.799 --> 00:00:45.484
+filling out a form to get the results you're trying to get.
+
+00:00:45.484 --> 00:00:47.380
+The form has a set of questions like,
+
+00:00:47.380 --> 00:00:49.030
+what data do you want to pull from?
+
+00:00:49.030 --> 00:00:52.829
+And which elements of that data set do you want to pull?
+
+00:00:52.829 --> 00:00:56.369
+These questions are structured in the same order every time.
+
+00:00:56.369 --> 00:00:59.539
+Some of them are mandatory and others are optional.
+
+00:00:59.539 --> 00:01:02.274
+When writing out the SELECT statement,
+
+00:01:02.274 --> 00:01:07.525
+each of these questions is represented by a single word like SELECT or FROM.
+
+00:01:07.525 --> 00:01:10.510
+These words are called clauses.
+
+00:01:10.510 --> 00:01:13.865
+The FROM clause tells the query what data to use.
+
+00:01:13.864 --> 00:01:16.094
+Here, we're looking at the Orders table.
+
+00:01:16.094 --> 00:01:18.493
+So I'll write that in after FROM.
+
+00:01:18.493 --> 00:01:24.159
+The SELECT clause tells the query which columns to read from that table.
+
+00:01:24.159 --> 00:01:30.634
+Column names are separated by commas with no comma needed after the last column name.
+
+00:01:30.635 --> 00:01:33.250
+You can also select all of the column names using
+
+00:01:33.250 --> 00:01:38.590
+Select with an asterisk where the asterisk means all.
+
+00:01:38.590 --> 00:01:42.040
+People typically say this as select star.
+
+00:01:42.040 --> 00:01:46.685
+Both the SELECT and FROM clauses are mandatory.
+
+00:01:46.685 --> 00:01:50.629
+You'll include them in every query you write as part of this course.
+
+00:01:50.629 --> 00:01:52.854
+If you do not include both of them,
+
+00:01:52.855 --> 00:01:57.155
+you'll get an error message instead of the desired results.
+
+00:01:57.155 --> 00:02:01.795
+When I click run, the database will execute this query and return the results,
+
+00:02:01.795 --> 00:02:06.010
+every row in the Orders table showing all available columns.
+
+00:02:06.010 --> 00:02:07.465
+Now that you've seen this,
+
+00:02:07.465 --> 00:02:10.740
+you already have enough knowledge to do something valuable.
+
+00:02:10.740 --> 00:02:11.844
+You can read a table,
+
+00:02:11.844 --> 00:02:13.224
+and if you'd like,
+
+00:02:13.224 --> 00:02:17.000
+export your results to view them in another application like Excel.
+

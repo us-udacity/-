@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.774
+One way to store data is on spreadsheets.
+
+00:00:03.774 --> 00:00:08.869
+Sometimes, you need lots of spreadsheets to store data from different sources.
+
+00:00:08.869 --> 00:00:13.274
+We can visualize the relationships between these spreadsheets using an ERD,
+
+00:00:13.275 --> 00:00:18.000
+which stands for Entity Relationship Diagram.
+
+00:00:18.000 --> 00:00:20.820
+This is what an ERD looks like.
+
+00:00:20.820 --> 00:00:23.820
+Each spreadsheet is represented on a table.
+
+00:00:23.820 --> 00:00:27.475
+At the top, you will see the name of the table,
+
+00:00:27.475 --> 00:00:31.885
+and then below, each column name is listed.
+
+00:00:31.885 --> 00:00:36.719
+SQL is a language used to interact with a database.
+
+00:00:36.719 --> 00:00:39.405
+It can query one table,
+
+00:00:39.405 --> 00:00:44.995
+or it can query across multiple tables.
+
+00:00:44.994 --> 00:00:47.774
+Understanding these relationships will help you gain
+
+00:00:47.774 --> 00:00:51.600
+insights from your data faster than with other software.
+

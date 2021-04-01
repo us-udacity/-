@@ -1,0 +1,135 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.120
+Quase todas as aplicações
+têm a necessidade
+
+00:00:02.154 --> 00:00:04.200
+de armazenar dados
+que possam ser acessados mais tarde.
+
+00:00:04.760 --> 00:00:06.560
+Vamos usar o Twitter
+como exemplo.
+
+00:00:07.160 --> 00:00:08.680
+Toda vez que escrevo um tuíte,
+
+00:00:08.960 --> 00:00:11.360
+o texto do meu tuíte precisa ser
+armazenado em algum lugar
+
+00:00:11.394 --> 00:00:13.360
+para que todos os meus seguidores
+possam lê-lo.
+
+00:00:13.960 --> 00:00:16.440
+O Twitter armazena
+muitas informações sobre meu tuíte:
+
+00:00:16.474 --> 00:00:18.160
+o autor - eu -,
+
+00:00:18.760 --> 00:00:21.640
+o momento em que escrevi,
+links para outros tuítes relevantes
+
+00:00:21.674 --> 00:00:24.160
+se eu estiver respondendo
+ou retuitando, etc.
+
+00:00:24.960 --> 00:00:27.120
+Toda essa informação
+é usada para determinar
+
+00:00:27.154 --> 00:00:29.600
+quem vê o meu tuíte e quando vê.
+
+00:00:30.040 --> 00:00:32.160
+É para essa função
+que os bancos de dados servem.
+
+00:00:32.194 --> 00:00:35.080
+Eles armazenam informações
+para serem acessadas mais tarde,
+
+00:00:35.114 --> 00:00:37.040
+e o SQL
+é a linguagem que permite
+
+00:00:37.074 --> 00:00:39.800
+aos analistas e outros
+acessarem essa informação.
+
+00:00:40.280 --> 00:00:42.000
+Os bancos de dados
+têm muitos atributos
+
+00:00:42.034 --> 00:00:43.400
+que os tornam ótimos para isso.
+
+00:00:43.434 --> 00:00:45.800
+Mais importante ainda,
+os bancos de dados fazem muito
+
+00:00:45.834 --> 00:00:47.560
+para verificar
+a integridade dos dados.
+
+00:00:47.594 --> 00:00:50.040
+Podem garantir que os dados
+inseridos sejam consistentes.
+
+00:00:50.520 --> 00:00:52.960
+Por exemplo, se você está
+armazenando o número de filhos
+
+00:00:52.994 --> 00:00:55.080
+que uma determinada pessoa tem,
+o banco de dados pode impor
+
+00:00:55.114 --> 00:00:57.000
+que apenas números inteiros
+sejam utilizados,
+
+00:00:57.034 --> 00:00:58.840
+já que você não pode ter
+"meio filho".
+
+00:00:58.874 --> 00:01:00.680
+Os bancos de dados
+também são muito rápidos.
+
+00:01:00.714 --> 00:01:04.400
+Podem executar operações muito rápido
+em conjuntos de dados muito grandes
+
+00:01:04.434 --> 00:01:06.520
+e podem ser otimizados
+para velocidade extra.
+
+00:01:06.554 --> 00:01:08.520
+Os bancos de dados
+são entidades compartilhadas.
+
+00:01:08.554 --> 00:01:11.200
+Muitas pessoas podem acessar
+simultaneamente um banco de dados.
+
+00:01:11.234 --> 00:01:12.360
+Mais importante ainda:
+
+00:01:12.394 --> 00:01:15.040
+todas essas pessoas estarão
+trabalhando com os mesmos dados.
+
+00:01:15.074 --> 00:01:16.840
+Para facilitar isso,
+os bancos de dados têm
+
+00:01:16.874 --> 00:01:19.440
+muitos recursos administrativos,
+como controle de acesso.
+

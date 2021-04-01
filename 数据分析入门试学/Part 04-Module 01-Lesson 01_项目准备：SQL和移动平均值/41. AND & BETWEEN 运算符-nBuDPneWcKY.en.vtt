@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.285
+Imagine yourself as a sales manager at Parch and Posey,
+
+00:00:03.285 --> 00:00:05.669
+you want to see which of your customers bought paper a
+
+00:00:05.669 --> 00:00:08.410
+while ago and might be due to make a purchase soon.
+
+00:00:08.410 --> 00:00:10.964
+Let's assume it's January 2017.
+
+00:00:10.964 --> 00:00:13.349
+You'd probably want to look up customers who made
+
+00:00:13.349 --> 00:00:16.484
+purchases somewhere between three and nine months prior,
+
+00:00:16.484 --> 00:00:19.619
+or between April and October of 2016.
+
+00:00:19.620 --> 00:00:24.844
+In order to do this, you'll need to filter based on multiple criteria using AND.
+
+00:00:24.844 --> 00:00:30.835
+Let's dig into this example by pulling orders that took place after April 1st 2016.
+
+00:00:30.835 --> 00:00:36.515
+Next, let's exclude orders more recent than October 1st 2016.
+
+00:00:36.515 --> 00:00:39.730
+We can add this to our WHERE clause using AND.
+
+00:00:39.729 --> 00:00:43.269
+Let's wrap this up by reordering these results to
+
+00:00:43.270 --> 00:00:48.125
+confirm that orders after October 1st were excluded.
+
+00:00:48.125 --> 00:00:53.140
+You can see that all orders after October 1st, 2016, have not been filtered out.
+
+00:00:53.140 --> 00:00:54.789
+One important thing to note here is that
+
+00:00:54.789 --> 00:00:58.390
+the AND operator allows you to run two complete logical statements.
+
+00:00:58.390 --> 00:00:59.895
+When this query runs,
+
+00:00:59.895 --> 00:01:05.275
+it evaluates a row to see if occurred_at is greater than or equal to April 1st, 2016.
+
+00:01:05.275 --> 00:01:07.840
+Then evaluates the same row to see if occurred
+
+00:01:07.840 --> 00:01:11.240
+at is less than or equal to October 1st 2016.
+
+00:01:11.239 --> 00:01:13.659
+These need to be independent logical statements,
+
+00:01:13.659 --> 00:01:16.759
+even though they're both operating on the same column name.
+
+00:01:16.760 --> 00:01:19.960
+We can't just type where occurred_at is greater than or equal to
+
+00:01:19.960 --> 00:01:23.920
+April 1st and less than or equal to October 1st.
+
+00:01:23.920 --> 00:01:26.454
+Less than or equal to October 1st isn't
+
+00:01:26.454 --> 00:01:29.750
+a logical statement that can be evaluated as true or false,
+
+00:01:29.750 --> 00:01:32.000
+so the query will return an error.
+

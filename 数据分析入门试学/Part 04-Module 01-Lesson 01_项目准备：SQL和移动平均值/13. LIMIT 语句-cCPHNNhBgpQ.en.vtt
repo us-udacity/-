@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.445
+The aim of many of your queries will simply be to see what a particular table looks like.
+
+00:00:05.445 --> 00:00:07.440
+You want to scan the first few rows of data to
+
+00:00:07.440 --> 00:00:09.655
+get an idea of which fields you care about,
+
+00:00:09.654 --> 00:00:12.199
+and how you want to manipulate them.
+
+00:00:12.199 --> 00:00:15.899
+For example, if you want to take a look at traffic departure in Posey's website,
+
+00:00:15.900 --> 00:00:18.210
+the first thing you want to do is get a sense of
+
+00:00:18.210 --> 00:00:21.025
+what data is stored in the web traffic table.
+
+00:00:21.024 --> 00:00:22.593
+In order to do this,
+
+00:00:22.594 --> 00:00:26.190
+you really only need to see a few lines of data.
+
+00:00:26.190 --> 00:00:28.290
+Many analysts use the limit clause,
+
+00:00:28.289 --> 00:00:32.369
+as a simple way to keep their queries from taking too long to return.
+
+00:00:32.369 --> 00:00:36.015
+If you query a table with hundreds of millions of rows and don't use a limit,
+
+00:00:36.015 --> 00:00:40.009
+you could end up waiting a long time for all of your results to be displayed.
+
+00:00:40.009 --> 00:00:43.644
+This doesn't make sense if you only care about the first few lines.
+
+00:00:43.645 --> 00:00:47.500
+Let's use limit to look at just the first 10 rows of web traffic.
+
+00:00:47.500 --> 00:00:51.564
+Limit gets written in at the end of the query along with the number.
+
+00:00:51.564 --> 00:00:54.460
+This will limit the number of rows returned.
+
+00:00:54.460 --> 00:01:00.270
+For example, limit 10 will return the first 10 rows of results and omit the rest.
+
+00:01:00.270 --> 00:01:05.204
+Limit 100,000 will return the first 100,000 rows.
+
+00:01:05.204 --> 00:01:06.609
+Since there aren't that many,
+
+00:01:06.609 --> 00:01:09.000
+it simply returns all the rows in the table.
+

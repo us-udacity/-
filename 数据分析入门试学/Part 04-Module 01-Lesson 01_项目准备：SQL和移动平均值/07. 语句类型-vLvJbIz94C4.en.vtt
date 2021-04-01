@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.450
+The SQL Language has a few different elements,
+
+00:00:03.450 --> 00:00:05.595
+the most basic of which is a statement.
+
+00:00:05.594 --> 00:00:10.114
+Think of a statement as simply a piece of correctly written SQL code.
+
+00:00:10.115 --> 00:00:14.440
+Statements tell the database what you'd like to do with the data.
+
+00:00:14.439 --> 00:00:16.344
+The CREATE statement for example,
+
+00:00:16.344 --> 00:00:19.234
+is how you make a new table in the database.
+
+00:00:19.234 --> 00:00:24.039
+The DROP TABLE statement is how you remove a table from the database.
+
+00:00:24.039 --> 00:00:27.204
+In this lesson, we'll focus on the SELECT statement,
+
+00:00:27.204 --> 00:00:29.959
+which allows you to read data and display it.
+
+00:00:29.960 --> 00:00:34.350
+SELECT statements are commonly referred to as queries.
+
+00:00:34.350 --> 00:00:37.980
+There are a few other types of statements that SQL understands.
+
+00:00:37.979 --> 00:00:39.707
+They all have different functions,
+
+00:00:39.707 --> 00:00:43.679
+most of which relate to the creation and removal of data.
+
+00:00:43.679 --> 00:00:45.715
+Eventually, you'll learn how to do that,
+
+00:00:45.715 --> 00:00:48.990
+but the majority of analytical work doesn't involve adding,
+
+00:00:48.990 --> 00:00:52.310
+removing, or modifying data within a database.
+
+00:00:52.310 --> 00:00:55.000
+It requires reading data and manipulating it,
+
+00:00:55.000 --> 00:00:58.000
+but only occasionally updating the underlying source.
+

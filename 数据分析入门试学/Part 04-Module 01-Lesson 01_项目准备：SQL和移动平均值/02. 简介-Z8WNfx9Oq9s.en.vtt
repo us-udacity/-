@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.330
+Welcome to SQL for Data Analysis.
+
+00:00:03.330 --> 00:00:06.560
+I'm Derek Steer, CEO of Mode Analytics.
+
+00:00:06.559 --> 00:00:09.125
+I spent my entire career working with data.
+
+00:00:09.125 --> 00:00:14.175
+Now at Mode I'm building software for SQL based data analysis.
+
+00:00:14.175 --> 00:00:17.625
+SQL has many uses in software development.
+
+00:00:17.625 --> 00:00:20.115
+This course will touch on them so that you know what they are.
+
+00:00:20.114 --> 00:00:25.034
+But we'll primarily focus on the parts of SQL used in data analysis.
+
+00:00:25.035 --> 00:00:26.609
+You don't need to be an analyst or have
+
+00:00:26.609 --> 00:00:29.964
+any prior experience in order to get value from this course.
+
+00:00:29.964 --> 00:00:34.320
+In fact, this course is designed to be accessible to folks who work in marketing,
+
+00:00:34.320 --> 00:00:39.255
+operations, finance, or anywhere in between.
+
+00:00:39.255 --> 00:00:42.035
+Companies today capture tons of data and expect
+
+00:00:42.034 --> 00:00:46.379
+employees in all departments to use it methodically in their decision making.
+
+00:00:46.380 --> 00:00:48.065
+There are lots of ways to do this.
+
+00:00:48.064 --> 00:00:50.554
+But ask any analysts or data scientist
+
+00:00:50.554 --> 00:00:53.060
+and they'll tell you that the bulk of their work happens in SQL.
+

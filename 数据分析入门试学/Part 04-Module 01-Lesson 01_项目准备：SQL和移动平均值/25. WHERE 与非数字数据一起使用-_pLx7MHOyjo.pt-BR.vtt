@@ -1,0 +1,66 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.160 --> 00:00:02.560
+Os operadores de comparação
+
+00:00:02.594 --> 00:00:04.880
+também podem trabalhar
+com dados não numéricos.
+
+00:00:05.360 --> 00:00:08.000
+"Igual" e "diferente de"
+fazem conjuntos perfeitos.
+
+00:00:08.280 --> 00:00:09.840
+Permitem
+que você selecione linhas
+
+00:00:09.874 --> 00:00:11.920
+que correspondem ou não
+a qualquer valor.
+
+00:00:12.600 --> 00:00:15.240
+Vamos ver um exemplo
+da tabela Contas da Parch &amp; Posey,
+
+00:00:15.680 --> 00:00:17.600
+que lista todos os seus clientes
+
+00:00:17.634 --> 00:00:20.040
+e informa os atributos deles,
+como você vê aqui.
+
+00:00:20.960 --> 00:00:23.760
+Existem regras importantes
+ao usar esses operadores.
+
+00:00:24.120 --> 00:00:27.120
+Se você está usando um operador
+com valores não numéricos,
+
+00:00:27.400 --> 00:00:29.520
+precisa colocar o valor
+entre aspas simples.
+
+00:00:30.000 --> 00:00:32.920
+Como você pode ver,
+este conjunto de dados foi filtrado
+
+00:00:32.954 --> 00:00:36.120
+para a única linha que corresponde
+à condição na cláusula "WHERE".
+
+00:00:36.720 --> 00:00:39.120
+Se mudarmos o operador
+para "diferente de",
+
+00:00:39.640 --> 00:00:41.040
+o resultado mostrará
+todas as linhas,
+
+00:00:41.074 --> 00:00:43.000
+menos aquelas
+da United Technologies.
+

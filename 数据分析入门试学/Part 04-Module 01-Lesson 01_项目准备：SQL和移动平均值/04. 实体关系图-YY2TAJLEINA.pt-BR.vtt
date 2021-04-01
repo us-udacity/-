@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.160 --> 00:00:03.440
+Uma maneira de armazenar dados
+é com planilhas.
+
+00:00:04.200 --> 00:00:06.480
+Às vezes, você precisa
+de muitas planilhas
+
+00:00:06.514 --> 00:00:08.680
+para armazenar dados
+de diferentes fontes.
+
+00:00:09.040 --> 00:00:13.480
+Podemos visualizar as relações
+entre essas planilhas usando um ERD,
+
+00:00:13.760 --> 00:00:17.200
+que significa
+"diagrama entidade-relacionamento".
+
+00:00:18.080 --> 00:00:20.720
+É assim que um ERD parece.
+
+00:00:21.160 --> 00:00:24.040
+Cada planilha está representada
+em uma tabela.
+
+00:00:24.400 --> 00:00:27.640
+Na parte superior,
+você verá o nome da tabela
+
+00:00:28.040 --> 00:00:31.080
+e abaixo,
+o nome de cada coluna.
+
+00:00:32.240 --> 00:00:35.880
+SQL é uma linguagem usada
+para interagir com um banco de dados.
+
+00:00:37.040 --> 00:00:39.080
+Ele pode consultar
+em uma tabela
+
+00:00:40.640 --> 00:00:43.320
+ou pode consultar
+em várias tabelas.
+
+00:00:45.320 --> 00:00:47.080
+Entender essas relações
+
+00:00:47.114 --> 00:00:49.280
+vai ajudá-lo a obter informações
+dos seus dados
+
+00:00:49.314 --> 00:00:51.560
+muito mais rápido
+do que com outro software.
+

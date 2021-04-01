@@ -1,0 +1,123 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:02.640
+Imagine-se como gerente
+de marketing digital
+
+00:00:02.674 --> 00:00:04.000
+na Parch &amp; Posey.
+
+00:00:04.034 --> 00:00:05.520
+Você quer identificar
+o tráfego da web
+
+00:00:05.554 --> 00:00:08.520
+que vem por qualquer página
+do Google. Há um problema.
+
+00:00:08.554 --> 00:00:09.640
+Como você pode ver,
+
+00:00:09.674 --> 00:00:12.800
+todas as URLs referenciadoras
+do Google têm o mesmo domínio.
+
+00:00:12.834 --> 00:00:15.080
+Porém, muitas vezes,
+tem muita coisa extra inclusa.
+
+00:00:15.114 --> 00:00:17.040
+Para escrever um filtro
+que vai capturar
+
+00:00:17.074 --> 00:00:18.440
+todo o tráfego da web do Google,
+
+00:00:18.474 --> 00:00:20.600
+independentemente do material
+que foi inserido no final,
+
+00:00:20.634 --> 00:00:22.360
+você pode usar
+o operador "LIKE".
+
+00:00:22.394 --> 00:00:24.160
+Mas, primeiro,
+vamos ver o que acontece
+
+00:00:24.194 --> 00:00:26.560
+se eu usar um sinal de igual
+na cláusula "WHERE".
+
+00:00:28.320 --> 00:00:30.920
+Como você pode ver,
+não temos nenhum resultado.
+
+00:00:31.200 --> 00:00:34.600
+Agora eu usarei o operador "LIKE"
+para encontrar todas as linhas
+
+00:00:34.880 --> 00:00:37.480
+para as quais a URL referenciadora
+é semelhante ao Google,
+
+00:00:37.514 --> 00:00:40.240
+mas com qualquer número de caracter
+nos dois lados.
+
+00:00:40.760 --> 00:00:43.880
+Isso é útil em qualquer caso
+em que há muitos valores similares,
+
+00:00:43.914 --> 00:00:46.160
+mas ligeiramente diferentes,
+em uma determinada coluna.
+
+00:00:46.194 --> 00:00:50.120
+Você notará que a função "LIKE"
+requer o uso de curingas.
+
+00:00:50.400 --> 00:00:52.720
+Então, neste caso,
+o curinga que estamos usando
+
+00:00:52.754 --> 00:00:54.040
+é o sinal de porcentagem.
+
+00:00:54.074 --> 00:00:56.720
+Estes curingas descrevem
+como a correspondência funciona.
+
+00:00:57.120 --> 00:00:59.160
+Cada um desses sinais de porcentagem
+é usado para representar
+
+00:00:59.194 --> 00:01:01.440
+um caractere
+ou qualquer número de caracteres,
+
+00:01:01.474 --> 00:01:03.120
+não importa o que eles
+possam ser.
+
+00:01:03.154 --> 00:01:04.280
+Então, neste caso,
+
+00:01:04.314 --> 00:01:06.720
+buscamos combinar
+a URL referenciadora
+
+00:01:06.754 --> 00:01:08.760
+para valores que começam
+com um caracter
+
+00:01:08.794 --> 00:01:12.320
+ou qualquer número de caracteres,
+que contêm o texto do Google
+
+00:01:13.080 --> 00:01:15.480
+e que têm qualquer número
+de caracteres no final.
+

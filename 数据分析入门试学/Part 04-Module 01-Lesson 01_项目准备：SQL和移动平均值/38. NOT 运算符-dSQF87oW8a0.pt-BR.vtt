@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.760 --> 00:00:03.120
+Imagine que você é gerente de vendas
+da Parch &amp; Posey.
+
+00:00:03.440 --> 00:00:04.600
+Está considerando promover
+
+00:00:04.634 --> 00:00:07.120
+dois dos melhores representantes
+de vendas à gerência,
+
+00:00:07.154 --> 00:00:10.040
+mas precisa descobrir
+como vai dividir as contas deles
+
+00:00:10.074 --> 00:00:11.960
+entre os outros representantes.
+
+00:00:11.994 --> 00:00:13.080
+Para fazer isso,
+
+00:00:13.114 --> 00:00:16.000
+primeiro vamos dar uma olhada
+em todas as contas da Parch &amp; Posey.
+
+00:00:16.034 --> 00:00:18.840
+Você pode ver aqui
+que no total existem 351.
+
+00:00:19.600 --> 00:00:21.040
+Agora vamos ver as contas
+
+00:00:21.074 --> 00:00:23.760
+nas quais esses representantes
+estão trabalhando.
+
+00:00:25.520 --> 00:00:27.760
+Você pode ver aqui
+que filtramos a lista de contas
+
+00:00:27.794 --> 00:00:29.760
+apenas para os dois representantes
+em questão:
+
+00:00:30.120 --> 00:00:31.400
+nove contas no total.
+
+00:00:31.880 --> 00:00:33.880
+Ao decidir a quem atribuir
+essas contas,
+
+00:00:33.914 --> 00:00:36.120
+você também pode considerar
+em quais contas
+
+00:00:36.154 --> 00:00:38.040
+os outros representantes
+estão trabalhando atualmente.
+
+00:00:38.480 --> 00:00:40.680
+Em outras palavras,
+você gostaria de ver todas as contas
+
+00:00:40.714 --> 00:00:43.160
+que não estão listadas
+nesta consulta que vemos agora.
+
+00:00:43.600 --> 00:00:46.400
+O operador "NOT" permitirá
+que faça exatamente isso.
+
+00:00:46.434 --> 00:00:49.120
+Ao simplesmente digitar "NOT"
+antes desta expressão lógica,
+
+00:00:49.154 --> 00:00:50.800
+posso transformá-la no inverso.
+
+00:00:51.080 --> 00:00:52.920
+Vemos isso neste novo
+conjunto de resultados.
+
+00:00:52.954 --> 00:00:55.480
+Nenhuma das contas mostradas
+anteriormente está aparecendo.
+
+00:00:55.760 --> 00:00:58.480
+Das 351 contas para as quais
+a Parch &amp; Posey vende,
+
+00:00:58.514 --> 00:01:00.560
+as 9 da consulta anterior
+estão ausentes
+
+00:01:00.594 --> 00:01:03.920
+neste conjunto de resultados,
+então podemos ver 342 resultados.
+
+00:01:03.954 --> 00:01:07.040
+Do mesmo modo que funciona com "IN",
+"NOT" também funciona com "LIKE".
+
+00:01:07.600 --> 00:01:09.400
+Você pode ver aqui.
+Estamos vendo o tráfego da web
+
+00:01:09.434 --> 00:01:11.680
+do Google para ilustrar isso.
+
+00:01:12.200 --> 00:01:14.320
+Ao adicionar "NOT",
+podemos observar o inverso:
+
+00:01:15.000 --> 00:01:17.120
+o tráfego de todos os outros sites,
+menos do Google.
+

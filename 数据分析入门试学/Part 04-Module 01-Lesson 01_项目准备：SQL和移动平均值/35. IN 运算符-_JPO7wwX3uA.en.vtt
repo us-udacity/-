@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.835
+Imagine you're a sales manager at Parch and Posey,
+
+00:00:02.835 --> 00:00:05.474
+and you want to see how several key accounts are performing.
+
+00:00:05.474 --> 00:00:10.039
+The IN function will allow you to filter data based on several possible values.
+
+00:00:10.039 --> 00:00:11.939
+So, if you only want to see information for
+
+00:00:11.939 --> 00:00:15.250
+the Walmart and Apple accounts, here's how you do it.
+
+00:00:15.250 --> 00:00:17.184
+As with comparison operators,
+
+00:00:17.184 --> 00:00:19.289
+IN requires single quotation marks around
+
+00:00:19.289 --> 00:00:22.849
+non-numerical data while numerical data can be entered directly.
+
+00:00:22.850 --> 00:00:26.095
+Let's look at the actual orders associated with those accounts.
+
+00:00:26.094 --> 00:00:28.354
+First, make note of the account IDs here,
+
+00:00:28.355 --> 00:00:33.509
+1001 for Walmart and 1021 for Apple.
+
+00:00:33.509 --> 00:00:37.945
+Now we see all of the individual orders that come up for accounts 1001 and 1021,
+
+00:00:37.945 --> 00:00:39.600
+and as you can see, they're all jumbled together
+
+00:00:39.600 --> 00:00:42.300
+because there is no ORDER BY clause in the query.
+
+00:00:42.299 --> 00:00:45.399
+One thing to note here is the comma between these two values.
+
+00:00:45.399 --> 00:00:48.179
+You can put as many values as you want inside these parentheses,
+
+00:00:48.179 --> 00:00:51.090
+but you have to put a comma in between each pair of distinct values.
+

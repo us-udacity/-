@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.720 --> 00:00:03.080
+Imagine que você é gerente de vendas
+da Parch &amp; Posey
+
+00:00:03.114 --> 00:00:05.800
+e quer ver como contas importantes
+são apresentadas.
+
+00:00:06.080 --> 00:00:08.160
+A função "IN" permitirá
+que você filtre dados
+
+00:00:08.194 --> 00:00:10.080
+com base
+em vários valores possíveis.
+
+00:00:10.114 --> 00:00:11.840
+Então, se quiser ver informações
+
+00:00:11.874 --> 00:00:15.000
+apenas das contas Walmart e Apple,
+mostramos aqui como fazer isso.
+
+00:00:15.480 --> 00:00:17.200
+Assim como
+com os operadores de comparação,
+
+00:00:17.520 --> 00:00:20.600
+"IN" requer aspas simples
+nos dados não numéricos,
+
+00:00:20.634 --> 00:00:23.040
+enquanto dados numéricos
+podem ser inseridos diretamente.
+
+00:00:23.074 --> 00:00:25.800
+Vamos olhar os pedidos atuais
+associados a essas contas.
+
+00:00:26.320 --> 00:00:28.600
+Primeiro escreva
+a "accounts_id" aqui:
+
+00:00:28.634 --> 00:00:31.920
+1.001 para o Walmart
+e 1.021 para a Apple.
+
+00:00:33.760 --> 00:00:35.400
+Agora vemos
+todos os pedidos individuais
+
+00:00:35.434 --> 00:00:38.040
+que aparecem
+nas contas 1.001 e 1.021.
+
+00:00:38.074 --> 00:00:39.800
+Como você pode ver,
+estão todos misturados
+
+00:00:39.834 --> 00:00:42.120
+porque não há a cláusula "ORDER BY"
+na consulta.
+
+00:00:42.440 --> 00:00:45.280
+Uma coisa a observar aqui é
+a vírgula entre esses dois valores.
+
+00:00:45.480 --> 00:00:48.360
+Pode colocar quantos valores quiser
+dentro desses parênteses,
+
+00:00:48.394 --> 00:00:51.280
+mas tem que colocar uma vírgula
+entre cada par de valores distintos.
+

@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.560 --> 00:00:03.760
+Se você usa o Excel, deve estar
+familiarizado com as tabelas.
+
+00:00:04.120 --> 00:00:05.960
+Elas são semelhantes
+às planilhas.
+
+00:00:05.994 --> 00:00:08.960
+As tabelas têm linhas e colunas
+exatamente como o Excel,
+
+00:00:09.360 --> 00:00:11.000
+mas têm regras mais rígidas.
+
+00:00:11.240 --> 00:00:13.040
+Tabelas de banco de dados,
+por exemplo,
+
+00:00:13.520 --> 00:00:15.000
+são organizadas por coluna,
+
+00:00:15.034 --> 00:00:17.440
+e cada coluna deve ter
+um nome exclusivo.
+
+00:00:17.474 --> 00:00:20.360
+Você vai observar
+que algumas colunas contêm números,
+
+00:00:21.040 --> 00:00:22.840
+enquanto outras contêm texto.
+
+00:00:23.280 --> 00:00:26.200
+Em uma planilha, cada célula
+pode ter seu próprio tipo de dados.
+
+00:00:26.234 --> 00:00:27.680
+Mas nas tabelas
+de banco de dados,
+
+00:00:27.714 --> 00:00:30.720
+todos os dados em uma coluna
+devem ser do mesmo tipo.
+
+00:00:30.960 --> 00:00:32.560
+Isso torna
+a análise de desempenho
+
+00:00:32.594 --> 00:00:34.480
+em tabelas de banco de dados
+bem simples.
+
+00:00:34.720 --> 00:00:36.440
+Embora o tipo de dado
+seja consistente,
+
+00:00:36.474 --> 00:00:40.240
+o banco de dados não sabe
+que um número significa latitude,
+
+00:00:40.274 --> 00:00:42.640
+ou que o texto
+é o nome de uma empresa.
+
+00:00:43.000 --> 00:00:45.040
+Por isso os nomes das colunas
+são descritivos.
+

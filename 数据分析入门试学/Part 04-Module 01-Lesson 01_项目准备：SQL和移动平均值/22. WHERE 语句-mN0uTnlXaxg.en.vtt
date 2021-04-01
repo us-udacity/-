@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.720
+Imagine yourself as an account manager at Parch and Posey.
+
+00:00:03.720 --> 00:00:05.580
+You're about to head out to visit one of
+
+00:00:05.580 --> 00:00:08.189
+your most important customers and you want to show up prepared,
+
+00:00:08.189 --> 00:00:13.439
+which means making sure that you are up to speed on all of their recent purchases.
+
+00:00:13.439 --> 00:00:15.539
+You can use a WHERE clause to generate a list of
+
+00:00:15.539 --> 00:00:19.535
+all purchases made by that specific customer.
+
+00:00:19.535 --> 00:00:22.469
+The WHERE clause allows you to filter a set of results based on
+
+00:00:22.469 --> 00:00:26.469
+specific criteria as you would with Excel's filter capability.
+
+00:00:26.469 --> 00:00:30.754
+Filtering with WHERE allows you to answer much more meaningful questions.
+
+00:00:30.754 --> 00:00:33.494
+You'll end up using it in most of the queries that you write.
+
+00:00:33.494 --> 00:00:37.559
+The WHERE clause goes after FROM but before ORDER BY or LIMIT.
+
+00:00:37.560 --> 00:00:39.880
+As in previous queries,
+
+00:00:39.880 --> 00:00:43.780
+the clauses must be in the right order or the query will return an error.
+
+00:00:43.780 --> 00:00:45.575
+As an account manager,
+
+00:00:45.575 --> 00:00:48.925
+we'll write a query to show only orders from our top customer,
+
+00:00:48.924 --> 00:00:53.189
+which is represented here by account ID 4251.
+
+00:00:53.189 --> 00:00:59.244
+We'll write this simple equation where account ID is equal to 4251.
+
+00:00:59.244 --> 00:01:02.379
+This will produce a result set that includes all rows for which
+
+00:01:02.380 --> 00:01:07.000
+the value in the account ID column is equal to 4251.
+
+00:01:07.000 --> 00:01:11.840
+When using SQL entire rows of data are preserved intact.
+
+00:01:11.840 --> 00:01:15.880
+If you write a WHERE clause that filters based on values in one column as we have done
+
+00:01:15.879 --> 00:01:21.295
+here you'll limit the results in all columns to rows that satisfy the condition.
+
+00:01:21.295 --> 00:01:23.829
+The idea is that each row is one data point or
+
+00:01:23.829 --> 00:01:28.795
+observation and all the information contained in that row belongs together.
+
+00:01:28.795 --> 00:01:32.409
+All of the information in one row is about one order of paper.
+

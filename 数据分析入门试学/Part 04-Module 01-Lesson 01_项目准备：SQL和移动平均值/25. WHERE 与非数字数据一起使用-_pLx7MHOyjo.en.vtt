@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.020 --> 00:00:04.599
+Comparison operators can work with non-numerical data as well.
+
+00:00:04.599 --> 00:00:08.125
+Equals and not equal to make perfect sets.
+
+00:00:08.125 --> 00:00:12.390
+They allow you to select rows that match or don't match any value.
+
+00:00:12.390 --> 00:00:15.600
+Let's look at an example from Parch and Posey's accounts table which
+
+00:00:15.599 --> 00:00:20.739
+simply lists all of their customers and tell attributes about them as you see here.
+
+00:00:20.739 --> 00:00:23.689
+There are some important rules when using these operators.
+
+00:00:23.690 --> 00:00:26.970
+If you're using an operator with values that are non-numeric,
+
+00:00:26.969 --> 00:00:29.500
+you'll need to put the value in single quotes.
+
+00:00:29.500 --> 00:00:32.670
+As you can see, this data set has been filtered down to
+
+00:00:32.670 --> 00:00:36.780
+the single row that matches the condition in our WHERE clause.
+
+00:00:36.780 --> 00:00:39.134
+If we change the operator to not equals,
+
+00:00:39.134 --> 00:00:43.000
+the results will show every row except the one for United Technologies.
+

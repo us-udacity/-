@@ -1,0 +1,182 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.920 --> 00:00:03.080
+Vamos começar a escrever
+algumas consultas.
+
+00:00:03.600 --> 00:00:05.600
+Primeiro vamos gerar uma lista
+
+00:00:05.634 --> 00:00:08.120
+de todos os pedidos
+que a Parch &amp; Posey já recebeu.
+
+00:00:08.440 --> 00:00:11.800
+É uma maneira simples e valiosa
+de aprender sobre a empresa.
+
+00:00:11.834 --> 00:00:15.920
+A Parch &amp; Posey registra os pedidos
+em uma tabela chamada "Orders".
+
+00:00:16.200 --> 00:00:19.160
+Essa tabela contém
+as colunas que você vê aqui,
+
+00:00:19.194 --> 00:00:22.520
+cada uma correspondente
+a algum atributo e pedido.
+
+00:00:22.554 --> 00:00:25.720
+Cada pedido tem uma ID exclusiva
+para que possa ser identificado
+
+00:00:25.754 --> 00:00:28.840
+e um registro de data para indicar
+quando o pedido foi feito.
+
+00:00:29.080 --> 00:00:32.240
+Também contém a quantidade vendida
+e as receitas geradas
+
+00:00:32.274 --> 00:00:34.200
+para cada tipo de papel
+encomendado.
+
+00:00:34.234 --> 00:00:36.760
+Para gerar a lista
+de todos os pedidos,
+
+00:00:37.320 --> 00:00:39.440
+escreveremos
+a instrução "SELECT".
+
+00:00:40.240 --> 00:00:43.160
+A instrução "SELECT"
+é como preencher um formulário
+
+00:00:43.194 --> 00:00:45.440
+para conseguir os resultados
+que quer obter.
+
+00:00:45.474 --> 00:00:47.760
+O formulário tem
+um conjunto de perguntas como:
+
+00:00:47.794 --> 00:00:49.440
+quais dados você quer extrair?
+
+00:00:49.474 --> 00:00:52.280
+E quais elementos desse
+conjunto de dados quer extrair?
+
+00:00:53.160 --> 00:00:56.120
+Essas questões estão estruturadas
+sempre na mesma ordem.
+
+00:00:56.400 --> 00:00:59.200
+Algumas são obrigatórias
+e outras são opcionais.
+
+00:01:00.320 --> 00:01:02.320
+Ao escrever a instrução
+"SELECT",
+
+00:01:02.354 --> 00:01:04.560
+cada uma dessas perguntas
+é representada
+
+00:01:04.594 --> 00:01:07.280
+por uma única palavra,
+como "SELECT" ou "FROM".
+
+00:01:07.840 --> 00:01:10.160
+Essas palavras são chamadas
+de cláusulas.
+
+00:01:10.400 --> 00:01:13.680
+A cláusula "FROM" diz à consulta
+quais dados usar.
+
+00:01:14.120 --> 00:01:16.200
+Aqui estamos olhando
+para a tabela "Orders".
+
+00:01:16.234 --> 00:01:18.160
+Então escreverei isso
+após "FROM".
+
+00:01:19.080 --> 00:01:23.400
+A cláusula "SELECT" diz à consulta
+quais colunas deve ler da tabela.
+
+00:01:24.040 --> 00:01:26.520
+Os nomes das colunas
+são separados por vírgulas,
+
+00:01:26.554 --> 00:01:30.080
+sem a necessidade de vírgula
+após o nome da última coluna.
+
+00:01:30.600 --> 00:01:33.040
+Você também pode selecionar
+todos os nomes das colunas
+
+00:01:33.074 --> 00:01:38.200
+usando "SELECT" com um asterisco,
+onde o asterisco significa "todas".
+
+00:01:39.280 --> 00:01:42.440
+As pessoas costumam chamar isso
+de "estrela de seleção".
+
+00:01:43.200 --> 00:01:46.440
+As cláusulas "SELECT" e "FROM"
+são obrigatórias.
+
+00:01:46.840 --> 00:01:50.120
+Elas serão incluídas
+em todas as consultas deste curso.
+
+00:01:50.680 --> 00:01:53.040
+Se você não incluir as duas,
+
+00:01:53.074 --> 00:01:56.280
+receberá uma mensagem de erro
+em vez dos resultados desejados.
+
+00:01:57.280 --> 00:01:58.720
+Quando eu clicar em "Run",
+
+00:01:58.754 --> 00:02:00.920
+o banco de dados
+executará essa consulta
+
+00:02:00.954 --> 00:02:03.640
+e retornará os resultados:
+cada linha na tabela "Orders",
+
+00:02:03.674 --> 00:02:06.000
+mostrando
+todas as colunas disponíveis.
+
+00:02:06.034 --> 00:02:07.560
+Agora que viu isso,
+
+00:02:07.760 --> 00:02:10.800
+já tem conhecimento suficiente
+para fazer algo valioso.
+
+00:02:10.834 --> 00:02:13.360
+Você pode ler uma tabela
+e, se quiser,
+
+00:02:13.394 --> 00:02:14.760
+pode exportar seus resultados
+
+00:02:14.794 --> 00:02:16.840
+para visualizá-los em outro aplicativo,
+como o Excel.
+

@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.839
+Imagine yourself in the finance department at Parch &amp; Posey.
+
+00:00:03.839 --> 00:00:06.029
+You want to look up the most recent orders,
+
+00:00:06.030 --> 00:00:10.429
+so that you can confirm that invoices have been sent to those customers.
+
+00:00:10.429 --> 00:00:12.855
+The Order By clause will help you accomplish this,
+
+00:00:12.855 --> 00:00:16.440
+by allowing you to sort the orders by date.
+
+00:00:16.440 --> 00:00:20.275
+Let's first take a look at how the data is ordered by default.
+
+00:00:20.274 --> 00:00:24.379
+You'll notice that this table appears to be sorted by Account ID by default.
+
+00:00:24.379 --> 00:00:28.339
+It starts at 1001, and goes up from there.
+
+00:00:28.339 --> 00:00:30.414
+Let's add an Order By clause to
+
+00:00:30.414 --> 00:00:33.195
+reorder the results based on the date the order was placed,
+
+00:00:33.195 --> 00:00:36.299
+which you can see in the occurred_at column.
+
+00:00:36.299 --> 00:00:40.734
+Notice that the order by clause goes between the From and Limit clauses.
+
+00:00:40.734 --> 00:00:42.585
+You have to write the clauses in this order,
+
+00:00:42.585 --> 00:00:44.520
+or the query will not run.
+
+00:00:44.520 --> 00:00:48.120
+By default, order by goes from a to z,
+
+00:00:48.119 --> 00:00:51.089
+lowest to highest, or earliest to latest,
+
+00:00:51.090 --> 00:00:53.050
+if working with dates.
+
+00:00:53.049 --> 00:00:55.674
+This is referred to as ascending order.
+
+00:00:55.674 --> 00:00:58.179
+You'll notice that that's what's happening here.
+
+00:00:58.179 --> 00:00:59.865
+If you want to order the other way,
+
+00:00:59.865 --> 00:01:02.054
+you can add DESC,
+
+00:01:02.054 --> 00:01:06.280
+short for descending, to the end of the Order By clause.
+
+00:01:06.280 --> 00:01:08.400
+This will get us to the data set that we're after,
+
+00:01:08.400 --> 00:01:10.620
+which shows the 10 most recent orders,
+
+00:01:10.620 --> 00:01:12.240
+with the most recent at the top.
+

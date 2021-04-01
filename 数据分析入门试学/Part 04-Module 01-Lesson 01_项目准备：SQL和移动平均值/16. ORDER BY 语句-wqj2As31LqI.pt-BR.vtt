@@ -1,0 +1,109 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.920 --> 00:00:03.920
+Imagine-se no departamento
+de finanças da Parch &amp; Posey.
+
+00:00:04.480 --> 00:00:06.280
+Você quer olhar
+os pedidos mais recentes
+
+00:00:06.314 --> 00:00:10.120
+para poder confirmar que as faturas
+foram enviadas para esses clientes.
+
+00:00:10.840 --> 00:00:13.200
+A cláusula "ORDER BY"
+vai ajudá-lo a fazer isso,
+
+00:00:13.234 --> 00:00:15.720
+permitindo que você classifique
+os pedidos por data.
+
+00:00:16.640 --> 00:00:19.720
+Primeiro vamos ver como os dados
+são classificados por padrão.
+
+00:00:20.320 --> 00:00:21.600
+Você observará que esta tabela
+
+00:00:21.634 --> 00:00:24.640
+parece estar classificada por padrão
+pelo "account_id".
+
+00:00:24.840 --> 00:00:27.160
+Começa em 1.001
+e vai aumentando.
+
+00:00:28.560 --> 00:00:30.240
+Vamos adicionar
+uma cláusula "ORDER BY"
+
+00:00:30.274 --> 00:00:31.440
+para reordenar os resultados
+
+00:00:31.474 --> 00:00:33.680
+com base na data
+em que o pedido foi incluído,
+
+00:00:33.714 --> 00:00:35.920
+o que você pode ver
+na coluna "occurred_at".
+
+00:00:36.480 --> 00:00:38.160
+Observe que a cláusula
+"ORDER BY"
+
+00:00:38.194 --> 00:00:40.640
+fica entre as cláusulas
+"FROM" e "LIMIT".
+
+00:00:41.160 --> 00:00:43.040
+Você precisa escrever
+as cláusulas nesta ordem,
+
+00:00:43.074 --> 00:00:44.880
+ou a consulta
+não será executada.
+
+00:00:45.400 --> 00:00:48.080
+Por padrão,
+"ORDER BY" vai de A para Z,
+
+00:00:48.480 --> 00:00:51.520
+do mais baixo ao mais alto
+ou do mais antigo ao mais recente,
+
+00:00:51.554 --> 00:00:53.120
+se estiver trabalhando
+com datas.
+
+00:00:53.154 --> 00:00:55.520
+Chama-se ordem crescente.
+
+00:00:56.080 --> 00:00:58.120
+Você perceberá que é isso
+que está acontecendo aqui.
+
+00:00:58.520 --> 00:01:02.200
+Se quer ordenar de outra maneira,
+pode adicionar "DESC",
+
+00:01:02.560 --> 00:01:05.720
+abreviação para "decrescente",
+no final da cláusula "ORDER BY".
+
+00:01:06.120 --> 00:01:08.760
+Isso nos levará ao conjunto de dados
+que estamos procurando,
+
+00:01:08.794 --> 00:01:10.760
+que mostra os 10 pedidos
+mais recentes,
+
+00:01:10.794 --> 00:01:12.800
+com o mais recente
+na parte superior.
+

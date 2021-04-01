@@ -1,0 +1,125 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.720 --> 00:00:03.400
+Imagine-se como gerente de vendas
+na Parch &amp; Posey.
+
+00:00:03.720 --> 00:00:06.520
+Você quer ver qual dos seus clientes
+comprou papel há algum tempo
+
+00:00:06.554 --> 00:00:08.480
+e deve fazer uma compra
+em breve.
+
+00:00:08.840 --> 00:00:11.080
+Vamos supor
+que é janeiro de 2017.
+
+00:00:11.114 --> 00:00:14.080
+Provavelmente você gostaria
+de procurar clientes que compraram
+
+00:00:14.114 --> 00:00:16.560
+em algum momento
+entre 3 e 9 meses antes,
+
+00:00:17.080 --> 00:00:19.640
+ou entre abril
+e outubro de 2016.
+
+00:00:20.000 --> 00:00:21.160
+Para fazer isso,
+
+00:00:21.194 --> 00:00:24.280
+você precisará filtrar com base
+em vários critérios usando "AND".
+
+00:00:25.080 --> 00:00:27.560
+Vamos nos aprofundar neste exemplo
+ao obter pedidos que ocorreram
+
+00:00:27.594 --> 00:00:29.600
+após 01 de abril de 2016.
+
+00:00:32.360 --> 00:00:36.360
+Então vamos excluir os pedidos
+posteriores a 1 de outubro de 2016.
+
+00:00:36.880 --> 00:00:39.080
+Podemos adicionar isso
+à cláusula "WHERE" usando "AND".
+
+00:00:41.040 --> 00:00:43.120
+Vamos resolver isso ao reordenar
+esses resultados
+
+00:00:43.154 --> 00:00:47.200
+para confirmar que os pedidos
+após 1 de outubro foram excluídos.
+
+00:00:48.720 --> 00:00:51.680
+Você pode ver que todos os pedidos
+após 1 de outubro de 2016
+
+00:00:51.714 --> 00:00:53.080
+não foram filtrados.
+
+00:00:53.114 --> 00:00:56.240
+Uma coisa importante a observar aqui
+é que o operador "AND" permite
+
+00:00:56.274 --> 00:00:58.800
+que você execute
+duas expressões lógicas completas.
+
+00:00:58.834 --> 00:01:00.040
+Quando essa consulta
+é executada,
+
+00:01:00.074 --> 00:01:02.560
+ele avalia uma linha
+para ver se "occurred_at"
+
+00:01:02.594 --> 00:01:05.320
+é maior ou igual
+a 1 de abril de 2016.
+
+00:01:05.760 --> 00:01:08.320
+Em seguida, avalia a mesma linha
+para ver se "occurred_at"
+
+00:01:08.354 --> 00:01:11.240
+é menor ou igual
+a 1 de outubro de 2016.
+
+00:01:11.560 --> 00:01:13.800
+Essas expressões lógicas
+devem ser independentes,
+
+00:01:14.000 --> 00:01:17.000
+mesmo que ambas estejam operando
+na coluna de mesmo nome.
+
+00:01:17.034 --> 00:01:19.160
+Não podemos digitar "WHERE"
+quando "occurred_at"
+
+00:01:19.194 --> 00:01:24.040
+é maior ou igual a 1 de abril
+e menor ou igual a 1 de outubro.
+
+00:01:24.360 --> 00:01:27.600
+"Menor ou igual a 1 de outubro"
+não é uma expressão lógica
+
+00:01:27.634 --> 00:01:29.840
+que pode ser avaliada
+como verdadeira ou falsa,
+
+00:01:29.874 --> 00:01:31.880
+então a consulta
+retornará um erro.
+

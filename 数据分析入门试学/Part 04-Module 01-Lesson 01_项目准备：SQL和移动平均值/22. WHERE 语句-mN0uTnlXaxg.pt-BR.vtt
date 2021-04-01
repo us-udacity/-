@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.480 --> 00:00:03.520
+Imagine-se como um gerente de contas
+na Parch &amp; Posey.
+
+00:00:04.160 --> 00:00:07.040
+Você está prestes a visitar
+um de seus clientes mais importantes
+
+00:00:07.074 --> 00:00:08.720
+e quer se mostrar preparado.
+
+00:00:08.960 --> 00:00:10.880
+O que significa garantir
+que você está atualizado
+
+00:00:10.914 --> 00:00:12.880
+sobre todos
+os pedidos recentes dele.
+
+00:00:13.320 --> 00:00:15.480
+Você pode usar a cláusula "WHERE"
+para gerar uma lista
+
+00:00:15.514 --> 00:00:18.560
+de todas as compras feitas
+por esse cliente específico.
+
+00:00:19.840 --> 00:00:22.160
+A cláusula "WHERE" permite filtrar
+um conjunto de resultados
+
+00:00:22.194 --> 00:00:23.960
+com base em critérios
+específicos,
+
+00:00:23.994 --> 00:00:26.440
+como você faria
+com o recurso de filtro do Excel.
+
+00:00:26.760 --> 00:00:28.080
+Filtrar com "WHERE"
+
+00:00:28.114 --> 00:00:30.760
+permite que você responda questões
+muito mais significativas.
+
+00:00:30.794 --> 00:00:33.160
+Você vai usá-lo na maioria
+das consultas que fizer.
+
+00:00:34.200 --> 00:00:36.080
+A cláusula "WHERE"
+vem depois de "FROM",
+
+00:00:36.114 --> 00:00:37.880
+mas antes de "ORDER BY"
+ou "LIMIT".
+
+00:00:38.600 --> 00:00:40.000
+Como nas consultas anteriores,
+
+00:00:40.034 --> 00:00:41.720
+as cláusulas devem estar
+na ordem correta,
+
+00:00:41.754 --> 00:00:43.640
+ou a consulta retornará um erro.
+
+00:00:44.560 --> 00:00:45.720
+Como gerente de conta,
+
+00:00:45.754 --> 00:00:46.880
+escreveremos uma consulta
+para mostrar
+
+00:00:46.914 --> 00:00:49.200
+apenas os pedidos
+do nosso principal cliente,
+
+00:00:49.234 --> 00:00:52.760
+que é representado aqui
+pela "account_id" 4.251.
+
+00:00:53.520 --> 00:00:58.640
+Vamos escrever esta equação simples,
+onde a "account_id" é igual a 4.251.
+
+00:00:59.680 --> 00:01:01.000
+Isso produzirá
+um conjunto de resultados
+
+00:01:01.034 --> 00:01:02.120
+que inclui todas as linhas
+
+00:01:02.154 --> 00:01:06.680
+para as quais o valor na coluna
+"account_id" é igual a 4.251.
+
+00:01:07.680 --> 00:01:08.840
+Ao usar SQL,
+
+00:01:08.874 --> 00:01:11.360
+linhas inteiras de dados
+são mantidas intactas.
+
+00:01:12.040 --> 00:01:13.320
+Se escrever uma cláusula "WHERE"
+
+00:01:13.354 --> 00:01:16.680
+que filtre com base em valores
+em uma coluna, como fizemos aqui,
+
+00:01:16.714 --> 00:01:18.600
+limitará os resultados
+em todas as colunas
+
+00:01:18.634 --> 00:01:20.840
+para as linhas
+que atendem a condição.
+
+00:01:21.400 --> 00:01:24.760
+A ideia é que cada linha seja
+um ponto de dado ou observação
+
+00:01:25.080 --> 00:01:28.040
+e que toda a informação contida
+nessa linha esteja interligada.
+
+00:01:28.880 --> 00:01:32.760
+Toda a informação em uma linha
+é sobre um único pedido.
+

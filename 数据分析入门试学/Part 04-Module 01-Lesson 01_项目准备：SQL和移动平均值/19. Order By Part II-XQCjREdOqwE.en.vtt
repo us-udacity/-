@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.670 --> 00:00:04.820
+Let's say, you want to order results by account,
+
+00:00:04.820 --> 00:00:06.160
+and within each account,
+
+00:00:06.160 --> 00:00:08.599
+have orders sorted from largest to smallest,
+
+00:00:08.599 --> 00:00:13.759
+so you'll be able to quickly see what the largest orders were for each account.
+
+00:00:13.759 --> 00:00:17.269
+You can use an ORDER BY over multiple columns to achieve this,
+
+00:00:17.269 --> 00:00:21.289
+and the sorting will happen in the order that you specify the columns.
+
+00:00:21.289 --> 00:00:30.107
+So, let's start by ordering by the account_id, and then, total_amt_usd,
+
+00:00:30.108 --> 00:00:32.755
+which we'll make DESCENDING,
+
+00:00:32.755 --> 00:00:40.850
+so the largest values will be first.
+
+00:00:40.850 --> 00:00:46.550
+So I run this, you can see that the first account we get is 1001,
+
+00:00:46.549 --> 00:00:53.754
+and then the orders descend from 9426 all the way down.
+
+00:00:53.755 --> 00:01:01.765
+And then after that, we have 1021 and that account's largest orders and so forth.
+
+00:01:01.765 --> 00:01:04.790
+Now what happens, if I flip this,
+
+00:01:04.790 --> 00:01:15.290
+so the amount will be first, and then we sort by account.
+
+00:01:22.140 --> 00:01:26.900
+What's happening here is that we're starting with
+
+00:01:26.900 --> 00:01:31.430
+the highest amount and sorting descending.
+
+00:01:31.430 --> 00:01:42.140
+So, this is the largest order of all time at $232207 and that went to account 4251.
+
+00:01:42.140 --> 00:01:45.165
+Now, It doesn't seem to be sorting by account id.
+
+00:01:45.165 --> 00:01:49.060
+The reason for that is that,
+
+00:01:49.060 --> 00:01:56.515
+all of these amounts are so precise that there aren't multiple rows of the same amount.
+
+00:01:56.515 --> 00:01:59.977
+So, if there were two rows in the set with the exact same amount,
+
+00:01:59.977 --> 00:02:07.009
+you might notice that account ID within that is sorted from smallest to largest.
+
+00:02:07.010 --> 00:02:11.120
+But, since we're just sorting by the total amount column,
+
+00:02:11.120 --> 00:02:13.909
+then we don't see that here.
+

@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.794
+Imagine yourself once again as a sales manager at Parch and Posey.
+
+00:00:03.794 --> 00:00:06.719
+You've determined that another great way to expand revenue
+
+00:00:06.719 --> 00:00:09.809
+is to sell new types of paper to existing customers.
+
+00:00:09.810 --> 00:00:12.179
+In order to figure out the best prospects,
+
+00:00:12.179 --> 00:00:16.259
+you'd like to see existing customers whose orders omitted some type of paper.
+
+00:00:16.260 --> 00:00:18.510
+Orders for different types of paper are marked in
+
+00:00:18.510 --> 00:00:20.670
+three separate columns in the Orders table.
+
+00:00:20.670 --> 00:00:24.970
+So you'll need to write a query that makes logical comparisons on each of those columns.
+
+00:00:24.969 --> 00:00:28.410
+You can see that most orders are for all three types of paper.
+
+00:00:28.410 --> 00:00:30.285
+Now let's start to build in the logic to find
+
+00:00:30.285 --> 00:00:33.310
+orders where one paper type might not have been ordered.
+
+00:00:33.310 --> 00:00:34.950
+You can do that using OR.
+
+00:00:34.950 --> 00:00:37.800
+OR is a logical operator in SQL that allows you to
+
+00:00:37.799 --> 00:00:41.070
+select rows that satisfy either of two conditions.
+
+00:00:41.070 --> 00:00:46.289
+It works similarly to AND which selects the rows that satisfy both of two conditions.
+
+00:00:46.289 --> 00:00:48.284
+Let's build this out by first selecting
+
+00:00:48.284 --> 00:00:51.719
+only orders for which standard paper was not included.
+
+00:00:51.719 --> 00:00:55.320
+You can see that this produces 825 results.
+
+00:00:55.320 --> 00:00:58.140
+Now let's add another paper type using OR.
+
+00:00:58.140 --> 00:01:02.060
+You can see that this result set is larger than the previous one.
+
+00:01:02.060 --> 00:01:04.795
+That's because we've made this filter more inclusive.
+
+00:01:04.795 --> 00:01:06.900
+It will now return results where either one of
+
+00:01:06.900 --> 00:01:09.270
+these two logical statements resolves is true.
+
+00:01:09.269 --> 00:01:11.274
+By adding one more logical statement,
+
+00:01:11.275 --> 00:01:16.219
+we'll arrive at a query that returns all orders where some type of paper was omitted.
+

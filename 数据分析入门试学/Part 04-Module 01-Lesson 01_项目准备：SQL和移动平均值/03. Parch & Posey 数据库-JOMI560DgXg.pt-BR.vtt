@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.760 --> 00:00:02.360
+Para os exemplos deste curso,
+
+00:00:02.394 --> 00:00:04.400
+nós usaremos dados
+da Parch &amp; Posey,
+
+00:00:04.680 --> 00:00:06.600
+uma empresa que vende papel.
+
+00:00:07.160 --> 00:00:10.320
+Ela tem 50 representantes de vendas
+espalhados pelos Estados Unidos
+
+00:00:10.354 --> 00:00:11.880
+em quatro regiões.
+
+00:00:12.240 --> 00:00:16.160
+Ela vende três tipos de papel:
+normal, para pôsteres e brilhante.
+
+00:00:17.080 --> 00:00:20.040
+Seus clientes são principalmente
+as grandes empresas da Fortune 100,
+
+00:00:20.074 --> 00:00:24.120
+as quais atraem com publicidade
+no Google, Facebook e Twitter.
+
+00:00:25.200 --> 00:00:27.200
+A Parch &amp; Posey
+não é uma empresa real.
+
+00:00:27.234 --> 00:00:28.920
+Foi inventada por nós,
+
+00:00:28.954 --> 00:00:31.080
+assim como os dados
+para este curso.
+
+00:00:31.720 --> 00:00:34.360
+As perguntas que você responderá
+usando os dados da Parch &amp; Posey
+
+00:00:34.394 --> 00:00:36.720
+simulam problemas do mundo real.
+
+00:00:37.480 --> 00:00:40.000
+Ao usar o SQL, poderemos ajudar
+a Parch &amp; Posey
+
+00:00:40.034 --> 00:00:42.040
+a responder perguntas difíceis
+como:
+
+00:00:42.074 --> 00:00:44.680
+qual das suas linhas de produto
+tem o pior desempenho?
+
+00:00:44.714 --> 00:00:48.080
+Ou qual dos seus canais de marketing
+deve fazer um investimento maior?
+

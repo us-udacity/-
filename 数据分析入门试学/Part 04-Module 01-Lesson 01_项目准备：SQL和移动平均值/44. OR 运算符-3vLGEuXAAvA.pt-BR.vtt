@@ -1,0 +1,122 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.680 --> 00:00:02.880
+Imagine-se de novo
+como gerente de vendas
+
+00:00:02.914 --> 00:00:04.120
+da Parch &amp; Posey.
+
+00:00:04.400 --> 00:00:07.120
+Você determinou que outra
+ótima maneira de aumentar a receita
+
+00:00:07.154 --> 00:00:09.880
+é vender novos tipos de papel
+para os clientes existentes.
+
+00:00:10.240 --> 00:00:12.280
+Para descobrir
+as melhores perspectivas,
+
+00:00:12.314 --> 00:00:14.120
+gostaria de ver
+em quais clientes existentes
+
+00:00:14.154 --> 00:00:16.280
+os pedidos omitem
+algum tipo de papel.
+
+00:00:16.920 --> 00:00:18.120
+Pedidos
+para outros tipos de papel
+
+00:00:18.154 --> 00:00:21.040
+estão identificados em três colunas
+separadas na tabela Pedidos.
+
+00:00:21.074 --> 00:00:23.240
+Será preciso escrever uma consulta
+que faça comparações lógicas
+
+00:00:23.274 --> 00:00:25.120
+em cada uma dessas colunas.
+
+00:00:25.154 --> 00:00:28.040
+Observamos que a maioria dos pedidos
+são para três tipos de papel.
+
+00:00:28.640 --> 00:00:31.000
+Começaremos a integrar a lógica
+para encontrar pedidos
+
+00:00:31.034 --> 00:00:33.320
+onde um tipo de papel
+pode não ter sido encomendado.
+
+00:00:33.520 --> 00:00:35.080
+Você pode fazer isso
+usando "OR".
+
+00:00:35.560 --> 00:00:38.880
+"OR" é um operador lógico no SQL
+que permite selecionar linhas
+
+00:00:38.914 --> 00:00:41.120
+que atendam uma
+ou as duas condições.
+
+00:00:41.154 --> 00:00:43.160
+Funciona de forma semelhante
+a "AND",
+
+00:00:43.194 --> 00:00:46.280
+que seleciona as linhas
+que atendem as duas condições.
+
+00:00:46.640 --> 00:00:49.240
+Vamos integrar isso
+selecionando primeiro apenas pedidos
+
+00:00:49.274 --> 00:00:51.440
+para os quais o papel padrão
+não foi incluído.
+
+00:00:52.200 --> 00:00:54.880
+Você pode ver que isso produz
+825 resultados.
+
+00:00:55.480 --> 00:00:57.800
+Agora adicionaremos
+outro tipo de papel usando "OR".
+
+00:00:59.280 --> 00:01:02.240
+Vemos que esse conjunto de resultados
+é maior do que o anterior.
+
+00:01:02.274 --> 00:01:04.760
+Isso porque fizemos
+esse filtro mais abrangente.
+
+00:01:05.080 --> 00:01:07.080
+Ele retornará resultados
+em que a resolução
+
+00:01:07.114 --> 00:01:09.760
+de qualquer uma dessas duas
+expressões lógicas seja verdadeira.
+
+00:01:09.794 --> 00:01:11.600
+Ao adicionar
+mais uma expressão lógica,
+
+00:01:11.634 --> 00:01:13.120
+chegamos a uma consulta
+que retorna
+
+00:01:13.154 --> 00:01:16.160
+todos os pedidos em que algum
+tipo de papel foi omitido.
+
