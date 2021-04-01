@@ -1,0 +1,243 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.920 --> 00:00:05.260
+Ei, Mike, quantas vezes você já
+ouviu alguém dizer: "Uau
+
+00:00:05.260 --> 00:00:07.540
+isso foi muito mais difícil
+do que pensei"?
+
+00:00:07.540 --> 00:00:09.460
+&gt;&gt; O tempo todo,
+acho que ouvi você dizer hoje de manhã.
+
+00:00:09.460 --> 00:00:10.780
+&gt;&gt; Acho que digo várias vezes na semana.
+
+00:00:10.780 --> 00:00:14.650
+Codificar é sempre difícil, não importa 
+há quanto tempo você faz isso,
+
+00:00:14.650 --> 00:00:15.720
+pois sempre surgem problemas.
+
+00:00:15.720 --> 00:00:18.970
+&gt;&gt; É verdade,
+aliás o que caracteriza um bom desenvolvedor
+
+00:00:18.970 --> 00:00:20.760
+não é ser muito inteligente.
+
+00:00:20.760 --> 00:00:23.410
+É ser alguém que vai resolver os
+problemas e persistir.
+
+00:00:24.830 --> 00:00:28.430
+Você vai se deparar com problemas,
+e ficará frustrado.
+
+00:00:28.430 --> 00:00:31.030
+Algumas vezes ficará confuso.
+
+00:00:31.030 --> 00:00:34.580
+E se encontrará em situações de programação
+que parecem um beco sem saída.
+
+00:00:35.630 --> 00:00:37.460
+&gt;&gt; Sempre que você estiver
+nessas situações,
+
+00:00:37.460 --> 00:00:39.040
+é importante continuar.
+
+00:00:39.040 --> 00:00:41.910
+Não é continuar no sentido
+de chegar ao ponto de bater a cabeça
+
+00:00:41.910 --> 00:00:44.430
+na parede e ficar
+ainda mais frustrado.
+
+00:00:44.430 --> 00:00:47.900
+É no sentido de que,
+dia após dia, pouco a pouco,
+
+00:00:47.900 --> 00:00:49.580
+você sempre faz algum progresso.
+
+00:00:49.580 --> 00:00:51.870
+É assim que você resolve 
+qualquer problema.
+
+00:00:51.870 --> 00:00:54.547
+Para ajudar, veremos algumas
+estratégias de solução de problemas.
+
+00:00:56.110 --> 00:01:00.250
+A primeira é deixar para o dia seguinte.
+Sério, é muito útil.
+
+00:01:00.250 --> 00:01:01.920
+Faça uma pausa e volte com a cabeça fresca;
+
+00:01:01.920 --> 00:01:05.800
+você vai se surpreender como
+os problemas se tornam mais simples.
+
+00:01:05.800 --> 00:01:09.330
+Você também tem o Google e
+o Stack Overflow para ajudar.
+
+00:01:09.330 --> 00:01:12.060
+Na maioria das vezes, seus erros
+terão mensagens.
+
+00:01:13.140 --> 00:01:16.970
+Copie e
+cole essas mensagens no Google.
+
+00:01:16.970 --> 00:01:19.710
+Você vai se surpreender com
+a rapidez com que pode
+
+00:01:19.710 --> 00:01:21.940
+obter respostas para suas perguntas.
+
+00:01:21.940 --> 00:01:25.440
+O Stack Overflow é fabuloso
+porque as pessoas votam nas respostas.
+
+00:01:25.440 --> 00:01:28.530
+Assim você pode ter uma ideia
+de qual estratégia a comunidade
+
+00:01:28.530 --> 00:01:29.800
+acha que resolverá o problema.
+
+00:01:30.830 --> 00:01:35.070
+É sério, essa é uma ótima estratégia e
+vai resolver muitos dos
+
+00:01:35.070 --> 00:01:37.000
+problemas para você.
+
+00:01:37.000 --> 00:01:42.440
+Mas, por falar na comunidade, tente
+perguntar à comunidade; você não está sozinho.
+
+00:01:42.440 --> 00:01:46.780
+Lembre-se de que você estará aprendendo
+junto com muitas outras pessoas.
+
+00:01:46.780 --> 00:01:48.580
+Conecte-se e peça ajuda.
+
+00:01:48.580 --> 00:01:51.200
+Se você tiver a sorte de conhecer
+desenvolvedores Web na vida real,
+
+00:01:51.200 --> 00:01:52.460
+fale com eles também.
+
+00:01:52.460 --> 00:01:54.280
+Talvez eles possam indicar
+a você a direção certa.
+
+00:01:55.310 --> 00:01:58.630
+E às vezes talvez seja necessário 
+repensar o que você está fazendo.
+
+00:01:58.630 --> 00:02:02.890
+Quando estou trabalhando em algo
+complicado, gosto de desenhar uma figura.
+
+00:02:02.890 --> 00:02:07.930
+Esta figura é um desenho que fiz
+na noite passada para um projeto real.
+
+00:02:07.930 --> 00:02:10.669
+Não é muito bonita,
+é apenas lápis em papel quadriculado,
+
+00:02:10.669 --> 00:02:12.370
+mas não precisa ser.
+
+00:02:12.370 --> 00:02:15.910
+Formas, palavras e
+setas costumam ser suficientes.
+
+00:02:15.910 --> 00:02:18.430
+Esse desenho acabou sendo
+superútil para mim e
+
+00:02:18.430 --> 00:02:21.520
+me poupou muito trabalho mais tarde.
+
+00:02:21.520 --> 00:02:24.240
+Em geral, é útil colocar
+suas ideias no papel e parar de
+
+00:02:24.240 --> 00:02:26.460
+fazer elucubrações.
+
+00:02:26.460 --> 00:02:30.380
+Você poderá tomar melhores decisões
+se puder ter uma visão geral.
+
+00:02:30.380 --> 00:02:33.350
+Por último,
+quero que você veja seus erros e equívocos
+
+00:02:33.350 --> 00:02:36.140
+como oportunidades de aprendizado.
+
+00:02:36.140 --> 00:02:39.450
+Veja desta forma:
+você nunca está realmente errado,
+
+00:02:39.450 --> 00:02:41.820
+só não está certo, ainda.
+
+00:02:43.930 --> 00:02:45.420
+&gt;&gt; Esse é um conselho muito sensato.
+
+00:02:45.420 --> 00:02:47.770
+Acho que já fiz tudo isso
+durante a minha carreira.
+
+00:02:47.770 --> 00:02:49.008
+&gt;&gt; Sim, acho que todos fizemos.
+
+00:02:49.008 --> 00:02:52.875
+Como você bem sabe, a melhor coisa é,
+no final do dia, a sensação
+
+00:02:52.875 --> 00:02:56.830
+absolutamente incrível
+de quando algo começa a funcionar.
+
+00:02:56.830 --> 00:03:00.503
+Queremos que você tenha em mente essas
+técnicas enquanto trabalha em seu Nanodegree e
+
+00:03:00.503 --> 00:03:01.020
+depois.
+
+00:03:01.020 --> 00:03:02.800
+&gt;&gt; Você vai evoluir enquanto aprende e
+
+00:03:02.800 --> 00:03:04.720
+lidar melhor com os 
+problemas que encontrar.
+
+00:03:04.720 --> 00:03:07.940
+&gt;&gt; Para ajudar você a se lembrar disso,
+quero escrever uma pequena
+
+00:03:07.940 --> 00:03:11.210
+reflexão sobre como você
+enfrentará os desafios que estão por vir.
+

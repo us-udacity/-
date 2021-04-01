@@ -1,0 +1,368 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.960 --> 00:00:03.370
+Estou em um dos estúdios de
+tablet da Udacity.
+
+00:00:03.370 --> 00:00:05.330
+Sempre que você vir esta caneta,
+
+00:00:05.330 --> 00:00:08.980
+vai realmente assistir a um vídeo
+que está sendo transmitido aqui.
+
+00:00:08.980 --> 00:00:10.990
+De qualquer modo, voltemos ao tópico.
+
+00:00:10.990 --> 00:00:13.580
+Infelizmente não podemos ensinar
+a você tudo o que há
+
+00:00:13.580 --> 00:00:16.110
+para saber sobre o mundo
+do desenvolvimento da Web.
+
+00:00:16.110 --> 00:00:18.100
+Em algum ponto, você ficará por sua conta e
+
+00:00:18.100 --> 00:00:21.470
+precisará aprender
+novas técnicas ou tecnologias.
+
+00:00:21.470 --> 00:00:24.940
+Em vez de focarmos diretamente em
+ensinar-lhe tudo o que você talvez já saiba,
+
+00:00:24.940 --> 00:00:29.040
+queremos nos certificar de que
+você está pronto para ser independente.
+
+00:00:29.040 --> 00:00:31.900
+Queremos que você seja capaz de
+descobrir novas técnicas e
+
+00:00:31.900 --> 00:00:36.820
+tecnologias sozinho e prosperar no mundo evolutivo
+do desenvolvimento da Web.
+
+00:00:36.820 --> 00:00:40.910
+Para começar,
+quero voltar bem no início.
+
+00:00:42.830 --> 00:00:45.470
+Alguns de vocês podem reconhecer isto.
+
+00:00:45.470 --> 00:00:50.100
+Este é o Netscape Navigator,
+que foi o primeiro navegador da Web importante.
+
+00:00:50.100 --> 00:00:55.050
+Ele foi lançado em 1994 e tinha como
+base o navegador Mosaic anterior,
+
+00:00:55.050 --> 00:01:00.430
+que foi desenvolvido pela Universidade
+de Illinois em 1993.
+
+00:01:00.430 --> 00:01:05.450
+É claro que o navegador atingiu o topo
+da popularidade na década de 90 e, finalmente, o
+
+00:01:05.450 --> 00:01:10.460
+Internet Explorer da Microsoft chegou
+para dominar o cenário.
+
+00:01:10.460 --> 00:01:12.520
+O desenvolvimento do Navigator parou.
+
+00:01:12.520 --> 00:01:17.650
+Mas você pode ainda encontrar recursos no código
+de versões mais antigas do Internet Explorer
+
+00:01:17.650 --> 00:01:21.900
+no Firefox do Mozilla desde
+o Netscape Navigator.
+
+00:01:21.900 --> 00:01:25.850
+De fato, o Netscape Navigator parece
+bem similar aos navegadores que
+
+00:01:25.850 --> 00:01:27.540
+ainda temos atualmente.
+
+00:01:27.540 --> 00:01:33.148
+Há uma barra de URL no topo e
+uma grande janela de exibição para disponibilizar conteúdo.
+
+00:01:33.148 --> 00:01:38.608
+Atualmente, os desenvolvedores Web usam três
+linguagens diferentes para desenvolver sites.
+
+00:01:38.608 --> 00:01:42.080
+HTML, que significa
+Linguagem de marcação de hipertexto.
+
+00:01:43.110 --> 00:01:46.850
+CSS, que significa
+Folhas de estilo em cascata.
+
+00:01:46.850 --> 00:01:50.820
+E JavaScript, que
+significa simplesmente JavaScript.
+
+00:01:50.820 --> 00:01:54.750
+Resumindo,
+o HTML descreve o conteúdo e
+
+00:01:54.750 --> 00:02:01.000
+a estrutura de um site,
+o CSS descreve o estilo de um site
+
+00:02:01.000 --> 00:02:04.410
+e o JavaScript lida com
+todas as interações.
+
+00:02:04.410 --> 00:02:07.830
+Você aprenderá tudo sobre
+essas três linguagens
+
+00:02:07.830 --> 00:02:09.570
+nas lições que virão.
+
+00:02:09.570 --> 00:02:12.959
+No entanto, esta situação de HTML,
+CSS e
+
+00:02:12.959 --> 00:02:16.590
+JavaScript nem sempre foi o caso.
+
+00:02:16.590 --> 00:02:20.830
+A Web inicial era quase
+inteiramente de documentos de texto
+
+00:02:20.830 --> 00:02:24.370
+com talvez algumas imagens,
+tipo jornais.
+
+00:02:24.370 --> 00:02:28.910
+Como resultado, os primeiros
+navegadores suportavam apenas HTML.
+
+00:02:28.910 --> 00:02:31.540
+CSS e JavaScript ainda não existiam.
+
+00:02:31.540 --> 00:02:35.100
+Acredite ou não,
+este é o primeiro site da Web.
+
+00:02:35.100 --> 00:02:37.030
+A Web não foi originalmente projetado para
+
+00:02:37.030 --> 00:02:39.280
+aplicativos grandes, como Facebook e
+Gmail.
+
+00:02:39.280 --> 00:02:41.580
+Ela foi projetada como um meio de
+
+00:02:41.580 --> 00:02:44.750
+vincular diretamente
+os documentos de texto.
+
+00:02:44.750 --> 00:02:46.760
+Você pode ver todos
+os links nesta página.
+
+00:02:46.760 --> 00:02:51.820
+Os links deviam representar referências
+que você encontraria nas bibliografias ou
+
+00:02:51.820 --> 00:02:54.590
+anotações de trabalhos de pesquisa.
+
+00:02:54.590 --> 00:02:57.920
+De fato, a rota acadêmica deveria ser
+muito óbvia, porque este site é
+
+00:02:57.920 --> 00:02:59.130
+da CERN,
+
+00:02:59.130 --> 00:03:02.340
+que é o instituto nuclear
+da Europa.
+
+00:03:02.340 --> 00:03:07.170
+No momento, esses links não foram
+nada mais do que meios de fazer referência
+
+00:03:07.170 --> 00:03:08.920
+ao trabalho de outras pessoas.
+
+00:03:08.920 --> 00:03:09.830
+Confira.
+
+00:03:09.830 --> 00:03:11.900
+Esta foi a primeira página inicial da Microsoft.
+
+00:03:13.000 --> 00:03:16.900
+Com o tempo, os desenvolvedores
+adicionaram estilos ao conteúdo.
+
+00:03:16.900 --> 00:03:21.650
+Alterando cores e fontes,
+planos de fundo e um pouco o layout.
+
+00:03:21.650 --> 00:03:24.620
+Todas essas alterações
+terminaram no HTML.
+
+00:03:24.620 --> 00:03:27.240
+E o código era uma enorme confusão.
+
+00:03:27.240 --> 00:03:30.850
+Agora você está vendo a página inicial
+do Yahoo do ano de 2000.
+
+00:03:30.850 --> 00:03:35.420
+Esta imagem é uma cortesia da
+Wayback Machine da Internet Archive.
+
+00:03:35.420 --> 00:03:38.360
+É uma forma
+hilária de conferir sites mais
+
+00:03:38.360 --> 00:03:41.990
+antigos, se você quiser ver
+como era a Web.
+
+00:03:41.990 --> 00:03:46.190
+De qualquer modo, o CSS entrou
+em cena em meados de 1996,
+
+00:03:46.190 --> 00:03:50.980
+os desenvolvedores queriam realmente adicionar mais e
+mais estilos às páginas.
+
+00:03:50.980 --> 00:03:55.020
+Com o CSS, os desenvolvedores puderam
+separar esses estilos,
+
+00:03:55.020 --> 00:03:58.050
+decidindo como todos eles
+ficariam, a partir do conteúdo.
+
+00:03:58.050 --> 00:04:01.600
+O que é basicamente todo
+o texto desta página.
+
+00:04:01.600 --> 00:04:05.360
+É claro que isto são só o HTML e o CSS.
+
+00:04:05.360 --> 00:04:07.580
+E tem o JavaScript.
+
+00:04:08.600 --> 00:04:12.040
+O JavaScript é diferente
+e mais amplo.
+
+00:04:12.040 --> 00:04:15.530
+Enquanto o HTML e CSS são linguagens de marcação,
+
+00:04:15.530 --> 00:04:20.350
+ou seja, eles são apenas
+usados para descrever outros documentos,
+
+00:04:20.350 --> 00:04:23.910
+o JavaScript é uma linguagem
+de programação completa.
+
+00:04:23.910 --> 00:04:26.810
+Com ele, os desenvolvedores podem
+alterar o conteúdo e
+
+00:04:26.810 --> 00:04:29.600
+o estilo de um site ao vivo.
+
+00:04:29.600 --> 00:04:32.100
+O JavaScript tem
+uma história interessante.
+
+00:04:32.100 --> 00:04:36.690
+Ele foi desenvolvido em 1995 por
+Brendan Eich.
+
+00:04:36.690 --> 00:04:38.920
+E ele o fez em dez dias.
+
+00:04:38.920 --> 00:04:41.030
+Isso é louco.
+
+00:04:41.030 --> 00:04:44.050
+Talvez você não saiba muito sobre
+programação agora ou talvez saiba, mas
+
+00:04:44.050 --> 00:04:46.550
+de qualquer modo, é um feito impressionante.
+
+00:04:46.550 --> 00:04:49.620
+Ele criou o JavaScript para
+ser executado no Netscape Navigator.
+
+00:04:50.750 --> 00:04:53.780
+Hoje, o JavaScript é executado
+em todos os navegadores e
+
+00:04:53.780 --> 00:04:57.410
+é uma das linguagens
+de programação mais populares.
+
+00:04:57.410 --> 00:04:59.738
+Graças à popularidade da Web.
+
+00:04:59.738 --> 00:05:03.888
+O JavaScript é executado em um elevado número de
+ambientes fora dos navegadores.
+
+00:05:03.888 --> 00:05:07.364
+Incluindo servidores com
+software, como Node.js, e
+
+00:05:07.364 --> 00:05:09.980
+microcontroladores, como Tessel.io.
+
+00:05:09.980 --> 00:05:14.880
+E falando em popularidade,
+fica fácil presumir que o
+
+00:05:14.880 --> 00:05:18.910
+JavaScript seja uma extensão da
+linguagem de programação Java,
+
+00:05:18.910 --> 00:05:21.690
+por causa da semelhança dos nomes.
+
+00:05:21.690 --> 00:05:26.950
+Java foi muito popular em 1995 e,
+na verdade, até hoje é.
+
+00:05:26.950 --> 00:05:32.840
+No entanto, Java e
+JavaScript não estão relacionados.
+
+00:05:32.840 --> 00:05:35.980
+Ou seja,
+existem algumas semelhanças de sintaxe.
+
+00:05:35.980 --> 00:05:40.530
+Mas isso não muda o fato de que o
+nome JavaScript foi basicamente só uma
+
+00:05:40.530 --> 00:05:45.490
+decisão de marketing para
+complementar a popularidade do Java.
+
+00:05:45.490 --> 00:05:45.990
+História verdadeira.
+

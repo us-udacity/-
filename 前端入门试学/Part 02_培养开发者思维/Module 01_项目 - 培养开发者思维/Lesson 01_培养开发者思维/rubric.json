@@ -1,0 +1,108 @@
+{
+  "id": 666,
+  "project_id": 134,
+  "upload_types": [
+    "text"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "你可以[在这里查看此评审标准的英文版本](https://review.udacity.com/#!/rubrics/134/view)。\n",
+  "hide_criteria": false,
+  "created_at": "2016-12-20T07:48:27.742Z",
+  "updated_at": "2019-02-19T13:02:59.698Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "checkmate_enabled": false,
+  "checkmate_metadata": null,
+  "available_for_cert_project": false,
+  "classroom_node_id": 232349,
+  "classroom_project_key": "6790468080",
+  "language": "zh-cn",
+  "sections": [
+    {
+      "id": 1643,
+      "name": "文档",
+      "created_at": "2016-12-20T07:54:45.794Z",
+      "updated_at": "2016-12-20T07:54:58.372Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 666,
+      "rubric_items": [
+        {
+          "id": 5068,
+          "section_id": 1643,
+          "passed_description": "提交的项目中含有一个文档，描述了你的目标和给自己的信。",
+          "exceeded_description": null,
+          "created_at": "2016-12-20T07:54:58.706Z",
+          "updated_at": "2016-12-20T07:55:22.360Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "成功提交文档",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 1644,
+      "name": "思考",
+      "created_at": "2016-12-20T07:55:22.696Z",
+      "updated_at": "2016-12-20T07:55:34.304Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 666,
+      "rubric_items": [
+        {
+          "id": 5069,
+          "section_id": 1644,
+          "passed_description": "文档中包括你对自己作为一名开发者的目标的思考。",
+          "exceeded_description": null,
+          "created_at": "2016-12-20T07:55:34.646Z",
+          "updated_at": "2016-12-20T07:55:47.690Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "思考",
+          "exceedable": false
+        },
+        {
+          "id": 5070,
+          "section_id": 1644,
+          "passed_description": "文档中包括一份你给未来的自己的一封信，描述你将如何解决问题，你需要掌握的技能，以及为什么“成长型思维”可以帮助你达到目标。",
+          "exceeded_description": null,
+          "created_at": "2016-12-20T07:55:48.051Z",
+          "updated_at": "2016-12-20T07:56:04.132Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "给自己的信",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 134,
+    "name": "Front End Grit: A Developer Mindset",
+    "nanodegree_key": "nd001",
+    "is_cert_project": false,
+    "required_skills": "HTML, CSS, markdown, empathy",
+    "audit_project_id": 72,
+    "hashtag": "nanodegree,frontend",
+    "audit_rubric_id": 1144,
+    "entitlement_required": null,
+    "is_career": null,
+    "recruitment_family_id": 7,
+    "awaiting_review_count": 0,
+    "awaiting_review_count_by_language": {},
+    "awaiting_audit_count": 0,
+    "awaiting_quality_audit_count": 0,
+    "awaiting_training_audit_count": 0,
+    "created_at": "2016-02-09T19:09:48.654Z",
+    "updated_at": "2019-03-07T18:25:14.132Z",
+    "price": "5.0",
+    "audit_price": null
+  }
+}

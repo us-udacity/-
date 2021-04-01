@@ -1,0 +1,141 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.680 --> 00:00:03.060
+Há uma filosofia 
+no desenvolvimento da Web.
+
+00:00:03.060 --> 00:00:06.830
+Novas tecnologias de navegador
+não podem interromper sites antigos.
+
+00:00:06.830 --> 00:00:10.009
+Depois que um site for criado com
+tecnologias da Web padrão estáveis,
+
+00:00:10.009 --> 00:00:13.928
+ele precisa continuar a funcionar para sempre.
+
+00:00:13.928 --> 00:00:18.270
+O HTML, o CSS e o JavaScript 
+evoluíram muito.
+
+00:00:18.270 --> 00:00:21.160
+Atualmente, estamos 
+na versão 5 do HTML.
+
+00:00:21.160 --> 00:00:22.720
+Por isso o cinco lá.
+
+00:00:22.720 --> 00:00:27.000
+E também estamos no CSS versão 3,
+observe o três.
+
+00:00:27.000 --> 00:00:31.000
+E normalmente chamamos isso de HTML5 e
+CSS3.
+
+00:00:31.000 --> 00:00:34.800
+Cada nova versão adicionou novos
+recursos às linguagens de marcação.
+
+00:00:34.800 --> 00:00:38.336
+Mas poucos recursos,
+ou nenhum, foram removidos.
+
+00:00:38.336 --> 00:00:44.835
+Portanto, qualquer site escrito para
+navegadores em 94, 95 ou em qualquer ano,
+
+00:00:44.835 --> 00:00:50.528
+deve parecer exatamente igual
+nos navegadores desenvolvidos em 2016.
+
+00:00:50.528 --> 00:00:54.537
+Como resultado da adição de cada 
+vez mais recursos a essas linguagens,
+
+00:00:54.537 --> 00:00:58.370
+há muitas maneiras 
+de resolver problemas na Web.
+
+00:00:58.370 --> 00:01:01.700
+E aqui estão apenas algumas sobre
+as quais você aprenderá brevemente.
+
+00:01:01.700 --> 00:01:05.440
+Mas, ao longo do tempo, as melhores práticas mudam.
+
+00:01:05.440 --> 00:01:08.950
+Mas isso não significa que
+as melhores práticas de ontem parem
+
+00:01:08.950 --> 00:01:10.250
+de funcionar de um dia para o outro.
+
+00:01:10.250 --> 00:01:12.836
+Faz parte do trabalho do desenvolvedor Web
+manter-se atualizado
+
+00:01:12.980 --> 00:01:16.260
+e ser capaz de 
+discernir entre o antigo e o novo,
+
+00:01:16.260 --> 00:01:19.940
+ou entre o padrão ouro do ano anterior
+e a tecnologia de amanhã.
+
+00:01:19.940 --> 00:01:24.980
+Agora, para ser justo com estes exemplos
+em particular, todos eles são maneiras
+
+00:01:24.980 --> 00:01:27.350
+muito válidas de desenvolver sites.
+
+00:01:27.350 --> 00:01:29.525
+Mas existem algumas diferenças,
+
+00:01:29.625 --> 00:01:32.199
+e alguns recursos 
+são mais novos que outros.
+
+00:01:32.890 --> 00:01:37.170
+Na verdade, as tecnologias da Web
+estão mudando constantemente.
+
+00:01:37.170 --> 00:01:39.042
+Novas tecnologias 
+surgem o tempo todo,
+
+00:01:39.270 --> 00:01:43.616
+e até as estáveis estão mudando
+parece que em uma escala de semanas.
+
+00:01:43.920 --> 00:01:47.450
+E como eu disse antes,
+não é possível ensinar a você
+
+00:01:47.450 --> 00:01:49.290
+tudo o que 
+existe para saber
+
+00:01:49.326 --> 00:01:52.143
+sobre as tecnologias 
+da Web.
+
+00:01:52.790 --> 00:01:56.428
+Em vez disso, queremos ensinar
+a você como manter-se atualizado.
+
+00:01:56.428 --> 00:02:01.088
+Queremos que você desenvolva opiniões sobre
+novas tecnologias à medida que elas surjam.
+
+00:02:01.088 --> 00:02:04.493
+E queremos que você continue aprendendo 
+para continuar a se divertir
+
+00:02:04.540 --> 00:02:06.673
+e para continuar a criar sites.
+

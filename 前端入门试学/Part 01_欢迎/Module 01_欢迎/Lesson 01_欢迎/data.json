@@ -1,0 +1,287 @@
+{
+  "data": {
+    "lesson": {
+      "id": 346510,
+      "key": "96df67fc-7e75-48ad-8391-5cd0c2162a05",
+      "title": "欢迎",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "了解什么是纳米课程，什么是优等生社群以及如何最好的利用优达学城的资源",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/96df67fc-7e75-48ad-8391-5cd0c2162a05/346510/1544279273713/%E6%AC%A2%E8%BF%8E+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/96df67fc-7e75-48ad-8391-5cd0c2162a05/346510/1544279269666/%E6%AC%A2%E8%BF%8E+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 352499,
+          "key": "9932421a-5ce2-4f6b-a5e3-0bbc2a112c99",
+          "title": "欢迎",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9932421a-5ce2-4f6b-a5e3-0bbc2a112c99",
+            "completed_at": "2017-09-13T08:39:27.311Z",
+            "last_viewed_at": "2019-03-14T17:33:53.637Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352503,
+              "key": "fab31ae0-b85d-4366-b54c-0fcc533d118d",
+              "title": "China FEND basic trailer",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ApMqfeKyGdI",
+                "china_cdn_id": "ApMqfeKyGdI.mp4"
+              }
+            },
+            {
+              "id": 352500,
+              "key": "9ca2f70f-50bd-4070-87e8-c33d8172c73c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<p>欢迎学习前端开发（进阶）课程！开始之前，请确保你已经：</p>\n<ul>\n<li>\n加入本期前端开发<strong style=\"color:#02b3e4\">正式学员群（交流群）</strong>和<strong style=\"color:#02b3e4\">优等生社群（导师答疑）</strong>\n</li>\n<li>\n若还没有加群，可以扫描下方二维码，添加前端社群负责人Binco，备注“<strong style=\"color:red\">前端入门+你的开课/报名时间</strong>”。\n</li>\n</ul>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 372920,
+              "key": "3f80fcb5-0441-49ac-94d6-a1f3e9e80ecf",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://d17h27t6h515a5.cloudfront.net/topher/2017/August/5995173f_-2017-08-17-12.09.56/-2017-08-17-12.09.56.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3f80fcb5-0441-49ac-94d6-a1f3e9e80ecf",
+              "caption": "",
+              "alt": null,
+              "width": 200,
+              "height": 200,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 195521,
+          "key": "aac0d5cc-43b9-4683-94bc-ce3e91e9f314",
+          "title": "纳米学位简介",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aac0d5cc-43b9-4683-94bc-ce3e91e9f314",
+            "completed_at": "2017-11-23T14:30:11.885Z",
+            "last_viewed_at": "2019-03-14T17:34:00.106Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 195522,
+              "key": "98422a93-9e16-46ad-a35e-dcd4deed3a70",
+              "title": "简介",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fxNSn63xFvA",
+                "china_cdn_id": "fxNSn63xFvA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 195523,
+          "key": "562af27c-99ca-491f-a3ef-36ea0af137da",
+          "title": "项目和进度",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "562af27c-99ca-491f-a3ef-36ea0af137da",
+            "completed_at": "2017-11-23T14:30:35.676Z",
+            "last_viewed_at": "2019-03-09T09:57:52.798Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 195524,
+              "key": "265a9545-6533-4b5b-b4b6-6da4e1e45c37",
+              "title": "你的时间线",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "为帮助你快速实现目标，我们根据你的报名时间为你的每个实战项目设置了截止日期。此时间线的设计标准为每周大约投入 10~12 小时。请在任何可能的时候回到教室继续学习，即使只是 5 分钟，也能确保不断取得进步。\n\n截止日期显示在你的优达学城主页上所列相关项目旁边。你可以点击页面左侧的“主页图标”转至你的教室主页。",
+              "video": {
+                "youtube_id": "Z9ZLMQWsbsk",
+                "china_cdn_id": "Z9ZLMQWsbsk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 195525,
+          "key": "ebd1d4f3-8996-46c7-9356-d115ef49c0c2",
+          "title": "如何提交项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ebd1d4f3-8996-46c7-9356-d115ef49c0c2",
+            "completed_at": "2017-11-23T14:31:19.471Z",
+            "last_viewed_at": "2019-03-09T09:58:30.962Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 195526,
+              "key": "cb9cbe98-91da-43f8-83b3-e649fbf35868",
+              "title": "如何提交项目",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jCJa_VP6qgg",
+                "china_cdn_id": "jCJa_VP6qgg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 195527,
+          "key": "74a7575e-fc81-4312-b340-21a677dae7ff",
+          "title": "诚信和决心",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74a7575e-fc81-4312-b340-21a677dae7ff",
+            "completed_at": "2017-11-23T14:32:01.091Z",
+            "last_viewed_at": "2019-03-09T09:59:04.550Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 195528,
+              "key": "6b464882-ac4c-4efc-962b-b774ce26815b",
+              "title": "荣誉准则",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "### 要在纳米学位课程中保持良好信誉，你必须遵守以下荣誉准则：\n\n**我在此确认**我提交的所有项目作业均由我个人完成。相应地，我将记录和引述我提交的项目中来自网站、书籍、论坛、博文、Github 库或任何其他来源的部分的出处，并解释使用它们的原因。",
+              "video": {
+                "youtube_id": "zCOr3O50gQM",
+                "china_cdn_id": "zCOr3O50gQM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 195529,
+          "key": "c63fb10d-52ad-41c6-9b03-2c84ee58c794",
+          "title": "如何才能抽出时间学习",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c63fb10d-52ad-41c6-9b03-2c84ee58c794",
+            "completed_at": "2017-11-23T14:32:52.214Z",
+            "last_viewed_at": "2019-03-09T09:59:45.063Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 195530,
+              "key": "81f48614-3a23-435d-99f7-4567dc328d79",
+              "title": "如何才能抽出时间学习",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "d-VfUw7wNEQ",
+                "china_cdn_id": "d-VfUw7wNEQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 195531,
+          "key": "ec8ec89f-b5d2-44ce-bba1-12a77922751e",
+          "title": "最后的提示",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ec8ec89f-b5d2-44ce-bba1-12a77922751e",
+            "completed_at": "2017-11-23T14:26:03.325Z",
+            "last_viewed_at": "2019-03-14T17:34:01.766Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 195532,
+              "key": "a65a0a69-c17a-44dc-998c-5317a302c224",
+              "title": "最后的提示",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1ZVBvM54hQw",
+                "china_cdn_id": "1ZVBvM54hQw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 372591,
+          "key": "109ea880-0da3-46d2-80a1-438d88eea3da",
+          "title": "组队通关课程赢奖品！",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "109ea880-0da3-46d2-80a1-438d88eea3da",
+            "completed_at": "2017-11-21T17:46:52.034Z",
+            "last_viewed_at": "2019-03-09T10:01:59.990Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 372592,
+              "key": "7c87fa2f-fb79-4f62-bdee-1984111ff707",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 组队通关课程赢奖品！\n\n为了让接下来几个月的学习更具趣味性, 我们设计了一个叫做“组团学习赢优达周边”的活动, **两个月内, 全部队员完成前2个项目**, 全队每个成员都将获得优达周边一份! 详情点击 [此处](http://discussions.youdaxue.com/t/s11/50809) 了解更多~",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
