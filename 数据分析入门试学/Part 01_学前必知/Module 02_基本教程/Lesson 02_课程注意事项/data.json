@@ -1,0 +1,365 @@
+{
+  "data": {
+    "lesson": {
+      "id": 787693,
+      "key": "f3d9564e-d8d0-4ce2-8d5c-a888d69b0c0c",
+      "title": "课程注意事项",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "通过本节学习，你将了解课程所涵盖的服务及重要的注意点，这将帮助你制定更高效的学习计划",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 787723,
+          "key": "07664022-4751-47d3-a6e2-885ae2a46715",
+          "title": "课程包含的服务内容",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "07664022-4751-47d3-a6e2-885ae2a46715",
+            "completed_at": "2019-01-16T05:16:38.039Z",
+            "last_viewed_at": "2019-07-27T13:27:25.379Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787724,
+              "key": "712dae6b-0981-47db-a37d-4f7b3edcbe6f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 中文项目审阅\n项目审阅服务只有在你提交项目后才可以获得，如何在教室里进行项目提交请参见教室使用指南中的项目提交指引。\n\n## 论坛导师答疑\n论坛是学员们可以集中交流课程学习的地方，你在这里不仅可以获得专业导师的答疑，同样可以搜索到其他同学的相关疑问，在正式提问发帖前，我们更建议你使用 Google、Stack overflow 或者论坛先进行搜索，或许会发现已有类似的问题和解决方案。关于论坛的使用可以参见教室使用指南中的优达论坛。\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787718,
+          "key": "30b7117e-a63d-4bbf-a631-6dd0472888f4",
+          "title": "课程有效期",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30b7117e-a63d-4bbf-a631-6dd0472888f4",
+            "completed_at": "2019-01-22T05:26:32.282Z",
+            "last_viewed_at": "2019-07-27T13:27:27.665Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787719,
+              "key": "916abcc5-47c7-4ef7-a368-db4f64b969c2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 关于课程有效期\n每个纳米学位课程都有其对应的课程有效期，课程有效期存在的意义在于帮助每一个加入的学习者，能够在既定的时间内顺利完成自己的学习目标。\n\n## 如何计算课程有效期\n每个纳米学位课程的每个班次都有规定的**开课时间**和**学期结束时间**，课程有效期的计算区间是从课程的开课当天开始计算，到教室内最后提示的学期结束时间为止，在你加入正式课程之前，也可以在优达学城官网对应的课程介绍页面上查看到课程信息概要栏所展示的学习时间总长度。\n\n## 如何查看课程结束时间\n你可以在自己所报名的纳米学位课程中，点击课程左侧的**项目日历**，在项目日历中，查看每个项目的截止时间以及最后的「学期结束时间」。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787725,
+          "key": "cca08a03-5e01-45de-84b4-ba559012f79b",
+          "title": "项目提交截止时间",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cca08a03-5e01-45de-84b4-ba559012f79b",
+            "completed_at": "2019-01-22T05:26:35.380Z",
+            "last_viewed_at": "2019-07-27T13:27:30.071Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787726,
+              "key": "dab53030-1861-41e6-9075-8274ad979da1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 关于项目提交截止时间\n为了使每一位加入纳米学位课程学习的学习者清楚地了解正常的学习进度，优达学城为大家设置了每个项目相应所需学习时长以及每个项目应完成的时间节点，并在项目卡片上提示项目的提交截止时间，以此提醒大家不要落后于正常进度。除此以外，你也可以通过项目日历查看到所有项目的截止日期。\n\n### 如果错过了项目提交的截止时间是否还能提交并得到审阅\n项目提交的截止时间是提醒学习者不要落后进度，并非真正的最后截止时间，所以即便过了时间，也可以继续提交，同样也可以得到审阅者的批改。\n\n### 什么时候项目就无法提交和得到审阅\n如果你在课程有效期里未能完成，并在最后的宽限期里也没有完成项目，则无法提交项目并得到审阅。关于宽限期的介绍可在下一个章节中找到。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787727,
+          "key": "26bfcefb-3567-4e70-8f7c-bba01cbdf306",
+          "title": "课程宽限期",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "26bfcefb-3567-4e70-8f7c-bba01cbdf306",
+            "completed_at": "2019-01-22T05:26:37.890Z",
+            "last_viewed_at": "2019-07-27T13:27:31.674Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787729,
+              "key": "8988fd7f-1a18-4ea7-99ca-87ecce909a31",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n## 关于课程宽限期\n出于人性化的考虑，优达学城为每一位加入纳米学位课程的学习者都设定了为期 4 周的宽限期，这个设定的初衷是考虑到学员在加入课程后，可能会因为各种原因而不得已耽误学习时间，无法在课程规定的时间里顺利毕业，所以设定此宽限期以帮助这部分学员顺利完成课程。\n\n## 课程宽限期的计算方式\n课程宽限期 = 课程学期结束时间 + 4 周。\n\n## 课程宽限期的特殊之处\n课程宽限期的最终结束时间并非是这 4 周的最后一天的 24 点，而是北京时间 16:00。\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787730,
+          "key": "e189f1ec-7883-403c-88b9-e8d09d3a4531",
+          "title": "毕业要求",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e189f1ec-7883-403c-88b9-e8d09d3a4531",
+            "completed_at": "2019-01-22T05:26:39.425Z",
+            "last_viewed_at": "2019-07-27T13:27:33.869Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787732,
+              "key": "d4d014b9-401c-49da-b729-60bc7b8c374b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 关于毕业标准\n每个纳米学位课程内都包含了对应知识技能的项目，优达学城希望每一位加入的学习者，不仅仅拥有相关领域的理论知识，更希望学习者能独立自主的完成项目，真正掌握实战中的操作技能，所以我们将以所有项目是否通过作为真正的毕业标准。\n\n## 如何才算是毕业\n你必须在**课程有效期 + 课程宽限期内**完成并**通过所有项目**，即每个项目都获得「Meets Specifications」的评价。\n\n## 如何申请到自己专属的毕业证书\n在通过课程规定的所有项目后，课程页面会出现提示去完成毕业流程，在毕业流程里会要求你确认自己的姓名是否正确，并展示最后的预览界面，在你确认无误后，点击申请即可完成毕业流程，一般通过相应审核后，你专属的电子毕业证书将会在你教室首页 Graduated 栏出现。如果你在申请过程中，遇到困难，请点击[这里](https://udacity.kf5.com/hc/request/new)与我们联系。\n\n##### 课程页面展示",
+              "instructor_notes": ""
+            },
+            {
+              "id": 837851,
+              "key": "131a28a9-6a81-4b29-a746-7538e545eac2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c86067e_/.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/131a28a9-6a81-4b29-a746-7538e545eac2",
+              "caption": "",
+              "alt": "",
+              "width": 2544,
+              "height": 1278,
+              "instructor_notes": null
+            },
+            {
+              "id": 837857,
+              "key": "0913a8de-7ca1-4aec-988f-56c2bd916e9c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "##### 毕业清单页面",
+              "instructor_notes": ""
+            },
+            {
+              "id": 837856,
+              "key": "c43fb297-9491-47a3-8f4e-732bc86de82e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c8607f0_/.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c43fb297-9491-47a3-8f4e-732bc86de82e",
+              "caption": "",
+              "alt": "",
+              "width": 2874,
+              "height": 1574,
+              "instructor_notes": null
+            },
+            {
+              "id": 837852,
+              "key": "757be449-e2bb-42b4-a027-5ca9cf3df0bb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 申请毕业证书时需要注意什么\n请在完成毕业证书申请流程时，留意当前教室语言的界面，这可能会导致不一样的预览效果。\n对于毕业证书上所显示的语言会随教室语言设置的更改而产生变化，**唯一不变的是姓名部分，目前英文界面下暂不支持中文姓名的显示**，如果你在申请时遇到疑惑，也欢迎通过[这里](https://udacity.kf5.com/hc/request/new)与我们联系。\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 837854,
+              "key": "2ef2b5a5-605a-4b12-96a2-36e90b8675b2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c860774_/.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2ef2b5a5-605a-4b12-96a2-36e90b8675b2",
+              "caption": "",
+              "alt": "",
+              "width": 500,
+              "height": 380,
+              "instructor_notes": null
+            },
+            {
+              "id": 837858,
+              "key": "0b74ced9-d855-4740-b868-88df38358e87",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "如上图显示，如你的姓名是张三丰，则请把名字写在前面，姓写在后面；\n\n如果你想要的是一张英文证书，请先将教室语言切换至English，随后进入此页面，将证书上的姓名改至如下：",
+              "instructor_notes": ""
+            },
+            {
+              "id": 837859,
+              "key": "b26db8eb-965b-43c4-9c62-61ca6cd57dc4",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c860950_/.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b26db8eb-965b-43c4-9c62-61ca6cd57dc4",
+              "caption": "",
+              "alt": "",
+              "width": 500,
+              "height": 380,
+              "instructor_notes": null
+            },
+            {
+              "id": 837860,
+              "key": "2b35ae8d-84db-4002-8fda-b018fe51f814",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "点击下一步后，会进入预览界面，确认姓名无误后可继续完成身份验证。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 837855,
+              "key": "8c9210da-14d0-4007-bd4a-eb8597bd29cf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 毕业证书是否电子版还是纸质版\n优达学城将会为每个通过课程的学习者提供电子版的毕业证书，证书上会有对应的编码，被优达学城及课程指定的相关合作企业所认可。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787733,
+          "key": "ec486d59-ee5f-4435-8485-285abf43fdf7",
+          "title": "课程保留与维护规则",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ec486d59-ee5f-4435-8485-285abf43fdf7",
+            "completed_at": "2019-01-22T05:26:41.297Z",
+            "last_viewed_at": "2019-07-22T03:14:38.554Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787734,
+              "key": "71ca90e0-9105-459c-b1bf-426da464ac4f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 课程的保留规则\n在课程开课后，你需要在规定的时间（课程有效期 + 课程宽限期）内通过全部项目，并完成毕业流程，获得证书，则在课程有效期结束后，自动获得为期12个月的课程视频和文字内容的继续访问权限便于回顾和复习，该期限起算时间为课程有效期结束后次日开始，课程的视频和文字内容为购买时的版本。如果你未能在宽限期届满时达到毕业条件，你将会失去课程内容访问的权限，需要重新付费才能再次加入课程。想要了解更多，请见[官方详细说明](https://udacity.kf5.com/hc/kb/article/1228457/)。\n\n## 课程的维护规则\n优达学城承诺在你的有效期内对课程和实战项目进行维护，例如内容错误修正，翻译错误修正，失效链接的修正等。但课程内容和实战项目以报名时为准，优达学城可能根据课程开发计划、相关技术的发展、以及本地化需求对课程内容和实战项目进行不定期更新。优达学城对课程内容和实战项目有最终解释权。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787735,
+          "key": "a4710378-ad76-474a-9b01-d7bd84510f74",
+          "title": "诚信准则",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a4710378-ad76-474a-9b01-d7bd84510f74",
+            "completed_at": "2019-01-22T05:26:43.367Z",
+            "last_viewed_at": "2019-07-24T03:46:01.874Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787736,
+              "key": "99486613-3ec6-4fef-9482-42fa664b58e1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 诚信准则\n对于每一位加入优达学城的学习者，必须以诚实守信的原则学习课程、及完成课程相应的项目。\n\n在学习者提交相应项目时，请注意，项目提交页面下方所展示的三条诚信规则必须勾选并遵守：\n* 我确认我已了解优达学城关于抄袭 （[英文版](https://udacity.zendesk.com/hc/en-us/articles/360001451091-What-is-plagiarism-) / [中文版](https://udacity.kf5.com/hc/kb/article/1223644/)）的定义，并确认在此提交的作品均由我个人原创完成。\n* 我已对参考过的其他来源的内容进行了正确记录并标明出处，诸如网站、书籍、论坛、博客、Github 代码库等等。\n* 我理解优达学城对抄袭行径严令禁止并积极查处，如未能遵守[优达学城诚信准则](https://www.udacity.com/legal/community-guidelines)，优达学城将有权取消我的学习资格，并且不退还我的学费。\n\n更多关于诚信准则内容可进入[此处](https://udacity-cn.zendesk.com/hc/zh-cn/articles/115000171361-%E4%BB%80%E4%B9%88%E6%98%AF%E4%BC%98%E8%BE%BE%E5%AD%A6%E5%9F%8E%E8%AF%9A%E4%BF%A1%E5%87%86%E5%88%99-)查看。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787737,
+          "key": "2e7f7c30-e7eb-43fd-a3bf-998fcf0b9be8",
+          "title": "关于退款规则",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2e7f7c30-e7eb-43fd-a3bf-998fcf0b9be8",
+            "completed_at": "2019-01-22T05:26:44.088Z",
+            "last_viewed_at": "2019-07-24T03:46:18.959Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787738,
+              "key": "996fe0f1-d31d-4b8e-a5c4-5fb6c39c11d6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 开课后发现课程不适合自己怎么办？\n课程支持在`开课后7天内（含开课当天）`申请无理由退款。可以[点击此处](https://udacity.kf5.com/hc/request/new)进行申请，我们将在申请受理后的 2-3 个工作日全额返还学费至原付款渠道。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787739,
+          "key": "73a1fce4-8809-4187-850b-a1993caa4159",
+          "title": "关于发票",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "73a1fce4-8809-4187-850b-a1993caa4159",
+            "completed_at": "2019-01-22T05:26:44.745Z",
+            "last_viewed_at": "2019-07-27T13:27:23.437Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787740,
+              "key": "bae3d5d0-dad3-46f1-b8a3-4aec3f7da7c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 支付学费后，如何开具发票\n* 如果通过支付宝/微信/花呗分期支付的人民币课程费用，你可以通过点击[这里](https://udacity.kf5.com/hc/request/new)申请所缴纳费用的发票，请在缴费后 12 个月内发起你的申请。\n* 7 天退款政策适用的纳米学位，请在退款期结束后，发起发票申请。\n\n## 申请发票时，我需要提供哪些信息？\n1. 报名信息\n * 课程注册邮箱：\n * 报名课程名称：\n * 实际缴费金额：\n\n2. 发票信息\n * 发票抬头：\n * 发票金额：\n * 纳税人识别号或统一社会信用代码（如果需要开具公司抬头发票）：\n\n3. 邮寄信息\n * 收件人姓名：\n * 收件人电话：\n * 收件地址：\n\n## 申请发票有哪些注意事项？\n* 目前，我们支持纸质增值税普通发票、增值税专用发票，以及电子发票，请注意，电子发票仅用于开具增值税普通发票。在您进行申请发票时，**如您没有特殊说明，均默认开具电子发票版增值税普通发票**。请在发票申请时说明你所需要的具体发票类型，避免出现错误。\n* 发票内容一律为**生活服务 培训费**。\n* 发票开具后不支持更改发票抬头和内容信息，请在请求发出前仔细检查所提供的信息。若有其他要求请备注特别说明。\n* 所开具发票的金额，为你支付的课程金额，**不包含**你使用的优惠券金额。\n* 若你使用分期服务，所产生的服务费金额，**不包含**在发票金额中。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

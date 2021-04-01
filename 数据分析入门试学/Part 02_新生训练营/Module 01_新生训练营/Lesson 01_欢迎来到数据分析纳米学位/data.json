@@ -1,0 +1,195 @@
+{
+  "data": {
+    "lesson": {
+      "id": 628577,
+      "key": "1c8a017c-b363-471b-91bc-da300b42e5c7",
+      "title": "欢迎来到数据分析纳米学位",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/1c8a017c-b363-471b-91bc-da300b42e5c7/628577/1544461378604/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%BA%B3%E7%B1%B3%E5%AD%A6%E4%BD%8D+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/1c8a017c-b363-471b-91bc-da300b42e5c7/628577/1544461376101/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E7%BA%B3%E7%B1%B3%E5%AD%A6%E4%BD%8D+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 628591,
+          "key": "2d837393-c83e-4f7b-833d-e05385247348",
+          "title": "认识课程团队",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2d837393-c83e-4f7b-833d-e05385247348",
+            "completed_at": "2018-07-16T10:11:16.551Z",
+            "last_viewed_at": "2019-07-27T13:27:49.819Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 644645,
+              "key": "5c74dccc-499d-40a7-b162-e472e25cd40d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<center><img src=\"https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b16ac4f_wave/wave.gif\" alt=\"课程团队合照\"></center>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 628594,
+              "key": "41a58b90-a3bd-4f0b-a389-f3d18f95dfa0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# 认识课程团队！\n\n优达学城有众多讲师来为你的数据科学之旅提供帮助。下面是其中一些讲师，从左到右分别为:\n\n* **Sam Nelson，产品主管:** Sam 与优达学城的行业合作伙伴合作，确保此项目有助于学生实现目标。 \n* **Mat Leonard，课程主管:** Mat 负责监督课程，以确保我们教授最具相关性的技能。他也是数据可视化课程的讲师。\n* **Jessica Park，项目经理:** Jessica 负责确保项目的一切顺利运行，包括与我们的课程开发人员、课程主管和外部合作伙伴协作。\n* **Paola Gonzalez，学生体验助理:** Paola 负责确保学生的所有问题都得到回答，并在项目中帮助他们成功。\n* **Mike Yi，学生体验主管:** Mike 与评审员及导师合作，确保学生在项目过程时获得及时的帮助和反馈。\n* **Trish McCallister，内容主管:** Trish 在整个项目中管理所有视频和其他学习资料的制作。\n* 未提供照片的: 有些讲师未包含在上图中。在第 1 学期：** Juno Lee** 将带你学习 Python并向你介绍数据分析过程，以及如何使用 Python 分析数据。Sebastian，优达学城创始人，将带你深入了解统计及其应用。在第 2 学期：**David Venturi** 将向你介绍数据整理和数据收集、评估和清理过程。**Chris Saden** 将引导你通过探索性数据分析从数据中提取隐藏的见解。\n\n能够与你一起踏上这段学习之旅，我们倍感荣幸！这将是乐趣无穷的过程，我们很高兴与你同行。\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 628587,
+          "key": "7cef93df-f8d8-4225-9135-425f66f0a8f0",
+          "title": "毕业必须通过的5个项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7cef93df-f8d8-4225-9135-425f66f0a8f0",
+            "completed_at": "2018-07-16T10:11:29.525Z",
+            "last_viewed_at": "2019-07-24T07:39:57.915Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 628590,
+              "key": "d571b271-2878-4712-9fbf-658c92064383",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "当你从纳米学位毕业的时候，你将掌握相关技能，并学会独立工作。我们希望尽快帮你实现目标，这也是为什么我们注重**从实践项目中学习**的原因。\n\n### 在数据分析（入门）纳米学位中，你需要完成下面这些课程和内容：\n-------------------\n\n\n- **第 1 部分：数据分析初探（已试学）**\n\n统计学及Python 快速入门，7 天了解数据分析基本流程。\n\n- **实战项目 1：揭秘北上广空气质量（已试学）**\n\n获得北上广等 5 大城市 PM 2.5 数据，分析空气质量变化趋势，学习从提问到可视化分析结论的数据分析流程，并 7 天快速入门 Python。\n\n- **第 2 部分：SQL初探**\n\n学习 SQL 的基本语法，比如 SELECT, FROM, WHERE 等。\n\n- **实战项目 2：从你的城市看世界是否在变暖**\n\n初步了解 SQL，学会如何从数据库下载数据。你将分析本地和全球的气温数据，将选定城市的温度趋势与全球温度趋势进行比较。\n\n- **第 3 部分：Python 入门**\n\n学习使用 Python 处理数字与字符串，编写函数和条件语句；操作列表、集合、字典等常见数据类型；学习并编写 for 和 while 循环方式；Python 的标准库和第三方库，了解读取磁盘文件的方式等\n\n- **实战项目 3：探索共享单车用户行为规律**\n\n用 Python 分析共享单车行程和用户数据，分析最热路径、最典型用户等商业信息。你将编写交互式代码来查询数据，使用描述性统计学分析。\n\n- **第 4 部分：数据分析入门**\n\n了解数据分析流程的主要步骤，运用 NumPy 和 Pandas 处理多个数据集；并通过两个数据分析实战案例，学习使用 Python 中的常用包进行数据清洗、探索、分析和可视化；温习之前所学的 SQL 基础知识，进一步掌握不同表格间的连接、聚合函数以及高级的 SQL 使用方法。\n\n- **实战项目 4：探索电影/枪支管理/体育赛事数据**\n\n获得来自 TMDb、医院管理系统、FBI 数据库的精选真实数据集，使用 NumPy 和 Pandas 完整体验分析流程，分析高票房电影有哪些共同点、什么样的球队容易赢得比赛等真实世界问题。\n\n- **第 5 部分：统计学**\n\n学习基础的描述统计学理论、基本的概率知识、二项分布和贝叶斯公式，并学会使用 Python 来实践；学习正态分布、抽样分布、置信区间以及假设检验的概念和计算方式；学习线性回归以及逻辑回归，在真实场景中应用，比如分析 A/B 测试结果，搭建简单的监督机器学习模型。\n\n- **实战项目 5：分析电商网页转化能力 A/B 测试**\n\n研究一个电子商务网站的真实产品数据，分析页面 A/B 测试中的转化能力，分析是否需要重新设计页面并基于数据提出实施建议。\n\n___________________________________________________________________________________________________________________\n\n你可以通过学习课程为实战项目做准备，但学完所有课程材料**并不是**毕业的必要条件，**完成课程中涉及的五个实战项目是毕业的必要条件**。如果你在上课前已经拥有丰富的经验，或有更适合你的材料，请你试着**直接**投入到实战项目中。然而大多数学生需要学习课程内容，并完成练习，从而能在项目中获得成功。\n\n为帮助你快速实现目标，我们为你的每个实战项目设置了建议完成日期，显示在教室中课程主页相关项目旁。此时间线的设计标准为每周大约投入 10 小时。**请在任何可能的时候回到教室继续学习**，即使只是 10 分钟，也能确保不断取得进步。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 628578,
+          "key": "430fbc22-c10a-46f4-9fbb-0e8164a855b4",
+          "title": "有效期与建议学习节奏",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "430fbc22-c10a-46f4-9fbb-0e8164a855b4",
+            "completed_at": "2018-07-16T10:12:00.571Z",
+            "last_viewed_at": "2019-07-27T13:27:53.088Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 628581,
+              "key": "7b3800da-27d2-49a3-ba46-c5c9c15eef98",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\"数据分析（入门）课程“ 计划**三个月**带你一站式入门 Python 和 SQL 两大最主流数据分析工具，掌握数据清洗、探索性分析、可视化等基础分析技能。\n\n为了便于你制定自己的学习计划，我们将课程的时间线根据项目情况进行了梳理，你可以结合自己的工作/生活/学习习惯制定更加精确的学习规划。我们建议你**每周至少学习10小时**，你可以根据自己的情况进行安排，譬如：周二、三、四各学习1.5小时，周末2天各学习3小时来达到最低学习时长的要求。\t",
+              "instructor_notes": ""
+            },
+            {
+              "id": 634612,
+              "key": "38da79f3-00ca-48fe-8dbe-f0b64f6eb12a",
+              "title": "Como encontro tempo para meu Nanodegree",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "d-VfUw7wNEQ",
+                "china_cdn_id": "d-VfUw7wNEQ.mp4"
+              }
+            },
+            {
+              "id": 628583,
+              "key": "81e5057c-ea55-455c-829f-953a6b8eeb27",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<img src=\"https://s3.amazonaws.com/video.udacity-data.com/topher/2018/May/5b07d451_screen-shot-2018-05-25-at-5.15.38-pm/screen-shot-2018-05-25-at-5.15.38-pm.png\">\n\n##### 需要注意的是：\n** 1. 项目1“中国五个城市PM2.5分析” 的学习安排：**\n\n你在试学班中已经接触过这个项目，如果你已经通过，那么项目同步为通过状态，无需再次提交；如果你没有通过，我们强烈建议你先跳过，因为相关内容在“python入门”部分，我们的老师将更加细致地展开讲解，在你完成**“探索美国共享单车数据”**项目后，你会发现你可以很轻松地通过这个项目。\n\n**2. 学期结束时间 VS 建议完成时间：**\n\n你应该已经发现学期结束时间比建议完成时间更长，**多出的2周是为了帮助你更好地应对一些无法避免的突发状况**，及时达成毕业，获得自己专属的毕业证书。尽管如此，我们仍然鼓励你按照建议完成时间，甚至早于建议完成时间毕业。\t\t\n\n#### 记住，持续和频繁地学习是成功毕业的关键！",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 628607,
+          "key": "eba738a7-0d59-4a79-84e5-710e5651225b",
+          "title": "寻求帮助与建议反馈",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eba738a7-0d59-4a79-84e5-710e5651225b",
+            "completed_at": "2018-07-16T10:16:19.885Z",
+            "last_viewed_at": "2019-07-24T07:43:27.051Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 628609,
+              "key": "bc325592-cf02-4a42-a870-fa42bf7b0826",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### 本地化服务说明\n为了带给中国同学更好的体验，优达学城（中国）的课程经理团队会针对中国学生特定的需求对课程进行一些本地化的修改，并会根据硅谷的最新课程内容定期对课程内容进行更新。所以在课程中可能会出现少数中英文并不完全一致的现象，请同学理解。\n\n如果同学在此期间有任何不佳的体验，请以**【数据分析课程中英文不一致】**为标题发邮件反馈给：support@youdaxue.com。\n\n本课程的学习服务由中国区学员关怀与体验团队提供，`建议学习时间、课程有效期以中文版为准`，英文材料供大家学习时参考。\n\n#### 常见问题\n关于优达学城所提供课程和服务的一般问题，请见[ 常见问题 ](https://udacity-cn.zendesk.com/hc/zh-cn) 解答页面。\n\n\n#### 发送邮件工单\n如果你遇到任何技术上的问题，或是对优达学城有**任何疑问和建议**，但是不确定要通过哪种渠道反馈，那么使用[ 邮件联系 ](https://udacity-cn.zendesk.com/hc/zh-cn/requests/new)优达学城的工作人员是最好的方式。\n\n点击发送邮件工单：[https://udacity-cn.zendesk.com/hc/zh-cn/requests/new](https://udacity-cn.zendesk.com/hc/zh-cn/requests/new)\n\n不要害羞，发邮件给我们吧！不论是什么问题，我们都乐意为您解答。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 195531,
+          "key": "ec8ec89f-b5d2-44ce-bba1-12a77922751e",
+          "title": "最后的提示",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ec8ec89f-b5d2-44ce-bba1-12a77922751e",
+            "completed_at": "2017-11-23T14:26:03.325Z",
+            "last_viewed_at": "2019-07-27T13:27:48.916Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 195532,
+              "key": "a65a0a69-c17a-44dc-998c-5317a302c224",
+              "title": "最后的提示",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1ZVBvM54hQw",
+                "china_cdn_id": "1ZVBvM54hQw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

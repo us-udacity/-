@@ -1,0 +1,579 @@
+{
+  "data": {
+    "lesson": {
+      "id": 787423,
+      "key": "74a8dd72-6849-47e4-810f-97dcb89792d2",
+      "title": "教室使用指南",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "zh-cn",
+      "summary": "通过本节学习，你将了解如何更好的使用教室，以及教室的所有功能。",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/74a8dd72-6849-47e4-810f-97dcb89792d2/787423/1555953445641/%E6%95%99%E5%AE%A4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/74a8dd72-6849-47e4-810f-97dcb89792d2/787423/1555953442846/%E6%95%99%E5%AE%A4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 787422,
+          "key": "8e5b56c9-7837-4560-a935-fa53c2e7a08b",
+          "title": "认识你的教室",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8e5b56c9-7837-4560-a935-fa53c2e7a08b",
+            "completed_at": "2019-01-14T15:22:13.466Z",
+            "last_viewed_at": "2019-07-21T08:56:59.509Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787689,
+              "key": "743feb28-607c-40e7-b578-14b023c126a4",
+              "title": "欢迎",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BqgvdEPEVac",
+                "china_cdn_id": "BqgvdEPEVac.mp4"
+              }
+            },
+            {
+              "id": 787421,
+              "key": "3caf8535-c285-4131-89b3-faf024203a36",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 浏览器的下载\n\n我们推荐你使用 Chrome 浏览器，你可以通过 [Google 中国的 Chrome 下载页面](https://www.google.cn/chrome/?standalone=1)下载，这个页面会自动识别你的系统版并提供合适的安装程序。\n\n虽然 *Google 中国* 的网页打开非常快，但是 Chrome 的下载链接在不同的网络环境下似乎并不太稳定，如果不能成功下载，可以通过新浪网提供的最新的稳定版 Chrome 下载：\n- [Windows](http://down.tech.sina.com.cn/page/40975.html)\n- [macOS](http://down.tech.sina.com.cn/page/43718.html)\n- [Linux](http://down.tech.sina.com.cn/page/43719.html)\n\n\n如果你是 Windows XP 的用户，请使用旧版本 Chrome 浏览器：[Chrome 49](http://down.tech.sina.com.cn/content/67434.html)。但是我们建议你更新到最新版的 Windows 系统，以获得更好的安全性和功能支持。\n\n当然，你也可以使用 Safari 或者 [Firefox](https://www.mozilla.org/zh-CN/firefox/) 浏览器。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787690,
+          "key": "8ea20fd3-157e-424b-ad20-cb4a325075d0",
+          "title": "登录与收藏教室",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8ea20fd3-157e-424b-ad20-cb4a325075d0",
+            "completed_at": "2019-01-16T05:14:59.111Z",
+            "last_viewed_at": "2019-07-21T08:57:00.600Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 809863,
+              "key": "94062fd9-3501-48ed-9726-d5132bb6085c",
+              "title": "登陆并收藏教室",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Q5qYNAtOGjg",
+                "china_cdn_id": "Q5qYNAtOGjg.mp4"
+              }
+            },
+            {
+              "id": 787691,
+              "key": "ee5ce54a-25fe-431b-ab7e-5ba8e8cd4217",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "教室的网址是`https://classroom.udacity.com/me`，你也可以通过这个网址直接访问教室。\n\n其它浏览器的书签和收藏：\n* 对于 Safari 浏览器，请参见 Apple 支持网站的 [Safari 浏览器帮助](https://support.apple.com/zh-cn/guide/safari/sfri22092/mac)；\n* 对于 Firefox 浏览器，请参见 Mozilla 技术支持网站的 [创建，管理书签](https://support.mozilla.org/zh-CN/kb/%E5%88%9B%E5%BB%BA%EF%BC%8C%E7%AE%A1%E7%90%86%E4%B9%A6%E7%AD%BE) 和 [书签工具栏](https://support.mozilla.org/zh-CN/kb/%E4%B9%A6%E7%AD%BE%E5%B7%A5%E5%85%B7%E6%A0%8F)。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787692,
+          "key": "ab747ae7-fa23-4c35-a843-2296ed5a74ed",
+          "title": "教室首页",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ab747ae7-fa23-4c35-a843-2296ed5a74ed",
+            "completed_at": "2019-01-23T02:29:35.927Z",
+            "last_viewed_at": "2019-07-21T08:57:01.935Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 809864,
+              "key": "dc945230-d363-487a-bd38-03f58a397bd7",
+              "title": "教室首页",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wVEX3y-ISOQ",
+                "china_cdn_id": "wVEX3y-ISOQ.mp4"
+              }
+            },
+            {
+              "id": 833835,
+              "key": "7d23f1cc-0a81-4dae-ad7e-38511008d985",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "提示：\n\n如果你通过官网首页右上角的按钮进入教室时，有时会直接进入到你上次学习的课程，如果你需要返回到教室首页，可以点击左侧的“小房子”按钮。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787694,
+          "key": "d67b3296-56bd-47b1-90e7-1b2cd53c12a0",
+          "title": "设置页面",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d67b3296-56bd-47b1-90e7-1b2cd53c12a0",
+            "completed_at": "2019-01-23T02:30:53.348Z",
+            "last_viewed_at": "2019-07-21T08:57:03.157Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787695,
+              "key": "d0208196-75a1-4912-afe4-88f093fa24f0",
+              "title": "Settings",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IGl9HP6E-ls",
+                "china_cdn_id": "IGl9HP6E-ls.mp4"
+              }
+            },
+            {
+              "id": 833836,
+              "key": "6ffb5577-0ead-4cce-b717-85164faaee22",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 温馨提醒\n\n**证书生成后，姓名不支持修改，请慎重填写。**\n\n我们建议你在课程开始之后或毕业之前，及时更新你的个人信息，并确保无误后进行保存，因为这里的姓名将直接影响你在纳米学位证书上的姓名，**证书一旦生成姓名将无法修改**。\n\n姓名设置时，请注意按照输入框的文字提示填写，即**名**在上，**姓**在下。并确保姓名为同一语言：\n- 中文姓名请与你的 `身份证` 姓名保持一致\n- 英文姓名请与你的 `护照` 保持一致",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787697,
+          "key": "6aebb6ff-220a-489d-9254-158ba36e2e24",
+          "title": "测试：如何正确填写姓名",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6aebb6ff-220a-489d-9254-158ba36e2e24",
+            "completed_at": "2019-01-23T02:32:05.021Z",
+            "last_viewed_at": "2019-07-21T08:57:04.302Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787698,
+              "key": "299a945f-9241-4dd0-9dbf-595cc7d8caa1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5bfe4427_/.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/299a945f-9241-4dd0-9dbf-595cc7d8caa1",
+              "caption": "",
+              "alt": "",
+              "width": 1498,
+              "height": 640,
+              "instructor_notes": null
+            },
+            {
+              "id": 787699,
+              "key": "5283b79a-7771-4952-b344-01becb925187",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 测试：如何正确填写姓名\n\n#### 什么是练习题\n课程中穿插的练习题是优达学城纳米学位的特色之一，在完成一些知识点的学习之后，会有和课程紧密结合的练习题，帮助大家理解和巩固刚学到的知识。\n\n我们希望通过这个小测试，提醒你，当你毕业的时候，你将获得优达学城的证书，所以在这之前你应该在[设置页面](https://classroom.udacity.com/settings/personal-info)填写了正确的姓名。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787700,
+              "key": "4736338c-a38b-4ed2-9d3f-d44146c227ad",
+              "title": "正确填写姓名",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4736338c-a38b-4ed2-9d3f-d44146c227ad",
+                "completed_at": "2019-02-15T06:20:18.535Z",
+                "last_viewed_at": "2019-02-15T06:20:40.579Z",
+                "unstructured": "{\"selected_ids\":[\"a1543390408488\",\"a1543390410120\"],\"is_correct\":true}"
+              },
+              "question": {
+                "prompt": "我们应该如何在设置页面填写姓名？",
+                "answers": [
+                  {
+                    "id": "a1543390393962",
+                    "text": "按照顺序填写姓名",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543390408488",
+                    "text": "按照输入框的提示填写姓和名",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543390409344",
+                    "text": "英文证书能够正确显示中文姓名",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543390410120",
+                    "text": "填写护照上的英文名来获得正确的英文证书",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543390410774",
+                    "text": "填写自己的网名来获得正确的英文证书",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 787701,
+          "key": "a656c57e-f6fa-49e0-9f1f-f6eaf4878040",
+          "title": "纳米学位项目",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a656c57e-f6fa-49e0-9f1f-f6eaf4878040",
+            "completed_at": "2019-01-23T02:32:07.293Z",
+            "last_viewed_at": "2019-07-21T08:57:05.248Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787702,
+              "key": "4555854e-1870-4765-b188-ba4c529e4697",
+              "title": "ND Main",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "8XTgE5PeBpI",
+                "china_cdn_id": "8XTgE5PeBpI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 787703,
+          "key": "9b0b6097-b00a-4a06-929e-501f9e540a20",
+          "title": "课程目录和章节",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9b0b6097-b00a-4a06-929e-501f9e540a20",
+            "completed_at": "2019-01-23T02:32:41.978Z",
+            "last_viewed_at": "2019-07-21T08:57:06.865Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787704,
+              "key": "a135d966-2cae-43f8-98fe-c580e32b1f40",
+              "title": "Part",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "j4DkVtP3sUQ",
+                "china_cdn_id": "j4DkVtP3sUQ.mp4"
+              }
+            },
+            {
+              "id": 833850,
+              "key": "535281c7-cec6-4e1d-aa58-cc67d63c9c57",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 课程页面更新\n随着教室产品的快速迭代，你也许已经发现了教室的一些小变化，比如在课程页面左侧导航栏的`搜索键`，已经可以直接进行全课程搜索关键词来找到你需要的内容，另外还增加了`项目日历`，来帮助你更快更全面地了解学期的总时长，每个项目的截止时间，让你可以在开始课程前就做好时间规划。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 833849,
+              "key": "ce6923e7-a670-485d-aa31-2322b456310d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c7f8a03_/.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ce6923e7-a670-485d-aa31-2322b456310d",
+              "caption": "",
+              "alt": "",
+              "width": 2746,
+              "height": 1396,
+              "instructor_notes": null
+            },
+            {
+              "id": 809865,
+              "key": "1a96f650-138a-447e-bd8f-65e358770c03",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 搜索更新\n\n你可能留意到三个按钮布局已经发生了变化，同时搜索功能获得了大幅更新。现在搜索功能可以搜索字幕、文本，以及部分从图中识别的文本内容，如下图所示。推出搜索页面的按钮依然在右上角。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809866,
+              "key": "750899c4-df71-42db-a23e-ae8e5507a47b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c2b9742_classroom-search-samples/classroom-search-samples.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/750899c4-df71-42db-a23e-ae8e5507a47b",
+              "caption": "",
+              "alt": "",
+              "width": 983,
+              "height": 935,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 787707,
+          "key": "0b5dd24b-3e11-4616-93cd-120e0501a50a",
+          "title": "项目提交指引",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0b5dd24b-3e11-4616-93cd-120e0501a50a",
+            "completed_at": "2019-01-23T02:35:20.098Z",
+            "last_viewed_at": "2019-07-21T08:57:11.114Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787708,
+              "key": "0c0f1211-dbe4-4075-8630-29dabfa18001",
+              "title": "Submission",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "phK7IC7kgMs",
+                "china_cdn_id": "phK7IC7kgMs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 833851,
+          "key": "59acf57e-6b02-4e90-b5f3-6a601f1ad134",
+          "title": "发送课程反馈",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "59acf57e-6b02-4e90-b5f3-6a601f1ad134",
+            "completed_at": "2019-03-18T13:08:21.724Z",
+            "last_viewed_at": "2019-07-24T03:41:46.285Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 833852,
+              "key": "6a772726-934f-4a5b-ba32-5aaaf1ec7f36",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c7f8d65_/.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6a772726-934f-4a5b-ba32-5aaaf1ec7f36",
+              "caption": "",
+              "alt": "",
+              "width": 2876,
+              "height": 1320,
+              "instructor_notes": null
+            },
+            {
+              "id": 833853,
+              "key": "9f6f354b-5e39-4e35-ba89-4fd7c935e4c3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 说明\n细心的你也许已经发现，在课程视频或文字页的右上角有一个`发送课程反馈`的按钮，当你发现课程视频、字幕或文字内容出现错误时，或者练习题无法理解、参考答案出错时，都可以点击这个按钮进行反馈。",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 787709,
+          "key": "e6433ffa-0bb5-4cf2-9c8e-b526243a9b54",
+          "title": "优达论坛",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e6433ffa-0bb5-4cf2-9c8e-b526243a9b54",
+            "completed_at": "2019-01-23T02:35:47.909Z",
+            "last_viewed_at": "2019-07-24T07:37:35.748Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787710,
+              "key": "31a8796b-8da6-4ad0-9646-99286199a1ea",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 进入论坛\n纳米学位课程有对应的论坛，你可以通过进入优达论坛查找到与课程相关的问题或答案，进入论坛有以下方式：\n\n1.进入报名课程中的任意一课，在页面左侧栏「课程资源」 下，可找到论坛，点击即可进入。\n\n2.通过搜索论坛网址：`https://discussions.youdaxue.com/`直接进入，我们同样建议你把论坛网址加入到浏览器收藏夹，操作方式请参考《登陆并收藏教室》一课。\n\n\n## 实名制要求\n根据有关规定，在论坛发帖和回复需要实名制认证。在正式使用论坛功能前，请先确保你的账号已与你的手机号绑定成功。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787711,
+              "key": "e9dd938d-90f0-4060-a8fc-b1bec0199e24",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 进入论坛后，该如何找到相应的问题板块？\n首先需要在论坛登陆你的 Udacity 账号，这样你才能够看到相关的板块。如果未登录你购买课程的账号的话，可能会出现“你无权限或该板块为私密板块”的提示。\n\n接着，在左上方「所有分类」下拉菜单中，选择你当前在读纳米学位课程的板块进入，进入对应板块后，可使用 🔍 搜索关键字查询，如果之前有学员提出过类似问题，通过关键词搜索都能找到相关问题。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787712,
+              "key": "c47c1865-c0c8-4873-becb-765e83d6f70b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c905fb8_1/1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c47c1865-c0c8-4873-becb-765e83d6f70b",
+              "caption": "",
+              "alt": "",
+              "width": 2336,
+              "height": 1244,
+              "instructor_notes": null
+            },
+            {
+              "id": 787713,
+              "key": "0ca1d014-bf6d-4c41-afdd-d2f7b06475d7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 进入相应板块后，该如何提问？\n进入相应的项目板块后，点击右上角**发新主题**，会显示创建新主题的内容编辑框，编辑框的左侧可输入内容（可使用 Markdown、BBCode 或 HTML 格式进行编辑），右侧则会出现对应的显示。编辑完内容后，可点击创建主题，这样就可以将你刚才的问题提交成功了。\n\n例如：Python示例\n进入论坛首页后，进入python入门，选择P1项目板块进入后，点击发新主题，会出现下方内容编辑框。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787714,
+              "key": "03015f91-7aba-4901-aefa-5c6db25739f6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c905fde_2/2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/03015f91-7aba-4901-aefa-5c6db25739f6",
+              "caption": "",
+              "alt": "",
+              "width": 2874,
+              "height": 1572,
+              "instructor_notes": null
+            },
+            {
+              "id": 787715,
+              "key": "c297d88c-88e7-4b53-bbc5-22e50f229baf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 谁会来回答我的问题呢？\n每个纳米学位课程的论坛都会有相对应的论坛导师对相应板块进行负责，在你发布新主题后，导师会收到提醒并前来进行回答。不过特别建议你的是，在发布一个问题时，尽可能详细描述所出现的问题以及你已经尝试过的方法和结果，信息完整的情况下，导师才能更快地定位问题，并帮助你发现和解决问题，同时也提高了效率。\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787716,
+              "key": "63ea00c3-d3be-452e-87ea-d532928e177f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## 如何知道自己的问题收到了回复？\n你可以在登陆优达论坛后，在右上角你的头像处，点击出现的下拉菜单中看到“（某人）回复了（某个帖子）”的消息。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787717,
+              "key": "afe0a65f-ba59-466a-a98b-2b76fab03288",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2019/March/5c906115_4/4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/afe0a65f-ba59-466a-a98b-2b76fab03288",
+              "caption": "",
+              "alt": "",
+              "width": 400,
+              "height": 270,
+              "instructor_notes": null
+            },
+            {
+              "id": 833856,
+              "key": "099a1bf4-bcdf-4d81-adeb-4effed02caea",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "你可以直接下载 [优达学城论坛使用手册](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/March/5a98c7a2_/.pdf)来获取更详细的指导，如在使用论坛过程中，遇到任何困难，也可以通过[这里](https://udacity.kf5.com/hc/request/new)与我们联系。",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

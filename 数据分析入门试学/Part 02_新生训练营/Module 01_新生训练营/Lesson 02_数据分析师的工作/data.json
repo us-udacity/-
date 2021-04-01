@@ -1,0 +1,173 @@
+{
+  "data": {
+    "lesson": {
+      "id": 628606,
+      "key": "1496d5ed-297b-4fde-93a7-b373d04ffb5b",
+      "title": "数据分析师的工作",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "了解数据分析师和数据科学家的工作",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/1496d5ed-297b-4fde-93a7-b373d04ffb5b/628606/1544461919341/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B8%88%E7%9A%84%E5%B7%A5%E4%BD%9C+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://s3.amazonaws.com/zips.udacity-data.com/1496d5ed-297b-4fde-93a7-b373d04ffb5b/628606/1544461916418/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B8%88%E7%9A%84%E5%B7%A5%E4%BD%9C+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 628611,
+          "key": "1e8c25cd-2133-4773-80f5-64a02c100a6f",
+          "title": "介绍",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1e8c25cd-2133-4773-80f5-64a02c100a6f",
+            "completed_at": "2018-07-16T10:17:15.191Z",
+            "last_viewed_at": "2019-07-24T07:44:50.476Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 628612,
+              "key": "b8f62dd5-fc62-4037-9231-89ad83b49adb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 行业访谈\n数据分析纳米学位课程是为了帮助你开始或推进数据科学的职业生涯，因此，帮助你更加清楚地了解数据分析师和数据科学家的工作也非常重要。\n\n随着越来越多行业领袖依赖数据做出关键决策，对数据分析人才的需求与日俱增。第三方权威统计，2017 数据分析招聘需求提高 150%，平均薪资增幅高达 10%。\n\n人才红利窗口往往转瞬即逝，Udacity 已在全球培养超过 20,000 名数据分析师，抓住先机，就能改变世界，改变你的未来。\n\n\n接下来，你将看到一系列**业内人士**访谈，他们将介绍他们的**工作内容**以及数据分析师的**职业生涯**。你会听到来自不同行业的人士分享他们的观点。\n\n我们希望通过这些视频，你能够了解一个数据分析师的具体工作内容，明确自己的职业定位，更加坚定你的`初心`以及通过学习获取更多知识、具备更多能力的`决心`。\n\n\n点击右下角的** “下一项”**，让我们赶紧一起来看下数据分析师们的访谈记录吧～",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 431277,
+          "key": "8de80327-cd35-4132-b2cb-77ec75c42ce1",
+          "title": "行业分享：Lada Adamic",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8de80327-cd35-4132-b2cb-77ec75c42ce1",
+            "completed_at": "2018-07-16T10:17:30.158Z",
+            "last_viewed_at": "2019-07-24T07:45:10.313Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 431263,
+              "key": "8c13867d-4148-470f-ada4-df12fbfb8f12",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lada Adamic，数据科学家\n\n观看下面的视频，Lada Adamic 在其中谈论了她对 Facebook 模因的分析。这是数据分析师和科学家们所做的有趣工作的一个很好例子。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 431264,
+              "key": "f1c8816e-2a8c-475e-9d00-fa72a6013133",
+              "title": "Lada 的钱袋模因 - 使用 R 进行数据分析",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Isa_FGQrvgs",
+                "china_cdn_id": "Isa_FGQrvgs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 431275,
+          "key": "a7fd1d3d-6d33-4de6-9a76-472696ecce49",
+          "title": "行业分享：Jessica Kirkpatrick",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a7fd1d3d-6d33-4de6-9a76-472696ecce49",
+            "completed_at": "2018-07-16T10:19:31.423Z",
+            "last_viewed_at": "2019-07-24T07:48:12.668Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 431259,
+              "key": "b08afc51-ea79-46cf-9b53-8076f09bbd36",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Jessica Kirkpatrick，一名在职数据科学家（现就职于 Slack）\n\n观看下面的视频，Jessica 谈论了她为何成为一名数据科学家，她如何看待自己的角色，以及为想要成为分析师的学生提供建议。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 431260,
+              "key": "2e8512cb-f433-49ef-8660-40b0171056d5",
+              "title": "数据科学家访谈",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kNnFA5hxI2Q",
+                "china_cdn_id": "kNnFA5hxI2Q.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 431276,
+          "key": "8d1f75c7-f3c1-4563-af90-fd6a15573e52",
+          "title": "行业分享：Sinthuja Nagalingam",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8d1f75c7-f3c1-4563-af90-fd6a15573e52",
+            "completed_at": "2018-07-16T10:21:39.427Z",
+            "last_viewed_at": "2019-07-26T13:40:15.548Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 431261,
+              "key": "1623eb3b-8302-4ed1-96ca-d58a6ca657ad",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Sinthuja Nagalingam，萨米特公立学校的数据分析经理\n\n观看下面的视频，Sinthuja 在其中解释了她为何热爱数据分析工作。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 431262,
+              "key": "4e397d49-f8ce-451d-b74a-ea2df8c31919",
+              "title": "业内人士 Sinthuja 访谈",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R5XBQ7dSz7w",
+                "china_cdn_id": "R5XBQ7dSz7w.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

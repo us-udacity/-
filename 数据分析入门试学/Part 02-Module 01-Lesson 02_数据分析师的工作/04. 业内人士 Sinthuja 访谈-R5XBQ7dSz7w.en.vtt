@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.009
+I think data is actually really exciting.
+
+00:00:02.009 --> 00:00:04.589
+I feel like data is really just information.
+
+00:00:04.589 --> 00:00:07.109
+And so, the more information that you have,
+
+00:00:07.110 --> 00:00:09.750
+the better decision that you can make.
+
+00:00:09.750 --> 00:00:15.094
+My name is Sinthuja, and I'm a Manager of Data Analytics at Summit Public Schools.
+
+00:00:15.095 --> 00:00:17.420
+I've actually had a few different roles.
+
+00:00:17.420 --> 00:00:20.715
+I worked a little bit in consulting and then decided to be a teacher.
+
+00:00:20.714 --> 00:00:23.759
+And data was actually, just seemed like the perfect fit for me,
+
+00:00:23.760 --> 00:00:26.170
+because it makes my previous teaching experience,
+
+00:00:26.170 --> 00:00:28.020
+at working in an education company,
+
+00:00:28.019 --> 00:00:31.684
+with also a more technical aspect as well.
+
+00:00:31.684 --> 00:00:36.269
+So, Summit public schools is actually a charter management organization, a nonprofit,
+
+00:00:36.270 --> 00:00:38.835
+and we have developed
+
+00:00:38.835 --> 00:00:42.600
+our own platform that we partnered with the Chan Zuckerberg initiative.
+
+00:00:42.600 --> 00:00:44.939
+They store all the student grades data
+
+00:00:44.939 --> 00:00:47.684
+and also how they're interacting with the platform,
+
+00:00:47.685 --> 00:00:51.344
+in that database, and that's really what we use to analyze.
+
+00:00:51.344 --> 00:00:53.804
+One of the projects that I'm really excited about is
+
+00:00:53.804 --> 00:00:56.700
+analyzing and tracking student performance data,
+
+00:00:56.700 --> 00:01:00.630
+and actually building tools for school leaders and teachers in
+
+00:01:00.630 --> 00:01:05.784
+tableau and displaying that data for them to use on a weekly or daily basis.
+
+00:01:05.784 --> 00:01:08.879
+I've actually had the privilege of doing focus groups
+
+00:01:08.879 --> 00:01:12.060
+and user experience interviews with school leaders and teachers to
+
+00:01:12.060 --> 00:01:19.375
+develop an experience that they can really use to improve outcomes of their schools.
+
+00:01:19.375 --> 00:01:23.114
+I've seen Summit grow from both a small organization to a large,
+
+00:01:23.114 --> 00:01:27.689
+and even when you're small you have to figure out a lot of things on your own of like,
+
+00:01:27.689 --> 00:01:31.649
+how the data is structured and being able to analyze it in the correct way.
+
+00:01:31.650 --> 00:01:34.484
+But once we built the data infrastructure,
+
+00:01:34.484 --> 00:01:38.700
+you still have to really be able to like think about questions on your own,
+
+00:01:38.700 --> 00:01:43.530
+and lead projects, and ask what's the next step that I want to do with this analysis.
+
+00:01:43.530 --> 00:01:48.460
+So, I think dealing with ambiguity is going to be a key part of any data analyst role.
+
+00:01:48.459 --> 00:01:51.939
+I think as long as you have like a good foundation in SQL,
+
+00:01:51.939 --> 00:01:54.640
+and then also some statistical background,
+
+00:01:54.640 --> 00:01:56.650
+whether that could be in Python, in R,
+
+00:01:56.650 --> 00:01:59.020
+or Stata, like all of
+
+00:01:59.019 --> 00:02:02.784
+those languages will really set you up to be a successful data analyst.
+
+00:02:02.784 --> 00:02:05.905
+And it's really just understanding a data infrastructure and
+
+00:02:05.905 --> 00:02:09.129
+how your data systems are set up,
+
+00:02:09.129 --> 00:02:12.310
+and then being able to join everything and just
+
+00:02:12.310 --> 00:02:16.474
+aggregate and analyze in a way that makes sense.
+
+00:02:16.474 --> 00:02:20.034
+One of the key things that I've learned is that there is always something new to learn.
+
+00:02:20.034 --> 00:02:24.520
+So, even though I feel like I've developed a lot of skill in SQL and Python,
+
+00:02:24.520 --> 00:02:26.439
+I'm always trying to figure out what's like
+
+00:02:26.439 --> 00:02:29.379
+the next thing that I can learn to improve my skill set.
+
+00:02:29.379 --> 00:02:35.384
+I've tried a lot of different programs in order to increase my skill set, and yeah,
+
+00:02:35.384 --> 00:02:39.699
+my favorite course has actually been one of the courses that I took on Udacity,
+
+00:02:39.699 --> 00:02:42.339
+mainly because of the project based learning.
+
+00:02:42.340 --> 00:02:44.890
+I think that online learning is great,
+
+00:02:44.889 --> 00:02:48.944
+and like you can delve into topics on your own pace,
+
+00:02:48.944 --> 00:02:51.609
+but actually being able to apply it,
+
+00:02:51.610 --> 00:02:53.580
+is really where you learn a lot,
+
+00:02:53.580 --> 00:02:54.850
+and you learn what you know,
+
+00:02:54.849 --> 00:02:56.120
+what you don't know,
+
+00:02:56.120 --> 00:03:00.700
+and also it just really stretches your thinking in a different way, and so,
+
+00:03:00.699 --> 00:03:04.329
+Udacity's courses where they force you to kind of do that project at
+
+00:03:04.330 --> 00:03:08.820
+the end of the unit are actually super beneficial and I would highly recommend them.
+
+00:03:08.819 --> 00:03:13.599
+I think that the data analysts role is going to be an integral part of any company,
+
+00:03:13.599 --> 00:03:19.079
+as our society has so much access to data and it's only going to continue to grow.
+
+00:03:19.080 --> 00:03:22.075
+That if you have a data analyst background,
+
+00:03:22.074 --> 00:03:27.280
+it really will set you up to be successful in any types of roles that you have later on.
+

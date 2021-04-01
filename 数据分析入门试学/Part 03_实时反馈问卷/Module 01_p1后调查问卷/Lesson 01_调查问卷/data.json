@@ -1,0 +1,55 @@
+{
+  "data": {
+    "lesson": {
+      "id": 796921,
+      "key": "65db56e2-9e32-4fbd-88ed-ce19e8cbe238",
+      "title": "调查问卷",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "在完成P1项目以后，我们非常希望得到你的反馈来帮助我们更新课程~\n",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 796922,
+          "key": "f24aa754-c739-49d0-a2e3-6d29d6a92aa8",
+          "title": "调查问卷",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f24aa754-c739-49d0-a2e3-6d29d6a92aa8",
+            "completed_at": "2018-12-18T09:40:36.572Z",
+            "last_viewed_at": "2019-07-25T11:43:08.368Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 797075,
+              "key": "d15f226c-0c66-43df-82ca-7e29ce361f59",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "亲爱的优达学员，诚邀你参与课程反馈调研，**你的想法和建议**对我们至关重要。",
+              "instructor_notes": ""
+            },
+            {
+              "id": 796923,
+              "key": "89c282a9-ccc7-4841-9086-f53517366d61",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<iframe id=\"goldendata_form_eH2Lux\" src=\"https://udacity.jinshuju.com/f/1AIpFX?background=white&banner=show&embedded=true\" width=\"100%\" frameborder=0 allowTransparency=\"true\" height=\"1356\"></iframe>",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

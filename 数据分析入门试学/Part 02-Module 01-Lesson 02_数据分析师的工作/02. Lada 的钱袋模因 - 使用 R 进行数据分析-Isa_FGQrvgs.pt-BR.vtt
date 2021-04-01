@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.220 --> 00:00:01.740
+&gt;&gt; Em termos de seu trabalho no Facebook,
+
+00:00:01.740 --> 00:00:03.790
+em quais projetos recentes que você está trabalhando?
+
+00:00:04.820 --> 00:00:10.520
+&gt;&gt; Uma coisa pela qual estou realmente fascinado é a forma a informação
+
+00:00:10.520 --> 00:00:14.730
+flui pelas redes. Então, no meu trabalho anterior, isto era apenas como
+
+00:00:14.730 --> 00:00:18.870
+as páginas da Web se interligavam. Mas, com as redes sociais online
+
+00:00:18.870 --> 00:00:21.130
+sendo um meio tão predominante de comunicação
+
+00:00:21.130 --> 00:00:25.680
+nos dias de hoje, há muita transmissão de indivíduo para indivíduo ou
+
+00:00:25.680 --> 00:00:28.620
+de indivíduo para sua rede social. E, existem
+
+00:00:28.620 --> 00:00:31.000
+esses tais de memes que são ideias que
+
+00:00:31.000 --> 00:00:34.370
+pareciam quase tirar proveito disso
+
+00:00:34.370 --> 00:00:38.270
+para se replicar. Algumas atualizações de status do Facebook,
+
+00:00:38.270 --> 00:00:45.030
+por exemplo, terão um pequeno texto que diz copiar e colar ou republicar
+
+00:00:45.030 --> 00:00:50.680
+ou publicar isso para que todos os seus amigos vejam que você concorda com esta declaração.
+
+00:00:50.680 --> 00:00:53.110
+Uma coisa interessante sobre os memes é que eles tendem
+
+00:00:53.110 --> 00:00:56.440
+a se repetir ao longo do tempo. Então, às vezes você vê um meme
+
+00:00:56.440 --> 00:00:58.250
+e é como dizer: ah, eu vi isso um há
+
+00:00:58.250 --> 00:01:00.720
+um ano e agora está de volta e como
+
+00:01:00.720 --> 00:01:04.440
+isso voltou? Então, vimos um meme específico. Este
+
+00:01:04.440 --> 00:01:07.900
+é o meme da Moneybags, que conta a curiosidade que neste
+
+00:01:07.900 --> 00:01:12.410
+ano, outubro tem cinco sextas-feiras, sábados, domingos. Isso acontece apenas
+
+00:01:12.410 --> 00:01:15.820
+uma vez a cada 823 anos e esta é uma delas,
+
+00:01:15.820 --> 00:01:17.770
+blablablá e qualquer pessoa que pesquisa isso,
+
+00:01:17.770 --> 00:01:20.910
+vê que esse tipo de coisa é muito mais frequente e,
+
+00:01:20.910 --> 00:01:23.740
+na verdade, você terá diferentes variantes do meme.
+
+00:01:23.740 --> 00:01:26.660
+Por exemplo, aqui em vermelho, você tem um que diz,
+
+00:01:26.660 --> 00:01:30.560
+julho tem cinco sextas-feiras, sábados, domingos. Isso é fato em
+
+00:01:30.560 --> 00:01:34.160
+2011, e se você só olhar para este gráfico, que,
+
+00:01:34.160 --> 00:01:37.060
+em uma escala linear, mostra as contagens
+
+00:01:37.060 --> 00:01:40.830
+deste meme, pode aparecer que ele simplesmente desaparece completamente
+
+00:01:40.830 --> 00:01:43.180
+nesse entremeio. Então, você pode pensar: bem,
+
+00:01:43.180 --> 00:01:48.130
+talvez ele esteja sendo introduzido de alguma outra fonte e não do Facebook.
+
+00:01:48.130 --> 00:01:50.060
+Mas o estranho é que o meme é
+
+00:01:50.060 --> 00:01:54.090
+adaptado para o Facebook. Ele diz para copiar e colar, o que não
+
+00:01:54.090 --> 00:01:57.090
+faz muito sentido para outras mídias. Então,
+
+00:01:57.090 --> 00:02:00.080
+é possível que o meme esteja realmente ficando no
+
+00:02:00.080 --> 00:02:02.790
+Facebook, mas em números muito baixos, mas depois
+
+00:02:02.790 --> 00:02:06.010
+se espalha? Se você, em vez de usar uma escala
+
+00:02:06.010 --> 00:02:08.580
+linear, usar uma escala logarítmica aqui ao
+
+00:02:08.580 --> 00:02:11.120
+mesmo tempo, poderá ver contagens de 100.000
+
+00:02:11.120 --> 00:02:14.880
+e contagens de 10. E aqui, quando
+
+00:02:14.880 --> 00:02:17.090
+você olha, pode ver que mesmo havendo uma
+
+00:02:17.090 --> 00:02:20.130
+queda rápida no interesse, na verdade parece
+
+00:02:20.130 --> 00:02:23.195
+que está talvez em paralelo e você pode ver o
+
+00:02:23.195 --> 00:02:27.040
+meme persistindo em números baixos. E, depois, diferentes variantes,
+
+00:02:27.040 --> 00:02:31.090
+talvez sendo solicitado pelo ressurgimento desse meme,
+
+00:02:31.090 --> 00:02:36.660
+ocorrendo posteriormente. Isso foi feito no ggplot, apenas com
+
+00:02:36.660 --> 00:02:42.220
+uma geometria de linha simples e agrupamento pela variante
+
+00:02:42.220 --> 00:02:48.080
+meme especifica e, pois, redimensionando o eixo y para registrar em uma das versões.
+
