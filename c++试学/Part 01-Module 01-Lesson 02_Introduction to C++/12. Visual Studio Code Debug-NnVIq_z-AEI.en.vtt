@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.230 --> 00:00:04.320
+So here, we have a slightly more complex program.
+
+00:00:04.320 --> 00:00:10.574
+This program declares a vector of strings called brothers.
+
+00:00:10.574 --> 00:00:14.519
+This is my brothers David, Ethan, and Adam.
+
+00:00:14.519 --> 00:00:20.625
+Then we iterate over this vector and output the name of each of the brothers.
+
+00:00:20.625 --> 00:00:24.769
+If we run this,
+
+00:00:24.769 --> 00:00:33.144
+let me make sure I'm in the right directory, g++ hello.cpp./a.out.
+
+00:00:33.145 --> 00:00:36.190
+So we say hello to David, Ethan, and Adam.
+
+00:00:36.189 --> 00:00:39.919
+What I would like to do now is try and debug this program,
+
+00:00:39.920 --> 00:00:42.530
+just to inspect what's going on on each line.
+
+00:00:42.530 --> 00:00:47.545
+So you might think I could come up here and start debugging, but in fact,
+
+00:00:47.545 --> 00:00:50.240
+Visual Studio Code is only set up out of the box to debug
+
+00:00:50.240 --> 00:00:54.484
+Node.js which is not helpful for us as C++ developers.
+
+00:00:54.484 --> 00:00:59.015
+So I'm going to come to the extensions directory and search for
+
+00:00:59.015 --> 00:01:04.094
+C++ and I see the Microsoft C++ extension which is what I want to install.
+
+00:01:04.094 --> 00:01:06.049
+So now I've installed that.
+
+00:01:06.049 --> 00:01:11.504
+I'm going to come back to hello.cpp and I'm going to try and debug again.
+
+00:01:11.504 --> 00:01:15.399
+Now I'm able to debug C++.
+
+00:01:15.709 --> 00:01:23.030
+When I start debugging I get nothing.
+
+00:01:23.030 --> 00:01:30.530
+Let's try coming to the debug option here and select my environment.
+
+00:01:30.530 --> 00:01:32.945
+Nothing happens.
+
+00:01:32.944 --> 00:01:36.559
+Here in the bottom right corner I see an error.
+
+00:01:36.560 --> 00:01:42.350
+Please first open a folder to do advanced debug configuration.
+
+00:01:42.349 --> 00:01:46.189
+So I'm going to actually have to put hello.cpp in its own folder.
+
+00:01:46.189 --> 00:01:47.819
+So let's open a folder.
+
+00:01:47.819 --> 00:01:51.919
+I'm going to create a new folder within my temp directory called Hello.
+
+00:01:51.920 --> 00:01:55.790
+Then I'm going to click okay.
+
+00:01:55.790 --> 00:01:59.420
+Now I have this blank folder called Hello.
+
+00:01:59.420 --> 00:02:01.594
+I'm going to move
+
+00:02:01.594 --> 00:02:10.729
+my hello.cpp file which was in the temp directory into this temp Hello directory.
+
+00:02:10.729 --> 00:02:13.834
+So now I see I have hello.cpp all over again.
+
+00:02:13.835 --> 00:02:20.064
+Let's try just compiling it and running it here to make sure everything still works.
+
+00:02:20.064 --> 00:02:23.104
+All right. Now let's try debugging it.
+
+00:02:23.104 --> 00:02:25.489
+Let's say we want to stop at this breakpoint.
+
+00:02:25.490 --> 00:02:26.800
+That's how we set a breakpoint,
+
+00:02:26.800 --> 00:02:30.355
+is we put this red dot here.
+
+00:02:30.354 --> 00:02:33.814
+Next to the editor on the line that we want to stop the debugger at,
+
+00:02:33.814 --> 00:02:35.854
+we're going to say start debugging.
+
+00:02:35.854 --> 00:02:41.989
+Now I get this option for all the different types of debugging configurations.
+
+00:02:41.990 --> 00:02:48.165
+I'm going to choose g++ build and debug active file.
+
+00:02:48.164 --> 00:02:53.209
+Actually I'm going to come over here and add a configuration here,
+
+00:02:53.210 --> 00:02:57.000
+g++ build and debug active file.
+
+00:02:57.650 --> 00:03:07.200
+So let's say I want to debug a.out.
+
+00:03:07.199 --> 00:03:16.000
+Let's create
+
+00:03:16.000 --> 00:03:18.145
+a launch configuration.
+
+00:03:18.145 --> 00:03:25.969
+Let's delete this and now let's debug.
+
+00:03:30.840 --> 00:03:36.819
+Let's see. Now we have to load our symbols.
+
+00:03:36.819 --> 00:03:41.919
+So it's not enough to just compile the file and build a.out.
+
+00:03:41.919 --> 00:03:44.409
+We need to compile the file with the debug symbols.
+
+00:03:44.409 --> 00:03:53.264
+So we'll say hello.-g and we will run on that.
+
+00:03:53.264 --> 00:03:55.259
+Now you see we stop at
+
+00:03:55.259 --> 00:04:00.409
+standard cout hello brother and we can look at the status of the program.
+
+00:04:00.409 --> 00:04:02.780
+We have these strings that are my brothers,
+
+00:04:02.780 --> 00:04:04.534
+the active brother is David.
+
+00:04:04.534 --> 00:04:07.389
+If we continue to the next breakpoint,
+
+00:04:07.389 --> 00:04:10.625
+we see the active brother becomes Ethan.
+
+00:04:10.625 --> 00:04:14.349
+We can just step through the code to add them.
+
+00:04:14.349 --> 00:04:18.959
+Now we're done. That's an example of how to debug a program.
+

@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.195
+Bjarne Stroustrup created C++ in 1979 when he was only 29 years old.
+
+00:00:06.195 --> 00:00:09.660
+He was working at Bell Labs and needed a programming language
+
+00:00:09.660 --> 00:00:13.425
+to help him maintain clusters of Unix servers.
+
+00:00:13.425 --> 00:00:15.810
+He wanted a programming language with
+
+00:00:15.810 --> 00:00:20.190
+both the high level features of languages like Simula and
+
+00:00:20.190 --> 00:00:26.885
+the raw speed of C. So he created a language that he called C with classes.
+
+00:00:26.885 --> 00:00:31.325
+C with classes had features like classes and
+
+00:00:31.324 --> 00:00:38.250
+also strong types but maintain the lightning fast speed of the C programming language.
+
+00:00:38.840 --> 00:00:43.790
+C++ as he later renamed it took off and eventually was adopted by
+
+00:00:43.789 --> 00:00:47.000
+the International Standards Organization which created
+
+00:00:47.000 --> 00:00:51.170
+an ISO standard governing the C++ programming language.
+
+00:00:51.170 --> 00:00:56.210
+That means that C++ is not controlled by any one person but rather by
+
+00:00:56.210 --> 00:00:58.895
+a standards body that meets regularly
+
+00:00:58.895 --> 00:01:02.450
+to map out the future of the C++ programming language.
+
+00:01:02.450 --> 00:01:07.290
+In 2011, the C++ Standards Committee
+
+00:01:07.290 --> 00:01:13.930
+released C++11 which was a major update to the programming language standard.
+
+00:01:13.930 --> 00:01:16.370
+C++11 turned C++ into
+
+00:01:16.370 --> 00:01:21.680
+a truly modern programming language that has both the elegance and ease of
+
+00:01:21.680 --> 00:01:25.610
+development that we associate with modern programming languages while
+
+00:01:25.609 --> 00:01:30.094
+maintaining the raw performance that C++ has always had.
+
+00:01:30.094 --> 00:01:32.599
+Bjarne Stroustrup remains involved in
+
+00:01:32.599 --> 00:01:37.849
+the C++ programming language to this day as a member of the ISO standards committee,
+
+00:01:37.849 --> 00:01:40.609
+and he'll be teaching you throughout this program about
+
+00:01:40.609 --> 00:01:44.730
+the different facilities of the C++ programming language
+

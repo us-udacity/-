@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.695
+This nanodegree program requires you to complete five different projects.
+
+00:00:04.695 --> 00:00:07.890
+The first project is the route planner project,,
+
+00:00:07.889 --> 00:00:12.254
+in which you'll build a route planner to find a route between
+
+00:00:12.255 --> 00:00:17.325
+any two points in a real city using data from the OpenStreetMap Project.
+
+00:00:17.324 --> 00:00:20.919
+The second project is the system monitor project,
+
+00:00:20.920 --> 00:00:26.310
+in which you'll implement your own version of the top program that identifies
+
+00:00:26.309 --> 00:00:29.189
+variables relevant to your system and prints out
+
+00:00:29.190 --> 00:00:32.895
+information about all the different processes running on your computer.
+
+00:00:32.895 --> 00:00:36.630
+The third project is the garbage collector project,
+
+00:00:36.630 --> 00:00:40.530
+in which you'll build your own version of smart pointers,
+
+00:00:40.530 --> 00:00:45.700
+a way to keep track of dynamically allocated memory and prevent memory leaks.
+
+00:00:45.700 --> 00:00:49.215
+The fourth project is a traffic simulation.
+
+00:00:49.215 --> 00:00:50.960
+In this project, you'll use
+
+00:00:50.960 --> 00:00:55.880
+concurrent multi-threaded programming to organize traffic flow through a city.
+
+00:00:55.880 --> 00:00:58.745
+Each vehicle will run on its own thread,
+
+00:00:58.744 --> 00:01:00.890
+and you'll use thread synchronization and
+
+00:01:00.890 --> 00:01:04.189
+communication to help the vehicles navigate intersections,
+
+00:01:04.189 --> 00:01:07.129
+and help traffic flow smoothly through the city.
+
+00:01:07.129 --> 00:01:11.899
+The final project of this nanodegree program is the Capstone project.
+
+00:01:11.900 --> 00:01:16.460
+In this project, you'll build your own C++ application using
+
+00:01:16.459 --> 00:01:18.619
+many of the different skills and techniques that
+
+00:01:18.620 --> 00:01:21.870
+you've learned as part of this nanodegree program.
+

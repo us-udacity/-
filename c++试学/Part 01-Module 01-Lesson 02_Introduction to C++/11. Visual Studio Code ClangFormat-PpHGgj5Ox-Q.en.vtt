@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:08.669
+I'm in Visual Studio Code and I would like to apply clang-format to my hello.cpp file.
+
+00:00:08.669 --> 00:00:13.695
+So I'm going to go to the extensions and I'm going to search for clang-format,
+
+00:00:13.695 --> 00:00:16.425
+and I'm going to install it.
+
+00:00:16.425 --> 00:00:18.199
+Now, it's installed and it says,
+
+00:00:18.199 --> 00:00:21.179
+"Files can be formatted on-demand by right-clicking in
+
+00:00:21.179 --> 00:00:24.509
+the document and selecting format document,
+
+00:00:24.510 --> 00:00:29.280
+or by using the associated keyboard shortcut usually Ctrl Shift F on Windows,
+
+00:00:29.280 --> 00:00:30.600
+Ctrl Shift I on Linux,
+
+00:00:30.600 --> 00:00:34.530
+and Shift Command F on Mac OS.
+
+00:00:34.530 --> 00:00:37.545
+So I'm on Linux, so I want Ctrl Shift I.
+
+00:00:37.545 --> 00:00:43.304
+Now, if I come here to hello.cpp and I hit Ctrl Shift I,
+
+00:00:43.304 --> 00:00:48.465
+clang-format actually puts my one line, "Hello World!"
+
+00:00:48.465 --> 00:00:52.055
+implementation on the same line as my function signature.
+
+00:00:52.054 --> 00:00:57.590
+If I save this and I compile it and run it,
+
+00:00:57.590 --> 00:01:04.840
+everything should still work but I have clang-format's default formatting style.
+

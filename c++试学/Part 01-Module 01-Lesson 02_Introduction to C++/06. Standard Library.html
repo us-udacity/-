@@ -1,0 +1,329 @@
+<!-- udacimak v1.4.4 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Standard Library
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      Introduction to C++
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. C++.html">
+       01. C++
+      </a>
+     </li>
+     <li class="">
+      <a href="02. C++ History.html">
+       02. C++ History
+      </a>
+     </li>
+     <li class="">
+      <a href="03. C++ Today.html">
+       03. C++ Today
+      </a>
+     </li>
+     <li class="">
+      <a href="04. Modern C++.html">
+       04. Modern C++
+      </a>
+     </li>
+     <li class="">
+      <a href="05. C++ Core Guidelines.html">
+       05. C++ Core Guidelines
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Standard Library.html">
+       06. Standard Library
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Compilation.html">
+       07. Compilation
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Build Tools.html">
+       08. Build Tools
+      </a>
+     </li>
+     <li class="">
+      <a href="09. Installation.html">
+       09. Installation
+      </a>
+     </li>
+     <li class="">
+      <a href="10. Editors.html">
+       10. Editors
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Style.html">
+       11. Style
+      </a>
+     </li>
+     <li class="">
+      <a href="12. Debugging.html">
+       12. Debugging
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          06. Standard Library
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="standard-library">
+          Standard Library
+         </h1>
+         <blockquote>
+          <p>
+           "The C++ Standard Library is a collection of classes and functions, which are written in the core language and part of the C++ ISO Standard itself."
+           <a href="https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library" rel="noopener noreferrer" target="_blank">
+            <em>
+             Wikipedia
+            </em>
+           </a>
+          </p>
+         </blockquote>
+         <p>
+          Learning how to use the Standard Library is an important part of becoming a proficient C++ software engineer. In almost all cases, it is preferable to utilize functionality that already exists in the Standard Library, instead of implementing functionality from scratch. This is both because using the Standard Library is faster (it is
+          <a href="http://www.cplusplus.com/reference/" rel="noopener noreferrer" target="_blank">
+           well-documented
+          </a>
+          ) and because many expert software engineers have worked on the Standard Library. The performance of Standard Library facilities is optimized, robust, and almost always as fast or faster than an initial re-implementation of the same functionality.
+         </p>
+         <p>
+          In fact, guideline
+          <a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sl1--use-libraries-wherever-possible" rel="noopener noreferrer" target="_blank">
+           SL.1
+          </a>
+          of the
+          <a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines" rel="noopener noreferrer" target="_blank">
+           C++ Core Guidelines
+          </a>
+          is:
+         </p>
+         <blockquote>
+          <p>
+           <strong>
+            Use libraries wherever possible
+           </strong>
+          </p>
+          <p>
+           <em>
+            Reason
+           </em>
+           Save time. Don’t re-invent the wheel. Don’t replicate the work of others. Benefit from other people’s work when they make improvements. Help other people when you make improvements.
+          </p>
+         </blockquote>
+         <p>
+          And guideline
+          <a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sl2-prefer-the-standard-library-to-other-libraries" rel="noopener noreferrer" target="_blank">
+           SL.2
+          </a>
+          is:
+         </p>
+         <blockquote>
+          <p>
+           <strong>
+            Prefer the standard library to other libraries
+           </strong>
+          </p>
+          <p>
+           <em>
+            Reason
+           </em>
+           More people know the standard library. It is more likely to be stable, well-maintained, and widely available than your own code or most other libraries.
+          </p>
+         </blockquote>
+         <p>
+          We use Standard Library features throughout the program, since proficiency with the Standard Library is a critical for C++ developers.
+         </p>
+         <h2 id="namespace">
+          Namespace
+         </h2>
+         <p>
+          Standard Library functions and classes exist in the
+          <code>
+           std::
+          </code>
+          namespace.
+          <a href="http://www.cplusplus.com/reference/vector/" rel="noopener noreferrer" target="_blank">
+           <code>
+            std::vector
+           </code>
+          </a>
+          , for example, refers to the
+          <code>
+           vector
+          </code>
+          class within the Standard Library. Typically, in order to use a Standard Library feature we must both include the necessary header file (e.g.
+          <code>
+           #include &lt;vector&gt;
+          </code>
+          ) and also namespace the class with
+          <code>
+           std::
+          </code>
+          (e.g.
+          <code>
+           std::vector
+          </code>
+          ).
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="07. Compilation.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. Standard Library')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

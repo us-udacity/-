@@ -1,0 +1,290 @@
+<!-- udacimak v1.4.4 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Style
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      Introduction to C++
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. C++.html">
+       01. C++
+      </a>
+     </li>
+     <li class="">
+      <a href="02. C++ History.html">
+       02. C++ History
+      </a>
+     </li>
+     <li class="">
+      <a href="03. C++ Today.html">
+       03. C++ Today
+      </a>
+     </li>
+     <li class="">
+      <a href="04. Modern C++.html">
+       04. Modern C++
+      </a>
+     </li>
+     <li class="">
+      <a href="05. C++ Core Guidelines.html">
+       05. C++ Core Guidelines
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Standard Library.html">
+       06. Standard Library
+      </a>
+     </li>
+     <li class="">
+      <a href="07. Compilation.html">
+       07. Compilation
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Build Tools.html">
+       08. Build Tools
+      </a>
+     </li>
+     <li class="">
+      <a href="09. Installation.html">
+       09. Installation
+      </a>
+     </li>
+     <li class="">
+      <a href="10. Editors.html">
+       10. Editors
+      </a>
+     </li>
+     <li class="">
+      <a href="11. Style.html">
+       11. Style
+      </a>
+     </li>
+     <li class="">
+      <a href="12. Debugging.html">
+       12. Debugging
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          11. Style
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="style">
+          Style
+         </h1>
+         <p>
+          A consistent style (hopefully) helps improve and make your code more readable.
+         </p>
+         <p>
+          There are many different C++ styles, none of which is authoritative.
+         </p>
+         <ul>
+          <li>
+           <a href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#nl-naming-and-layout-rules" rel="noopener noreferrer" target="_blank">
+            C++ Core Guidlines: Naming and layout rules
+           </a>
+          </li>
+          <li>
+           <a href="https://google.github.io/styleguide/cppguide.html" rel="noopener noreferrer" target="_blank">
+            Google C++ Style Guide
+           </a>
+          </li>
+          <li>
+           <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style#CC_practices" rel="noopener noreferrer" target="_blank">
+            Mozilla Coding Style: C/C++ practices
+           </a>
+          </li>
+         </ul>
+         <h2 id="clangformat">
+          ClangFormat
+         </h2>
+         <p>
+          <a href="https://clang.llvm.org/docs/ClangFormat.html" rel="noopener noreferrer" target="_blank">
+           <code>
+            clang-format
+           </code>
+          </a>
+          is a command line text formatter that automatically reformats source code according to configurable set of policies. The tool includes several pre-configured styles, or you can create your own.
+         </p>
+         <p>
+          <code>
+           clang-format
+          </code>
+          is an open-source application that you can install on your system, or it is straightforward to install as a
+          <a href="https://marketplace.visualstudio.com/" rel="noopener noreferrer" target="_blank">
+           Visual Studio Code extension
+          </a>
+          .
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+         <p>
+          Visual Studio Code ClangFormat
+         </p>
+        </h3>
+        <video controls="">
+         <source src="11. Visual Studio Code ClangFormat-PpHGgj5Ox-Q.mp4" type="video/mp4"/>
+         <track default="true" kind="subtitles" label="en" src="11. Visual Studio Code ClangFormat-PpHGgj5Ox-Q.en.vtt" srclang="en"/>
+        </video>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="12. Debugging.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('11. Style')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

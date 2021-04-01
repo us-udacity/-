@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.600
+This program is organized into four courses;
+
+00:00:03.600 --> 00:00:10.259
+foundations, object-oriented programming, memory management and concurrency.
+
+00:00:10.259 --> 00:00:12.734
+In the foundations course,
+
+00:00:12.734 --> 00:00:18.794
+you'll learn about C plus plus syntax and how to compile and run C plus plus programs.
+
+00:00:18.795 --> 00:00:22.429
+You'll also learn about the input and output features of the language,
+
+00:00:22.429 --> 00:00:25.850
+as well as how to declare and initialize variables,
+
+00:00:25.850 --> 00:00:29.600
+structure your code using conditionals and loops,
+
+00:00:29.600 --> 00:00:32.405
+and organize your code using functions.
+
+00:00:32.405 --> 00:00:35.615
+In the object oriented-programming course,
+
+00:00:35.615 --> 00:00:39.359
+you'll learn how to further organize your code into classes,
+
+00:00:39.359 --> 00:00:44.090
+and you'll learn how to expose interfaces to those classes to other users.
+
+00:00:44.090 --> 00:00:47.630
+You'll also learn how to declare certain interfaces to be
+
+00:00:47.630 --> 00:00:51.590
+public and certain to be private using access modifiers.
+
+00:00:51.590 --> 00:00:53.840
+You'll cover the core concepts of
+
+00:00:53.840 --> 00:00:57.800
+object-oriented programming generally including encapsulation,
+
+00:00:57.799 --> 00:01:00.994
+abstraction, inheritance and polymorphism,
+
+00:01:00.994 --> 00:01:02.750
+and you'll learn how to implement
+
+00:01:02.750 --> 00:01:05.959
+those features using the C plus plus programming language.
+
+00:01:05.959 --> 00:01:10.069
+You'll close this course by learning about generic programming and how to
+
+00:01:10.069 --> 00:01:14.679
+use C plus plus templates to make your code more generic.
+
+00:01:14.680 --> 00:01:16.690
+In the next course,
+
+00:01:16.689 --> 00:01:18.500
+you'll learn about memory management.
+
+00:01:18.500 --> 00:01:22.625
+Memory is incredibly important to the C plus plus programming language.
+
+00:01:22.625 --> 00:01:26.704
+You'll learn how to pass around both references and pointers,
+
+00:01:26.704 --> 00:01:29.299
+and you'll learn about the differences between memory on
+
+00:01:29.299 --> 00:01:32.284
+the stack and memory allocated from the heap.
+
+00:01:32.284 --> 00:01:37.789
+You'll also learn how to take advantage of scope and use the resource acquisition
+
+00:01:37.790 --> 00:01:43.405
+is initialization paradigm in order to keep track of memory that's used by your program.
+
+00:01:43.405 --> 00:01:46.640
+You'll close this course by learning about smart pointers,
+
+00:01:46.640 --> 00:01:49.879
+which are the best way to keep track of pointers and
+
+00:01:49.879 --> 00:01:53.814
+dynamically allocated memory in modern C plus plus.
+
+00:01:53.814 --> 00:01:56.474
+The final course is concurrency.
+
+00:01:56.474 --> 00:02:02.194
+In this course, you'll learn how to organize your code using both processes and threads,
+
+00:02:02.194 --> 00:02:06.199
+and you'll learn how to synchronize and communicate between threads.
+
+00:02:06.200 --> 00:02:10.699
+In particular, you'll learn about features of the C plus plus programming language that
+
+00:02:10.699 --> 00:02:15.849
+support concurrent multi-threaded programming including promises and futures,
+
+00:02:15.849 --> 00:02:18.060
+and mutexes, and locks.
+
+00:02:18.060 --> 00:02:20.995
+By the time you're done with all four of these courses,
+
+00:02:20.995 --> 00:02:25.490
+you will be a terrific C plus plus developer.
+

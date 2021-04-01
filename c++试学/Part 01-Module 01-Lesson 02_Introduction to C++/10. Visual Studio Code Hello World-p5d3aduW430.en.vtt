@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.940
+Here I am with Visual Studio Code.
+
+00:00:02.940 --> 00:00:04.304
+I've just opened the editor.
+
+00:00:04.304 --> 00:00:06.509
+I'm going to create a new file.
+
+00:00:06.509 --> 00:00:08.594
+The first thing I'm going to do is save it.
+
+00:00:08.595 --> 00:00:10.530
+I'll save it in my temp directory.
+
+00:00:10.529 --> 00:00:12.660
+We'll call it hello.cpp.
+
+00:00:12.660 --> 00:00:23.199
+I will write include iostream and create a main function.
+
+00:00:23.329 --> 00:00:33.045
+I'll say std cout ''Hello world''. Then I'll save that.
+
+00:00:33.045 --> 00:00:36.690
+The next thing I'll do is I will open up a terminal down here.
+
+00:00:36.689 --> 00:00:38.699
+I'll go to my temp directory.
+
+00:00:38.700 --> 00:00:40.304
+I've already installed g++.
+
+00:00:40.304 --> 00:00:43.484
+So if I check, I have g++.
+
+00:00:43.484 --> 00:00:48.375
+So I can write g++ hello.cpp.
+
+00:00:48.375 --> 00:00:50.869
+That should give me an a.out file.
+
+00:00:50.869 --> 00:00:54.269
+It does and it prints "Hello World". All set.
+
