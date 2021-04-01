@@ -1,0 +1,448 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Markdown 单元格
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      （可选）Notebook简介——准备python本地运行的编译器
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. Jupyter notebook 是什么？.html">
+       01. Jupyter notebook 是什么？
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 安装 Jupyter notebook.html">
+       02. 安装 Jupyter notebook
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 启动 notebook 服务器.html">
+       03. 启动 notebook 服务器
+      </a>
+     </li>
+     <li class="">
+      <a href="04. notebook 界面.html">
+       04. notebook 界面
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 代码单元格.html">
+       05. 代码单元格
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Markdown 单元格.html">
+       06. Markdown 单元格
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 快捷键.html">
+       07. 快捷键
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Magic 关键字.html">
+       08. Magic 关键字
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 转换 notebook.html">
+       09. 转换 notebook
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 创建幻灯片.html">
+       10. 创建幻灯片
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 结束.html">
+       11. 结束
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          06. Markdown 单元格
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="markdown-单元格">
+          Markdown 单元格
+         </h1>
+         <p>
+          如前所述，单元格也可用于以 Markdown 编写的文本。Markdown 是格式化语法，可让你加入链接、将文本样式设为粗体或斜体和设置代码格式。像代码单元格一样，按
+          <strong>
+           Shift + Enter
+          </strong>
+          或
+          <strong>
+           Ctrl + Enter
+          </strong>
+          可运行 Markdown 单元格，这会将 Markdown 呈现为格式化文本。加入文本可让你直接在代码旁写出叙述性文档，以及为代码和思路编写文档。
+         </p>
+         <p>
+          你可以
+          <a href="https://daringfireball.net/projects/markdown/basics" target="_blank">
+           在此处查找文档
+          </a>
+          ，但我会提供简短的入门文档。
+         </p>
+         <h2 id="标题">
+          标题
+         </h2>
+         <p>
+          要编写标题，可在文本前放置井号，即
+          <code>
+           #
+          </code>
+          （英文读作 pound、hash 或
+          <a href="http://www.worldwidewords.org/weirdwords/ww-oct1.htm" target="_blank">
+           octothorpe
+          </a>
+          ）。一个
+          <code>
+           #
+          </code>
+          呈现为
+          <code>
+           h1
+          </code>
+          标题，两个
+          <code>
+           #
+          </code>
+          是 h2 标题，依此类推。类似以下所示：
+         </p>
+         <pre><code class="[Markdown] language-[Markdown]"># Header 1
+## Header 2
+### Header 3</code></pre>
+         <p>
+          呈现为
+         </p>
+         <h1 id="header-1">
+          Header 1
+         </h1>
+         <h2 id="header-2">
+          Header 2
+         </h2>
+         <h3 id="header-3">
+          Header 3
+         </h3>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="链接">
+          链接
+         </h2>
+         <p>
+          要在 Markdown 中添加链接，请在文本两侧加上方括号，并在 URL 两侧加上圆括号，例如：
+          <code>
+           [Udacity's home page](https://www.udacity.com)
+          </code>
+          表示指向
+          <a href="https://www.udacity.com" target="_blank">
+           Udacity's home page
+          </a>
+          的链接。
+         </p>
+         <h2 id="强调效果">
+          强调效果
+         </h2>
+         <p>
+          可以使用星号或下划线（
+          <code>
+           *
+          </code>
+          或
+          <code>
+           _
+          </code>
+          ）来表示粗体或斜体，从而添加强调效果。对于斜体，在文本两侧加上一个星号或下划线，例如
+          <code>
+           _gelato_
+          </code>
+          或
+          <code>
+           *gelato*
+          </code>
+          会呈现为
+          <em>
+           gelato
+          </em>
+          。
+         </p>
+         <p>
+          粗体文本使用两个符号，例如
+          <code>
+           **aardvark**
+          </code>
+          或
+          <code>
+           __aardvark__
+          </code>
+          会呈现为
+          <strong>
+           aardvark
+          </strong>
+          。
+         </p>
+         <p>
+          只要在文本两侧使用相同的符号，星号和下划线的作用都一样。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="代码">
+          代码
+         </h2>
+         <p>
+          可以通过两种不同的方式显示代码，一种是与文本内联，另一种是将代码块与文本分离。要将代码变为内联格式，请在文本两侧加上反撇号。例如，
+          <code>
+           `string.punctuation`
+          </code>
+          会呈现为
+          <code>
+           string.punctuation
+          </code>
+          。
+         </p>
+         <p>
+          要创建代码块，请另起一行并用三个反撇号（一般在键盘数字 1 左边）将文本包起来：
+         </p>
+         <pre><code>```
+import requests
+response = requests.get('https://www.udacity.com')
+```</code></pre>
+         <p>
+          或者将代码块的每一行都缩进四个空格。
+         </p>
+         <pre><code class="python language-python">import requests
+response = requests.get('https://www.udacity.com')</code></pre>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="数学表达式">
+          数学表达式
+         </h2>
+         <p>
+          在 Markdown 单元格中，可以使用
+          <a href="https://www.latex-project.org/" target="_blank">
+           LaTeX
+          </a>
+          符号创建数学表达式。notebook 使用 MathJax 将 LaTeX 符号呈现为数学符号。要启动数学模式，请在 LaTeX 符号两侧加上美元符号（例如
+          <code>
+           $y = mx + b$
+          </code>
+          ），以创建内联的数学表达式。对于数学符号块，请使用两个美元符号：
+         </p>
+         <pre><code>$$
+y = \frac{a}{b+c}
+$$</code></pre>
+         <p>
+          此功能的确很有用，因此，如果你没有用过 LaTeX，
+          <a href="http://data-blog.udacity.com/posts/2016/10/latex-primer/" target="_blank">
+           请阅读这篇入门文档
+          </a>
+          ，它介绍了如何使用 LaTeX 来创建数学表达式。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <video autoplay="" controls="" loop="" style="width: 100%">
+          <source src="media/Markdown+cells.mp4" type="video/mp4"/>
+         </video>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="小结">
+          小结
+         </h2>
+         <p>
+          在编写 Markdown 时，可以参考这个
+          <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">
+           速查指南
+          </a>
+          。我建议使用 Markdown 单元格，与使用一堆代码块相比，这使 notebook 变得更易于阅读。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="07. 快捷键.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. Markdown 单元格')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

@@ -1,0 +1,323 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   转换 notebook
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      （可选）Notebook简介——准备python本地运行的编译器
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. Jupyter notebook 是什么？.html">
+       01. Jupyter notebook 是什么？
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 安装 Jupyter notebook.html">
+       02. 安装 Jupyter notebook
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 启动 notebook 服务器.html">
+       03. 启动 notebook 服务器
+      </a>
+     </li>
+     <li class="">
+      <a href="04. notebook 界面.html">
+       04. notebook 界面
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 代码单元格.html">
+       05. 代码单元格
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Markdown 单元格.html">
+       06. Markdown 单元格
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 快捷键.html">
+       07. 快捷键
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Magic 关键字.html">
+       08. Magic 关键字
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 转换 notebook.html">
+       09. 转换 notebook
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 创建幻灯片.html">
+       10. 创建幻灯片
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 结束.html">
+       11. 结束
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          09. 转换 notebook
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="转换-notebook">
+          转换 notebook
+         </h1>
+         <p>
+          Notebook 只是扩展名为
+          <code>
+           .ipynb
+          </code>
+          的大型
+          <a href="http://www.json.org/" target="_blank">
+           JSON
+          </a>
+          文件。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="在文本编辑器中打开的 notebook 文件显示 JSON 数据" class="img img-fluid" src="img/notebook-json.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            在文本编辑器中打开的 notebook 文件显示 JSON 数据
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          由于 notebook 是 JSON 文件，因此，可以轻松将其转换为其他格式。Jupyter 附带了一个名为
+          <code>
+           nbconvert
+          </code>
+          的实用程序，可将 notebook 转换为 HTML、Markdown、幻灯片等格式。
+         </p>
+         <p>
+          例如，要将 notebook 转换为 HTML 文件，请在终端中使用
+         </p>
+         <pre><code class="bash language-bash">jupyter nbconvert --to html notebook.ipynb</code></pre>
+         <p>
+          我们也可以在notebook界面中点击
+          <code>
+           File
+          </code>
+          ，在弹出的菜单中点击
+          <code>
+           Download as
+          </code>
+          ，之后选择我们需要转换的格式。
+         </p>
+         <p>
+          <img src="media/43558682-49ab30b8-963d-11e8-993b-2a14396f820f.png"/>
+         </p>
+         <p>
+          要将 notebook 与不使用 notebook 的其他人共享，转换为 HTML 很有用。而要在博客和其他接受 Markdown 格式化的文本编辑器中显示 notebook，Markdown 很合适。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/nbconvert-example.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          像平常一样，要详细了解
+          <code>
+           nbconvert
+          </code>
+          ，请阅读相关
+          <a href="https://nbconvert.readthedocs.io/en/latest/usage.html" target="_blank">
+           文档
+          </a>
+          。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="10. 创建幻灯片.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('09. 转换 notebook')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

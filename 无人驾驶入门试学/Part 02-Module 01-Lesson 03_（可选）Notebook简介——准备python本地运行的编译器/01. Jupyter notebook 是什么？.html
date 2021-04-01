@@ -1,0 +1,392 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Jupyter notebook 是什么？
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      （可选）Notebook简介——准备python本地运行的编译器
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. Jupyter notebook 是什么？.html">
+       01. Jupyter notebook 是什么？
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 安装 Jupyter notebook.html">
+       02. 安装 Jupyter notebook
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 启动 notebook 服务器.html">
+       03. 启动 notebook 服务器
+      </a>
+     </li>
+     <li class="">
+      <a href="04. notebook 界面.html">
+       04. notebook 界面
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 代码单元格.html">
+       05. 代码单元格
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Markdown 单元格.html">
+       06. Markdown 单元格
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 快捷键.html">
+       07. 快捷键
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Magic 关键字.html">
+       08. Magic 关键字
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 转换 notebook.html">
+       09. 转换 notebook
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 创建幻灯片.html">
+       10. 创建幻灯片
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 结束.html">
+       11. 结束
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          01. Jupyter notebook 是什么？
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="jupyter-notebook-是什么？">
+          Jupyter notebook 是什么？
+         </h1>
+         <p>
+          欢迎学习本课程——如何使用
+          <a href="http://jupyter.org/" target="_blank">
+           Jupyter
+          </a>
+          notebook。Jupyter notebook 是一种 Web 应用，能让用户将说明文本、数学方程、代码和可视化内容全部组合到一个易于共享的文档中。例如，不久前我共享了我最爱的一个 Jupyter notebook ，它分析了
+          <a href="https://www.ligo.caltech.edu/news/ligo20160211" target="_blank">
+           LIGO 实验
+          </a>
+          探测到的
+          <a href="https://losc.ligo.org/s/events/GW150914/GW150914_tutorial.html" target="_blank">
+           两个碰撞的黑洞所发出的引力波
+          </a>
+          。你可以下载数据，运行 notebook 中的代码，重复整个分析，实际上等于你自己探测引力波！
+         </p>
+         <p>
+          Jupyter Notebook 已迅速成为处理数据的必备工具。其用途包括
+          <a href="http://nbviewer.jupyter.org/github/jmsteinw/Notebooks/blob/master/IndeedJobs.ipynb" target="_blank">
+           数据清理和探索
+          </a>
+          、可视化、
+          <a href="http://nbviewer.jupyter.org/github/masinoa/machine_learning/blob/master/04_Neural_Networks.ipynb" target="_blank">
+           机器学习
+          </a>
+          和
+          <a href="http://nbviewer.jupyter.org/github/tdhopper/rta-pyspark-presentation/blob/master/slides.ipynb" target="_blank">
+           大数据分析
+          </a>
+          。我为我的个人博客创建了
+          <a href="https://github.com/mcleonard/blog_posts/blob/master/body_fat_percentage.ipynb" target="_blank">
+           一个 notebook 示例
+          </a>
+          ，它展示了 notebook 的许多特点。这项工作通常在终端中完成，也即使用普通的 Python shell 或 IPython 完成。可视化在单独的窗口中进行，而文字资料以及各种函数和类脚本包含在独立的文档中。但是，notebook 能将这一切集中到一处，让用户一目了然。
+         </p>
+         <p>
+          GitHub 上也直接支持 Jupyter notebook 的渲染。借助此出色的功能，你可以轻松地共享工作。
+          <a href="http://nbviewer.jupyter.org/" target="_blank">
+           http://nbviewer.jupyter.org/
+          </a>
+          也会提供 GitHub 代码库中的 notebook ，以及存储在其他地方的 notebook。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="文学化编程">
+          文学化编程
+         </h2>
+         <p>
+          notebook 是 Donald Knuth 在 1984 年提出的
+          <a href="http://www.literateprogramming.com/" target="_blank">
+           文字表达化编程
+          </a>
+          的一种形式。在文字表达化编程中，直接在代码旁写出叙述性文档，而不是另外编写单独的文档。用 Donald Knuth 的话来说：
+         </p>
+         <blockquote>
+          <p>
+           让我们集中精力向人们解释我们希望计算机做什么，而不是指示计算机做什么。
+          </p>
+         </blockquote>
+         <p>
+          归根到底，代码是写给人看到，不是写给计算机看的。notebook 恰恰提供了这种能力。你能够直接在代码旁写出叙述性文档。这不仅对阅读 notebook 的人很有用，而且对你将来回头分析代码也很有用。
+         </p>
+         <p>
+          说点题外话：最近，文字表达化编程这个概念已经发展成为一门完整的编程语言，即
+          <a href="http://www.witheve.com/" target="_blank">
+           Eve
+          </a>
+          。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="notebook-如何工作">
+          notebook 如何工作
+         </h2>
+         <p>
+          Jupyter notebook 源自 Fernando Perez 发起的
+          <a href="https://ipython.org/" target="_blank">
+           IPython 项目
+          </a>
+          。IPython 是一种交互式 shell，与普通的 Python shell 相似，但具有一些很好的功能（例如语法高亮显示和代码补全）。最初，notebook 的工作方式是，将来自 Web 应用（你在浏览器中看到的 notebook）的消息发送给 IPython 内核（在后台运行的 IPython 应用程序）。内核执行代码，然后将结果发送回 notebook。当前架构与之相似，具体见下图。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="摘自 [Jupyter 文档](https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)" class="img img-fluid" src="img/notebook-components.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            摘自
+            <a href="https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html" target="_blank">
+             Jupyter 文档
+            </a>
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          核心是 notebook 的服务器。你通过浏览器连接到该服务器，而 notebook 呈现为 Web 应用。你在 Web 应用中编写的代码通过该服务器发送给内核，内核运行代码，并将结果发送回该服务器。之后，任何输出都会返回到浏览器中。保存 notebook 时，它将作为 JSON 文件（文件扩展名为
+          <code>
+           .ipynb
+          </code>
+          ）写入到该服务器中。
+         </p>
+         <p>
+          此架构的一个优点是，内核无需运行 Python。由于 notebook 和内核分开，因此可以在两者之间发送任何语言的代码。例如，早期的两个非 Python 内核分别是
+          <a href="https://www.r-project.org/" target="_blank">
+           R
+          </a>
+          语言和
+          <a href="http://julialang.org/" target="_blank">
+           Julia
+          </a>
+          语言。使用 R 内核时，用 R 编写的代码将发送给执行该代码的 R 内核，这与在 Python 内核上运行 Python 代码完全一样。IPython notebook 已被改名，因为 notebook 变得与编程语言无关。新的名称
+          <strong>
+           Jupyter
+          </strong>
+          由
+          <strong>
+           Ju
+          </strong>
+          lia、
+          <strong>
+           Pyt
+          </strong>
+          hon 和
+          <strong>
+           R
+          </strong>
+          组合而成。如果有兴趣，不妨看看
+          <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels" target="_blank">
+           可用内核的列表
+          </a>
+          。
+         </p>
+         <p>
+          另一个优点是，你可以在任何地方运行 notebook 服务器，并且可通过互联网访问服务器。通常，你会在存储所有数据和 notebook 文件的自有计算机上运行服务器。但是，你也可以在远程计算机或云实例（如 Amazon 的 EC2）上
+          <a href="http://jupyter-notebook.readthedocs.io/en/latest/public_server.html" target="_blank">
+           设置服务器
+          </a>
+          。之后，你就可以在世界上任何地方通过浏览器访问 notebook。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="02. 安装 Jupyter notebook.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('01. Jupyter notebook 是什么？')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

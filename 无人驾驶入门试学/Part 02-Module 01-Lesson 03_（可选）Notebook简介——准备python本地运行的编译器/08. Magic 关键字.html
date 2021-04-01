@@ -1,0 +1,439 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Magic 关键字
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      （可选）Notebook简介——准备python本地运行的编译器
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. Jupyter notebook 是什么？.html">
+       01. Jupyter notebook 是什么？
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 安装 Jupyter notebook.html">
+       02. 安装 Jupyter notebook
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 启动 notebook 服务器.html">
+       03. 启动 notebook 服务器
+      </a>
+     </li>
+     <li class="">
+      <a href="04. notebook 界面.html">
+       04. notebook 界面
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 代码单元格.html">
+       05. 代码单元格
+      </a>
+     </li>
+     <li class="">
+      <a href="06. Markdown 单元格.html">
+       06. Markdown 单元格
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 快捷键.html">
+       07. 快捷键
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Magic 关键字.html">
+       08. Magic 关键字
+      </a>
+     </li>
+     <li class="">
+      <a href="09. 转换 notebook.html">
+       09. 转换 notebook
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 创建幻灯片.html">
+       10. 创建幻灯片
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 结束.html">
+       11. 结束
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          08. Magic 关键字
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h1 id="magic-关键字">
+          Magic 关键字
+         </h1>
+         <p>
+          Magic 关键字是可以在单元格中运行的特殊命令，能让你控制 notebook 本身或执行系统调用（例如更改目录）。例如，在 notebook 中可以使用
+          <code>
+           %matplotlib
+          </code>
+          将 matplotlib 设置为以交互方式工作。
+         </p>
+         <p>
+          Magic 命令的前面带有一个或两个百分号（
+          <code>
+           %
+          </code>
+          或
+          <code>
+           %%
+          </code>
+          ），分别对应行 Magic 命令和单元格 Magic 命令。行 Magic 命令仅应用于编写 Magic 命令时所在的行，而单元格 Magic 命令应用于整个单元格。
+         </p>
+         <p>
+          <strong>
+           注意：
+          </strong>
+          这些 Magic 关键字是特定于普通 Python 内核的关键字。如果使用其他内核，这些关键字很有可能无效。
+         </p>
+         <h2 id="代码计时">
+          代码计时
+         </h2>
+         <p>
+          有时候，你可能要花些精力优化代码，让代码运行得更快。在此优化过程中，必须对代码的运行速度进行计时。可以使用 Magic 命令
+          <code>
+           timeit
+          </code>
+          测算函数的运行时间，如下所示：
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/magic-timeit.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          如果要测算整个单元格的运行时间，请使用
+          <code>
+           %%timeit
+          </code>
+          ，如下所示：
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/magic-timeit2.png"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="在-notebook-中嵌入可视化内容">
+          在 notebook 中嵌入可视化内容
+         </h2>
+         <p>
+          如前所述，notebook 允许你将图像与文本和代码一起嵌入。这在你使用
+          <code>
+           matplotlib
+          </code>
+          或其他绘图包创建可视化内容时最为有用。在 notebook 中可以使用
+          <code>
+           %matplotlib
+          </code>
+          将
+          <code>
+           matplotlib
+          </code>
+          设置为以交互方式工作。默认情况下，图形呈现在各自的窗口中。但是，你可以通过命令传递参数，以选择特定的
+          <a href="http://matplotlib.org/faq/usage_faq.html#what-is-a-backend" target="_blank">
+           “后端”
+          </a>
+          （呈现图像的软件）。要直接在 notebook 中呈现图形，应将通过命令
+          <code>
+           %matplotlib inline
+          </code>
+          内联后端一起使用。
+         </p>
+         <blockquote>
+          <p>
+           <strong>
+            提示：
+           </strong>
+           在分辨率较高的屏幕（例如 Retina 显示屏）上，notebook 中的默认图像可能会显得模糊。可以在
+           <code>
+            %matplotlib inline
+           </code>
+           之后使用
+           <code>
+            %config InlineBackend.figure_format = 'retina'
+           </code>
+           来呈现分辨率较高的图像。
+          </p>
+         </blockquote>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="notebook 中的图形示例" class="img img-fluid" src="img/magic-matplotlib.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            notebook 中的图形示例
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h2 id="在-notebook-中进行调试">
+          在 notebook 中进行调试
+         </h2>
+         <p>
+          对于 Python 内核，可以使用 Magic 命令
+          <code>
+           %pdb
+          </code>
+          开启交互式调试器。出错时，你能检查当前命名空间中的变量。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="在 notebook 中进行调试" class="img img-fluid" src="img/magic-pdb.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            在 notebook 中进行调试
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          在上图中，可以看到我尝试对字符串求和，这造成了错误。调试器指出了该错误，并提示你检查代码。
+         </p>
+         <p>
+          要详细了解
+          <code>
+           pdb
+          </code>
+          ，请阅读
+          <a href="https://docs.python.org/3/library/pdb.html" target="_blank">
+           此文档
+          </a>
+          。要退出调试器，在提示符中输入
+          <code>
+           q
+          </code>
+          即可。
+         </p>
+         <h2 id="补充读物">
+          补充读物
+         </h2>
+         <p>
+          Magic 命令还有很多，我只是介绍了你将会用得最多的一些命令。要了解更多信息，请查看
+          <a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html" target="_blank">
+           此列表
+          </a>
+          ，它列出了所有可用的 Magic 命令。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="09. 转换 notebook.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. Magic 关键字')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

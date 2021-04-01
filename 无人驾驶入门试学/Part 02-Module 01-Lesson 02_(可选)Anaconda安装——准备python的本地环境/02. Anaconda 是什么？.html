@@ -1,0 +1,389 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Anaconda 是什么？
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      (可选)Anaconda安装——准备python的本地环境
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. 欢迎！.html">
+       01. 欢迎！
+      </a>
+     </li>
+     <li class="">
+      <a href="02. Anaconda 是什么？.html">
+       02. Anaconda 是什么？
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 安装 Anaconda.html">
+       03. 安装 Anaconda
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 管理包.html">
+       04. 管理包
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 管理环境.html">
+       05. 管理环境
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 更多环境操作.html">
+       06. 更多环境操作
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 最佳做法.html">
+       07. 最佳做法
+      </a>
+     </li>
+     <li class="">
+      <a href="08. Python 版本说明.html">
+       08. Python 版本说明
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          02. Anaconda 是什么？
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+         <p>
+          序言
+         </p>
+        </h3>
+        <div>
+         <h1 id="anaconda">
+          Anaconda
+         </h1>
+         <p>
+          欢迎学习本课程，如何使用
+          <a href="https://www.continuum.io/why-anaconda" target="_blank">
+           Anaconda
+          </a>
+          来管理 Python 所用的包和环境。Anaconda 能让你在数据科学的工作中轻松安装经常使用的程序包。你还将使用它创建虚拟环境，以便更轻松地处理多个项目。Anaconda 简化了工作流程，并且解决了多个包和 Python 版本之间遇到的大量问题。
+         </p>
+         <p>
+          Anaconda 实际上是一个软件发行版，它附带了
+          <code>
+           conda
+          </code>
+          、Python 和 150 多个科学包及其依赖项。应用程序
+          <code>
+           conda
+          </code>
+          是包和环境管理器。Anaconda 的下载文件比较大（约 500 MB），因为它附带了 Python 中最常用的数据科学包。如果只需要某些包，或者需要节省带宽或存储空间，也可以使用
+          <a href="https://conda.io/miniconda.html" target="_blank">
+           Miniconda
+          </a>
+          这个较小的发行版（仅包含
+          <code>
+           conda
+          </code>
+          和 Python）。但你仍可以使用
+          <code>
+           conda
+          </code>
+          来安装任何可用的包，只是它自身没有附带这些包而已。
+         </p>
+         <p>
+          <code>
+           conda
+          </code>
+          只能通过命令行来使用。因此，如果你觉得它很难用，可以参考
+          <a href="https://www.lynda.com/-tutorials/Windows-command-line-basics/497312/513424-4.html" target="_blank">
+           面向 Windows 的命令提示符教程
+          </a>
+          ，或者学习面向 OSX/Linux 用户的
+          <a href="https://www.udacity.com/course/linux-command-line-basics--ud595" target="_blank">
+           Linux 命令行基础知识
+          </a>
+          课程。
+         </p>
+         <p>
+          你可能已经安装了 Python，并且想知道为何还需要 Anaconda。首先， Anaconda 附带了一大批常用数据科学包，因此你可以立即开始处理数据。其次，使用
+          <code>
+           conda
+          </code>
+          来管理包和环境能减少将来在处理数据过程中使用到的各种库与版本时遇到的问题。
+         </p>
+         <h2 id="管理包">
+          管理包
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="使用 conda 安装 numpy" class="img img-fluid" src="img/conda-install.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            使用 conda 安装 numpy
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          包管理器用于在计算机上安装库和其他软件。你可能已经熟悉
+          <code>
+           pip
+          </code>
+          ，它是 Python 库的默认包管理器。
+          <code>
+           conda
+          </code>
+          与
+          <code>
+           pip
+          </code>
+          相似，不同之处是可用的包以数据科学包为主，而
+          <code>
+           pip
+          </code>
+          适合一般用途。与此同时，
+          <code>
+           conda
+          </code>
+          并非像
+          <code>
+           pip
+          </code>
+          那样专门适用于 Python，它也可以安装非 Python 的包。它是支持任何软件的包管理器。也就是说，虽然并非所有的 Python 库都能通过 Anaconda 发行版和 conda 获得，但同时它也支持非 Python 库的获得。在使用 conda 的同时，你仍可以使用
+          <code>
+           pip
+          </code>
+          来安装包。
+         </p>
+         <p>
+          Conda 安装了预编译的包。例如，Anaconda 发行版附带了使用
+          <a href="https://docs.continuum.io/mkl-optimizations/" target="_blank">
+           MKL 库
+          </a>
+          编译的 Numpy、Scipy 和 Scikit-learn，从而加快了各种数学运算的速度。这些包由发行版的贡献者维护，这意味着它们通常滞后于最新版本。但是，由于有人需要利用这些包来进行系统构建，因此它们往往更为稳定，而且也更便于你使用。
+         </p>
+         <h2 id="环境">
+          环境
+         </h2>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="使用 conda 创建环境" class="img img-fluid" src="img/conda-create-env.png"/>
+          <figcaption class="figure-caption">
+           <p>
+            使用 conda 创建环境
+           </p>
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          除了管理包之外，conda 还是虚拟环境管理器。它类似于另外两个很流行的环境管理器，即
+          <a href="https://virtualenv.pypa.io/en/stable/" target="_blank">
+           virtualenv
+          </a>
+          和
+          <a href="https://github.com/yyuu/pyenv" target="_blank">
+           pyenv
+          </a>
+          。
+         </p>
+         <p>
+          你可以使用conda环境管理器分隔不同项目的包。你常常要使用依赖于某个库的不同版本的代码。例如，你的代码可能使用了 Numpy 中的新功能，或者使用了已删除的旧功能。实际上，不可能同时安装两个 Numpy 版本。你要做的应该是，为每个 Numpy 版本创建一个环境，然后在项目的对应环境中工作。
+         </p>
+         <p>
+          在应对 Python 2 和 Python 3 时，此问题也会常常发生。你可能会使用在 Python 3 中不能运行的旧代码，以及在 Python 2 中不能运行的新代码。同时安装两个版本可能会造成许多混乱和错误，而创建独立的环境会好很多。
+         </p>
+         <p>
+          你也可以将环境中的包列表导出为文件，然后将该文件与代码打包在一起。这能让其他人轻松加载代码的所有依赖项。pip 提供了类似的功能，即
+          <code>
+           pip freeze &gt; requirements.txt
+          </code>
+          。
+         </p>
+         <h2 id="接下来介绍的内容">
+          接下来介绍的内容
+         </h2>
+         <p>
+          接下来，我会详细介绍 Anaconda 的用法。首先，我会介绍它的安装过程，然后介绍如何使用包管理器，最后介绍如何创建和管理环境。
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="03. 安装 Anaconda.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('02. Anaconda 是什么？')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>

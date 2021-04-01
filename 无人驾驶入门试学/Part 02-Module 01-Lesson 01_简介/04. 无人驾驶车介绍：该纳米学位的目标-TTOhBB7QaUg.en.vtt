@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.830
+&gt;&gt; Welcome to the Nanodegree program.
+
+00:00:01.830 --> 00:00:06.060
+&gt;&gt; We both worked individually on the Self-Driving Car Nanodegree Program.
+
+00:00:06.059 --> 00:00:07.439
+&gt;&gt; I worked on courses called,
+
+00:00:07.440 --> 00:00:09.255
+Path Planning and Localization.
+
+00:00:09.255 --> 00:00:11.820
+&gt;&gt; And I worked on Lane Finding and Computer Vision.
+
+00:00:11.820 --> 00:00:14.723
+&gt;&gt; When we released the Self-Driving Car Nanodegree Program,
+
+00:00:14.723 --> 00:00:17.370
+there was a ton of interests from students and industry.
+
+00:00:17.370 --> 00:00:20.820
+But it turns out that building a self-driving car isn't easy,
+
+00:00:20.820 --> 00:00:24.414
+and so many of the courses were approached from a very technical standpoint.
+
+00:00:24.414 --> 00:00:26.960
+&gt;&gt; And some people who enrolled in that program,
+
+00:00:26.960 --> 00:00:29.940
+found themselves blocked by things like math notation,
+
+00:00:29.940 --> 00:00:32.675
+programming concepts, and programming languages.
+
+00:00:32.674 --> 00:00:35.039
+So Andy, who do we make this curriculum for?
+
+00:00:35.039 --> 00:00:37.695
+&gt;&gt; The person we had in mind when we designed this curriculum,
+
+00:00:37.695 --> 00:00:39.465
+has some programming experience,
+
+00:00:39.465 --> 00:00:41.130
+maybe 40-hours or so.
+
+00:00:41.130 --> 00:00:42.465
+They're comfortable with algebra,
+
+00:00:42.465 --> 00:00:45.495
+and they hopefully get some enjoyment from thinking through,
+
+00:00:45.494 --> 00:00:47.039
+and solving hard problems.
+
+00:00:47.039 --> 00:00:49.649
+Even when those problems use math.
+
+00:00:49.649 --> 00:00:50.894
+&gt;&gt; If this describes you,
+
+00:00:50.895 --> 00:00:52.575
+and you're looking to fill that gap,
+
+00:00:52.575 --> 00:00:56.625
+or just get more experience with the programming and math behind self-driving cars,
+
+00:00:56.625 --> 00:01:01.119
+this program will prepare you for the more advanced curriculum. So let's get started.
+

@@ -1,0 +1,330 @@
+<!-- udacimak v1.3.0 -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   挑战：改变轮胎尺寸
+  </title>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/plyr.css" rel="stylesheet"/>
+  <link href="../assets/css/katex.min.css" rel="stylesheet"/>
+  <link href="../assets/css/jquery.mCustomScrollbar.min.css" rel="stylesheet"/>
+  <link href="../assets/css/styles.css" rel="stylesheet"/>
+  <link href="../assets/img/udacimak.png" rel="shortcut icon" type="image/png">
+  </link>
+ </head>
+ <body>
+  <div class="wrapper">
+   <nav id="sidebar">
+    <div class="sidebar-header">
+     <h3>
+      Carla 冒险记：准备出发
+     </h3>
+    </div>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled components">
+     <li class="">
+      <a href="01. Carla 冒险记：准备出发.html">
+       01. Carla 冒险记：准备出发
+      </a>
+     </li>
+     <li class="">
+      <a href="02. 认识团队.html">
+       02. 认识团队
+      </a>
+     </li>
+     <li class="">
+      <a href="03. 车轮大小很重要.html">
+       03. 车轮大小很重要
+      </a>
+     </li>
+     <li class="">
+      <a href="04. 挑战：旋转.html">
+       04. 挑战：旋转
+      </a>
+     </li>
+     <li class="">
+      <a href="05. 空间迷失.html">
+       05. 空间迷失
+      </a>
+     </li>
+     <li class="">
+      <a href="06. 挑战：定位.html">
+       06. 挑战：定位
+      </a>
+     </li>
+     <li class="">
+      <a href="07. 温度在升高.html">
+       07. 温度在升高
+      </a>
+     </li>
+     <li class="">
+      <a href="08. 挑战：改变轮胎尺寸.html">
+       08. 挑战：改变轮胎尺寸
+      </a>
+     </li>
+     <li class="">
+      <a href="09. Stan，下一步计划是什么？.html">
+       09. Stan，下一步计划是什么？
+      </a>
+     </li>
+     <li class="">
+      <a href="10. 挑战：规划.html">
+       10. 挑战：规划
+      </a>
+     </li>
+     <li class="">
+      <a href="11. 分歧判定.html">
+       11. 分歧判定
+      </a>
+     </li>
+     <li class="">
+      <a href="12. 挑战：最短路径.html">
+       12. 挑战：最短路径
+      </a>
+     </li>
+     <li class="">
+      <a href="13. 冒险落幕.html">
+       13. 冒险落幕
+      </a>
+     </li>
+     <li class="">
+      <a href="14. 感谢你帮助 Carla！.html">
+       14. 感谢你帮助 Carla！
+      </a>
+     </li>
+    </ul>
+    <ul class="sidebar-list list-unstyled CTAs">
+     <li>
+      <a class="article" href="../index.html">
+       Back to Home
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <div id="content">
+    <header class="container-fluild header">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <div class="align-items-middle">
+         <button class="btn btn-toggle-sidebar" id="sidebarCollapse" type="button">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+         </button>
+         <h1 style="display: inline-block">
+          08. 挑战：改变轮胎尺寸
+         </h1>
+        </div>
+       </div>
+      </div>
+     </div>
+    </header>
+    <main class="container">
+     <div class="row">
+      <div class="col-12">
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <figure class="figure">
+          <img alt="" class="img img-fluid" src="img/udacity-challenge-shades-3.jpg"/>
+          <figcaption class="figure-caption">
+          </figcaption>
+         </figure>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <p>
+          不幸的是，和任何汽车的轮胎一样，Carla 的轮胎尺寸无法一直保持不变。当外界温度变化时，轮胎的直径也会改变。这种
+          <strong>
+           不确定性
+          </strong>
+          在无人驾驶车中随处可见。处理这个问题的一个方法是，探索你的环境。
+         </p>
+         <p>
+          对于 Carla 来说，这意味着每当她“醒来”的时候，都要做以下事情：
+         </p>
+         <ol>
+          <li>
+           测量自己和一个位于她正
+           <strong>
+            后方
+           </strong>
+           一个物体之间的距离。
+          </li>
+          <li>
+           把她的轮子精确旋转
+           <strong>
+            一整圈
+           </strong>
+           。
+          </li>
+          <li>
+           再次进行相同的距离测量。
+          </li>
+          <li>
+           使用 1 和 3 的测量值来计算行驶距离。这是她轮胎目前的
+           <strong>
+            周长
+           </strong>
+           。
+          </li>
+          <li>
+           通过数学运算，计算轮胎的
+           <em>
+            当前
+           </em>
+           直径。
+          </li>
+         </ol>
+         <p>
+          不幸的是，Carla 在执行步骤 4 和 5 的代码中存在一个错误！找到并修复该错误，以帮助 Carla 实现自动行驶！
+         </p>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+       <div class="ud-atom">
+        <h3>
+        </h3>
+        <div>
+         <h4>
+          Start Quiz:
+         </h4>
+         <div>
+          <div class="nav nav-tabs nav-fill" id="question-tabs" role="tablist">
+           <a aria-controls="437071-tire-py" aria-selected="true" class="nav-item nav-link active show" data-toggle="tab" href="#437071-tire-py" id="tab-437071-tire-py" role="tab">
+            tire.py
+           </a>
+          </div>
+          <div class="tab-content" id="question-tab-contents" style="padding: 20px 0;">
+           <div aria-labelledby="tab-437071-tire-py" class="tab-pane active show" id="437071-tire-py" role="tabpanel">
+            <pre><code></code>from math import pi
+
+def get_tire_diameter(dist_before_turn, dist_after_turn):
+    
+    # TODO - there's a bug in this function! Find and fix it!
+    
+    circumference = dist_after_turn - dist_before_turn
+    diameter = circumference * pi
+    return diameter</pre>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="divider">
+       </div>
+      </div>
+      <div class="col-12">
+       <p class="text-right">
+        <a class="btn btn-outline-primary mt-4" href="09. Stan，下一步计划是什么？.html" role="button">
+         Next Concept
+        </a>
+       </p>
+      </div>
+     </div>
+    </main>
+    <footer class="footer">
+     <div class="container">
+      <div class="row">
+       <div class="col-12">
+        <p class="text-center">
+         udacity2.0 If you need the newest courses Plase add me wechat: udacity6
+        </p>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="../assets/js/jquery-3.3.1.min.js">
+  </script>
+  <script src="../assets/js/plyr.polyfilled.min.js">
+  </script>
+  <script src="../assets/js/bootstrap.min.js">
+  </script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js">
+  </script>
+  <script src="../assets/js/katex.min.js">
+  </script>
+  <script>
+   // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. 挑战：改变轮胎尺寸')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+ </body>
+</html>
